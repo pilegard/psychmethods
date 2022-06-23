@@ -1,57 +1,80 @@
 --- 
-title: "A Minimal Book Example"
-author: "John Doe"
-date: "2022-06-15"
+title: "Research Methods in Psychology"
+author: "Celeste Pilegard"
+date: "Current version rendered 2022-06-17"
 site: bookdown::bookdown_site
 documentclass: book
 bibliography: [book.bib, packages.bib]
-# url: your book url like https://bookdown.org/yihui/bookdown
-# cover-image: path to the social sharing image like images/cover.jpg
+csl: apa.csl
+url: https://pilegard.github.io/psychmethods/
+favicon: images/favicon.ico
+cover-image: images/cover.png
 description: |
-  This is a minimal example of using the bookdown package to write a book.
-  The HTML output format for this example is bookdown::gitbook,
-  set in the _output.yml file.
+  This is a an OER textbook for introductory research methods in psychology.
 link-citations: yes
-github-repo: rstudio/bookdown-demo
+github-repo: pilegard/psychmethods
 ---
 
-# About
+# About {-}
 
-This is a _sample_ book written in **Markdown**. You can use anything that Pandoc's Markdown supports; for example, a math equation $a^2 + b^2 = c^2$.
+![](images/cover.png)
 
-## Usage 
+## License {-}
 
-Each **bookdown** chapter is an .Rmd file, and each .Rmd file can contain one (and only one) chapter. A chapter *must* start with a first-level heading: `# A good chapter`, and can contain one (and only one) first-level heading.
+This textbook is an adaptation of [Psychology Research Methods: Core Skills and Concepts](https://2012books.lardbucket.org/books/psychology-research-methods-core-skills-and-concepts/) licensed under a [Creative Commons by-nc-sa 3.0 license](https://creativecommons.org/licenses/by-nc-sa/3.0/) without attribution [as requested by the work’s original creator or licensee](https://2012books.lardbucket.org/attribution.html).
 
-Use second-level and higher headings within chapters like: `## A short section` or `### An even shorter section`.
+This adaptation is authored by Celeste Pilegard (University of California, San Diego) and is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 3.0](https://creativecommons.org/licenses/by-nc-sa/3.0/) license.
 
-The `index.Rmd` file is required, and is also your first book chapter. It will be the homepage when you render the book.
+Icons created by [Eucalyp](https://creativemarket.com/eucalyp) on [Flaticon](https://www.flaticon.com/).
 
-## Render book
+## Revisions  {-}
 
-You can render the HTML version of this example book without changing anything:
+The order and grouping of topics by chapter was revised from the original. Chapters from the original not listed below were omitted from this adaptation. All chapters were reformatted into R markdown.
 
-1. Find the **Build** pane in the RStudio IDE, and
+#### Chapter 1: Psychology as a Science {-}
 
-1. Click on **Build Book**, then select your output format, or select "All formats" if you'd like to use multiple formats from the same book source files.
+Adapted from Chapter 1 of the original.
 
-Or build the book from the R console:
+#### Chapter 2: Basic Concepts and Research Methods {-}
 
+Adapted from Chapters 2 and 4 of the original.
 
-```r
-bookdown::render_book()
-```
+#### Chapter 3: Experimental Methods {-}
 
-To render this example to PDF as a `bookdown::pdf_book`, you'll need to install XeLaTeX. You are recommended to install TinyTeX (which includes XeLaTeX): <https://yihui.org/tinytex/>.
+Adapted from Chapter 6 of the original.
 
-## Preview book
+#### Chapter 4: Psychological Measurement {-}
 
-As you work, you may start a local server to live preview this HTML book. This preview will update as you edit the book when you save individual .Rmd files. You can start the server in a work session by using the RStudio add-in "Preview book", or from the R console:
+Adapted from Chapter 5 of the original
 
+#### Chapter 5: Sampling {-}
 
-```r
-bookdown::serve_book()
-```
+Adapted from Chapter 9 of the original.
 
+#### Chapter 6: Complex Experimental Methods {-}
 
+Adapted from Chapter 8 of the original.
 
+#### Chapter 7: Quasi-Experimental Methods {-}
+
+Adapted from Chapter 7 of the original.
+
+#### Chapter 8: Non-Experimental Methods {-}
+
+Adapted from Chapters 7, 8, and 9 of the original.
+
+#### Chapter 9: Research Ethics and Open Science {-}
+
+Adapted from Chapter 3 of the original.
+
+#### Appendix A: Presenting Your Research {-}
+
+Adapted from Chapter 11 of the original.
+
+#### Appendix B: Descriptive Statistics {-}
+
+Adapted from Chapter 12 of the original.
+
+#### Appendix C: Inferential Statistics {-}
+
+Adapted from Chapter 13 of the original.
