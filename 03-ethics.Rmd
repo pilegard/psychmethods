@@ -120,7 +120,7 @@ In the United States, concerns about the Tuskegee study and others led to the pu
 The federal regulations also distinguish research that poses three levels of risk. [Exempt research] includes research on the effectiveness of normal educational activities, the use of standard psychological measures and surveys of a nonsensitive nature that are administered in a way that maintains confidentiality, and research using existing data from public sources. It is called exempt because the regulations do not apply to it. [Minimal risk research] exposes participants to risks that are no greater than those encountered by healthy people in daily life or during routine physical or psychological examinations. Minimal risk research can receive an expedited review by one member of the IRB or by a separate committee under the authority of the IRB that can only approve minimal risk research. (Many departments of psychology have such separate committees.) Finally, [at-risk research] poses greater than minimal risk and must be reviewed by the IRB.
 
 :::fyi
-##### FYI: Ethics Codes {-}
+##### Ethics Codes {-}
 
 [This page](https://www.hhs.gov/ohrp/international/ethical-codes-and-research-standards/index.html) from the U.S. Department of Health and Human Services allows you to read the ethics codes discussed in this section in their entirety. They are all highly recommended and, with the exception of the Federal Policy, short and easy to read.
 

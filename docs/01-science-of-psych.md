@@ -42,7 +42,7 @@ A set of beliefs and activities might also be pseudoscientific because it does n
 Why should we concern ourselves with pseudoscience? There are at least three reasons. One is that learning about pseudoscience helps bring the fundamental features of science—and their importance—into sharper focus. A second is that biorhythms, psychic powers, astrology, and many other pseudoscientific beliefs are widely held and are promoted on the Internet, on television, and in books and magazines. Learning what makes them pseudoscientific can help us to identify and evaluate such beliefs and practices when we encounter them. A third reason is that many pseudosciences purport to explain some aspect of human behavior and mental processes, including biorhythms, astrology, graphology (handwriting analysis), and magnet therapy for pain control. It is important for students of psychology to distinguish their own field clearly from this “pseudopsychology.”
 
 :::fyi
-##### FYI: The Skeptic’s Dictionary {-}
+##### The Skeptic’s Dictionary {-}
 An excellent source for information on pseudoscience is The Skeptic’s Dictionary (http://www.skepdic.com). Among the pseudoscientific beliefs and practices you can learn about are the following:
 
 - **Cryptozoology.** The study of “hidden” creatures like Bigfoot, the Loch Ness monster, and the chupacabra.
@@ -139,7 +139,7 @@ Scientific research is often classified as being either basic or applied. [Basic
 Some people wonder whether the scientific approach to psychology is necessary. Can we not reach the same conclusions based on common sense or intuition? Certainly we all have intuitive beliefs about people’s behavior, thoughts, and feelings—and these beliefs are collectively referred to as [folk psychology]. Although much of our folk psychology is probably reasonably accurate, it is clear that much of it is not. For example, most people believe that anger can be relieved by “letting it out”—perhaps by punching something or screaming loudly. Scientific research, however, has shown that this approach tends to leave people feeling more angry, not less [@bushman2002does]. Likewise, most people believe that no one would confess to a crime that he or she had not committed, unless perhaps that person was being physically tortured. But again, extensive empirical research has shown that false confessions are surprisingly common and occur for a variety of reasons [@kassin2004psychology].
 
 :::fyi
-##### FYI: Some Great Myths {-}
+##### Some Great Myths {-}
 
 In 50 Great Myths of Popular Psychology, psychologist Scott Lilienfeld and colleagues discuss several widely held commonsense beliefs about human behavior that scientific research has shown to be incorrect [@lilienfeld2010five].Here is a short list.
 
@@ -193,7 +193,7 @@ The main point is that psychological disorders and other behavioral problems are
 </div>
 
 :::fyi
-##### FYI: Empirically Supported Treatments {-}
+##### Empirically Supported Treatments {-}
 An empirically supported treatment is one that has been studied scientifically and shown to result in greater improvement than no treatment, a placebo, or some alternative treatment. These include many forms of psychotherapy, which can be as effective as standard drug therapies. Among the forms of psychotherapy with strong empirical support are the following:
 
 - **Cognitive behavioral therapy.** For depression, panic disorder, bulimia nervosa, and posttraumatic stress disorder.

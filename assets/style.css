@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;1,400;1,500&family=Roboto:ital,wght@0,300;0,500;0,700;1,300;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,400;0,500;1,400;1,500&display=swap');
+
 
 p.caption {
   color: #777;
@@ -37,21 +38,21 @@ h2 {
 }
 
 h3 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto Mono', Monospace;
   color: #81D31A;
   font-weight: 500;
 
 }
 
 h4 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto Mono', Monospace;
   color: #34AC8B;
   font-weight: 500;
 
 }
 
 h5 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto Mono', Monospace;
 
 }
 
