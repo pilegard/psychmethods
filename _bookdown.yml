@@ -1,5 +1,21 @@
 book_filename: psych-methods
 delete_merged_file: true
+rmd_files:
+- index.Rmd
+- 01-science-of-psych.Rmd
+- 02-getting-started.Rmd
+- 03-ethics.Rmd
+- 04-theory.Rmd
+- 05-measurement.Rmd
+- 06-experiments.Rmd
+- 07-nonexperiments.Rmd
+- 08-complex-designs.Rmd
+- 09-surveys.Rmd
+- 10-single-N.Rmd
+- 11-presenting.Rmd
+- 12-descriptives.Rmd
+- 13-inferentials.Rmd
+- 14-references.Rmd
 output_dir: docs
 language:
   ui:

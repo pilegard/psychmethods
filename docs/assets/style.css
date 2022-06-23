@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+p.caption {
+  color: #777;
+  margin-top: 10px;
+}
+p code {
+  white-space: inherit;
+}
+pre {
+  word-break: normal;
+  word-wrap: normal;
+}
+pre code {
+  white-space: inherit;
+}
+
+
+/*------------- Body and header text---------------- */
+
+.book.font-family-1 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+
+}
+
+h1 {
+  font-family: 'Bungee Shade', sans-serif;
+  color: #FF8021;
+}
+
+h2 {
+  font-family: 'Bungee Shade', sans-serif;
+  color: #1BADE3;
+}
+
+h3 {
+  font-family: 'Roboto', sans-serif;
+  color: #81D31A;
+  font-weight: 500;
+
+}
+
+h4 {
+  font-family: 'Roboto', sans-serif;
+  color: #81D31A;
+  font-weight: 500;
+
+}
+
+.title {
+  font-family: 'Bungee Shade', sans-serif;
+  font-size: 3em !important;
+  color: #4E67C8;
+ }
+
+.subtitle {
+  font-family: 'Bungee Shade', serif;
+  color: #2c6793;
+}
+
+/*-----Body Links-------*/
+
+.book .book-body .page-wrapper .page-inner section.normal a {
+  color: #4E67C8;
+  font-weight: 500;
+}
+
+.book .book-body .page-wrapper .page-inner section.normal a:hover {
+  color: #31489F; /* color when hovering */
+  font-weight: 500;
+  text-decoration: none;
+}
+
+/*--- LOGO ---*/
+
+.toc-logo {
+  width: 250px !important;
+  object-fit: contain;
+  margin: 0 auto;
+  display: block;
+}
+
+.toc-logo img {
+  max-width: 100%;
+  margin-bottom: 5px;
+}
+
+.summary > li:first-child {
+  height: auto !important; 
+}
+
+
+/* -----------Sidebar div tips------------- */
+/* from r-pkgs.org*/
+
+  div.learningobjectives, div.fyi, div.takeaways, div.exercises {
+    padding: 1em;
+    margin: 1em 0;
+    padding-left: 100px;
+    background-size: 70px;
+    background-repeat: no-repeat;
+    background-position: 15px center;
+    min-height: 120px;
+  }
+
+div.learningobjectives {
+  background-image: url("../images/learningobjectives.png");
+  color: #0E5772;
+  background-color: #A3DEF4;
+  border: solid 5px #D1EFFA;
+}
+
+div.fyi {
+  background-image: url("../images/fyi.png");
+  color: #21306A;
+  background-color: #DCE1F4;
+  border: solid 5px #E8EBFF;
+}
+
+div.takeaways {
+  background-image: url("../images/takeaways.png");
+  color: #23735D;
+  background-color: #BEEBDF;
+  border: solid 5px #DFF5EF;
+}
+
+div.exercises {
+  background-image: url("../images/exercises.png");
+  color: #568D11;
+  background-color: #DCF7BA;
+  border: solid 5px #EDFBDC;
+}
+
+
+/*------------ TOC --------------*/
+
+.summary{
+font-family: 'Roboto', sans-serif;
+font-weight: 300;
+}
+
+.book .book-summary ul.summary li a, 
+.book .book-summary ul.summary li span {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.summary a:hover {
+  color: #4E67C8 !important;
+} 
+
+.book .book-summary ul.summary li.active>a { /*active TOC links*/
+  color: #4E67C8 !important;
+  border-left: solid 4px;
+  border-color: #4E67C8;
+  padding-left: 11px !important;
+}  
