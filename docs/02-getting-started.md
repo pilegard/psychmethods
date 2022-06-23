@@ -55,7 +55,7 @@ Differences between groups are usually described by giving the mean score and st
 <p class="caption">(\#fig:bargraph)Bar graph showing the very small difference in the mean number of words spoken per day by women and men in a large sample. Based on data from @mehl2007women</p>
 </div>
 
-##### Correlations Between Quantitative Variables
+#### Correlations Between Quantitative Variables
 
 A second basic form of statistical relationship is a correlation between two quantitative variables, where the average score on one variable differs systematically across the levels of the other. Again, a wide variety of research questions in psychology take this form. Is being a happier person associated with being more talkative? Do children’s memories for touch information improve as they get older? Does the effectiveness of psychotherapy depend on how much the patient likes the therapist?
 
