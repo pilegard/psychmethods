@@ -425,7 +425,7 @@ Also known as the IRB, a committee at a university, a hospital, or another insti
 
 Research that exposes participants to risks that are no greater than those encountered by healthy people in daily life or during routine physical or psychological examinations.
 
-##### Nuremburg Code {-}
+##### Nuremberg Code {-}
 
 An early ethics code for research with human participants that was written in conjunction with the trials of accused Nazi war criminals after World War II.
 
