@@ -387,12 +387,9 @@ In preparing a talk, presenters should keep several general principles in mind. 
 Posters
 Another way to present research at a conference is in the form of a poster. A poster is typically presented during a one- to two-hour poster session that takes place in a large room at the conference site. Presenters set up their posters on bulletin boards arranged around the room and stand near them. Other researchers then circulate through the room, read the posters, and talk to the presenters. In essence, poster sessions are a grown-up version of the school science fair. But there is nothing childish about them. Posters are used by professional researchers in all scientific disciplines and they are becoming increasingly common. At a recent American Psychological Society Conference, nearly 2,000 posters were presented across 16 separate poster sessions. Among the reasons posters are so popular is that they encourage meaningful interaction among researchers.
 
-Figure 11.6
-
-
-New research is often presented in the form of posters at professional conferences.
-
-Source: Photo courtesy of McMaster University Science MediaLab
+```{r poster, echo = FALSE, out.width='60%', fig.align = 'center', fig.cap='New research is often presented in the form of posters at professional conferences. *Photo by Peter Macdonald on Flickr.*'}
+knitr::include_graphics("images/ch11/poster.jpeg")
+```
 
 Although a poster can consist of several sheets of paper that are attached separately to the bulletin board, it is now more common for them to consist of a single large sheet of paper. Either way, the information is organized into distinct sections, including a title, author names and affiliations, an introduction, a method section, a results section, a discussion or conclusions section, references, and acknowledgments. Although posters can include an abstract, this may not be necessary because the poster itself is already a brief summary of the research. Figure 11.7 "Two Possible Ways to Organize the Information on a Poster" shows two different ways that the information on a poster might be organized.
 
