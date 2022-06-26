@@ -19,7 +19,7 @@ In this chapter we explore the ethics of scientific research in psychology. We b
 
 [Ethics] is the branch of philosophy that is concerned with morality—what it means to behave morally and how people can achieve that goal. It can also refer to a set of principles and practices that provide moral guidance in a particular field. There is an ethics of business, medicine, teaching, and of course, scientific research. As the opening example illustrates, many kinds of ethical issues can arise in scientific research, especially when it involves human participants. For this reason, it is useful to begin with a general framework for thinking through these issues.
 
-### A Framework for Thinking About Research Ethics
+### A Framework for Thinking About Research Ethics {-}
 
 Table \@ref(tab:ethics) presents a framework for thinking through the ethical issues involved in psychological research. The rows of Table \@ref(tab:ethics) represent four general moral principles that apply to scientific research: weighing risks against benefits, acting responsibly and with integrity, seeking justice, and respecting people’s rights and dignity. (These principles are adapted from those in the American Psychological Association [APA] Ethics Code.) The columns of Table \@ref(tab:ethics) represent three groups of people that are affected by scientific research: the research participants, the scientific community, and society more generally. The idea is that a thorough consideration of the ethics of any research project must take into account how each of the four moral principles applies to each of the three groups of people.
 
@@ -32,11 +32,11 @@ ethics<-data.frame(principle,participants,scientists,society)
 knitr::kable(ethics, "pipe", col.name=c("Moral principle","Research participants","Scientific community","Society"), caption = 'A framework for thinking about ethical issues in scientific research')
 ```
 
-### Moral Principles
+### Moral Principles {-}
 
 Let us look more closely at each of the moral principles and how they can be applied to each of the three groups.
 
-#### Weighing Risks Against Benefits
+#### Weighing Risks Against Benefits {-}
 
 Scientific research in psychology can be ethical only if its risks are outweighed by its benefits. Among the risks to research participants are that a treatment might fail to help or even be harmful, a procedure might result in physical or psychological harm, and their right to privacy might be violated. Among the potential benefits are receiving a helpful treatment, learning about psychology, experiencing the satisfaction of contributing to scientific knowledge, and receiving money or course credit for participating. Scientific research can have risks and benefits to the scientific community and to society too [@rosenthal1994science]. A risk to science is that if a research question is uninteresting or a study is poorly designed, then the time, money, and effort spent on that research could have been spent on more productive research. A risk to society is that research results could be misunderstood or misapplied with harmful consequences. The research that mistakenly linked the measles, mumps, and rubella (MMR) vaccine to autism resulted in both of these kinds of harm. Of course, the benefits of scientific research to science and society are that it advances scientific knowledge and can contribute to the welfare of society.
 
@@ -53,13 +53,13 @@ Milgram also noted that another observer reported that within 20 minutes one par
 To Milgram’s credit, he went to great lengths to debrief his participants—including returning their mental states to normal—and to show that most of them thought the research was valuable and were glad to have participated. Still, this research would be considered unethical by today’s standards.
 :::
 
-#### Acting Responsibly and With Integrity
+#### Acting Responsibly and With Integrity {-}
 
 Researchers must act responsibly and with integrity. This means carrying out their research in a thorough and competent manner, meeting their professional obligations, and being truthful. Acting with integrity is important because it promotes trust, which is an essential element of all effective human relationships. Participants must be able to trust that researchers are being honest with them (e.g., about what the study involves), will keep their promises (e.g., to maintain confidentiality), and will carry out their research in ways that maximize benefits and minimize risk. An important issue here is the use of deception. Some research questions (such as Milgram’s) are difficult or impossible to answer without deceiving research participants. Thus acting with integrity can conflict with doing research that advances scientific knowledge and benefits society. We will consider how psychologists generally deal with this conflict shortly.
 
 The scientific community and society must also be able to trust that researchers have conducted their research thoroughly and competently and that they have reported on it honestly. Again, the example at the beginning of the chapter illustrates what can happen when this trust is violated. In this case, other researchers wasted resources on unnecessary follow-up research and people avoided the MMR vaccine, putting their children at increased risk of measles, mumps, and rubella.
 
-#### Seeking Justice
+#### Seeking Justice {-}
 
 Researchers must conduct their research in a just manner. They should treat their participants fairly, for example, by giving them adequate compensation for their participation and making sure that benefits and risks are distributed across all participants. For example, in a study of a new and potentially beneficial psychotherapy, some participants might receive the psychotherapy while others serve as a control group that receives no treatment. If the psychotherapy turns out to be effective, it would be fair to offer it to participants in the control group when the study ends.
 
@@ -74,13 +74,13 @@ In 1997—65 years after the Tuskegee Syphilis Study began and 25 years after it
 Read the [full text of the apology](https://clintonwhitehouse4.archives.gov/textonly/New/Remarks/Fri/19970516-898.html).
 :::
 
-#### Respecting People’s Rights and Dignity
+#### Respecting People’s Rights and Dignity {-}
 
 Researchers must respect people’s rights and dignity as human beings. One element of this is respecting their [autonomy]—their right to make their own choices and take their own actions free from coercion. Of fundamental importance here is the concept of [informed consent]. This means that researchers obtain and document people’s agreement to participate in a study after having informed them of everything that might reasonably be expected to affect their decision. Consider the participants in the Tuskegee study. Although they agreed to participate in the study, they were not told that they had syphilis but would be denied treatment for it. Had they been told this basic fact about the study, it seems likely that they would not have agreed to participate. Likewise, had participants in Milgram’s study been told that they might be “reduced to a twitching, stuttering wreck,” it seems likely that many of them would not have agreed to participate. In neither of these studies did participants give true informed consent.
 
 Another element of respecting people’s rights and dignity is respecting their [privacy]—their right to decide what information about them is shared with others. This means that researchers must maintain [confidentiality], which is essentially an agreement not to disclose participants’ personal information without their consent or some appropriate legal authorization.
 
-### Unavoidable Ethical Conflict
+### Unavoidable Ethical Conflict {-}
 
 It may already be clear that ethical conflict in psychological research is unavoidable. Because there is little, if any, psychological research that is completely risk free, there will almost always be conflict between risks and benefits. Research that is beneficial to one group (e.g., the scientific community) can be harmful to another (e.g., the research participants), creating especially difficult tradeoffs. We have also seen that being completely truthful with research participants can make it difficult or impossible to conduct scientifically valid studies on important questions.
 
@@ -111,7 +111,7 @@ The point here is that although it may not be possible to eliminate ethical conf
 
 The general moral principles of weighing risks against benefits, acting with integrity, seeking justice, and respecting people’s rights and dignity provide a useful starting point for thinking about the ethics of psychological research because essentially everyone agrees on them. As we have seen, however, even people who agree on these general principles can disagree about specific ethical issues that arise in the course of conducting research. This is why there also exist more detailed and enforceable ethics codes that provide guidance on important issues that arise frequently. In this section, we begin with a brief historical overview of such ethics codes and then look closely at the one that is most relevant to psychological research—that of the American Psychological Association (APA).
 
-### Historical Overview
+### Historical Overview {-}
 
 One of the earliest ethics codes was the [Nuremberg Code]—a set of 10 principles written in 1947 in conjunction with the trials of Nazi physicians accused of shockingly cruel research on concentration camp prisoners during World War II. It provided a standard against which to compare the behavior of the men on trial—many of whom were eventually convicted and either imprisoned or sentenced to death. The Nuremberg Code was particularly clear about the importance of carefully weighing risks against benefits and the need for informed consent. The [Declaration of Helsinki] is a similar ethics code that was created by the World Medical Council in 1964. Among the standards that it added to the Nuremberg Code was that research with human participants should be based on a written [protocol]—a detailed description of the research—that is reviewed by an independent committee. The Declaration of Helsinki has been revised several times, most recently in 2004.
 
@@ -130,7 +130,7 @@ The federal regulations also distinguish research that poses three levels of ris
 - Federal Policy for the Protection of Human Subjects
 :::
 
-### APA Ethics Code
+### APA Ethics Code {-}
 
 The APA’s *Ethical Principles of Psychologists and Code of Conduct* (also known as the [APA Ethics Code]) was first published in 1953 and has been revised several times since then, most recently in 2002. It includes about 150 specific ethical standards that psychologists and their students are expected to follow. Much of the APA Ethics Code concerns the clinical practice of psychology—advertising one’s services, setting and collecting fees, having personal relationships with clients, and so on. For our purposes, the most relevant part is *Standard 8: Research and Publication*. Although *Standard 8* is reproduced here in its entirety, we should consider some of its most important aspects—informed consent, deception, debriefing, the use of nonhuman animal subjects, and scholarly integrity—in more detail.
 
@@ -236,7 +236,7 @@ Psychologists who review material submitted for presentation, publication, grant
 Source: You can read the full APA Ethics Code at http://www.apa.org/ethics/code/index.aspx.
 :::
 
-#### Informed Consent
+#### Informed Consent {-}
 
 Standards 8.02 to 8.05 are about informed consent. Again, informed consent means obtaining and documenting people’s agreement to participate in a study, having informed them of everything that might reasonably be expected to affect their decision. This includes details of the procedure, the risks and benefits of the research, the fact that they have the right to decline to participate or to withdraw from the study, the consequences of doing so, and any legal limits to confidentiality. For example, some states require researchers who learn of child abuse or other crimes to report this information to authorities.
 
@@ -244,7 +244,7 @@ Although the process of obtaining informed consent often involves having partici
 
 Note also that there are situations in which informed consent is not necessary. These include situations in which the research is not expected to cause any harm and the procedure is straightforward or the study is conducted in the context of people’s ordinary activities. For example, if you wanted to sit outside a public building and observe whether people hold the door open for people behind them, you would not need to obtain their informed consent. Similarly, if a college instructor wanted to compare two legitimate teaching methods across two sections of his research methods course, he would not need to obtain informed consent from his students.
 
-#### Deception
+#### Deception {-}
 
 [Deception] of participants in psychological research can take a variety of forms: misinforming participants about the purpose of a study, using confederates, using phony equipment like Milgram’s shock generator, and presenting participants with false feedback about their performance (e.g., telling them they did poorly on a test when they actually did well). Deception also includes not informing participants of the full design or true purpose of the research even if they are not actively misinformed [@sieber1995deception]. For example, a study on incidental learning—learning without conscious effort—might involve having participants read through a list of words in preparation for a “memory test” later. Although participants are likely to assume that the memory test will require them to recall the words, it might instead require them to recall the contents of the room or the appearance of the research assistant.
 
@@ -252,18 +252,19 @@ Some researchers have argued that deception of research participants is rarely i
 
 Note, however, that the APA Ethics Code takes a more moderate approach—allowing deception when the benefits of the study outweigh the risks, participants cannot reasonably be expected to be harmed, the research question cannot be answered without the use of deception, and participants are informed about the deception as soon as possible. This approach acknowledges that not all forms of deception are equally bad. Compare, for example, Milgram’s study in which he deceived his participants in several significant ways that resulted in their experiencing severe psychological stress with an incidental learning study in which a “memory test” turns out to be slightly different from what participants were expecting. It also acknowledges that some scientifically and socially important research questions can be difficult or impossible to answer without deceiving participants. Knowing that a study concerns the extent to which they obey authority, act aggressively toward a peer, or help a stranger is likely to change the way people behave so that the results no longer generalize to the real world.
 
-#### Debriefing
+#### Debriefing {-}
 
 Standard 8.08 is about [debriefing]. This is the process of informing research participants as soon as possible of the purpose of the study, revealing any deception, and correcting any other misconceptions they might have as a result of participating. Debriefing also involves minimizing harm that might have occurred. For example, an experiment on the effects of being in a sad mood on memory might involve inducing a sad mood in participants by having them think sad thoughts, watch a sad video, or listen to sad music. Debriefing would be the time to return participants’ moods to normal by having them think happy thoughts, watch a happy video, or listen to happy music.
 
-#### Nonhuman Animal Subjects
+#### Nonhuman Animal Subjects {-}
+
 Standard 8.09 is about the humane treatment and care of nonhuman animal subjects. Although most contemporary research in psychology does not involve nonhuman animal subjects, a significant minority of it does—especially in the study of learning and conditioning, behavioral neuroscience, and the development of drug and surgical therapies for psychological disorders.
 
 The use of nonhuman animal subjects in psychological research is like the use of deception in that there are those who argue that it is rarely, if ever, ethically acceptable [@bowd1993case]. Clearly, nonhuman animals are incapable of giving informed consent. Yet they can be subjected to numerous procedures that are likely to cause them suffering. They can be confined, deprived of food and water, subjected to pain, operated on, and ultimately euthanized. (Of course, they can also be observed benignly in natural or zoolike settings.) Others point out that psychological research on nonhuman animals has resulted in many important benefits to humans, including the development of behavioral therapies for many disorders, more effective pain control methods, and antipsychotic drugs [@miller1985value]. It has also resulted in benefits to nonhuman animals, including alternatives to shooting and poisoning as means of controlling them.
 
 As with deception, the APA acknowledges that the benefits of research on nonhuman animals can outweigh the costs, in which case it is ethically acceptable. However, researchers must use alternative methods when they can. When they cannot, they must acquire and care for their subjects humanely and minimize the harm to them. For more information on the APA’s position on nonhuman animal subjects, see the website of the APA’s Committee on Animal Research and Ethics (http://www.apa.org/science/leadership/care/index.aspx).
 
-#### Scholarly Integrity
+#### Scholarly Integrity {-}
 
 Standards 8.10 to 8.15 are about scholarly integrity. These include the obvious points that researchers must not fabricate data or plagiarize. Plagiarism means using others’ words or ideas without proper acknowledgment. Proper acknowledgment generally means indicating direct quotations with quotation marks and providing a citation to the source of any quotation or idea used.
 
@@ -298,11 +299,11 @@ knitr::include_graphics("images/ch3/authorship.jpeg")
 
 In this section, we look at some practical advice for conducting ethical research in psychology. Again, it is important to remember that ethical issues arise well before you begin to collect data and continue to arise through publication and beyond.
 
-### Know and Accept Your Ethical Responsibilities
+### Know and Accept Your Ethical Responsibilities {-}
 
 As the American Psychological Association (APA) Ethics Code notes in its introduction, “Lack of awareness or misunderstanding of an ethical standard is not itself a defense to a charge of unethical conduct.” This is why the very first thing that you must do as a new researcher is know and accept your ethical responsibilities. At a minimum, this means reading and understanding the relevant standards of the APA Ethics Code, distinguishing minimal risk from at-risk research, and knowing the specific policies and procedures of your institution—including how to prepare and submit a research protocol for institutional review board (IRB) review. If you are conducting research as a course requirement, there may be specific course standards, policies, and procedures. If any standard, policy, or procedure is unclear—or you are unsure what to do about an ethical issue that arises—you must seek clarification. You can do this by reviewing the relevant ethics codes, reading about how similar issues have been resolved by others, or consulting with more experienced researchers, your IRB, or your course instructor. Ultimately, you as the researcher must take responsibility for the ethics of the research you conduct.
 
-### Identify and Minimize Risks
+### Identify and Minimize Risks {-}
 
 As you design your study, you must identify and minimize risks to participants. Start by listing all the risks, including risks of physical and psychological harm and violations of confidentiality. Remember that it is easy for researchers to see risks as less serious than participants do or even to overlook them completely. For example, one student researcher wanted to test people’s sensitivity to violent images by showing them gruesome photographs of crime and accident scenes. Because she was an emergency medical technician, however, she greatly underestimated how disturbing these images were to most people. Remember too that some risks might apply only to some participants. For example, while most people would have no problem completing a survey about their fear of various crimes, those who have been a victim of one of those crimes might become upset. This is why you should seek input from a variety of people, including your research collaborators, more experienced researchers, and even from nonresearchers who might be better able to take the perspective of a participant.
 
@@ -312,7 +313,7 @@ A second way to minimize risks is to use a [prescreening] procedure to identify 
 
 A third way to minimize risks is to take active steps to maintain confidentiality. You should keep signed consent forms separately from any data that you collect and in such a way that no individual’s name can be linked to his or her data. In addition, beyond people’s sex and age, you should only collect personal information that you actually need to answer your research question. If people’s sexual orientation or ethnicity is not clearly relevant to your research question, for example, then do not ask them about it. Be aware also that certain data collection procedures can lead to unintentional violations of confidentiality. When participants respond to an oral survey in a shopping mall or complete a questionnaire in a classroom setting, it is possible that their responses will be overheard or seen by others. If the responses are personal, it is better to administer the survey or questionnaire individually in private or to use other techniques to prevent the unintentional sharing of personal information.
 
-### Identify and Minimize Deception
+### Identify and Minimize Deception {-}
 
 Remember that deception can take a variety of forms, not all of which involve actively misleading participants. It is also deceptive to allow participants to make incorrect assumptions (e.g., about what will be on a “memory test”) or simply withhold information about the full design or purpose of the study. It is best to identify and minimize *all* forms of deception.
 
@@ -320,13 +321,13 @@ Remember that according to the APA Ethics Code, deception is ethically acceptabl
 
 In general, it is considered acceptable to wait until debriefing before you reveal your research question as long as you describe the procedure, risks, and benefits during the informed consent process. For example, you would not have to tell participants that you wanted to know whether the age of college professors affects people’s expectations about them until the study was over. Not only is this information unlikely to affect people’s decision about whether or not to participate in the study, but it has the potential to invalidate the results. Participants who know that age is the independent variable might rate the older and younger “professors” differently because they think you want them to. Alternatively, they might be careful to rate them the same so that they do not appear prejudiced. But even this extremely mild form of deception can be minimized by informing participants—orally, in writing, or both—that although you have accurately described the procedure, risks, and benefits, you will wait to reveal the research question until afterward. In essence, participants give their consent to be deceived or to have information withheld from them until later.
 
-### Weigh the Risks Against the Benefits
+### Weigh the Risks Against the Benefits {-}
 
 Once the risks of the research have been identified and minimized, you need to weigh them against the benefits. This requires identifying all the benefits. Remember to consider benefits to the research participants, to science, and to society. If you are a student researcher, remember that one of the benefits is the knowledge you will gain about how to conduct scientific research in psychology—knowledge you can then use to complete your studies and succeed in graduate school or in your career.
 
 If the research poses minimal risk—no more than in people’s daily lives or routine physical or psychological examinations—then even a small benefit to participants, science, or society is generally considered enough to justify it. If it poses more than minimal risk, then there should be more benefits. If the research has the potential to upset some participants, for example, then it becomes more important that the study be well designed and answer a scientifically interesting research question or have clear practical implications. It would be unethical to subject people to pain, fear, or embarrassment for no better reason than to satisfy one’s personal curiosity. In general, psychological research that has the potential to cause harm that is more than minor or lasts for more than a short time is rarely considered justified by its benefits. Consider, for example, that Milgram’s study—as interesting and important as the results were—would be considered unethical by today’s standards.
 
-### Create Informed Consent and Debriefing Procedures
+### Create Informed Consent and Debriefing Procedures {-}
 
 Once you have settled on a research design, you need to create your informed consent and debriefing procedures. Start by deciding whether informed consent is necessary according to APA Standard 8.05. If informed consent is necessary, there are several things you should do. First, when you recruit participants—whether it is through word of mouth, posted advertisements, or a participant pool—provide them with as much information about the study as you can. This will allow those who might find the study objectionable to avoid it. Second, prepare a script or set of “talking points” to help you explain the study to your participants in simple everyday language. This should include a description of the procedure, the risks and benefits, and their right to withdraw at any time. Third, create an informed consent form that covers all the points in Standard 8.02a that participants can read and sign after you have described the study to them. Your university, department, or course instructor may have a sample consent form that you can adapt for your own study. If not, an Internet search will turn up several samples. Remember that if appropriate, both the oral and written parts of the informed consent process should include the fact that you are keeping some information about the design or purpose of the study from them but that you will reveal it during debriefing.
 
@@ -334,11 +335,11 @@ Debriefing is similar to informed consent in that you cannot necessarily expect 
 
 Remember to schedule plenty of time for the informed consent and debriefing processes. They cannot be effective if you have to rush through them.
 
-### Get Approval
+### Get Approval {-}
 
 The next step is to get institutional approval for your research based on the specific policies and procedures at your institution or for your course. This will generally require writing a protocol that describes the purpose of the study, the research design and procedure, the risks and benefits, the steps taken to minimize risks, and the informed consent and debriefing procedures. Do not think of the institutional approval process as merely an obstacle to overcome but as an opportunity to think through the ethics of your research and to consult with others who are likely to have more experience or different perspectives than you. If the IRB has questions or concerns about your research, address them promptly and in good faith. This might even mean making further modifications to your research design and procedure before resubmitting your protocol.
 
-### Follow Through
+### Follow Through {-}
 
 Your concern with ethics should not end when your study receives institutional approval. It now becomes important to stick to the protocol you submitted or to seek additional approval for anything other than a minor change. During the research, you should monitor your participants for unanticipated reactions and seek feedback from them during debriefing. One criticism of Milgram’s study is that although he did not know ahead of time that his participants would have such severe negative reactions, he certainly knew after he had tested the first several participants and should have made adjustments at that point [@baumrind1985research]. Be alert also for potential violations of confidentiality. Keep the consent forms and the data safe and separate from each other and make sure that no one, intentionally or unintentionally, has access to any participant’s personal information.
 

@@ -13,11 +13,11 @@ At this point, we need to consider the basics of data analysis in psychological 
 
 [Descriptive statistics] refers to a set of techniques for summarizing and displaying data. Let us assume here that the data are quantitative and consist of scores on one or more variables for each of several study participants. Although in most cases the primary research question will be about one or more statistical relationships between variables, it is also important to describe each variable individually. For this reason, we begin by looking at some of the most common techniques for describing single variables.
 
-### The Distribution of a Variable
+### The Distribution of a Variable {-}
 
 Every variable has a [distribution], which is the way the scores are distributed across the levels of that variable. For example, in a sample of 100 college students, the distribution of the variable “number of siblings” might be such that 10 of them have no siblings, 30 have one sibling, 40 have two siblings, and so on. In the same sample, the distribution of the variable “sex” might be such that 44 have a score of “male” and 56 have a score of “female.”
 
-#### Frequency Tables
+#### Frequency Tables {-}
 
 One way to display the distribution of a variable is in a [frequency table]. Table \@ref(tab:frequency), for example, is a frequency table showing a hypothetical distribution of scores on the Rosenberg Self-Esteem Scale for a sample of 40 college students. The first column lists the values of the variable—the possible scores on the Rosenberg scale—and the second column lists the frequency of each score. This table shows that there were three students who had self-esteem scores of 24, five who had self-esteem scores of 23, and so on. From a frequency table like this, one can quickly see several important aspects of a distribution, including the range of scores (from 15 to 24), the most and least common scores (22 and 17, respectively), and any extreme scores that stand out from the rest.
 
@@ -41,7 +41,7 @@ knitr::kable(frequencybin, align = "cc",
   col.name=c("Reaction time (ms)","Frequency"), caption = 'A grouped frequency table showing a hypothetical distribution of reaction times.')
 ```
 
-#### Histograms
+#### Histograms {-}
 
 A histogram is a graphical display of a distribution. It presents the same information as a frequency table but in a way that is even quicker and easier to grasp. The histogram in Figure \@ref(fig:hist) presents the distribution of self-esteem scores in Table \@ref(tab:frequency). The x-axis of the histogram represents the variable and the y-axis represents frequency. Above each level of the variable on the x-axis is a vertical bar that represents the number of individuals with that score. When the variable is quantitative, as in this example, there is usually no gap between the bars. When the variable is categorical, however, there is usually a small gap between them. (The gap at 17 in this histogram reflects the fact that there were no scores of 17 in this data set.)
 
@@ -51,7 +51,7 @@ hist <- c(24,24,24,23,23,23,23,23,22,22,22,22,22,22,22,22,22,22,21,21,21,21,21,2
 hist(hist, breaks = c(14,15,16,17,18,19,20,21,22,23,24,25), col = "#1BADE3", main = NULL, ylab = "Frequency", xlab = "Self-Esteem", xlim = c(14,25))
 ```
 
-#### Distribution Shapes
+#### Distribution Shapes {-}
 
 When the distribution of a quantitative variable is displayed in a histogram, it has a shape. The shape of the distribution of self-esteem scores in Figure \@ref(fig:hist) is typical. There is a peak somewhere near the middle of the distribution and “tails” that taper in either direction from the peak. The distribution of Figure \@ref(fig:hist) is unimodal, meaning it has one distinct peak, but distributions can also be bimodal, meaning they have two distinct peaks. Figure \@ref(fig:bimodal), for example, shows a hypothetical bimodal distribution of scores on the Beck Depression Inventory. Distributions can also have more than two distinct peaks, but these are relatively rare in psychological research.
 
@@ -75,11 +75,11 @@ hist(pos, col = "#4E67C8", breaks = c(0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16),
 
 An [outlier] is an extreme score that is much higher or lower than the rest of the scores in the distribution. Sometimes outliers represent truly extreme scores on the variable of interest. For example, on the Beck Depression Inventory, a single clinically depressed person might be an outlier in a sample of otherwise happy and high-functioning peers. However, outliers can also represent errors or misunderstandings on the part of the researcher or participant, equipment malfunctions, or similar problems. We will say more about how to interpret outliers and what to do about them later in this chapter.
 
-### Measures of Central Tendency and Variability
+### Measures of Central Tendency and Variability {-}
 
 It is also useful to be able to describe the characteristics of a distribution more precisely. Here we look at how to do this in terms of two important characteristics: their central tendency and their variability.
 
-#### Central Tendency
+#### Central Tendency {-}
 
 The [central tendency] of a distribution is its middle—the point around which the scores in the distribution tend to cluster. (Another term for central tendency is average.) Looking back at Figure \@ref(fig:hist), for example, we can see that the self-esteem scores tend to cluster around the values of 20 to 22. Here we will consider the three most common measures of central tendency: the mean, the median, and the mode.
 
@@ -105,7 +105,7 @@ In a distribution that is both unimodal and symmetrical, the mean, median, and m
 
 Keep in mind, though, that you are not required to choose a single measure of central tendency in analyzing your data. Each one provides slightly different information, and all of them can be useful.
 
-#### Measures of Variability
+#### Measures of Variability {-}
 
 The variability of a distribution is the extent to which the scores vary around their central tendency. Consider the two distributions in Figure \@ref(fig:variability), both of which have the same central tendency. The mean, median, and mode of each distribution are 10. Notice, however, that the two distributions differ in terms of their variability. The top one has relatively low variability, with all the scores relatively close to the center. The bottom one has relatively high variability, with the scores are spread across a much greater range.
 
@@ -153,7 +153,8 @@ By definition, the standard deviation is the square root of the mean of the squa
 However, most calculators and software packages divide the sum of squared differences by *N* − 1. This is because the standard deviation of a sample tends to be a bit lower than the standard deviation of the population the sample was selected from. Dividing the sum of squares by *N* − 1 corrects for this tendency and results in a better estimate of the population standard deviation. Because researchers generally think of their data as representing a sample selected from a larger population—and because they are generally interested in drawing conclusions about the population—it makes sense to routinely apply this correction.
 :::
 
-#### Percentile Ranks and *z* Scores
+#### Percentile Ranks and *z* Scores {-}
+
 In many situations, it is useful to have a way to describe the location of an individual score within its distribution. One approach is the [percentile rank]. The percentile rank of a score is the percentage of scores in the distribution that are lower than that score. Consider, for example, the distribution in Table \@ref(tab:frequency). For any score in the distribution, we can find its percentile rank by counting the number of scores in the distribution that are lower than that score and converting that number to a percentage of the total number of scores. Notice, for example, that five of the students represented by the data in Table \@ref(tab:frequency) had self-esteem scores of 23. In this distribution, 32 of the 40 scores (80%) are lower than 23. Thus each of these students has a percentile rank of 80. (It can also be said that they scored “at the 80th percentile.”) Percentile ranks are often used to report the results of standardized tests of ability or achievement. If your percentile rank on a test of verbal ability were 40, for example, this would mean that you scored higher than 40% of the people who took the test.
 
 Another approach is the *z* score. The [*z* score] for a particular individual is the difference between that individual’s score and the mean of the distribution, divided by the standard deviation of the distribution:
@@ -204,7 +205,7 @@ For a list, see https://statpages.info/index.html.
 
 As we have seen throughout this book, most interesting research questions in psychology are about statistical relationships between variables. Recall that there is a statistical relationship between two variables when the average score on one differs systematically across the levels of the other. In this section, we revisit the two basic forms of statistical relationship introduced earlier in the book—differences between groups or conditions and relationships between quantitative variables—and we consider how to describe them in more detail.
 
-### Differences Between Groups or Conditions
+### Differences Between Groups or Conditions {-}
 
 Differences between groups or conditions are usually described in terms of the mean and standard deviation of each group or condition. For example, Thomas Ollendick and his colleagues conducted a study in which they evaluated two one-session treatments for simple phobias in children [@ollendick2009one]. They randomly assigned children with an intense fear (e.g., to dogs) to one of three conditions. In the exposure condition, the children actually confronted the object of their fear under the guidance of a trained therapist. In the education condition, they learned about phobias and some strategies for coping with them. In the waitlist control condition, they were waiting to receive a treatment after the study was over. The severity of each child’s phobia was then rated on a 1-to-8 scale by a clinician who did not know which treatment the child had received. (This was one of several dependent variables.) The mean fear rating in the education condition was 4.83 with a standard deviation of 1.52, while the mean fear rating in the exposure condition was 3.47 with a standard deviation of 1.77. The mean fear rating in the control condition was 5.56 with a standard deviation of 1.21. In other words, both treatments worked, but the exposure treatment worked better than the education treatment. As we have seen, differences between group or condition means can be presented in a bar graph like that in Figure \@ref(fig:phobia), where the heights of the bars represent the group or condition means. We will look more closely at creating American Psychological Association (APA)-style bar graphs shortly.
 
@@ -257,7 +258,8 @@ knitr::include_graphics("images/ch12/leader.jpeg")
 ```
 :::
 
-### Correlations Between Quantitative Variables
+### Correlations Between Quantitative Variables {-}
+
 As we have seen throughout the book, many interesting statistical relationships take the form of correlations between quantitative variables. For example, researchers Kurt Carlson and Jacqueline Conard conducted a study on the relationship between the alphabetical position of the first letter of people’s last names (from A = 1 to Z = 26) and how quickly those people responded to consumer appeals [@carlson2011last]. In one study, they sent e-mails to a large group of MBA students, offering free basketball tickets from a limited supply. The result was that the further toward the end of the alphabet students’ last names were, the faster they tended to respond. These results are summarized in Figure \@ref(fig:line).
 
 ```{r line, echo = FALSE, out.width='70%', fig.align = 'center', fig.cap='Line graph showing the relationship between the alphabetical position of people’s last names and how quickly those people respond to offers of consumer goods.'}
@@ -387,7 +389,7 @@ rect(xleft=15,
 
 Once you have conducted your descriptive statistical analyses, you will need to present them to others. In this section, we focus on presenting descriptive statistical results in writing, in graphs, and in tables—following American Psychological Association (APA) guidelines for written research reports. These principles can be adapted easily to other presentation formats such as posters and slide show presentations.
 
-### Presenting Descriptive Statistics in Writing
+### Presenting Descriptive Statistics in Writing {-}
 
 When you have a small number of results to report, it is often most efficient to write them out. There are a few important APA style guidelines here. First, statistical results are always presented in the form of numerals rather than words and are usually rounded to two decimal places (e.g., “2.00” rather than “two” or “2”). They can be presented either in the narrative description of the results or parenthetically—much like reference citations. Here are some examples:
 
@@ -405,7 +407,7 @@ Notice that when presented in the narrative, the terms *mean* and *standard devi
 
 > The treatment group had a mean of 23.40 (*SD* = 9.33), while 20.87 was the mean of the control group, which had a standard deviation of 8.45.
 
-### Presenting Descriptive Statistics in Graphs
+### Presenting Descriptive Statistics in Graphs {-}
 
 When you have a large number of results to report, you can often do it more clearly and efficiently with a graph. When you prepare graphs for an APA-style research report, there are some general guidelines that you should keep in mind. First, the graph should always add important information rather than repeat information that already appears in the text or in a table. (If a graph presents information more clearly or efficiently, then you should keep the graph and eliminate the text or table.) Second, graphs should be as simple as possible. For example, the *Publication Manual* discourages the use of color unless it is absolutely necessary (although color can still be an effective element in posters, slide show presentations, or textbooks.) Third, graphs should be interpretable on their own. A reader should be able to understand the basic result based only on the graph and its caption and should not have to refer to the text for an explanation.
 
@@ -426,7 +428,7 @@ There are also several more technical guidelines for graphs that include the fol
     + Captions should briefly describe the figure, explain any abbreviations, and include the units of measurement if they do not appear in the axis labels.
     +  Captions in an APA manuscript should be typed on a separate page that appears at the end of the manuscript. See "Presenting Your Research" for more information.
 
-#### Bar Graphs
+#### Bar Graphs {-}
 
 As we have seen throughout this book, [bar graphs](#bar-graph) are generally used to present and compare the mean scores for two or more groups or conditions. The bar graph in Figure 12.12 "Sample APA-Style Bar Graph, With Error Bars Representing the Standard Errors, Based on Research by Ollendick and Colleagues" is an APA-style version of Figure \@ref(fig:apabar). Notice that it conforms to all the guidelines listed. A new element in Figure \@ref(fig:apabar) is the smaller vertical bars that extend both upward and downward from the top of each main bar. These are [error bars], and they represent the variability in each group or condition. Although they sometimes extend one standard deviation in each direction, they are more likely to extend one standard error in each direction (as in Figure \@ref(fig:apabar)). The [standard error] is the standard deviation of the group divided by the square root of the sample size of the group. The standard error is used because, in general, a difference between group means that is greater than two standard errors is statistically significant. Thus one can “see” whether a difference is statistically significant based on a bar graph with error bars.
 
@@ -434,7 +436,7 @@ As we have seen throughout this book, [bar graphs](#bar-graph) are generally use
 knitr::include_graphics("images/ch12/apabar.jpeg")
 ```
 
-#### Line Graphs
+#### Line Graphs {-}
 
 [Line graphs](#line-graph) are used to present correlations between quantitative variables when the independent variable has, or is organized into, a relatively small number of distinct levels. Each point in a line graph represents the mean score on the dependent variable for participants at one level of the independent variable. Figure \@ref(fig:apaline) is an APA-style version of the results of Carlson and Conard. Notice that it includes error bars representing the standard error and conforms to all the stated guidelines.
 
@@ -444,7 +446,7 @@ knitr::include_graphics("images/ch12/apaline.jpeg")
 
 In most cases, the information in a line graph could just as easily be presented in a bar graph. In Figure \@ref(fig:apabar), for example, one could replace each point with a bar that reaches up to the same level and leave the error bars right where they are. This emphasizes the fundamental similarity of the two types of statistical relationship. Both are differences in the average score on one variable across levels of another. The convention followed by most researchers, however, is to use a bar graph when the variable plotted on the x-axis is categorical and a line graph when it is quantitative.
 
-#### Scatterplots
+#### Scatterplots {-}
 
 [Scatterplots](#scatterplot) are used to present relationships between quantitative variables when the variable on the x-axis (typically the independent variable) has a large number of levels. Each point in a scatterplot represents an individual rather than the mean for a group of individuals, and there are no lines connecting the points. The graph in Figure \@ref(fig:apabar) is an APA-style version of Figure \@ref(fig:scatter), which illustrates a few additional points. First, when the variables on the x-axis and y-axis are conceptually similar and measured on the same scale—as here, where they are measures of the same variable on two different occasions—this can be emphasized by making the axes the same length. Second, when two or more individuals fall at exactly the same point on the graph, one way this can be indicated is by offsetting the points slightly along the x-axis. Other ways are by displaying the number of individuals in parentheses next to the point or by making the point larger or darker in proportion to the number of individuals. Finally, the straight line that best fits the points in the scatterplot, which is called the regression line, can also be included.
 
@@ -452,7 +454,7 @@ In most cases, the information in a line graph could just as easily be presented
 knitr::include_graphics("images/ch12/apascatter.jpeg")
 ```
 
-### Expressing Descriptive Statistics in Tables
+### Expressing Descriptive Statistics in Tables {-}
 
 Like graphs, tables can be used to present large amounts of information clearly and efficiently. The same general principles apply to tables as apply to graphs. They should add important information to the presentation of your results, be as simple as possible, and be interpretable on their own. Again, we focus here on tables for an APA-style manuscript.
 
@@ -491,7 +493,7 @@ As with graphs, precise statistical results that appear in a table do not need t
 
 Even when you understand the statistics involved, analyzing data can be a complicated process. It is likely that for each of several participants, there are data for several different variables: demographics such as sex and age, one or more independent variables, one or more dependent variables, and perhaps a manipulation check. Furthermore, the “raw” (unanalyzed) data might take several different forms—completed paper-and-pencil questionnaires, computer files filled with numbers or text, videos, or written notes—and these may have to be organized, coded, or combined in some way. There might even be missing, incorrect, or just “suspicious” responses that must be dealt with. In this section, we consider some practical advice to make this process as organized and efficient as possible.
 
-### Prepare Your Data for Analysis
+### Prepare Your Data for Analysis {-}
 
 Whether your raw data are on paper or in a computer file (or both), there are a few things you should do before you begin analyzing them. First, be sure they do not include any information that might identify individual participants and be sure that you have a secure location where you can store the data and a separate secure location where you can store any consent forms. Unless the data are highly sensitive, a locked room or password-protected computer is usually good enough. It is also a good idea to make photocopies or backup files of your data and store them in yet another secure location—at least until the project is complete. Professional researchers usually keep a copy of their raw data and consent forms for several years in case questions about the procedure, the data, or participant consent arise after the project is completed.
 
@@ -510,7 +512,7 @@ Table: (\#tab:sampledata) Sample data file.
 
 If you have multiple-response measures—such the self-esteem measure in Table \@ref(tab:sampledata)—you could combine the items by hand and then enter the total score in your spreadsheet. However, it is much better to enter each response as a separate variable in the spreadsheet—as with the self-esteem measure in Table \@ref(tab:sampledata)—and use the software to combine them (e.g., using the “AVERAGE” function in Excel or the “Compute” function in SPSS). Not only is this approach more accurate, but it allows you to detect and correct errors, to assess internal consistency, and to analyze individual responses if you decide to do so later.
 
-### Preliminary Analyses
+### Preliminary Analyses {-}
 
 Before turning to your primary research questions, there are often several preliminary analyses to conduct. For multiple-response measures, you should assess the internal consistency of the measure. Statistical programs like SPSS will allow you to compute Cronbach’s α or Cohen’s κ. If this is beyond your comfort level, you can still compute and evaluate a split-half correlation.
 
@@ -520,7 +522,7 @@ Now is the time to identify outliers, examine them more closely, and decide what
 
 Keep in mind that outliers do not *necessarily* represent an error, misunderstanding, or lack of effort. They might represent truly extreme responses or participants. For example, in one large college student sample, the vast majority of participants reported having had fewer than 15 sexual partners, but there were also a few extreme scores of 60 or 70 [@brown1999estimating]. Although these scores might represent errors, misunderstandings, or even intentional exaggerations, it is also plausible that they represent honest and even accurate estimates. One strategy here would be to use the median and other statistics that are not strongly affected by the outliers. Another would be to analyze the data both including and excluding any outliers. If the results are essentially the same, which they often are, then it makes sense to leave the outliers. If the results differ depending on whether the outliers are included or excluded them, then both analyses can be reported and the differences between them discussed.
 
-### Answer Your Research Questions
+### Answer Your Research Questions {-}
 
 Finally, you are ready to answer your primary research questions. If you are interested in a difference between group or condition means, you can compute the relevant group or condition means and standard deviations, make a bar graph to display the results, and compute Cohen’s *d*. If you are interested in a correlation between quantitative variables, you can make a line graph or scatterplot (be sure to check for nonlinearity and restriction of range) and compute Pearson’s *r*.
 
@@ -530,7 +532,7 @@ At this point, you should also explore your data for other interesting results t
 
 It is important to be cautious, however, because complex sets of data are likely to include “patterns” that occurred entirely by chance. Thus results discovered while “fishing” should be replicated in at least one new study before being presented as new phenomena in their own right.
 
-### Understand Your Descriptive Statistics
+### Understand Your Descriptive Statistics {-}
 
 In the next chapter, we will consider inferential statistics—a set of techniques for deciding whether the results for your sample are likely to apply to the population. Although inferential statistics are important for reasons that will be explained shortly, beginning researchers sometimes forget that their descriptive statistics really tell “what happened” in their study. For example, imagine that a treatment group of 50 participants has a mean score of 34.32 (*SD* = 10.45), a control group of 50 participants has a mean score of 21.45 (*SD* = 9.22), and Cohen’s *d* is an extremely strong 1.31. Although conducting and reporting inferential statistics (like a *t* test) would certainly be a required part of any formal report on this study, it should be clear from the descriptive statistics alone that the treatment worked. Or imagine that a scatterplot shows an indistinct “cloud” of points and Pearson’s *r* is a trivial −.02. Again, although conducting and reporting inferential statistics would be a required part of any formal report on this study, it should be clear from the descriptive statistics alone that the variables are essentially unrelated. The point is that you should always be sure that you thoroughly understand your results at a descriptive level first, and then move on to the inferential statistics.
 

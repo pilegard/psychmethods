@@ -18,13 +18,13 @@ In this chapter, we look at how to present your research effectively. We begin w
 3. Identify multiple sources of information about APA style.
 :::
 
-### What Is APA Style?
+### What Is APA Style? {-}
 
 [APA style] is a set of guidelines for writing in psychology and related fields. These guidelines are set down in the [Publication Manual of the American Psychological Association] [@american2020publication]. The Publication Manual originated in 1929 as a short journal article that provided basic standards for preparing manuscripts to be submitted for publication [@bentley1929instructions]. It was later expanded and published as a book by the association and is now in its sixth edition. The primary purpose of APA style is to facilitate scientific communication by promoting clarity of expression and by standardizing the organization and content of research articles and book chapters. It is easier to write about research when you know what information to present, the order in which to present it, and even the style in which to present it. Likewise, it is easier to read about research when it is presented in familiar and expected ways.
 
 APA style is best thought of as a “genre” of writing that is appropriate for presenting the results of psychological research—especially in academic and professional contexts. It is not synonymous with “good writing” in general. You would not write a literary analysis for an English class, even if it were based on psychoanalytic concepts, in APA style. You would write it in Modern Language Association (MLA) style instead. And you would not write a newspaper article, even if it were about a new breakthrough in behavioral neuroscience, in APA style. You would write it in Associated Press (AP) style instead. At the same time, you would not write an empirical research report in MLA style, in AP style, or in the style of a romance novel, an e-mail to a friend, or a shopping list. You would write it in APA style. Part of being a good writer in general is adopting a style that is appropriate to the writing task at hand, and for writing about psychological research, this is APA style.
 
-### The Levels of APA Style
+### The Levels of APA Style {-}
 
 Because APA style consists of a large number and variety of guidelines—the *Publication Manual* is nearly 300 pages long—it can be useful to think about it in terms of three basic levels. The first is the overall [organization] of an article (which is covered in Chapter 2 of the *Publication Manual*). Empirical research reports, in particular, have several distinct sections that always appear in the same order:
 
@@ -100,7 +100,7 @@ APA Style: http://www.apastyle.apa.org
 Purdue Online Writing Lab: https://owl.purdue.edu/owl/research_and_citation/apa_style/apa_style_introduction.html
 :::
 
-### APA-Style References and Citations
+### APA-Style References and Citations {-}
 
 Because science is a large-scale collaboration among researchers, references to the work of other researchers are extremely important. Their importance is reflected in the extensive and detailed set of rules for formatting and using them.
 
@@ -196,9 +196,9 @@ Notice that there is no comma between the first author’s name and “et al.”
 
 In this section, we look at how to write an APA-style [empirical research report], an article that presents the results of one or more new studies. Recall that the standard sections of an empirical research report provide a kind of outline. Here we consider each of these sections in detail, including what information it contains, how that information is formatted and organized, and tips for writing each section. At the end of this section is a sample APA-style research report that illustrates many of these principles.
 
-### Sections of a Research Report
+### Sections of a Research Report {-}
 
-#### Title Page and Abstract
+#### Title Page and Abstract {-}
 
 An APA-style research report begins with a [title page]. The title is centered in the upper half of the page, with each important word capitalized. The title should clearly and concisely (in about 12 words or fewer) communicate the primary variables and research questions. This sometimes requires a main title followed by a subtitle that elaborates on the main title, in which case the main title and subtitle are separated by a colon. Here are some titles from recent issues of professional journals published by the American Psychological Association.
 
@@ -228,11 +228,11 @@ For articles that are being submitted for publication, the title page also inclu
 
 The [abstract] is a summary of the study. It is the second page of the manuscript and is headed with the word *Abstract.* The first line is not indented. The abstract presents the research question, a summary of the method, the basic results, and the most important conclusions. Because the abstract is usually limited to about 200 words, it can be a challenge to write a good one.
 
-#### Introduction
+#### Introduction {-}
 
 The [introduction] begins on the third page of the manuscript. The heading at the top of this page is the full title of the manuscript, with each important word capitalized as on the title page. The introduction includes three distinct subsections, although these are typically not identified by separate headings. The opening introduces the research question and explains why it is interesting, the literature review discusses relevant previous research, and the closing restates the research question and comments on the method used to answer it.
 
-#### The Opening
+#### The Opening {-}
 
 The [opening], which is usually a paragraph or two in length, introduces the research question and explains why it is interesting. To capture the reader’s attention, researcher Daryl Bem recommends starting with general observations about the topic under study, expressed in ordinary language (not technical jargon)—observations that are about people and their behavior (not about researchers or their research; @bem2003writing). Washington, DC: American Psychological Association. Concrete examples are often very useful here. According to Bem, this would be a poor way to begin a research report:
 
@@ -254,7 +254,7 @@ Researcher Larry Jacoby reported several studies showing that a word that people
 Although both humor and personal anecdotes are generally discouraged in APA-style writing, this example is a highly effective way to start because it both engages the reader and provides an excellent real-world example of the topic under study.
 :::
 
-#### The Literature Review
+#### The Literature Review {-}
 
 Immediately after the opening comes the [literature review], which describes relevant previous research on the topic and can be anywhere from several paragraphs to several pages in length. However, the literature review is not simply a list of past studies. Instead, it constitutes a kind of argument for why the research question is worth addressing. By the end of the literature review, readers should be convinced that the research question makes sense and that the present study is a logical next step in the ongoing research process.
 
@@ -272,7 +272,7 @@ Looking at the literature review in this way emphasizes a few things. First, it 
 
 Finally, remember that your goal is to construct an argument for why your research question is interesting and worth addressing—not necessarily why your favorite answer to it is correct. In other words, your literature review must be balanced. If you want to emphasize the generality of a phenomenon, then of course you should discuss various studies that have demonstrated it. However, if there are other studies that have failed to demonstrate it, you should discuss them too. Or if you are proposing a new theory, then of course you should discuss findings that are consistent with that theory. However, if there are other findings that are inconsistent with it, again, you should discuss them too. It is acceptable to argue that the *balance* of the research supports the existence of a phenomenon or is consistent with a theory (and that is usually the best that researchers in psychology can hope for), but it is not acceptable to *ignore* contradictory evidence. Besides, a large part of what makes a research question interesting is uncertainty about its answer.
 
-#### The Closing
+#### The Closing {-}
 
 The [closing] of the introduction—typically the final paragraph or two—usually includes two important elements. The first is a clear statement of the main research question or hypothesis. This statement tends to be more formal and precise than in the opening and is often expressed in terms of operational definitions of the key variables. The second is a brief overview of the method and some comment on its appropriateness. Here, for example, is how @darley1968bystander concluded the introduction to their classic article on the bystander effect:
 
@@ -280,7 +280,7 @@ The [closing] of the introduction—typically the final paragraph or two—usual
 
 Thus the introduction leads smoothly into the next major section of the article—the method section.
 
-#### Method
+#### Method {-}
 
 The [method section] is where you describe how you conducted your study. An important principle for writing a method section is that it should be clear and detailed enough that other researchers could replicate the study by following your “recipe.” This means that it must describe all the important elements of the study—basic demographic characteristics of the participants, how they were recruited, whether they were randomly assigned, how the variables were manipulated or measured, how counterbalancing was accomplished, and so on. At the same time, it should avoid irrelevant details such as the fact that the study was conducted in Classroom 37B of the Industrial Technology Building or that the questionnaire was double-sided and completed using pencils.
 
@@ -297,7 +297,7 @@ What is the difference between design and procedure? The design of a study is it
 
 In the third basic way to organize a method section, the participants subsection is followed by a materials subsection before the design and procedure subsections. This works well when there are complicated materials to describe. This might mean multiple questionnaires, written vignettes that participants read and respond to, perceptual stimuli, and so on. The heading of this subsection can be modified to reflect its content. Instead of “Materials,” it can be “Questionnaires,” “Stimuli,” and so on.
 
-#### Results
+#### Results {-}
 
 The [results section] is where you present the main results of the study, including the results of the statistical analyses. Although it does not include the raw data—individual participants’ responses or scores—researchers should save their raw data and make them available to other researchers who request them. Some journals now make the raw data available online.
 
@@ -313,7 +313,7 @@ The results section should then tackle the primary research questions, one at a 
 
 Notice that only Step 3 necessarily involves numbers. The rest of the steps involve presenting the research question and the answer to it in words. In fact, the basic results should be clear even to a reader who skips over the numbers.
 
-#### Discussion
+#### Discussion {-}
 
 The [discussion] is the last major section of the research report. Discussions usually consist of some combination of the following elements:
 
@@ -331,17 +331,17 @@ Most discussions end with some suggestions for future research. If the study did
 
 Finally, some researchers are quite good at ending their articles with a sweeping or thought-provoking conclusion. @darley1968bystander for example, ended their article on the bystander effect by discussing the idea that whether people help others may depend more on the situation than on their personalities. Their final sentence is, “If people understand the situational forces that can make them hesitate to intervene, they may better overcome them” (p. 383). However, this kind of ending can be difficult to pull off. It can sound overreaching or just banal and end up detracting from the overall impact of the article. It is often better simply to end when you have made your final point (although you should avoid ending on a limitation).
 
-#### References
+#### References {-}
 
 The references section begins on a new page with the heading “References” centered at the top of the page. All references cited in the text are then listed in the format presented earlier. They are listed alphabetically by the last name of the first author. If two sources have the same first author, they are listed alphabetically by the last name of the second author. If all the authors are the same, then they are listed chronologically by the year of publication. Everything in the reference list is double-spaced both within and between references.
 
-#### Appendixes, Tables, and Figures
+#### Appendixes, Tables, and Figures {-}
 
 Appendixes, tables, and figures come after the references. An [appendix] is appropriate for supplemental material that would interrupt the flow of the research report if it were presented within any of the major sections. An appendix could be used to present lists of stimulus words, questionnaire items, detailed descriptions of special equipment or unusual statistical analyses, or references to the studies that are included in a meta-analysis. Each appendix begins on a new page. If there is only one, the heading is “Appendix,” centered at the top of the page. If there is more than one, the headings are “Appendix A,” “Appendix B,” and so on, and they appear in the order they were first mentioned in the text of the report.
 
 After any appendixes come tables and then figures. Tables and figures are both used to present results. Figures can also be used to illustrate theories (e.g., in the form of a flowchart), display stimuli, outline procedures, and present many other kinds of information. Each table and figure appears on its own page. Tables are numbered in the order that they are first mentioned in the text (“Table 1,” “Table 2,” and so on). Figures are numbered the same way (“Figure 1,” “Figure 2,” and so on). A brief explanatory title, with the important words capitalized, appears above each table. Each figure is given a brief explanatory caption, where (aside from proper nouns or names) only the first word of each sentence is capitalized. More details on preparing APA-style tables and figures are presented later in the book.
 
-#### Sample APA-Style Research Report
+#### Sample APA-Style Research Report {-}
 
 Figure \@ref(fig:sample1), Figure \@ref(fig:sample2), Figure \@ref(fig:sample3), and Figure \@ref(fig:sample4) show some sample pages from an APA-style empirical research report originally written by undergraduate student Tomoe Suyama at California State University, Fresno. The main purpose of these figures is to illustrate the basic organization and formatting of an APA-style empirical research report, although many high-level and low-level style conventions can be seen here too.
 
@@ -395,20 +395,20 @@ Figure \@ref(fig:sample1), Figure \@ref(fig:sample2), Figure \@ref(fig:sample3),
 
 Writing an empirical research report in American Psychological Association (APA) style is only one way to present new research in psychology. In this section, we look at several other important ways.
 
-### Other Types of Manuscripts
+### Other Types of Manuscripts {-}
 The previous section focused on writing empirical research reports to be submitted for publication in a professional journal. However, there are other kinds of manuscripts that are written in APA style, many of which will not be submitted for publication elsewhere. Here we look at a few of them.
 
-#### Review and Theoretical Articles
+#### Review and Theoretical Articles {-}
 
 Recall that [review articles](#review-article) summarize research on a particular topic without presenting new empirical results. When these articles present a new theory, they are often called [theoretical articles](#theoretical-article). Review and theoretical articles are structured much like empirical research reports, with a title page, an abstract, references, appendixes, tables, and figures, and they are written in the same high-level and low-level style. Because they do not report the results of new empirical research, however, there is no method or results section. Of course, the body of the manuscript should still have a logical organization and include an opening that identifies the topic and explains its importance, a literature review that organizes previous research (identifying important relationships among concepts or gaps in the literature), and a closing or conclusion that summarizes the main conclusions and suggests directions for further research or discusses theoretical and practical implications. In a theoretical article, of course, much of the body of the manuscript is devoted to presenting the new theory. Theoretical and review articles are usually divided into sections, each with a heading that is appropriate to that section. The sections and headings can vary considerably from article to article (unlike in an empirical research report). But whatever they are, they should help organize the manuscript and make the argument clear.
 
-#### Final Manuscripts
+#### Final Manuscripts {-}
 
 Until now, we have focused on the formatting of manuscripts that will be submitted to a professional journal for publication. These are referred to as [copy manuscripts](#copy-manuscript). Many features of a copy manuscript—consistent double-spacing, the running head, and the placement of tables and figures at the end—are intended to make it easier to edit and typeset on its way to publication. The published journal article looks quite different from the copy manuscript. For example, the title and author information, the abstract, and the beginning of the introduction generally appear on the same page rather than on separate pages. In contrast, other types of manuscripts are prepared by the author in their final form with no intention of submitting them for publication elsewhere. These are called [final manuscripts](#final-manuscript) and include dissertations, theses, and other student papers.
 
 Final manuscripts can differ from copy manuscripts in a number of ways that make them easier to read. This can include putting tables and figures close to where they are discussed so that the reader does not have to flip to the back of the manuscript to see them. It can also include variations in line spacing that improve readability—such as using single spacing for table titles and figure captions or triple spacing between major sections or around tables and figures. Dissertations and theses can differ from copy manuscripts in additional ways. They may have a longer abstract, a special acknowledgments page, a table of contents, and so on. For student papers, it is important to check with the course instructor about formatting specifics. In a research methods course, papers are usually required to be written as though they were copy manuscripts being submitted for publication.
 
-### Conference Presentations
+### Conference Presentations {-}
 
 One of the ways that researchers in psychology share their research with each other is by presenting it at [professional conferences](#professional-conference). (Although some professional conferences in psychology are devoted mainly to issues of clinical practice, we are concerned here with those that focus on research.) Professional conferences can range from small-scale events involving a dozen researchers who get together for an afternoon to large-scale events involving thousands of researchers who meet for several days. Although researchers attending a professional conference are likely to discuss their work with each other informally, there are two more formal types of presentation: oral presentations (“talks”) and posters. Presenting a talk or poster at a conference usually requires submitting an abstract of the research to the conference organizers in advance and having it accepted for presentation—although the peer review process is typically not as rigorous as it is for manuscripts submitted to a professional journal.
 
@@ -443,13 +443,13 @@ Following are links to the websites for several large national conferences in th
 [Western Psychology Conference for Undergraduate Research](https://www.stmarys-ca.edu/psychology/western-psychology-conference-for-undergraduate-research-wpcur)
 :::
 
-#### Oral Presentations
+#### Oral Presentations {-}
 
 In an [oral presentation], or “talk,” the presenter stands in front of an audience of other researchers and tells them about his or her research—usually with the help of a slide show. Talks usually last from 10 to 20 minutes, with the last few minutes reserved for questions from the audience. At larger conferences, talks are typically grouped into sessions lasting an hour or two in which all the talks are on the same general topic.
 
 In preparing a talk, presenters should keep several general principles in mind. The first is that the number of slides should be no more than about one per minute of the talk. The second is that a talk is generally structured like an APA-style research report. There is a slide with the title and authors, a few slides to help provide the background, a few more to help describe the method, a few for the results, and a few for the conclusions. The third is that the presenter should look at the audience members and speak to them in a conversational tone that is less formal than APA-style writing but more formal than a conversation with a friend. The slides should not be the focus of the presentation; they should act as visual aids. As such, they should present main points in bulleted lists or simple tables and figures.
 
-#### Posters
+#### Posters {-}
 
 Another way to present research at a conference is in the form of a [poster]. A poster is typically presented during a one- to two-hour [poster session] that takes place in a large room at the conference site. Presenters set up their posters on bulletin boards arranged around the room and stand near them. Other researchers then circulate through the room, read the posters, and talk to the presenters. In essence, poster sessions are a grown-up version of the school science fair. But there is nothing childish about them. Posters are used by professional researchers in all scientific disciplines and they are becoming increasingly common. At a recent American Psychological Society Conference, nearly 2,000 posters were presented across 16 separate poster sessions. Among the reasons posters are so popular is that they encourage meaningful interaction among researchers.
 

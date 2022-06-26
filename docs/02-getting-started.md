@@ -24,11 +24,11 @@ In this paragraph, the researcher has identified a research question—about the
 
 Before we address where research questions in psychology come from—and what makes them more or less interesting—it is important to understand the kinds of questions that researchers in psychology typically ask. This requires a quick introduction to several basic concepts, many of which we will return to in more detail later in the book.
 
-### Variables
+### Variables {-}
 
 Research questions in psychology are about [variables](#variable). A variable is a quantity or quality that varies across people or situations. For example, the height of the students in a psychology class is a variable because it varies from student to student. The sex of the students is also a variable as long as there are both male and female students in the class. A [quantitative variable] is a quantity, such as height, that is typically measured by assigning a number to each individual. Other examples of quantitative variables include people’s level of talkativeness, how depressed they are, and the number of siblings they have. A [categorical variable] is a quality, such as sex, and is typically measured by assigning a category label to each individual. Other examples include people’s nationality, their occupation, and whether they are receiving psychotherapy.
 
-### Sampling and Measurement
+### Sampling and Measurement {-}
 
 Researchers in psychology are usually interested in drawing conclusions about some very large group of people. This is called the [population]. It could be American teenagers, children with autism, professional athletes, or even just human beings—depending on the interests and goals of the researcher. But they usually study only a small subset or [sample] of the population. For example, a researcher might measure the talkativeness of a few hundred college students with the intention of drawing conclusions about the talkativeness of men and women in general. It is important, therefore, for researchers to use a representative sample—one that is similar to the population in important respects.
 
@@ -36,7 +36,7 @@ One method of obtaining a sample is simple random sampling, in which every membe
 
 Once the sample is selected, researchers need to measure the variables they are interested in. This requires an [operational definition]—a definition of the variable in terms of precisely how it is to be measured. Most variables can be operationally defined in many different ways. For example, depression can be operationally defined as people’s scores on a paper-and-pencil depression scale, the number of depressive symptoms they are experiencing, or whether they have been diagnosed with major depressive disorder. When a variable has been measured for a particular individual, the result is called a score, and a set of scores is called data. Note that data is plural—the singular datum is rarely used—so it is grammatically correct to say, “Those are interesting data” (and incorrect to say, “That is interesting data”).
 
-### Statistical Relationships Between Variables
+### Statistical Relationships Between Variables {-}
 
 Some research questions in psychology are about one variable. How accurate are children’s memories for being touched? How talkative are American college students? How common is it for people to be diagnosed with major depressive disorder? Answering such questions requires operationally defining the variable, measuring it for a sample, analyzing the results, and drawing conclusions about the population. For a quantitative variable, this would typically involve computing the mean and standard deviation of the scores. For a categorical variable, it would typically involve computing the percentage of scores at each level of the variable.
 
@@ -44,7 +44,7 @@ However, research questions in psychology are more likely to be about statistica
 
 There are two basic forms of statistical relationship: differences between groups and correlations between quantitative variables. Although both are consistent with the general definition of a statistical relationship—the average score on one variable differs across levels of the other—they are usually described and analyzed somewhat differently. For this reason it is important to distinguish them clearly.
 
-#### Differences Between Groups
+#### Differences Between Groups {-}
 
 One basic form of statistical relationship is a difference between the mean scores of two groups on some variable of interest. A wide variety of research questions in psychology take this form. Are women more talkative than men? Do children using human figure drawings recall more touch information than children not using human figure drawings? Do people talking on a cell phone have poorer driving abilities than people not talking on a cell phone? Do people receiving Psychotherapy A tend to have fewer depressive symptoms than people receiving Psychotherapy B? Later we will also see that such relationships can involve more than two groups and that the groups can consist of the very same individuals tested at different times or under different conditions. For now, however, it is easiest to think in terms of two distinct groups.
 
@@ -55,7 +55,7 @@ Differences between groups are usually described by giving the mean score and st
 <p class="caption">(\#fig:bargraph)Bar graph showing the very small difference in the mean number of words spoken per day by women and men in a large sample. Based on data from @mehl2007women</p>
 </div>
 
-#### Correlations Between Quantitative Variables
+#### Correlations Between Quantitative Variables {-}
 
 A second basic form of statistical relationship is a correlation between two quantitative variables, where the average score on one variable differs systematically across the levels of the other. Again, a wide variety of research questions in psychology take this form. Is being a happier person associated with being more talkative? Do children’s memories for touch information improve as they get older? Does the effectiveness of psychotherapy depend on how much the patient likes the therapist?
 
@@ -80,7 +80,7 @@ Pearson’s r is a good measure only for linear relationships, in which the poin
 <p class="caption">(\#fig:nonlinear)Hypothetical nonlinear relationship between sleep and depression</p>
 </div>
 
-#### Correlation Does Not Imply Causation
+#### Correlation Does Not Imply Causation {-}
 
 Researchers are often interested in a statistical relationship between two variables because they think that one of the variables causes the other. That is, the statistical relationship reflects a causal relationship. In these situations, the variable that is thought to be the cause is called the [independent variable] (often referred to as *X* for short), and the variable that is thought to be the effect is called the [dependent variable] (often referred to as *Y*). For example, the statistical relationship between whether or not a depressed person receives psychotherapy and the number of depressive symptoms he or she has reflects the fact that the psychotherapy (the independent variable) *causes* the reduction in symptoms (the dependent variable). Understanding causal relationships is important in part because it allows us to change people’s behavior in predictable ways. If we know that psychotherapy causes a reduction in depressive symptoms—and we want people to have fewer depressive symptoms—then we can use psychotherapy to achieve this goal.
 
@@ -128,7 +128,7 @@ As we will see later in the book, there are various ways that researchers addres
 
 Good research must begin with a good research question. Yet coming up with good research questions is something that novice researchers often find difficult and stressful. One reason is that this is a creative process that can appear mysterious—even magical—with experienced researchers seeming to pull interesting research questions out of thin air. However, psychological research on creativity has shown that it is neither as mysterious nor as magical as it appears. It is largely the product of ordinary thinking strategies and persistence [@weisberg1993creativity]. This section covers some fairly simple strategies for finding general research ideas, turning those ideas into empirically testable research questions, and finally evaluating those questions in terms of how interesting they are and how feasible they would be to answer.
 
-### Finding Inspiration
+### Finding Inspiration {-}
 
 Research questions often begin as more general research ideas—usually focusing on some behavior or psychological characteristic: talkativeness, memory for touches, depression, bungee jumping, and so on. Before looking at how to turn such ideas into empirically testable research questions, it is worth looking at where such ideas come from in the first place. Three of the most common sources of inspiration are informal observations, practical problems, and previous research.
 
@@ -138,7 +138,7 @@ Practical problems can also inspire research ideas, leading directly to applied 
 
 Probably the most common inspiration for new research ideas, however, is previous research. Recall that science is a kind of large-scale collaboration in which many different researchers read and evaluate each other’s work and conduct new studies to build on it. Of course, experienced researchers are familiar with previous research in their area of expertise and probably have a long list of ideas. This suggests that novice researchers can find inspiration by consulting with a more experienced researcher (e.g., students can consult a faculty member). But they can also find inspiration by picking up a copy of almost any professional journal and reading the titles and abstracts. In one typical issue of *Psychological Science*, for example, you can find articles on the perception of shapes, anti-Semitism, police lineups, the meaning of death, second-language learning, people who seek negative emotional experiences, and many other topics. If you can narrow your interests down to a particular topic (e.g., memory) or domain (e.g., health care), you can also look through more specific journals, such as *Memory & Cognition* or *Health Psychology*.
 
-### Generating Empirically Testable Research Questions
+### Generating Empirically Testable Research Questions {-}
 
 Once you have a research idea, you need to use it to generate one or more empirically testable research questions, that is, questions expressed in terms of a single variable or relationship between variables. One way to do this is to look closely at the discussion section in a recent research article on the topic. This is the last major section of the article, in which the researchers summarize their results, interpret them in the context of past research, and suggest directions for future research. These suggestions often take the form of specific research questions, which you can then try to answer with additional research. This can be a good strategy because it is likely that the suggested questions have already been identified as interesting and important by experienced researchers.
 
@@ -161,11 +161,11 @@ If through this process you generate a question that has never been studied scie
 
 For example, research has shown that women and men speak about the same number of words per day—but this was when talkativeness was measured in terms of the number of words spoken per day among college students in the United States and Mexico. We can still ask whether other ways of measuring talkativeness—perhaps the number of different people spoken to each day—produce the same result. Or we can ask whether studying elderly people or people from other cultures produces the same result. Again, this approach should help you generate many different research questions about almost any statistical relationship.
 
-### Evaluating Research Questions
+### Evaluating Research Questions {-}
 
 Researchers usually generate many more research questions than they ever attempt to answer. This means they must have some way of evaluating the research questions they generate so that they can choose which ones to pursue. In this section, we consider two criteria for evaluating research questions: the interestingness of the question and the feasibility of answering it.
 
-#### Interestingness
+#### Interestingness {-}
 
 How often do people tie their shoes? Do people feel pain when you punch them in the jaw? Are women more likely to wear makeup than men? Do people prefer vanilla or chocolate ice cream? Although it would be a fairly simple matter to design a study and collect data to answer these questions, you probably would not want to because they are not interesting. We are not talking here about whether a research question is interesting to us personally but whether it is interesting to people more generally and, especially, to the scientific community. But what makes a research question interesting in this sense? Here we look at three factors that affect the [interestingness] of a research question: the answer is in doubt, the answer fills a gap in the research literature, and the answer has important practical implications.
 
@@ -175,7 +175,7 @@ A second important factor to consider when deciding if a research question is in
 
 A final factor to consider when deciding whether a research question is interesting is whether its answer has important practical implications. Again, the question of whether human figure drawings help children recall information about being touched has important implications for how children are interviewed in physical and sexual abuse cases. The question of whether cell phone use impairs driving is interesting because it is relevant to the personal safety of everyone who travels by car and to the debate over whether cell phone use should be restricted by law.
 
-#### Feasibility
+#### Feasibility {-}
 
 A second important criterion for evaluating research questions is the [feasibility] of successfully answering them. There are many factors that affect feasibility, including time, money, equipment and materials, technical knowledge and skill, and access to research participants. Clearly, researchers need to take these factors into account so that they do not waste time and effort pursuing research that they cannot complete successfully.
 
@@ -217,11 +217,11 @@ Reviewing the research literature means finding, reading, and summarizing the pu
 - It can give you ideas for how to conduct your own study.
 - It can tell you how your study fits into the research literature.
 
-### What Is the Research Literature?
+### What Is the Research Literature? {-}
 
 The [research literature] in any field is all the published research in that field. The research literature in psychology is enormous—including millions of scholarly articles and books dating to the beginning of the field—and it continues to grow. Although its boundaries are somewhat fuzzy, the research literature definitely does *not* include self-help and other pop psychology books, dictionary and encyclopedia entries, websites, and similar sources that are intended mainly for the general public. These are considered unreliable because they are not reviewed by other researchers and are often based on little more than common sense or personal experience. Wikipedia contains much valuable information, but the fact that its authors are anonymous and its content continually changes makes it unsuitable as a basis of sound scientific research. For our purposes, it helps to define the research literature as consisting almost entirely of two types of sources: articles in professional journals, and scholarly books in psychology and related fields.
 
-#### Professional Journals
+#### Professional Journals {-}
 
 [Professional journals](#professional-journal) are periodicals that publish original research articles. There are thousands of professional journals that publish research in psychology and related fields. They are usually published monthly or quarterly in individual issues, each of which contains several articles. The issues are organized into volumes, which usually consist of all the issues for a calendar year. Some journals are published in hard copy only, others in both hard copy and electronic form, and still others in electronic form only.
 
@@ -234,13 +234,13 @@ Most articles in professional journals are one of two basic types: empirical res
 
 Most professional journals in psychology undergo a process of [peer review]. Researchers who want to publish their work in the journal submit a manuscript to the editor—who is generally an established researcher too—who in turn sends it to two or three experts on the topic. Each reviewer reads the manuscript, writes a critical review, and sends the review back to the editor along with his or her recommendations. The editor then decides whether to accept the article for publication, ask the authors to make changes and resubmit it for further consideration, or reject it outright. In any case, the editor forwards the reviewers’ written comments to the researchers so that they can revise their manuscript accordingly. Peer review is important because it ensures that the work meets basic standards of the field before it can enter the research literature.
 
-#### Scholarly Books
+#### Scholarly Books {-}
 
 [Scholarly books](#scholarly-book) are books written by researchers and practitioners mainly for use by other researchers and practitioners. A [monograph] is written by a single author or a small group of authors and usually gives a coherent presentation of a topic much like an extended review article. [Edited volumes](#edited-volume) have an editor or a small group of editors who recruit many authors to write separate chapters on different aspects of the same topic. Although edited volumes can also give a coherent presentation of the topic, it is not unusual for each chapter to take a different perspective or even for the authors of different chapters to openly disagree with each other. In general, scholarly books undergo a peer review process similar to that used by professional journals.
 
-### Literature Search Strategies
+### Literature Search Strategies {-}
 
-#### Using PsycINFO and Other Databases
+#### Using PsycINFO and Other Databases {-}
 
 The primary method used to search the research literature involves using one or more electronic databases. These include Academic Search Premier, JSTOR, and ProQuest for all academic disciplines, ERIC for education, and PubMed for medicine and related fields. The most important for our purposes, however, is [PsycINFO], which is produced by the APA. PsycINFO is so comprehensive—covering thousands of professional journals and scholarly books going back more than 100 years—that for most purposes its content is synonymous with the research literature in psychology. Like most such databases, PsycINFO is usually available through your college or university library.
 
@@ -250,11 +250,11 @@ Given that there are nearly three million records in PsycINFO, you may have to t
 
 Depending on the vendor that provides the interface to PsycINFO, you may be able to save, print, or e-mail the relevant PsycINFO records. The records might even contain links to full-text copies of the works themselves. (PsycARTICLES is a database that provides full-text access to articles in all journals published by the APA.) If not, and you want a copy of the work, you will have to find out if your library carries the journal or has the book and the hard copy on the library shelves. Be sure to ask a librarian if you need help.
 
-#### Using Other Search Techniques
+#### Using Other Search Techniques {-}
 
 In addition to entering search terms into PsycINFO and other databases, there are several other techniques you can use to search the research literature. First, if you have one good article or book chapter on your topic—a recent review article is best—you can look through the reference list of that article for other relevant articles, books, and book chapters. In fact, you should do this with any relevant article or book chapter you find. You can also start with a classic article or book chapter on your topic, find its record in PsycINFO (by entering the author’s name or article’s title as a search term), and link from there to a list of other works in PsycINFO that cite that classic article. This works because other researchers working on your topic are likely to be aware of the classic article and cite it in their own work. You can also do a general Internet search using search terms related to your topic or the name of a researcher who conducts research on your topic. This might lead you directly to works that are part of the research literature (e.g., articles in open-access journals or posted on researchers’ own websites). The search engine Google Scholar is especially useful for this purpose. A general Internet search might also lead you to websites that are not part of the research literature but might provide references to works that are. Finally, you can talk to people (e.g., your instructor or other faculty members in psychology) who know something about your topic and can suggest relevant articles and book chapters.
 
-### What to Search For
+### What to Search For {-}
 
 When you do a literature review, you need to be selective. Not every article, book chapter, and book that relates to your research idea or question will be worth obtaining, reading, and integrating into your review. Instead, you want to focus on sources that help you do four basic things: (a) refine your research question, (b) identify appropriate research methods, (c) place your research in the context of previous research, and (d) write an effective research report. Several basic principles can help you find the most useful sources.
 

@@ -14,7 +14,7 @@ The answer to this question is that they use a set of techniques called inferent
 3. Describe the role of relationship strength and sample size in determining statistical significance and make reasonable judgments about statistical significance based on these two factors.
 :::
 
-### The Purpose of Null Hypothesis Testing
+### The Purpose of Null Hypothesis Testing {-}
 
 As we have seen, psychological research typically involves measuring one or more variables for a sample and computing descriptive statistics for that sample. In general, however, the researcher’s goal is not to draw conclusions about that sample but to draw conclusions about the population that the sample was selected from. Thus researchers must use sample statistics to draw conclusions about the corresponding values in the population. These corresponding values in the population are called [parameters](#parameter). Imagine, for example, that a researcher measures the number of depressive symptoms exhibited by each of 50 clinically depressed adults and computes the mean number of symptoms. The researcher probably wants to use this sample statistic (the mean number of symptoms for the sample) to draw conclusions about the corresponding population parameter (the mean number of symptoms for clinically depressed adults).
 
@@ -29,7 +29,7 @@ In fact, any statistical relationship in a sample can be interpreted in two ways
 
 The purpose of null hypothesis testing is simply to help researchers decide between these two interpretations.
 
-### The Logic of Null Hypothesis Testing
+### The Logic of Null Hypothesis Testing {-}
 
 [Null hypothesis testing] is a formal approach to deciding between two interpretations of a statistical relationship in a sample. One interpretation is called the [null hypothesis] (often symbolized *H*~0~ and read as “H-naught”). This is the idea that there is no relationship in the population and that the relationship in the sample reflects only sampling error. Informally, the null hypothesis is that the sample relationship “occurred by chance.” The other interpretation is called the [alternative hypothesis] (often symbolized as *H*~1~). This is the idea that there is a relationship in the population and that the relationship in the sample reflects this relationship in the population.
 
@@ -53,7 +53,7 @@ The most common misinterpretation is that the *p* value is the probability that 
 You can avoid this misunderstanding by remembering that the *p* value is not the probability that any particular *hypothesis* is true or false. Instead, it is the probability of obtaining the *sample result* if the null hypothesis were true.
 :::
 
-### Role of Sample Size and Relationship Strength 
+### Role of Sample Size and Relationship Strength  {-}
 
 Recall that null hypothesis testing involves answering the question, “If the null hypothesis were true, what is the probability of a sample result as extreme as this one?” In other words, “What is the *p* value?” It can be helpful to see that the answer to this question depends on just two considerations: the strength of the relationship and the size of the sample. Specifically, the stronger the sample relationship and the larger the sample, the less likely the result would be if the null hypothesis were true. That is, the lower the *p* value. This should make sense. Imagine a study in which a sample of 500 women is compared with a sample of 500 men in terms of some psychological characteristic, and Cohen’s *d* is a strong 0.50. If there were really no sex difference in the population, then a result this strong based on such a large sample should seem highly unlikely. Now imagine a similar study in which a sample of three women is compared with a sample of three men, and Cohen’s *d* is a weak 0.10. If there were no sex difference in the population, then a relationship this weak based on such a small sample should seem likely. And this is precisely why the null hypothesis would be rejected in the first example and retained in the second.
 
@@ -70,7 +70,7 @@ Table: (\#tab:strength) How relationship strength (weak, medium, strong) and sam
 
 Although Table \@ref(tab:strength) provides only a rough guideline, it shows very clearly that weak relationships based on medium or small samples are never statistically significant and that strong relationships based on medium or larger samples are always statistically significant. If you keep this in mind, you will often know whether a result is statistically significant based on the descriptive statistics alone. It is extremely useful to be able to develop this kind of intuitive judgment. One reason is that it allows you to develop expectations about how your formal null hypothesis tests are going to come out, which in turn allows you to detect problems in your analyses. For example, if your sample relationship is strong and your sample is medium, then you would expect to reject the null hypothesis. If for some reason your formal null hypothesis test indicates otherwise, then you need to double-check your computations and interpretations. A second reason is that the ability to make this kind of intuitive judgment is an indication that you understand the basic logic of this approach in addition to being able to do the computations.
 
-### Statistical Significance Versus Practical Significance
+### Statistical Significance Versus Practical Significance {-}
 
 Table \@ref(tab:strength) illustrates another extremely important point. A statistically significant result is not necessarily a strong one. Even a very weak result can be statistically significant if it is based on a large enough sample. This is closely related to Janet Shibley Hyde’s argument about sex differences [@hyde2007new]. The differences between women and men in mathematical problem solving and leadership ability are statistically significant. But the word *significant* can cause people to interpret these differences as strong and important—perhaps even important enough to influence the college courses they take or even who they vote for. As we have seen, however, these statistically significant differences are actually quite weak—perhaps even “trivial.”
 
@@ -109,11 +109,11 @@ This is why it is important to distinguish between the *statistical* significanc
 
 In this section, we look at several common null hypothesis testing procedures. The emphasis here is on providing enough information to allow you to conduct and interpret the most basic versions. In most cases, the online statistical analysis tools mentioned in the chapter on "Descriptive Statistics" will handle the computations—as will programs such as Microsoft Excel and SPSS.
 
-### The *t* Test
+### The *t* Test {-}
 
 As we have seen throughout this book, many studies in psychology focus on the difference between two means. The most common null hypothesis test for this type of statistical relationship is the [*t* test]. In this section, we look at three types of *t* tests that are used for slightly different research designs: the one-sample *t* test, the dependent-samples *t* test, and the independent-samples *t* test.
 
-#### One-Sample *t* Test
+#### One-Sample *t* Test {-}
 
 The [one-sample *t* test] is used to compare a sample mean (*M*) with a hypothetical population mean (μ~0~) that provides some interesting standard of comparison. The null hypothesis is that the mean for the population (µ) is equal to the hypothetical population mean: μ = μ~0~. The alternative hypothesis is that the mean for the population is different from the hypothetical population mean: μ ≠ μ~0~. To decide between these two hypotheses, we need to find the probability of obtaining the sample mean (or one more extreme) if the null hypothesis were true. But finding this *p* value requires first computing a test statistic called t. (A [test statistic] is a statistic that is computed only to help find the *p* value.) The formula for *t* is as follows:
 
@@ -187,7 +187,7 @@ If he enters the data into one of the online analysis tools or uses SPSS, it wou
 
 Finally, if this researcher had gone into this study with good reason to expect that college students underestimate the number of calories, then he could have done a one-tailed test instead of a two-tailed test. The only thing this would change is the critical value, which would be −1.833. This slightly less extreme value would make it a bit easier to reject the null hypothesis. However, if it turned out that college students overestimate the number of calories—no matter how much they overestimate it—the researcher would not have been able to reject the null hypothesis.
 
-#### The Dependent-Samples *t* Test
+#### The Dependent-Samples *t* Test {-}
 
 The [dependent-samples *t* test] (sometimes called the paired-samples *t* test) is used to compare two means for the same sample tested at two different times or under two different conditions. This makes it appropriate for pretest-posttest designs or within-subjects experiments. The null hypothesis is that the means at the two times or under the two conditions are the same in the population. The alternative hypothesis is that they are not the same. This test can also be one-tailed if the researcher has good reason to expect the difference goes in a particular direction.
 
@@ -214,7 +214,7 @@ $t=\frac{8.5-0}{\frac{27.27}{\sqrt{10}}}=-1.11$
 
 If he enters the data into one of the online analysis tools or uses Excel or SPSS, it would tell him that the one-tailed *p* value for this *t* score (again with 10 − 1 = 9 degrees of freedom) is .148. Because this is greater than .05, he would retain the null hypothesis and conclude that the training program does not increase people’s calorie estimates. If he were to compute the *t* score by hand, he could look at Table \@ref(tab:tcrit) and see that the critical value of *t* for a one-tailed test with 9 degrees of freedom is +1.833. (It is positive this time because he was expecting a positive mean difference score.) The fact that his *t* score was less extreme than this critical value would tell him that his *p* value is greater than .05 and that he should fail to reject the null hypothesis.
 
-#### The Independent-Samples *t* Test
+#### The Independent-Samples *t* Test {-}
 
 The [independent-samples *t* test] is used to compare the means of two separate samples (*M*~1~ and *M*~2~). The two samples might have been tested under different conditions in a between-subjects experiment, or they could be preexisting groups in a correlational design (e.g., women and men, extroverts and introverts). The null hypothesis is that the means of the two populations are the same: µ~1~ = µ~2~. The alternative hypothesis is that they are not the same: µ~1~ ≠ µ~2~. Again, the test can be one-tailed if the researcher has good reason to expect the difference goes in a particular direction.
 
@@ -239,11 +239,11 @@ $t=\frac{220.71-168.12}{\sqrt{\frac{41.23^2}{8}+\frac{42.66^2}{7}}}=2.42$
 
 If he enters the data into one of the online analysis tools or uses Excel or SPSS, it would tell him that the two-tailed *p* value for this *t* score (with 15 − 2 = 13 degrees of freedom) is .015. Because this is less than .05, the health psychologist would reject the null hypothesis and conclude that people who eat junk food regularly make lower calorie estimates than people who eat it rarely. If he were to compute the *t* score by hand, he could look at Table \@ref(tab:tcrit) and see that the critical value of *t* for a two-tailed test with 13 degrees of freedom is ±2.160. The fact that his *t* score was more extreme than this critical value would tell him that his *p* value is less than .05 and that he should fail to retain the null hypothesis.
 
-### The Analysis of Variance
+### The Analysis of Variance {-}
 
 When there are more than two groups or condition means to be compared, the most common null hypothesis test is the [analysis of variance (ANOVA)]. In this section, we look primarily at the [one-way ANOVA], which is used for between-subjects designs with a single independent variable. We then briefly consider some other versions of the ANOVA that are used for within-subjects and factorial research designs.
 
-#### One-Way ANOVA
+#### One-Way ANOVA {-}
 
 The one-way ANOVA is used to compare the means of more than two samples (*M*~1~, *M*~2~…*M*~G~) in a between-subjects design. The null hypothesis is that all the means are equal in the population: µ~1~= µ~2~ =…= µ~G~. The alternative hypothesis is that not all the means in the population are equal.
 
@@ -315,7 +315,7 @@ Table: (\#tab:anovaoutput) Typical one-way ANOVA output from Excel
 | Within groups | 12,646.88 | 21 | 602.2321 |  |  |  |
 | Total | 24,590.63 | 23 |  |  |  |  |
 
-#### ANOVA Elaborations
+#### ANOVA Elaborations {-}
 
 ##### Post Hoc Comparisons {-}
 
@@ -330,7 +330,7 @@ Recall that the one-way ANOVA is appropriate for between-subjects designs in whi
 ##### Factorial ANOVA {-}
 When more than one independent variable is included in a factorial design, the appropriate approach is the [factorial ANOVA]. Again, the basics of the factorial ANOVA are the same as for the one-way and repeated-measures ANOVAs. The main difference is that it produces an *F* ratio and *p* value for each main effect and for each interaction. Returning to our calorie estimation example, imagine that the health psychologist tests the effect of participant major (psychology vs. nutrition) and food type (cookie vs. hamburger) in a factorial design. A factorial ANOVA would produce separate *F* ratios and *p* values for the main effect of major, the main effect of food type, and the interaction between major and food. Appropriate modifications must be made depending on whether the design is between subjects, within subjects, or mixed.
 
-### Testing Pearson’s *r*
+### Testing Pearson’s *r* {-}
 
 For relationships between quantitative variables, where Pearson’s *r* is used to describe the strength of those relationships, the appropriate null hypothesis test is a test of Pearson’s *r.* The basic logic is exactly the same as for other null hypothesis tests. In this case, the null hypothesis is that there is no relationship in the population. We can use the Greek lowercase rho (ρ) to represent the relevant parameter: ρ = 0. The alternative hypothesis is that there is a relationship in the population: ρ ≠ 0. As with the *t* test, this test can be two-tailed if the researcher has no expectation about the direction of the relationship or one-tailed if the researcher expects the relationship to go in a particular direction.
 
@@ -361,7 +361,7 @@ Table: (\#tab:rcrit)  Table of critical values of Pearson’s *r* when α = .05
 | 95 | .170 | .202 |
 | 100 | .165 | .197 |
 
-#### Example Test of Pearson’s *r*
+#### Example Test of Pearson’s *r* {-}
 
 Imagine that the health psychologist is interested in the correlation between people’s calorie estimates and their weight. He has no expectation about the direction of the relationship, so he decides to conduct a two-tailed test. He computes the correlation for a sample of 22 college students and finds that Pearson’s *r* is −.21. The statistical software he uses tells him that the *p* value is .348. It is greater than .05, so he retains the null hypothesis and concludes that there is no relationship between people’s calorie estimates and their weight. If he were to compute Pearson’s *r* by hand, he could look at Table \@ref(tab:rcrit) and see that the critical value for 22 − 2 = 20 degrees of freedom is .444. The fact that Pearson’s *r* for the sample is less extreme than this critical value tells him that the *p* value is greater than .05 and that he should retain the null hypothesis.
 
@@ -393,7 +393,7 @@ Imagine that the health psychologist is interested in the correlation between pe
 
 In this section, we consider a few other issues related to null hypothesis testing, including some that are useful in planning studies and interpreting results. We even consider some long-standing criticisms of null hypothesis testing, along with some steps that researchers in psychology have taken to address them.
 
-### Errors in Null Hypothesis Testing
+### Errors in Null Hypothesis Testing {-}
 
 In null hypothesis testing, the researcher tries to draw a reasonable conclusion about the population based on the sample. Unfortunately, this conclusion is not guaranteed to be correct. This is illustrated by Figure \@ref(fig:errors). The rows of this table represent the two possible decisions that we can make in null hypothesis testing: to reject or retain the null hypothesis. The columns represent the two possible states of the world: The null hypothesis is false or it is true. The four cells of the table, then, represent the four distinct outcomes of a null hypothesis test. Two of the outcomes—rejecting the null hypothesis when it is false and retaining it when it is true—are correct decisions. The other two—rejecting the null hypothesis when it is true and retaining it when it is false—are errors.
 
@@ -411,7 +411,7 @@ Another issue related to Type I errors is the so-called [file drawer problem] [@
 
 The file drawer problem is a difficult one because it is a product of the way scientific research has traditionally been conducted and published. One solution might be for journal editors and reviewers to evaluate research submitted for publication without knowing the results of that research. The idea is that if the research question is judged to be interesting and the method judged to be sound, then a nonsignificant result should be just as important and worthy of publication as a significant one. Short of such a radical change in how research is evaluated for publication, researchers can still take pains to keep their nonsignificant results and share them as widely as possible (e.g., at professional conferences). Many scientific disciplines now have journals devoted to publishing nonsignificant results. In psychology, for example, there is the *Journal of Articles in Support of the Null Hypothesis* (http://www.jasnh.com).
 
-### Statistical Power
+### Statistical Power {-}
 
 The [statistical power] of a research design is the probability of rejecting the null hypothesis given the sample size and expected relationship strength. For example, the statistical power of a study with 50 participants and an expected Pearson’s *r* of +.30 in the population is .59. That is, there is a 59% chance of rejecting the null hypothesis if indeed the population correlation is +.30. Statistical power is the complement of the probability of committing a Type II error. So in this example, the probability of committing a Type II error would be 1 − .59 = .41. Clearly, researchers should be interested in the power of their research designs if they want to avoid making Type II errors. In particular, they should make sure their research design has adequate power before collecting data. A common guideline is that a power of .80 is adequate. This means that there is an 80% chance of rejecting the null hypothesis for the expected relationship strength.
 
@@ -435,11 +435,11 @@ Given that statistical power depends primarily on relationship strength and samp
 [G*Power](https://www.psychologie.hhu.de/arbeitsgruppen/allgemeine-psychologie-und-arbeitspsychologie/gpower) is free downloadable software that allows you to compute statistical power for various research designs and null hypothesis tests by entering information about the expected relationship strength, the sample size, and the α level.It also allows you to compute the sample size necessary to achieve your desired level of power (e.g., .80).
 :::
 
-### Problems With Null Hypothesis Testing, and Some Solutions
+### Problems With Null Hypothesis Testing, and Some Solutions {-}
 
 Again, null hypothesis testing is the most common approach to inferential statistics in psychology. It is not without its critics, however. In fact, in recent years the criticisms have become so prominent that the American Psychological Association convened a task force to make recommendations about how to deal with them (Wilkinson & Task Force on Statistical Inference, 1999).Wilkinson, L., & Task Force on Statistical Inference. (1999). Statistical methods in psychology journals: Guidelines and explanations. American Psychologist, 54, 594–604. In this section, we consider some of the criticisms and some of the recommendations.
 
-#### Criticisms of Null Hypothesis Testing
+#### Criticisms of Null Hypothesis Testing {-}
 
 Some criticisms of null hypothesis testing focus on researchers’ misunderstanding of it. We have already seen, for example, that the *p* value is widely misinterpreted as the probability that the null hypothesis is true. (Recall that it is really the probability of the sample result if the null hypothesis were true.) A closely related misinterpretation is that 1 − *p* is the probability of replicating a statistically significant result. In one study, 60% of a sample of professional researchers thought that a *p* value of .01—for an independent-samples *t* test with 20 participants in each sample—meant there was a 99% chance of replicating the statistically significant result [@oaks1986statistical]. Our earlier discussion of power should make it clear that this is far too optimistic. As Table \@ref(tab:power) shows, even if there were a large difference between means in the population, it would require 26 participants per sample to achieve a power of .80. And the program G*Power shows that it would require 59 participants per sample to achieve a power of .99.
 
@@ -449,7 +449,7 @@ Yet another set of criticisms focus on the idea that null hypothesis testing—e
 
 To be fair, many researchers have come to the defense of null hypothesis testing. One of them, Robert Abelson, has argued that when it is correctly understood and carried out, null hypothesis testing does serve an important purpose [@abelson2012statistics]. Especially when dealing with new phenomena, it gives researchers a principled way to convince others that their results should not be dismissed as mere chance occurrences.
 
-#### What to Do?
+#### What to Do? {-}
 
 Even those who defend null hypothesis testing recognize many of the problems with it. But what should be done? Some suggestions now appear in the *Publication Manual*. One is that each null hypothesis test should be accompanied by an effect size measure such as Cohen’s *d* or Pearson’s *r.* By doing so, the researcher provides an estimate of how strong the relationship in the population is—not just whether there is one or not. (Remember that the *p* value cannot substitute as a measure of relationship strength because it also depends on the sample size. Even a very weak result can be statistically significant if the sample is large enough.)
 
