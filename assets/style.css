@@ -166,3 +166,9 @@ font-weight: 300;
   border-color: #4E67C8;
   padding-left: 11px !important;
 }  
+
+/*-----Hanging Indent for sample citations-------*/
+.hangingindent {
+  padding-left: 40px ;
+  text-indent: -40px ;
+}
