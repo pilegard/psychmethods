@@ -36,7 +36,6 @@ fig:designtable
 fig:designtable2
 fig:plots
 fig:barinteractions
-fig:barinteractions2
 fig:lineinteractions
 tab:nfc
 tab:comorbidity
@@ -156,4 +155,3 @@ understanding-null-hypothesis-testing
 some-basic-null-hypothesis-tests
 additional-considerations
 glossary-12
-fig:lineinteractions2
