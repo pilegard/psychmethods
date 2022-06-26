@@ -47,8 +47,8 @@ The final way in which research can be nonexperimental is that it can be qualita
 
 Recall that internal validity is the extent to which the design of a study supports the conclusion that changes in the independent variable caused any observed differences in the dependent variable. Figure \@ref(fig:validity) shows how experimental, quasi-experimental, and correlational research vary in terms of internal validity. Experimental research tends to be highest because it addresses the directionality and third-variable problems through manipulation and the control of extraneous variables through random assignment. If the average score on the dependent variable in an experiment differs across conditions, it is quite likely that the independent variable is responsible for that difference. Correlational research is lowest because it fails to address either problem. If the average score on the dependent variable differs across levels of the independent variable, it could be that the independent variable is responsible, but there are other interpretations. In some situations, the direction of causality could be reversed. In others, there could be a third variable that is causing differences in both the independent and dependent variables. Quasi-experimental research is in the middle because the manipulation of the independent variable addresses some problems, but the lack of random assignment and experimental control fails to address others. Imagine, for example, that a researcher finds two similar schools, starts an antibullying program in one, and then finds fewer bullying incidents in that “treatment school” than in the “control school.” There is no directionality problem because clearly the number of bullying incidents did not determine which school got the program. However, the lack of random assignment of children to schools could still mean that students in the treatment school differed from students in the control school in some other way that could explain the difference in bullying.
 
-```{r validity, echo = FALSE, out.width='80%', fig.align = 'center', fig.cap='Experiments are generally high in internal validity, quasi-experiments lower, and correlational studies lower still.'}
-knitr::include_graphics("images/ch7/validity.jpeg")
+```{r validity, echo = FALSE, out.width='90%', fig.align = 'center', fig.cap='Experiments are generally high in internal validity, quasi-experiments lower, and correlational studies lower still.'}
+knitr::include_graphics("images/ch7/validity.png")
 ```
 
 Notice also in Figure \@ref(fig:validity) that there is some overlap in the internal validity of experiments, quasi-experiments, and correlational studies. For example, a poorly designed experiment that includes many confounding variables can be lower in internal validity than a well designed quasi-experiment with no obvious confounding variables.
@@ -88,7 +88,9 @@ A common misconception among beginning researchers is that correlational researc
 Figure \@ref(fig:todo) shows data from a hypothetical study on the relationship between whether people make a daily list of things to do (a “to-do list”) and stress. Notice that it is unclear whether this is an experiment or a correlational study because it is unclear whether the independent variable was manipulated. If the researcher randomly assigned some participants to make daily to-do lists and others not to, then it is an experiment. If the researcher simply asked participants whether they made daily to-do lists, then it is a correlational study. The distinction is important because if the study was an experiment, then it could be concluded that making the daily to-do lists reduced participants’ stress. But if it was a correlational study, it could only be concluded that these variables are statistically related. Perhaps being stressed has a negative effect on people’s ability to plan ahead (the directionality problem). Or perhaps people who are more conscientious are more likely to make to-do lists and less likely to be stressed (the third-variable problem). The crucial point is that what defines a study as experimental or correlational is not the variables being studied, nor whether the variables are quantitative or categorical, nor the type of graph or statistics used to analyze the data. It is how the study is conducted.
 
 ```{r todo, echo = FALSE, out.width='80%', fig.align = 'center', fig.cap='Results of a hypothetical study on whether people who make daily to-do lists experience less stress than people who do not make such lists.'}
-knitr::include_graphics("images/ch7/todo.jpeg")
+stress <- c(18,25)
+
+barplot(stress, names.arg = c("Yes","No"), col = c("#1BADE3","#F14124"), xlab = "Daily To-Do List?", axis.lty=1, ylab = "Stress", ylim = c(0,30))
 ```
 
 ### Data Collection in Correlational Research {-}
@@ -189,8 +191,23 @@ A variant of the pretest-posttest design is the [interrupted time-series design]
 
 Figure \@ref(fig:timeseries) shows data from a hypothetical interrupted time-series study. The dependent variable is the number of student absences per week in a research methods course. The treatment is that the instructor begins publicly taking attendance each day so that students know that the instructor is aware of who is present and who is absent. The top panel of Figure \@ref(fig:timeseries) shows how the data might look if this treatment worked. There is a consistently high number of absences before the treatment, and there is an immediate and sustained drop in absences after the treatment. The bottom panel of Figure \@ref(fig:timeseries) shows how the data might look if this treatment did not work. On average, the number of absences after the treatment is about the same as the number before. This figure also illustrates an advantage of the interrupted time-series design over a simpler pretest-posttest design. If there had been only one measurement of absences before the treatment at Week 7 and one afterward at Week 8, then it would have looked as though the treatment were responsible for the reduction. The multiple measurements both before and after the treatment suggest that the reduction between Weeks 7 and 8 is nothing more than normal week-to-week variation.
 
-```{r timeseries, echo = FALSE, out.width='70%', fig.align = 'center', fig.cap='Hypothetical interrupted time-series design. The top panel shows data that suggest that the treatment caused a reduction in absences. The bottom panel shows data that suggest that it did not.'}
-knitr::include_graphics("images/ch7/timeseries.jpeg")
+```{r timeseries, echo = FALSE, out.width='60%', fig.align = 'center',  fig.show = 'hold', fig.cap='Hypothetical interrupted time-series design. The top panel shows data that suggest that the treatment caused a reduction in absences. The bottom panel shows data that suggest that it did not.'}
+y <- c(2,6,8,4,8,5,8,2,0,1,3,2,0,1)
+x <- c(1,2,3,4,5,6,7,8,9,10,11,12,13,14)
+y2 <- c(2,6,8,4,8,5,8,2,7,6,8,6,4,7)
+
+plot(x, y, type = "b", xlab = "Week", ylab = "Absences", ylim = c(0,9), xlim = c(1,14), pch = 19, col = "#117EA7")
+grid(nx = NULL, ny = NULL, lty = 2, col = "#7F7F7F40", lwd = 1)
+abline(v = 7.5, lty = 2, lwd = 2)
+text(8.8, 7.5, "← treatment")
+
+plot(x, y2, type = "b", xlab = "Week", ylab = "Absences", ylim = c(0,9), xlim = c(1,14), pch = 19, col = "#117EA7")
+grid(nx = NULL, ny = NULL,
+     lty = 2,      # Grid line type
+     col = "#7F7F7F40", # Grid line color
+     lwd = 1)      # Grid line width
+abline(v = 7.5, lty = 2, lwd = 2)
+text(8.8, 7.5, "← treatment")
 ```
 
 ### Combination Designs {-}

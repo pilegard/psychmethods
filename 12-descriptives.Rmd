@@ -266,8 +266,12 @@ As we have seen throughout the book, many interesting statistical relationships 
 y <- c(.2,.1,-.1,-.2)
 x <- c(1,2,3,4)
 
-plot(x, y, type = "b", xlab = "Last Name Quartile", ylab = "Response Time (z scores)", ylim = c(-.4,.4), xaxt='n')
+plot(x, y, type = "b", xlab = "Last Name Quartile", ylab = "Response Time (z scores)", ylim = c(-.4,.4), xaxt='n', pch = 19, col = "#F14124")
 axis(1,at=c(1,2,3,4),labels=c("First","Second","Third","Fourth"))
+grid(nx = NULL, ny = NULL,
+     lty = 2,      # Grid line type
+     col = "#7F7F7F40", # Grid line color
+     lwd = 1)      # Grid line width
 ```
 
 Such relationships are often presented using line graphs or scatterplots, which show how the level of one variable differs across the range of the other. In the line graph in Figure \@ref(fig:line), for example, each point represents the mean response time for participants with last names in the first, second, third, and fourth quartiles (or quarters) of the name distribution. It clearly shows how response time tends to decline as people’s last names get closer to the end of the alphabet. The scatterplot in Figure \@ref(fig:scatter), which is reproduced from the Measurement chapter, shows the relationship between 25 research methods students’ scores on the Rosenberg Self-Esteem Scale given on two occasions a week apart. Here the points represent individuals, and we can see that the higher students scored on the first occasion, the higher they tended to score on the second occasion. In general, line graphs are used when the variable on the x-axis has (or is organized into) a small number of distinct values, such as the four quartiles of the name distribution. Scatterplots are used when the variable on the x-axis has a large number of values, such as the different possible self-esteem scores.
@@ -276,21 +280,29 @@ Such relationships are often presented using line graphs or scatterplots, which 
 y <- c(11,13,13,14,14,15,16,16,17,17,19,16,17,18,20,21,22,20,21,21,24)
 x <- c(12,15,16,16,18,18,18,19,19,20,20,22,23,24,25,26,26,27,27,28,29)
 
-plot(x, y, type = "p", xlab = "Time 1", ylab = "Time 2", ylim = c(0,30), xlim = c(0,30))
+plot(x, y, type = "p", xlab = "Time 1", ylab = "Time 2", ylim = c(0,30), xlim = c(0,30), pch = 19, col = "#34AC8B")
+grid(nx = NULL, ny = NULL,
+     lty = 2,      # Grid line type
+     col = "#7F7F7F40", # Grid line color
+     lwd = 1)      # Grid line width
 ```
 
 The data presented in Figure \@ref(fig:scatter) provide a good example of a positive relationship, in which higher scores on one variable tend to be associated with higher scores on the other (so that the points go from the lower left to the upper right of the graph). The data presented in Figure \@ref(fig:line) provide a good example of a negative relationship, in which higher scores on one variable tend to be associated with lower scores on the other (so that the points go from the upper left to the lower right).
 
 Both of these examples are also linear relationships, in which the points are reasonably well fit by a single straight line. [Nonlinear relationships](#nonlinear-relationship) are those in which the points are better fit by a curved line. Figure \@ref(fig:nonlinear), for example, shows a hypothetical relationship between the amount of sleep people get per night and their level of depression. In this example, the line that best fits the points is a curve—a kind of upside down “U”—because people who get about eight hours of sleep tend to be the least depressed, while those who get too little sleep and those who get too much sleep tend to be more depressed. Nonlinear relationships are not uncommon in psychology, but a detailed discussion of them is beyond the scope of this book.
 
-```{r nonlinear, echo = FALSE, out.width='70%', fig.align = 'center', fig.cap='A hypothetical nonlinear relationship between how much sleep people get per night and how depressed they are.'}
+```{r nonlinear, echo = FALSE, out.width='70%', fig.align = 'center', fig.cap='Hypothetical nonlinear relationship between sleep and depression.'}
 y <- c(10,9,8,8,7,6,6,5,7,6,5,7,6,5,9,8,7,7,6,10,9)
 x <- c(4,4,5,6,6,6,7,7,8,8,8,9,9,9,10,10,10,11,11,12,12)
 Data <- data.frame(x, y)
 loess_fit <- loess(y ~ x, Data)
 
-plot(x, y, type = "p", xlab = "Hours of Sleep Per Night", ylab = "Depression", ylim = c(0,12), xlim = c(0,14), lty = 'dotted')
-lines(Data$x, predict(loess_fit), lty = 3)
+plot(x, y, type = "p", xlab = "Hours of Sleep Per Night", ylab = "Depression", ylim = c(0,12), xlim = c(0,14), col = "#4E67C8")
+lines(smooth.spline(x, y), lwd = 3, lty = 3, col = "#4E67C8")
+grid(nx = NULL, ny = NULL,
+     lty = 2,      # Grid line type
+     col = "#7F7F7F40", # Grid line color
+     lwd = 1)      # Grid line width
 ```
 
 As we saw earlier in the book, the strength of a correlation between quantitative variables is typically measured using a statistic called Pearson’s *r*. As Figure \@ref(fig:pearson) shows, its possible values range from −1.00, through zero, to +1.00. A value of 0 means there is no relationship between the two variables. In addition to his guidelines for interpreting Cohen’s *d*, Cohen offered guidelines for interpreting Pearson’s *r* in psychological research (see Table \@ref(tab:guidelines)). Values near ±.10 are considered small, values near ± .30 are considered medium, and values near ±.50 are considered large. Notice that the sign of Pearson’s *r* is unrelated to its strength. Pearson’s *r* values of +.30 and −.30, for example, are equally strong; it is just that one represents a moderate positive relationship and the other a moderate negative relationship. Like Cohen’s *d*, Pearson’s *r* is also referred to as a measure of “effect size” even though the relationship may not be a causal one.
@@ -324,10 +336,14 @@ y <- c(6,8,7,8,6,7,7,7,6,8,5,6,4,5,5,5,6,6,6,4,4,4,2,3,5)
 x <- c(18,19,20,21,22,23,24,30,31,33,35,38,41,45,47,53,55,60,65,67,73,75,77,79,80)
 Data <- data.frame(x, y)
 
-plot(x, y, type = "p", xlab = "Age", ylab = "Enjoyment of Hip-Hop", ylim = c(0,10), xlim = c(0,100))
+plot(x, y, type = "p", xlab = "Age", ylab = "Enjoyment of Hip-Hop", ylim = c(0,10), xlim = c(0,100), pch = 19, col = "#1482AA")
 rect(xleft=15,
      xright=27,
      ybottom=5.5, ytop=8.5, col="#1BADE340") # use alpha value in col
+grid(nx = NULL, ny = NULL,
+     lty = 2,      # Grid line type
+     col = "#7F7F7F40", # Grid line color
+     lwd = 1)      # Grid line width
 ```
 
 :::takeaways

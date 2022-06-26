@@ -94,8 +94,10 @@ The second way that extraneous variables can make it difficult to detect the eff
 
 To confound means to confuse, and this is exactly what confounding variables do. Because they differ across conditions—just like the independent variable—they provide an alternative explanation for any observed difference in the dependent variable. Figure \@ref(fig:confound) shows the results of a hypothetical study, in which participants in a positive mood condition scored higher on a memory task than participants in a negative mood condition. But if IQ is a confounding variable—with participants in the positive mood condition having higher IQs on average than participants in the negative mood condition—then it is unclear whether it was the positive moods or the higher IQs that caused participants in the first condition to score higher. One way to avoid confounding variables is by holding extraneous variables constant. For example, one could prevent IQ from becoming a confounding variable by limiting participants only to those with IQs of exactly 100. But this approach is not always desirable for reasons we have already discussed. A second and much more general approach—random assignment to conditions—will be discussed in detail shortly.
 
-```{r confound, echo = FALSE, out.width='80%', fig.align = 'center', fig.cap='Hypothetical results from a study on the effect of mood on memory. Because IQ also differs across conditions, it is a confounding variable.'}
-knitr::include_graphics("images/ch6/confound.jpeg")
+```{r confound, echo = FALSE, out.width='70%', fig.align = 'center', fig.cap='Hypothetical results from a study on the effect of mood on memory. Because IQ also differs across conditions, it is a confounding variable.'}
+memory <- c(14.0,8.5)
+
+barplot(memory, names.arg = c("Positive (Higher IQ)","Negative (Lower IQ)"), col = c("#4E67C8","#F14124"), xlab = "Mood Condition", axis.lty=1, ylab = "Memory Performance", ylim = c(0,16))
 ```
 
 :::takeaways
@@ -159,7 +161,9 @@ There are different types of control conditions. In a [no-treatment control cond
 Placebo effects are interesting in their own right (see box "The Powerful Placebo"), but they also pose a serious problem for researchers who want to determine whether a treatment works. Figure \@ref(fig:placebo) shows some hypothetical results in which participants in a treatment condition improved more on average than participants in a no-treatment control condition. If these conditions (the two leftmost bars in \@ref(fig:placebo)) were the only conditions in this experiment, however, one could not conclude that the treatment worked. It could be instead that participants in the treatment group improved more because they expected to improve, while those in the no-treatment control condition did not.
 
 ```{r placebo, echo = FALSE, out.width='80%', fig.align = 'center', fig.cap='Hypothetical results from a study including treatment, no-treatment, and placebo conditions.'}
-knitr::include_graphics("images/ch6/placebo.jpeg")
+improvement <- c(7,3,5)
+
+barplot(improvement, names.arg = c("Treatment","No Treatment","Placebo"), col = c("#1BADE3","#4E67C8","#F14124"), xlab = "Condition", axis.lty=1, ylab = "Improvement", ylim = c(0,8))
 ```
 
 Fortunately, there are several solutions to this problem. One is to include a [placebo control condition], in which participants receive a placebo that looks much like the treatment but lacks the active ingredient or element thought to be responsible for the treatment’s effectiveness. When participants in a treatment condition take a pill, for example, then those in a placebo control condition would take an identical-looking pill that lacks the active ingredient in the treatment (a “sugar pill”). In research on psychotherapy effectiveness, the placebo might involve going to a psychotherapist and talking in an unstructured way about one’s problems. The idea is that if participants in both the treatment and the placebo control groups expect to improve, then any improvement in the treatment group over and above that in the placebo control group must have been caused by the treatment and not by participants’ expectations. This is what is shown by a comparison of the two outer bars in Figure \@ref(fig:placebo).

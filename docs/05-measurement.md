@@ -50,7 +50,7 @@ Psychological constructs cannot be observed directly. One reason is that they of
 The Big Five is a set of five broad dimensions that capture much of the variation in human personality. Each of the Big Five can even be defined in terms of six more specific constructs called “facets” [@costa1992normal].
 
 <div class="figure" style="text-align: center">
-<img src="images/ch5/big5.jpeg" alt="The Big Five Personality Dimensions" width="100%" />
+<img src="images/ch5/big5.png" alt="The Big Five Personality Dimensions" width="100%" />
 <p class="caption">(\#fig:big5)The Big Five Personality Dimensions</p>
 </div>
 :::
@@ -126,7 +126,7 @@ When researchers measure a construct that they assume to be consistent across ti
 Assessing test-retest reliability requires using the measure on a group of people at one time, using it again on the same group of people at a later time, and then looking at [test-retest correlation] between the two sets of scores. This is typically done by graphing the data in a scatterplot and computing Pearson’s r. Figure \@ref(fig:retest) shows the correlation between two sets of scores of several college students on the Rosenberg Self-Esteem Scale, given two times a week apart. Pearson’s r for these data is +.95. In general, a test-retest correlation of +.80 or greater is considered to indicate good reliability.
 
 <div class="figure" style="text-align: center">
-<img src="images/ch5/retest.jpeg" alt="Test-retest correlation between two sets of scores of several college students on the Rosenberg self-esteem scale, given two times a week apart." width="80%" />
+<img src="05-measurement_files/figure-html/retest-1.png" alt="Test-retest correlation between two sets of scores of several college students on the Rosenberg self-esteem scale, given two times a week apart." width="80%" />
 <p class="caption">(\#fig:retest)Test-retest correlation between two sets of scores of several college students on the Rosenberg self-esteem scale, given two times a week apart.</p>
 </div>
 
@@ -139,8 +139,8 @@ A second kind of reliability is [internal consistency], which is the consistency
 Like test-retest reliability, internal consistency can only be assessed by collecting and analyzing data. One approach is to look at a [split-half correlation]. This involves splitting the items into two sets, such as the first and second halves of the items or the even- and odd-numbered items. Then a score is computed for each set of items, and the relationship between the two sets of scores is examined. For example, Figure \@ref(fig:internal) shows the split-half correlation between several college students’ scores on the even-numbered items and their scores on the odd-numbered items of the Rosenberg Self-Esteem Scale. Pearson’s r for these data is +.88. A split-half correlation of +.80 or greater is generally considered good internal consistency.
 
 <div class="figure" style="text-align: center">
-<img src="images/ch5/internal.jpeg" alt="Split-half correlation between several college students' scores on the even-numbered items and their scores on the odd-numbered items of the Rosenberg self-esteem scale." width="80%" />
-<p class="caption">(\#fig:internal)Split-half correlation between several college students' scores on the even-numbered items and their scores on the odd-numbered items of the Rosenberg self-esteem scale.</p>
+<img src="05-measurement_files/figure-html/internal-1.png" alt="Split-half correlation between several college students’ scores on the even-numbered items and their scores on the odd-numbered items of the Rosenberg self-esteem scale." width="80%" />
+<p class="caption">(\#fig:internal)Split-half correlation between several college students’ scores on the even-numbered items and their scores on the odd-numbered items of the Rosenberg self-esteem scale.</p>
 </div>
 
 Perhaps the most common measure of internal consistency used by researchers in psychology is a statistic called [Cronbach’s α] (the Greek letter alpha). Conceptually, α is the mean of all possible split-half correlations for a set of items. For example, there are 252 ways to split a set of 10 items into two sets of five. Cronbach’s α would be the mean of the 252 split-half correlations. Note that this is not how α is actually computed, but it is a correct way of interpreting the meaning of this statistic. Again, a value of +.80 or greater is generally taken to indicate good internal consistency.

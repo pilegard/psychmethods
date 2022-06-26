@@ -50,7 +50,7 @@ Psychological constructs cannot be observed directly. One reason is that they of
 The Big Five is a set of five broad dimensions that capture much of the variation in human personality. Each of the Big Five can even be defined in terms of six more specific constructs called “facets” [@costa1992normal].
 
 ```{r big5, echo = FALSE, out.width='100%', fig.align = 'center', fig.cap='The Big Five Personality Dimensions'}
-knitr::include_graphics("images/ch5/big5.jpeg")
+knitr::include_graphics("images/ch5/big5.png")
 ```
 :::
 
@@ -124,7 +124,14 @@ When researchers measure a construct that they assume to be consistent across ti
 Assessing test-retest reliability requires using the measure on a group of people at one time, using it again on the same group of people at a later time, and then looking at [test-retest correlation] between the two sets of scores. This is typically done by graphing the data in a scatterplot and computing Pearson’s r. Figure \@ref(fig:retest) shows the correlation between two sets of scores of several college students on the Rosenberg Self-Esteem Scale, given two times a week apart. Pearson’s r for these data is +.95. In general, a test-retest correlation of +.80 or greater is considered to indicate good reliability.
 
 ```{r retest, echo = FALSE, out.width='80%', fig.align = 'center', fig.cap='Test-retest correlation between two sets of scores of several college students on the Rosenberg self-esteem scale, given two times a week apart.'}
-knitr::include_graphics("images/ch5/retest.jpeg")
+y <- c(11,13,13,14,14,15,16,16,17,17,19,16,17,18,20,21,22,20,21,21,24)
+x <- c(12,15,16,16,18,18,18,19,19,20,20,22,23,24,25,26,26,27,27,28,29)
+
+plot(x, y, type = "p", xlab = "Score at Time 1", ylab = "Score at Time 2", ylim = c(0,30), xlim = c(0,30), pch = 19, col = "#117EA7")
+grid(nx = NULL, ny = NULL,
+     lty = 2,      # Grid line type
+     col = "#7F7F7F40", # Grid line color
+     lwd = 1)      # Grid line width
 ```
 
 Again, high test-retest correlations make sense when the construct being measured is assumed to be consistent over time, which is the case for intelligence, self-esteem, and the Big Five personality dimensions. But other constructs are not assumed to be stable over time. The very nature of mood, for example, is that it changes. So a measure of mood that produced a low test-retest correlation over a period of a month would not be a cause for concern.
@@ -135,8 +142,15 @@ A second kind of reliability is [internal consistency], which is the consistency
 
 Like test-retest reliability, internal consistency can only be assessed by collecting and analyzing data. One approach is to look at a [split-half correlation]. This involves splitting the items into two sets, such as the first and second halves of the items or the even- and odd-numbered items. Then a score is computed for each set of items, and the relationship between the two sets of scores is examined. For example, Figure \@ref(fig:internal) shows the split-half correlation between several college students’ scores on the even-numbered items and their scores on the odd-numbered items of the Rosenberg Self-Esteem Scale. Pearson’s r for these data is +.88. A split-half correlation of +.80 or greater is generally considered good internal consistency.
 
-```{r internal, echo = FALSE, out.width='80%', fig.align = 'center', fig.cap="Split-half correlation between several college students' scores on the even-numbered items and their scores on the odd-numbered items of the Rosenberg self-esteem scale."}
-knitr::include_graphics("images/ch5/internal.jpeg")
+```{r internal, echo = FALSE, out.width='80%', fig.align = 'center', fig.cap='Split-half correlation between several college students’ scores on the even-numbered items and their scores on the odd-numbered items of the Rosenberg self-esteem scale.'}
+y <- c(6,7,8,9,8,9,10,11,11,14,11,12,13,14,13,14,12,14)
+x <- c(6,8,8,9,10,10,10,11,12,12,13,13,13,13,14,14,15,15)
+
+plot(x, y, type = "p", xlab = "Score on Even-Numbered Items", ylab = "Score on Odd-Numbered Items", ylim = c(0,20), xlim = c(0,20), pch = 19, col = "#BC5C15")
+grid(nx = NULL, ny = NULL,
+     lty = 2,      # Grid line type
+     col = "#7F7F7F40", # Grid line color
+     lwd = 1)      # Grid line width
 ```
 
 Perhaps the most common measure of internal consistency used by researchers in psychology is a statistic called [Cronbach’s α] (the Greek letter alpha). Conceptually, α is the mean of all possible split-half correlations for a set of items. For example, there are 252 ways to split a set of 10 items into two sets of five. Cronbach’s α would be the mean of the 252 split-half correlations. Note that this is not how α is actually computed, but it is a correct way of interpreting the meaning of this statistic. Again, a value of +.80 or greater is generally taken to indicate good internal consistency.

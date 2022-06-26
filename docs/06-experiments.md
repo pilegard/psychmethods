@@ -121,7 +121,7 @@ The second way that extraneous variables can make it difficult to detect the eff
 To confound means to confuse, and this is exactly what confounding variables do. Because they differ across conditions—just like the independent variable—they provide an alternative explanation for any observed difference in the dependent variable. Figure \@ref(fig:confound) shows the results of a hypothetical study, in which participants in a positive mood condition scored higher on a memory task than participants in a negative mood condition. But if IQ is a confounding variable—with participants in the positive mood condition having higher IQs on average than participants in the negative mood condition—then it is unclear whether it was the positive moods or the higher IQs that caused participants in the first condition to score higher. One way to avoid confounding variables is by holding extraneous variables constant. For example, one could prevent IQ from becoming a confounding variable by limiting participants only to those with IQs of exactly 100. But this approach is not always desirable for reasons we have already discussed. A second and much more general approach—random assignment to conditions—will be discussed in detail shortly.
 
 <div class="figure" style="text-align: center">
-<img src="images/ch6/confound.jpeg" alt="Hypothetical results from a study on the effect of mood on memory. Because IQ also differs across conditions, it is a confounding variable." width="80%" />
+<img src="06-experiments_files/figure-html/confound-1.png" alt="Hypothetical results from a study on the effect of mood on memory. Because IQ also differs across conditions, it is a confounding variable." width="70%" />
 <p class="caption">(\#fig:confound)Hypothetical results from a study on the effect of mood on memory. Because IQ also differs across conditions, it is a confounding variable.</p>
 </div>
 
@@ -192,7 +192,7 @@ There are different types of control conditions. In a [no-treatment control cond
 Placebo effects are interesting in their own right (see box "The Powerful Placebo"), but they also pose a serious problem for researchers who want to determine whether a treatment works. Figure \@ref(fig:placebo) shows some hypothetical results in which participants in a treatment condition improved more on average than participants in a no-treatment control condition. If these conditions (the two leftmost bars in \@ref(fig:placebo)) were the only conditions in this experiment, however, one could not conclude that the treatment worked. It could be instead that participants in the treatment group improved more because they expected to improve, while those in the no-treatment control condition did not.
 
 <div class="figure" style="text-align: center">
-<img src="images/ch6/placebo.jpeg" alt="Hypothetical results from a study including treatment, no-treatment, and placebo conditions." width="80%" />
+<img src="06-experiments_files/figure-html/placebo-1.png" alt="Hypothetical results from a study including treatment, no-treatment, and placebo conditions." width="80%" />
 <p class="caption">(\#fig:placebo)Hypothetical results from a study including treatment, no-treatment, and placebo conditions.</p>
 </div>
 

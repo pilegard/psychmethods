@@ -86,7 +86,7 @@ An excellent source for information on pseudoscience is The Skeptic’s Dictiona
 Figure \@ref(fig:scientificmethod) presents a more specific model of scientific research in psychology. The researcher (who more often than not is really a small group of researchers) formulates a research question, conducts a study designed to answer the question, analyzes the resulting data, draws conclusions about the answer to the question, and publishes the results so that they become part of the research literature. Because the research literature is one of the primary sources of new research questions, this process can be thought of as a cycle. New research leads to new questions, which lead to new research, and so on. Figure \@ref(fig:scientificmethod) also indicates that research questions can originate outside of this cycle either with informal observations or with practical problems that need to be solved. But even in these cases, the researcher would start by checking the research literature to see if the question had already been answered and to refine it based on what previous research had already found.
 
 <div class="figure" style="text-align: center">
-<img src="images/ch1/scientificmethod.jpeg" alt="A simple model of scientific research in psychology" width="70%" />
+<img src="images/ch1/scientificmethod.png" alt="A simple model of scientific research in psychology" width="70%" />
 <p class="caption">(\#fig:scientificmethod)A simple model of scientific research in psychology</p>
 </div>
 

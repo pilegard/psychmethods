@@ -79,14 +79,14 @@ Just as including multiple dependent variables in the same experiment allows one
 
 By far the most common approach to including multiple independent variables in an experiment is the [factorial design]. In a factorial design, each level of one independent variable (which can also be called a [factor]) is combined with each level of the others to produce all possible combinations. Each combination, then, becomes a condition in the experiment. Imagine, for example, an experiment on the effect of cell phone use (yes vs. no) and time of day (day vs. night) on driving ability. This is shown in the [factorial design table] in Figure \@ref(fig:designtable). The columns of the table represent cell phone use, and the rows represent time of day. The four cells of the table represent the four possible combinations or conditions: using a cell phone during the day, not using a cell phone during the day, using a cell phone at night, and not using a cell phone at night. This particular design is a 2 × 2 (read “two-by-two”) factorial design because it combines two variables, each of which has two levels. If one of the independent variables had a third level (e.g., using a handheld cell phone, using a hands-free cell phone, and not using a cell phone), then it would be a 3 × 2 factorial design, and there would be six distinct conditions. Notice that the number of possible conditions is the product of the numbers of levels. A 2 × 2 factorial design has four conditions, a 3 × 2 factorial design has six conditions, a 4 × 5 factorial design would have 20 conditions, and so on.
 
-```{r designtable, echo = FALSE, out.width='60%', fig.align = 'center', fig.cap='Factorial design table representing a 2 x 2 factorial design.'}
-knitr::include_graphics("images/ch8/designtable.jpeg")
+```{r designtable, echo = FALSE, out.width='50%', fig.align = 'center', fig.cap='Factorial design table representing a 2 x 2 factorial design.'}
+knitr::include_graphics("images/ch8/designtable.png")
 ```
 
 In principle, factorial designs can include any number of independent variables with any number of levels. For example, an experiment could include the type of psychotherapy (cognitive vs. behavioral), the length of the psychotherapy (2 weeks vs. 2 months), and the sex of the psychotherapist (female vs. male). This would be a 2 × 2 × 2 factorial design and would have eight conditions. Figure \@ref(fig:designtable2) shows one way to represent this design. In practice, it is unusual for there to be more than three independent variables with more than two or three levels each because the number of conditions can quickly become unmanageable. For example, adding a fourth independent variable with three levels (e.g., therapist experience: low vs. medium vs. high) to the current example would make it a 2 × 2 × 2 × 3 factorial design with 24 distinct conditions. In the rest of this section, we will focus on designs with two independent variables. The general principles discussed here extend in a straightforward way to more complex factorial designs.
 
-```{r designtable2, echo = FALSE, out.width='60%', fig.align = 'center', fig.cap='Factorial design table representing a 2 x 2 x 2 factorial design.'}
-knitr::include_graphics("images/ch8/designtable2.jpeg")
+```{r designtable2, echo = FALSE, out.width='50%', fig.align = 'center', fig.cap='Factorial design table representing a 2 x 2 x 2 factorial design.'}
+knitr::include_graphics("images/ch8/designtable2.png")
 ```
 
 #### Assigning Participants to Conditions {-}
@@ -107,8 +107,38 @@ Such studies are extremely common, and there are several points worth making abo
 
 The results of factorial experiments with two independent variables can be graphed by representing one independent variable on the x-axis and representing the other by using different kinds of bars or lines. (The y-axis is always reserved for the dependent variable.) Figure \@ref(fig:plots) shows results for two hypothetical factorial experiments. The top panel shows the results of a 2 × 2 design. Time of day (day vs. night) is represented by different locations on the x-axis, and cell phone use (no vs. yes) is represented by different-colored bars. (It would also be possible to represent cell phone use on the x-axis and time of day as different-colored bars. The choice comes down to which way seems to communicate the results most clearly.) The bottom panel of Figure \@ref(fig:plots) shows the results of a 4 × 2 design in which one of the variables is quantitative. This variable, psychotherapy length, is represented along the x-axis, and the other variable (psychotherapy type) is represented by differently formatted lines. This is a line graph rather than a bar graph because the variable on the x-axis is quantitative with a small number of distinct levels.
 
-```{r plots, echo = FALSE, out.width='70%', fig.align = 'center', fig.cap='Two ways to plot the results of a factorial experiment with two independent variables.'}
-knitr::include_graphics("images/ch8/plots.jpeg")
+```{r plots, echo = FALSE, out.width='70%', fig.align = 'center', fig.show = 'hold', fig.cap='Two ways to plot the results of a factorial experiment with two independent variables.'}
+
+# Create barplot data
+bars <- data.frame(x = c(85,70,70,45),
+                   grp = rep(c("Day","Night"),
+                               each = 2),
+                   subgroup = LETTERS[1:2])
+# Modifying barplot data
+bars <- reshape(bars,idvar = "subgroup",
+               timevar = "grp",
+               direction = "wide")
+  
+row.names(bars) <- bars$subgroup
+bars <- bars[ , 2:ncol(bars)]
+colnames(bars) <- c("Day","Night")
+bars <- as.matrix(bars)
+  
+# Create grouped barplot
+barplot(height = bars,beside = TRUE, xlab = "Time of Day", ylab = "Driving Performance",
+        axis.lty=1, ylim = c(0,100),
+        col = c("#FF8021","#5DCEAF"),
+        legend.text = c("No cell phone","Cell phone"))
+
+# Line plot
+x <- c(1,2,3,4)
+y1 <- c(12,10,6,4)
+y2 <- c(10,9,7,8)
+plot(x, y1, type = "b", frame = FALSE, pch = 19, col = "#BC5C15", 
+     xlab = "Psychotherapy Length", ylab = "Number of Symptoms", xaxt='n', ylim = c(0,14))
+lines(x, y2, pch = 15, col = "#429780", type = "b", lty = 2)
+axis(1,at=c(1,2,3,4),labels=c("2 Weeks","4 Weeks","6 Weeks","8 Weeks"))
+legend("topright", legend = c("Type A","Type B"), col = c("#BC5C15", "#429780"), lty = 1:2, cex = 0.8)
 ```
 
 #### Main Effects and Interactions {-}
@@ -119,12 +149,101 @@ There is an interaction effect (or just “interaction”) when the effect of on
 
 The effect of one independent variable can depend on the level of the other in different ways. This is shown in Figure \@ref(fig:barinteractions). In the top panel, one independent variable has an effect at one level of the second independent variable but no effect at the others. (This is much like the study of Schnall and her colleagues where there was an effect of disgust for those high in private body consciousness but not for those low in private body consciousness.) In the middle panel, one independent variable has a stronger effect at one level of the second independent variable than at the other level. This is like the hypothetical driving example where there was a stronger effect of using a cell phone at night than during the day. In the bottom panel, one independent variable again has an effect at both levels of the second independent variable, but the effects are in opposite directions. Figure \@ref(fig:barinteractions) shows the strongest form of this kind of interaction, called a crossover interaction. One example of a crossover interaction comes from a study by Kathy Gilliland on the effect of caffeine on the verbal test scores of introverts and extroverts [@gilliland1980interactive]. Introverts perform better than extroverts when they have not ingested any caffeine. But extroverts perform better than introverts when they have ingested 4 mg of caffeine per kilogram of body weight. Figure \@ref(fig:lineinteractions) shows examples of these same kinds of interactions when one of the independent variables is quantitative and the results are plotted in a line graph. Note that in a crossover interaction, the two lines literally “cross over” each other.
 
-```{r barinteractions, echo = FALSE, out.width='40%', fig.align = 'center', fig.cap='Bar graphs showing three types of interactions. In the top panel, one independent variable has an effect at one level of the second independent variable but not at the other. In the middle panel, one independent variable has a stronger effect at one level of the second independent variable than at the other. In the bottom panel, one independent variable has the opposite effect at one level of the second independent variable than at the other.'}
-knitr::include_graphics("images/ch8/barinteractions.jpeg")
+```{r barinteractions, echo = FALSE, out.width='51%', fig.align = 'center', fig.show = 'hold', fig.cap='Bar graphs showing three types of interactions. In the top panel, one independent variable has an effect at one level of the second independent variable but not at the other. In the middle panel, one independent variable has a stronger effect at one level of the second independent variable than at the other. In the bottom panel, one independent variable has the opposite effect at one level of the second independent variable than at the other.'}
+
+# Create barplot1 data
+bar1 <- data.frame(x1 = c(25,50,25,25),
+                   grp = rep(c("Day","Night"),
+                               each = 2),
+                   subgroup = LETTERS[1:2])
+# Modifying barplot1 data
+bar1 <- reshape(bar1,idvar = "subgroup",
+               timevar = "grp",
+               direction = "wide")
+  
+row.names(bar1) <- bar1$subgroup
+bar1 <- bar1[ , 2:ncol(bar1)]
+colnames(bar1) <- c("","")
+bar1 <- as.matrix(bar1)
+  
+# Create grouped barplot1
+barplot(height = bar1, beside = TRUE, xlab = NULL, ylab = NULL, axes = FALSE,
+        axis.lty=1, ylim = c(0,60),
+        col = c("#FF8021","#5DCEAF"))
+grid(nx = NULL, ny = NULL, lty = 2, col = "#7F7F7F40", lwd = 1)
+
+# Create barplot2 data
+bar2 <- data.frame(x2 = c(25,50,25,35),
+                   grp = rep(c("Day","Night"),
+                               each = 2),
+                   subgroup = LETTERS[1:2])
+# Modifying barplot2 data
+bar2 <- reshape(bar2,idvar = "subgroup",
+               timevar = "grp",
+               direction = "wide")
+  
+row.names(bar2) <- bar2$subgroup
+bar2 <- bar2[ , 2:ncol(bar2)]
+colnames(bar2) <- c("","")
+bar2 <- as.matrix(bar2)
+  
+# Create grouped barplot2
+barplot(height = bar2, beside = TRUE, xlab = NULL, ylab = NULL, axes = FALSE,
+        axis.lty=1, ylim = c(0,60),
+        col = c("#FF8021","#5DCEAF"))
+grid(nx = NULL, ny = NULL, lty = 2, col = "#7F7F7F40", lwd = 1)
+
+# Create barplot3 data
+bar3 <- data.frame(x3 = c(25,50,50,25),
+                   grp = rep(c("Day","Night"),
+                               each = 2),
+                   subgroup = LETTERS[1:2])
+# Modifying barplot3 data
+bar3 <- reshape(bar3,idvar = "subgroup",
+               timevar = "grp",
+               direction = "wide")
+  
+row.names(bar3) <- bar3$subgroup
+bar3 <- bar3[ , 2:ncol(bar3)]
+colnames(bar3) <- c("","")
+bar3 <- as.matrix(bar3)
+  
+# Create grouped barplot3
+barplot(height = bar3, beside = TRUE, xlab = NULL, ylab = NULL, axes = FALSE,
+        axis.lty=1, ylim = c(0,60),
+        col = c("#FF8021","#5DCEAF"))
+grid(nx = NULL, ny = NULL, lty = 2, col = "#7F7F7F40", lwd = 1)
 ```
 
-```{r lineinteractions, echo = FALSE, out.width='40%', fig.align = 'center', fig.cap='Line graphs showing three types of interactions. In the top panel, one independent variable has an effect at one level of the second independent variable but not at the other. In the middle panel, one independent variable has a stronger effect at one level of the second independent variable than at the other. In the bottom panel, one independent variable has the opposite effect at one level of the second independent variable than at the other.'}
-knitr::include_graphics("images/ch8/lineinteractions.jpeg")
+```{r lineinteractions, echo = FALSE, out.width='51%', fig.align = 'center', fig.show = 'hold', fig.cap='Line graphs showing three types of interactions. In the top panel, one independent variable has an effect at one level of the second independent variable but not at the other. In the middle panel, one independent variable has a stronger effect at one level of the second independent variable than at the other. In the bottom panel, one independent variable has the opposite effect at one level of the second independent variable than at the other.'}
+
+
+# Line plot 1
+x1 <- c(1,2,3,4,5)
+y11 <- c(15,16,14,16,15)
+y12 <- c(15,18,19,23,25)
+plot(x1, y11, type = "b", frame = FALSE, pch = 19, col = "#BC5C15", 
+     xlab = NULL, ylab = NULL, xaxt='n', yaxt='n', ann=FALSE, ylim = c(3,30))
+lines(x1, y12, pch = 15, col = "#429780", type = "b", lty = 2)
+grid(nx = NULL, ny = NULL, lty = 2, col = "#7F7F7F40", lwd = 1)
+
+# Line plot 2
+x2 <- c(1,2,3,4,5)
+y21 <- c(11,13,15,17,18)
+y22 <- c(11,15,18,23,27)
+plot(x2, y21, type = "b", frame = FALSE, pch = 19, col = "#BC5C15", 
+     xlab = NULL, ylab = NULL, xaxt='n', yaxt='n', ann=FALSE, ylim = c(3,30))
+lines(x2, y22, pch = 15, col = "#429780", type = "b", lty = 2)
+grid(nx = NULL, ny = NULL, lty = 2, col = "#7F7F7F40", lwd = 1)
+
+# Line plot 3
+x3 <- c(1,2,3,4,5)
+y31 <- c(15,19,20,24,25)
+y32 <- c(25,24,20,19,15)
+plot(x3, y31, type = "b", frame = FALSE, pch = 19, col = "#BC5C15", 
+     xlab = NULL, ylab = NULL, xaxt='n', yaxt='n', ann=FALSE, ylim = c(3,30))
+lines(x3, y32, pch = 15, col = "#429780", type = "b", lty = 2)
+grid(nx = NULL, ny = NULL, lty = 2, col = "#7F7F7F40", lwd = 1)
 ```
 
 In many studies, the primary research question is about an interaction. The study by Brown and her colleagues was inspired by the idea that people with hypochondriasis are especially attentive to any negative health-related information. This led to the hypothesis that people high in hypochondriasis would recall negative health-related words more accurately than people low in hypochondriasis but recall non-health-related words about the same as people low in hypochondriasis. And of course this is exactly what happened in this study.
