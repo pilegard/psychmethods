@@ -62,19 +62,19 @@ A second basic form of statistical relationship is a correlation between two qua
 Correlations between quantitative variables are often presented using [scatterplots](#scatterplot). Figure \@ref(fig:scatter) shows some hypothetical data on the relationship between the amount of stress people are under and the number of physical symptoms they have. Each point in the scatterplot represents one person’s score on both variables. For example, the circled point in Figure \@ref(fig:scatter) represents a person whose stress score was 10 and who had three physical symptoms. Taking all the points into account, one can see that people under more stress tend to have more physical symptoms. This is a good example of a positive relationship, in which higher scores on one variable tend to be associated with higher scores on the other. A negative relationship is one in which higher scores on one variable tend to be associated with lower scores on the other. There is a negative relationship between stress and immune system functioning, for example, because higher stress is associated with lower immune system functioning.
 
 <div class="figure" style="text-align: center">
-<img src="02-getting-started_files/figure-html/scatter-1.png" alt="Scatterplot showing a hypothetical positive relationship between stress and number of physical symptoms. The point highlighted in the blue box represents a person whose stress score was 10 and who had three physical symptoms. Pearson’s r for these data is +.51." width="75%" />
-<p class="caption">(\#fig:scatter)Scatterplot showing a hypothetical positive relationship between stress and number of physical symptoms. The point highlighted in the blue box represents a person whose stress score was 10 and who had three physical symptoms. Pearson’s r for these data is +.51.</p>
+<img src="02-getting-started_files/figure-html/scatter-1.png" alt="Scatterplot showing a hypothetical positive relationship between stress and number of physical symptoms. The point highlighted in the blue box represents a person whose stress score was 10 and who had three physical symptoms. Pearson’s *r* for these data is +.51." width="75%" />
+<p class="caption">(\#fig:scatter)Scatterplot showing a hypothetical positive relationship between stress and number of physical symptoms. The point highlighted in the blue box represents a person whose stress score was 10 and who had three physical symptoms. Pearson’s *r* for these data is +.51.</p>
 </div>
 
 
-The strength of a correlation between quantitative variables is typically measured using a statistic called [Pearson’s r]. As Figure \@ref(fig:pearson) shows, Pearson’s r ranges from −1.00 (the strongest possible negative relationship) to +1.00 (the strongest possible positive relationship). A value of 0 means there is no relationship between the two variables. When Pearson’s r is 0, the points on a scatterplot form a shapeless “cloud.” As its value moves toward −1.00 or +1.00, the points come closer and closer to falling on a single straight line.
+The strength of a correlation between quantitative variables is typically measured using a statistic called [Pearson’s *r*]. As Figure \@ref(fig:pearson) shows, Pearson’s *r* ranges from −1.00 (the strongest possible negative relationship) to +1.00 (the strongest possible positive relationship). A value of 0 means there is no relationship between the two variables. When Pearson’s *r* is 0, the points on a scatterplot form a shapeless “cloud.” As its value moves toward −1.00 or +1.00, the points come closer and closer to falling on a single straight line.
 
 <div class="figure" style="text-align: center">
-<img src="images/ch2/pearson.png" alt="Range of Pearson’s r, from −1.00 (strongest possible negative relationship), through 0 (no relationship), to +1.00 (strongest possible positive relationship)" width="90%" />
-<p class="caption">(\#fig:pearson)Range of Pearson’s r, from −1.00 (strongest possible negative relationship), through 0 (no relationship), to +1.00 (strongest possible positive relationship)</p>
+<img src="images/ch2/pearson.png" alt="Range of Pearson’s *r*, from −1.00 (strongest possible negative relationship), through 0 (no relationship), to +1.00 (strongest possible positive relationship)" width="90%" />
+<p class="caption">(\#fig:pearson)Range of Pearson’s *r*, from −1.00 (strongest possible negative relationship), through 0 (no relationship), to +1.00 (strongest possible positive relationship)</p>
 </div>
 
-Pearson’s r is a good measure only for linear relationships, in which the points are best approximated by a straight line. It is not a good measure for nonlinear relationships, in which the points are better approximated by a curved line. Figure \@ref(fig:nonlinear), for example, shows a hypothetical relationship between the amount of sleep people get per night and their level of depression. In this example, the line that best approximates the points is a U-shaped curve, because people who get about eight hours of sleep tend to be the least depressed. Those who get too little sleep and those who get too much sleep tend to be more depressed. Nonlinear relationships are fairly common in psychology, but measuring their strength is beyond the scope of this book.
+Pearson’s *r* is a good measure only for linear relationships, in which the points are best approximated by a straight line. It is not a good measure for nonlinear relationships, in which the points are better approximated by a curved line. Figure \@ref(fig:nonlinear), for example, shows a hypothetical relationship between the amount of sleep people get per night and their level of depression. In this example, the line that best approximates the points is a U-shaped curve, because people who get about eight hours of sleep tend to be the least depressed. Those who get too little sleep and those who get too much sleep tend to be more depressed. Nonlinear relationships are fairly common in psychology, but measuring their strength is beyond the scope of this book.
 
 <div class="figure" style="text-align: center">
 <img src="02-getting-started_files/figure-html/nonlinear-1.png" alt="Hypothetical nonlinear relationship between sleep and depression." width="70%" />
@@ -328,7 +328,7 @@ A scholarly book with a single author or small group of authors.
 
 A definition of a variable or construct in terms of precisely how it will be measured.
 
-##### Pearson's r {-}
+##### Pearson’s *r* {-}
 
 A measure of the strength of the correlation between two quantitative variables.
 

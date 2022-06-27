@@ -29,4 +29,6 @@ Icons created by [Eucalyp](https://creativemarket.com/eucalyp) on [Flaticon](htt
 
 ## Revisions  {-}
 
-Chapter formatting updated using bookdown package; glossaries restored; references formatted with BibTeX. Images updated throughout. Broken links updated or removed.
+Throughout the book: Chapter formatting updated using bookdown package; glossaries restored; references formatted with BibTeX. Photographs refreshed with more recent examples; figures recreated for visual alignment with book design; plots recreated in Base R. Broken links updated or removed. 
+
+Chapters 11-13: Guidelines on presenting research have been updated to align with the 7th edition of the *APA Publication Manual*, including citation rules, figure/table formatting examples, and the student/professional paper distinction. The sample APA-style paper has been replaced with an adapted preprint of Pilegard & Mayer (2016) formatted for APA 7. Jitter plots added to data visualization examples. Advice from Bem (2003) deemphasized or removed.

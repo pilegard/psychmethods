@@ -73,6 +73,7 @@ fig:range
 fig:apabar
 fig:apaline
 fig:apascatter
+fig:apajitter
 fig:apatable
 fig:apamatrix
 tab:sampledata
