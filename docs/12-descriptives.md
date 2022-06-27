@@ -76,6 +76,7 @@ Another characteristic of the shape of a distribution is whether it is symmetric
 <p class="caption">(\#fig:skew)Histograms showing negatively skewed, symmetrical, and positively skewed distributions.</p>
 </div>
 
+
 An [outlier] is an extreme score that is much higher or lower than the rest of the scores in the distribution. Sometimes outliers represent truly extreme scores on the variable of interest. For example, on the Beck Depression Inventory, a single clinically depressed person might be an outlier in a sample of otherwise happy and high-functioning peers. However, outliers can also represent errors or misunderstandings on the part of the researcher or participant, equipment malfunctions, or similar problems. We will say more about how to interpret outliers and what to do about them later in this chapter.
 
 ### Measures of Central Tendency and Variability {-}
@@ -110,13 +111,12 @@ Keep in mind, though, that you are not required to choose a single measure of ce
 
 #### Measures of Variability {-}
 
-The variability of a distribution is the extent to which the scores vary around their central tendency. Consider the two distributions in Figure \@ref(fig:variability), both of which have the same central tendency. The mean, median, and mode of each distribution are 10. Notice, however, that the two distributions differ in terms of their variability. The top one has relatively low variability, with all the scores relatively close to the center. The bottom one has relatively high variability, with the scores are spread across a much greater range.
+The variability of a distribution is the extent to which the scores vary around their central tendency. Consider the two distributions in Figure \@ref(fig:variability), both of which have the same central tendency. The mean, median, and mode of each distribution are 10. Notice, however, that the two distributions differ in terms of their variability. The top one has relatively low variability, with all the scores relatively close to the center. The bottom one has relatively high variability, with the scores are spread across a greater range.
 
 <div class="figure" style="text-align: center">
-<img src="12-descriptives_files/figure-html/variability-1.png" alt="Histograms showing hypothetical distributions with the same mean, median, and mode (10) but with low variability (top) and high variability (bottom)." width="60%" /><img src="12-descriptives_files/figure-html/variability-2.png" alt="Histograms showing hypothetical distributions with the same mean, median, and mode (10) but with low variability (top) and high variability (bottom)." width="60%" />
-<p class="caption">(\#fig:variability)Histograms showing hypothetical distributions with the same mean, median, and mode (10) but with low variability (top) and high variability (bottom).</p>
+<img src="12-descriptives_files/figure-html/variability-1.png" alt="Histograms showing hypothetical distributions of 1,000 observations with the same mean, median, and mode (10) but with low variability (top) and high variability (bottom)." width="60%" /><img src="12-descriptives_files/figure-html/variability-2.png" alt="Histograms showing hypothetical distributions of 1,000 observations with the same mean, median, and mode (10) but with low variability (top) and high variability (bottom)." width="60%" />
+<p class="caption">(\#fig:variability)Histograms showing hypothetical distributions of 1,000 observations with the same mean, median, and mode (10) but with low variability (top) and high variability (bottom).</p>
 </div>
-
 
 One simple measure of variability is the [range], which is simply the difference between the highest and lowest scores in the distribution. The range of the self-esteem scores in Table \@ref(tab:frequency), for example, is the difference between the highest score (24) and the lowest score (15). That is, the range is 24 − 15 = 9. Although the range is easy to compute and understand, it can be misleading when there are outliers. Imagine, for example, an exam on which all the students scored between 90 and 100. It has a range of 10. But if there was a single student who scored 20, the range would increase to 80—giving the impression that the scores were quite variable when in fact only one student differed substantially from the rest.
 

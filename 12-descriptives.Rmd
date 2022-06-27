@@ -64,14 +64,12 @@ hist(beck, col = "#F14124", main = NULL, ylab = "Frequency", xlab = "Beck Depres
 Another characteristic of the shape of a distribution is whether it is symmetrical or skewed. The distribution in the center of Figure \@ref(fig:skew) is symmetrical. Its left and right halves are mirror images of each other. The distribution on the left is negatively skewed, with its peak shifted toward the upper end of its range and a relatively long negative tail. The distribution on the right is positively skewed, with its peak toward the lower end of its range and a relatively long positive tail.
 
 ```{r skew, echo = FALSE, out.width='33%', fig.align = 'center', fig.show = 'hold', fig.cap='Histograms showing negatively skewed, symmetrical, and positively skewed distributions.'}
-neg <- c(2,3,4,5,6,6,7,7,8,8,9,9,10,10,10,10,11,11,11,11,12,12,12,12,12,12,13,13,13,13,13,13,13,13,14,14,14,14,14,14,14,14,14,14,14,14,15,15,15,15,15,15,15,15,16,16,16,16)
-sym <- c(8,8,8,8,8,8,8,8,8,8,8,8,7,7,7,7,7,7,7,7,9,9,9,9,9,9,9,9,6,6,6,6,6,10,10,10,10,10,5,5,5,11,11,11,4,4,3,3,12,12,13,13,2,1,14,15)
-pos <- c(1,1,1,1,2,2,2,2,2,2,2,2,3,3,3,3,3,3,3,3,3,3,3,3,4,4,4,4,4,4,4,4,5,5,5,5,5,5,6,6,6,6,7,7,7,7,8,8,9,9,10,10,11,11,12,13,14,15)
-
-hist(neg, col = "#FF8021", breaks = c(0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16), main = "Negatively Skewed", cex.main=2, axes = FALSE, ylab = NULL, xlab = NULL, xlim = c(0,16))
-hist(sym, col = "#A7EA52", breaks = c(0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16), main = "Symmetrical", cex.main=2, axes = FALSE, ylab = NULL, xlab = NULL, xlim = c(0,16))
-hist(pos, col = "#4E67C8", breaks = c(0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16), main = "Positively Skewed", cex.main=2, axes = FALSE, ylab = NULL, xlab = NULL, xlim = c(0,16))
+set.seed(3)
+hist(rbeta(10000,8,2), breaks = 25, col = "#FF8021", main = "Negatively Skewed", cex.main=2, axes = FALSE, ylab = NULL, xlab = NULL, xlim = c(0,1))
+hist(rnorm(10000), breaks = 25, col = "#A7EA52", main = "Symmetrical", cex.main=2, axes = FALSE, ylab = NULL, xlab = NULL)
+hist(rbeta(10000,2,8), breaks = 25, col = "#4E67C8", main = "Positively Skewed", cex.main=2, axes = FALSE, ylab = NULL, xlab = NULL, xlim = c(0,1))
 ```
+
 
 An [outlier] is an extreme score that is much higher or lower than the rest of the scores in the distribution. Sometimes outliers represent truly extreme scores on the variable of interest. For example, on the Beck Depression Inventory, a single clinically depressed person might be an outlier in a sample of otherwise happy and high-functioning peers. However, outliers can also represent errors or misunderstandings on the part of the researcher or participant, equipment malfunctions, or similar problems. We will say more about how to interpret outliers and what to do about them later in this chapter.
 
@@ -107,16 +105,15 @@ Keep in mind, though, that you are not required to choose a single measure of ce
 
 #### Measures of Variability {-}
 
-The variability of a distribution is the extent to which the scores vary around their central tendency. Consider the two distributions in Figure \@ref(fig:variability), both of which have the same central tendency. The mean, median, and mode of each distribution are 10. Notice, however, that the two distributions differ in terms of their variability. The top one has relatively low variability, with all the scores relatively close to the center. The bottom one has relatively high variability, with the scores are spread across a much greater range.
+The variability of a distribution is the extent to which the scores vary around their central tendency. Consider the two distributions in Figure \@ref(fig:variability), both of which have the same central tendency. The mean, median, and mode of each distribution are 10. Notice, however, that the two distributions differ in terms of their variability. The top one has relatively low variability, with all the scores relatively close to the center. The bottom one has relatively high variability, with the scores are spread across a greater range.
 
-```{r variability, echo = FALSE, out.width='60%', fig.align = 'center', fig.show = 'hold', fig.cap='Histograms showing hypothetical distributions with the same mean, median, and mode (10) but with low variability (top) and high variability (bottom).'}
-low <- c(6,7,7,7,7,7,8,8,8,8,8,8,8,8,8,8,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,12,12,12,12,12,12,12,12,12,12,13,13,13,13,13,14)
-high <- c(0,1,2,2,3,3,4,4,4,5,5,5,6,6,6,6,6,7,7,7,7,7,7,8,8,8,8,8,8,8,9,9,9,9,9,9,9,10,10,10,10,10,10,10,10,11,11,11,11,11,11,11,12,12,12,12,12,12,12,13,13,13,13,13,13,14,14,14,14,14,15,15,15,16,16,16,17,17,18,18,19,20)
+```{r variability, echo = FALSE, out.width='60%', fig.align = 'center', fig.show = 'hold', fig.cap='Histograms showing hypothetical distributions of 1,000 observations with the same mean, median, and mode (10) but with low variability (top) and high variability (bottom).'}
 
-hist(low, col = "#B4DCFA", breaks = c(-1,0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20), main = NULL, xlab = "X", xlim = c(-1,20), ylim = c(0,20))
-hist(high, col = "#5DCEAF", c(-1,0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20), main = NULL, xlab = "X", xlim = c(-1,20), ylim = c(0,20))
+set.seed(5)
+
+hist(rnorm(1000, mean = 10, sd = 1.3), col = "#B4DCFA", breaks = c(-1,0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20), main = NULL, xlab = "X", xlim = c(-1,20), ylim = c(0,300))
+hist(rnorm(1000, mean = 10, sd = 3), col = "#5DCEAF", breaks =  c(-1,0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20), main = NULL, xlab = "X", xlim = c(-1,20), ylim = c(0,300))
 ```
-
 
 One simple measure of variability is the [range], which is simply the difference between the highest and lowest scores in the distribution. The range of the self-esteem scores in Table \@ref(tab:frequency), for example, is the difference between the highest score (24) and the lowest score (15). That is, the range is 24 − 15 = 9. Although the range is easy to compute and understand, it can be misleading when there are outliers. Imagine, for example, an exam on which all the students scored between 90 and 100. It has a range of 10. But if there was a single student who scored 20, the range would increase to 80—giving the impression that the scores were quite variable when in fact only one student differed substantially from the rest.
 
