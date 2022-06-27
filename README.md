@@ -1,13 +1,11 @@
-Welcome! 
+# Research Methods in Psychology
 
-This is a minimal example of a book based on R Markdown and **bookdown** (https://github.com/rstudio/bookdown). 
+This is a free, open textbook to introduce students to research methods in psychology.
 
-This template provides a skeleton file structure that you can edit to create your book. 
+## Book
 
-The contents inside the .Rmd files provide some pointers to help you get started, but feel free to also delete the content in each file and start fresh.
+<a href="https://pilegard.github.io/psychmethods/"><img class="book" src="https://pilegard.github.io/psychmethods/images/cover.png" alt = "Book Cover: Research Methods in Psychology" height="400"></a>
 
-Additional resources:
+## Contribute
 
-The **bookdown** book: https://bookdown.org/yihui/bookdown/
-
-The **bookdown** package reference site: https://pkgs.rstudio.com/bookdown
+If you notice an error or would like to suggest an improvement, please open an issue on the GitHub site, submit a pull request with the suggested change, or email the author.
