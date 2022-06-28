@@ -7,6 +7,7 @@ fig:bargraph
 fig:scatter
 fig:pearson
 fig:nonlinear
+fig:correlationdoesnotimplycausation
 fig:journals
 fig:vaccine
 tab:ethics
