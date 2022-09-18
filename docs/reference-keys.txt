@@ -43,6 +43,9 @@ tab:comorbidity
 fig:cogsurvey
 fig:scales
 tab:bruso
+fig:simple
+fig:stratified
+fig:cluster
 fig:teacher
 fig:annao
 fig:aba

@@ -365,7 +365,7 @@ The level of measurement that involves rank ordering individuals. Scores at the 
 
 ##### physiological measure {-}
 
-A measure in which the researcher observes and records some aspect of participants’ behavior. Compare with self-report measure and physiological measure.
+A measure that involves recording a physiological variable. Compare with self-report measure and behavioral measure.
 
 ##### psychometrics {-}
 
