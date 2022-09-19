@@ -23,7 +23,7 @@ github-repo: pilegard/psychmethods
 
 This textbook is an adaptation of [Psychology Research Methods: Core Skills and Concepts](https://2012books.lardbucket.org/books/psychology-research-methods-core-skills-and-concepts/) licensed under a [Creative Commons by-nc-sa 3.0 license](https://creativecommons.org/licenses/by-nc-sa/3.0/) without attribution [as requested by the work’s original creator or licensee](https://2012books.lardbucket.org/attribution.html).
 
-The following portions of the book were adapted from [Introduction to Modern Statistics](http://openintro.org/book/ims) First Edition by Mine Çetinkaya-Rundel and Johanna Hardin, licensed under a [Creative Commons by-sa 3.0 license](https://creativecommons.org/licenses/by-sa/3.0/): Sampling figures; Intro and Anecdotal Evidence portions of Sampling chapter.
+The following portions of the book were adapted from [Introduction to Modern Statistics](http://openintro.org/book/ims) First Edition by Mine Çetinkaya-Rundel and Johanna Hardin, licensed under a [Creative Commons by-sa 3.0 license](https://creativecommons.org/licenses/by-sa/3.0/): Sampling plots; Intro and Anecdotal Evidence portions of Sampling chapter.
 
 This adaptation is authored by Celeste Pilegard (University of California, San Diego) and is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 3.0](https://creativecommons.org/licenses/by-nc-sa/3.0/) license.
 
