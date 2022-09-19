@@ -4,18 +4,19 @@ rmd_files:
 - index.Rmd
 - 01-science-of-psych.Rmd
 - 02-getting-started.Rmd
-- 03-ethics.Rmd
-- 04-theory.Rmd
-- 05-measurement.Rmd
-- 06-experiments.Rmd
-- 07-nonexperiments.Rmd
+- 03-theory.Rmd
+- 04-ethics.Rmd
+- 05-experiments.Rmd
+- 06-measurement.Rmd
+- 07-sampling.Rmd
 - 08-complex-designs.Rmd
-- 09-surveys.Rmd
+- 09-nonexperiments.Rmd
 - 10-single-N.Rmd
-- 11-presenting.Rmd
-- 12-descriptives.Rmd
-- 13-inferentials.Rmd
-- 14-references.Rmd
+- 11-ideas.Rmd
+- 12-presenting.Rmd
+- 13-descriptives.Rmd
+- 14-inferentials.Rmd
+- 15-references.Rmd
 output_dir: docs
 language:
   ui:
