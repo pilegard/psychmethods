@@ -1,4 +1,4 @@
-# (APPENDIX) Appendix {-}
+# (PART\*) Conducting Your Own Study {-}
 
 # Research Ideas and Literature Reviews
 
