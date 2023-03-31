@@ -2,10 +2,14 @@
 
 Researcher Vance Hall and his colleagues were faced with the challenge of increasing the extent to which six disruptive elementary school students stayed focused on their schoolwork [@hall1968effects]. For each of several days, the researchers carefully recorded whether or not each student was doing schoolwork every 10 seconds during a 30-minute period. Once they had established this baseline, they introduced a treatment. The treatment was that when the student was doing schoolwork, the teacher gave him or her positive attention in the form of a comment like “good work” or a pat on the shoulder. The result was that all of the students dramatically increased their time spent on schoolwork and decreased their disruptive behavior during this treatment phase. For example, a student named Robbie originally spent 25% of his time on schoolwork and the other 75% “snapping rubber bands, playing with toys from his pocket, and talking and laughing with peers” (p. 3). During the treatment phase, however, he spent 71% of his time on schoolwork and only 29% on other activities. Finally, when the researchers had the teacher stop giving positive attention, the students all decreased their studying and increased their disruptive behavior. This confirmed that it was, in fact, the positive attention that was responsible for the increase in studying. This was one of the first studies to show that attending to positive behavior—and ignoring negative behavior—could be a quick and effective way to deal with problem behavior in an applied setting.
 
-<div class="figure" style="text-align: center">
-<img src="images/single-N/teacher.jpeg" alt="Single-subject research has shown that positive attention from a teacher for studying can increase studying and decrease disruptive behavior. *Photo by Jerry Wang on Unsplash.*" width="50%" />
-<p class="caption">(\#fig:teacher)Single-subject research has shown that positive attention from a teacher for studying can increase studying and decrease disruptive behavior. *Photo by Jerry Wang on Unsplash.*</p>
-</div>
+\begin{figure}
+
+{\centering \includegraphics[width=0.5\linewidth]{images/single-N/teacher} 
+
+}
+
+\caption{Single-subject research has shown that positive attention from a teacher for studying can increase studying and decrease disruptive behavior. *Photo by Jerry Wang on Unsplash.*}(\#fig:teacher)
+\end{figure}
 
 Most of this book is about what can be called group research, which typically involves studying a large number of participants and combining their data to draw general conclusions about human behavior. The study by Hall and his colleagues, in contrast, is an example of single-subject research, which typically involves studying a small number of participants and focusing closely on each individual. In this chapter, we consider this alternative approach. We begin with an overview of single-subject research, including some assumptions on which it is based, who conducts it, and why they do. We then look at some basic single-subject research designs and how the data from those designs are analyzed. Finally, we consider some of the strengths and weaknesses of single-subject research as compared with group research and see how these two approaches can complement each other.
 
@@ -42,10 +46,14 @@ Freud’s interpretation was that Anna had repressed the memory of this incident
 
 As an illustration of Freud’s theory, the case study of Anna O. is quite effective. As evidence for the theory, however, it is essentially worthless. The description provides no way of knowing whether Anna had really repressed the memory of the dog drinking from the glass, whether this repression had caused her inability to drink, or whether recalling this “trauma” relieved the symptom. It is also unclear from this case study how typical or atypical Anna’s experience was.
 
-<div class="figure" style="text-align: center">
-<img src="images/single-N/annao.jpeg" alt="“Anna O.” was the subject of a famous case study used by Freud to illustrate the principles of psychoanalysis. *Source: [Wikimedia Commons](http://en.wikipedia.org/wiki/File:Pappenheim_1882.jpg).*" width="30%" />
-<p class="caption">(\#fig:annao)“Anna O.” was the subject of a famous case study used by Freud to illustrate the principles of psychoanalysis. *Source: [Wikimedia Commons](http://en.wikipedia.org/wiki/File:Pappenheim_1882.jpg).*</p>
-</div>
+\begin{figure}
+
+{\centering \includegraphics[width=0.3\linewidth]{images/single-N/annao} 
+
+}
+
+\caption{"Anna O." was the subject of a famous case study used by Freud to illustrate the principles of psychoanalysis. Source: Wikimedia Commons}(\#fig:annao)
+\end{figure}
 :::
 
 ### Assumptions of Single-Subject Research {-}
@@ -99,10 +107,14 @@ Although most contemporary single-subject research is conducted from the behavio
 
 Before looking at any specific single-subject research designs, it will be helpful to consider some features that are common to most of them. Many of these features are illustrated in Figure \@ref(fig:aba), which shows the results of a generic single-subject study. First, the dependent variable (represented on the y-axis of the graph) is measured repeatedly over time (represented by the x-axis) at regular intervals. Second, the study is divided into distinct phases, and the participant is tested under one condition per phase. The conditions are often designated by capital letters: A, B, C, and so on. Thus Figure \@ref(fig:aba) represents a design in which the participant was tested first in one condition (A), then tested in another condition (B), and finally retested in the original condition (A). (This is called a reversal design and will be discussed in more detail shortly.)
 
-<div class="figure" style="text-align: center">
-<img src="10-single-N_files/figure-html/aba-1.png" alt="Results of a generic single-subject study illustrating several principles of single-subject research." width="70%" />
-<p class="caption">(\#fig:aba)Results of a generic single-subject study illustrating several principles of single-subject research.</p>
-</div>
+\begin{figure}
+
+{\centering \includegraphics[width=0.7\linewidth]{10-single-N_files/figure-latex/aba-1} 
+
+}
+
+\caption{Results of a generic single-subject study illustrating several principles of single-subject research.}(\#fig:aba)
+\end{figure}
 
 Another important aspect of single-subject research is that the change from one condition to the next does not usually occur after a fixed amount of time or number of observations. Instead, it depends on the participant’s behavior. Specifically, the researcher waits until the participant’s behavior in one condition becomes fairly consistent from observation to observation before changing conditions. This is sometimes referred to as the [steady state strategy] [@sidman1960tactics]. The idea is that when the dependent variable has reached a steady state, then any change across conditions will be relatively easy to detect. Recall that we encountered this same principle when discussing experimental research more generally. The effect of an independent variable is easier to detect when the “noise” in the data is minimized.
 
@@ -112,10 +124,14 @@ The most basic single-subject research design is the [reversal design], also cal
 
 The study by Hall and his colleagues was an ABAB reversal design. Figure \@ref(fig:abab) approximates the data for Robbie. The percentage of time he spent studying (the dependent variable) was low during the first baseline phase, increased during the first treatment phase until it leveled off, decreased during the second baseline phase, and again increased during the second treatment phase.
 
-<div class="figure" style="text-align: center">
-<img src="10-single-N_files/figure-html/abab-1.png" alt="An approximation of the results for Hall and colleagues’ participant Robbie in their ABAB reversal design." width="70%" />
-<p class="caption">(\#fig:abab)An approximation of the results for Hall and colleagues’ participant Robbie in their ABAB reversal design.</p>
-</div>
+\begin{figure}
+
+{\centering \includegraphics[width=0.7\linewidth]{10-single-N_files/figure-latex/abab-1} 
+
+}
+
+\caption{An approximation of the results for Hall and colleagues’ participant Robbie in their ABAB reversal design.}(\#fig:abab)
+\end{figure}
 
 
 Why is the reversal—the removal of the treatment—considered to be necessary in this type of design? Why use an ABA design, for example, rather than a simpler AB design? Notice that an AB design is essentially an interrupted time-series design applied to an individual participant. Recall that one problem with that design is that if the dependent variable changes after the treatment is introduced, it is not always clear that the treatment was responsible for the change. It is possible that something else changed at around the same time and that this extraneous variable is responsible for the change in the dependent variable. But if the dependent variable changes with the introduction of the treatment and then changes *back* with the removal of the treatment, it is much clearer that the treatment (and removal of the treatment) is the cause. In other words, the reversal greatly increases the internal validity of the study.
@@ -130,10 +146,14 @@ There are two potential problems with the reversal design—both of which have t
 
 One solution to these problems is to use a [multiple-baseline design], which is represented in Figure \@ref(fig:multiple). In one version of the design, a baseline is established for each of several participants, and the treatment is then introduced for each one. In essence, each participant is tested in an AB design. The key to this design is that the treatment is introduced at a different time for each participant. The idea is that if the dependent variable changes when the treatment is introduced for one participant, it might be a coincidence. But if the dependent variable changes when the treatment is introduced for multiple participants—especially when the treatment is introduced at different times for the different participants—then it is extremely unlikely to be a coincidence.
 
-<div class="figure" style="text-align: center">
-<img src="10-single-N_files/figure-html/multiple-1.png" alt="Results of a generic multiple-baseline study. The multiple baselines can be for different participants, dependent variables, or settings. The treatment is introduced at a different time on each baseline." width="70%" /><img src="10-single-N_files/figure-html/multiple-2.png" alt="Results of a generic multiple-baseline study. The multiple baselines can be for different participants, dependent variables, or settings. The treatment is introduced at a different time on each baseline." width="70%" /><img src="10-single-N_files/figure-html/multiple-3.png" alt="Results of a generic multiple-baseline study. The multiple baselines can be for different participants, dependent variables, or settings. The treatment is introduced at a different time on each baseline." width="70%" />
-<p class="caption">(\#fig:multiple)Results of a generic multiple-baseline study. The multiple baselines can be for different participants, dependent variables, or settings. The treatment is introduced at a different time on each baseline.</p>
-</div>
+\begin{figure}
+
+{\centering \includegraphics[width=0.7\linewidth]{10-single-N_files/figure-latex/multiple-1} \includegraphics[width=0.7\linewidth]{10-single-N_files/figure-latex/multiple-2} \includegraphics[width=0.7\linewidth]{10-single-N_files/figure-latex/multiple-3} 
+
+}
+
+\caption{Results of a generic multiple-baseline study. The multiple baselines can be for different participants, dependent variables, or settings. The treatment is introduced at a different time on each baseline.}(\#fig:multiple)
+\end{figure}
 
 As an example, consider a study by Scott Ross and Robert Horner [@ross2009bully]. They were interested in how a school-wide bullying prevention program affected the bullying behavior of particular problem students. At each of three different schools, the researchers studied two students who had regularly engaged in bullying. During the baseline phase, they observed the students for 10-minute periods each day during lunch recess and counted the number of aggressive behaviors they exhibited toward their peers. (The researchers used handheld computers to help record the data.) After 2 weeks, they implemented the program at one school. After 2 more weeks, they implemented it at the second school. And after 2 more weeks, they implemented it at the third school. They found that the number of aggressive behaviors exhibited by each student dropped shortly after the program was implemented at his or her school. Notice that if the researchers had only studied one school or if they had introduced the treatment at the same time at all three schools, then it would be unclear whether the reduction in aggressive behaviors was due to the bullying program or something else that happened at about the same time it was introduced (e.g., a holiday, a television program, a change in the weather). But with their multiple-baseline design, this kind of coincidence would have to happen three separate times—a very unlikely occurrence—to explain their results.
 
@@ -149,10 +169,14 @@ In visually inspecting their data, single-subject researchers take several facto
 
 In the top panel of Figure \@ref(fig:aba2), there are fairly obvious changes in the level and trend of the dependent variable from condition to condition. Furthermore, the latencies of these changes are short; the change happens immediately. This pattern of results strongly suggests that the treatment was responsible for the changes in the dependent variable. In the bottom panel of Figure \@ref(fig:aba2), however, the changes in level are fairly small. And although there appears to be an increasing trend in the treatment condition, it looks as though it might be a continuation of a trend that had already begun during baseline. This pattern of results strongly suggests that the treatment was not responsible for any changes in the dependent variable—at least not to the extent that single-subject researchers typically hope to see.
 
-<div class="figure" style="text-align: center">
-<img src="10-single-N_files/figure-html/aba2-1.png" alt="Visual inspection of the data suggests an effective treatment in the top panel but an ineffective treatment in the bottom panel." width="60%" /><img src="10-single-N_files/figure-html/aba2-2.png" alt="Visual inspection of the data suggests an effective treatment in the top panel but an ineffective treatment in the bottom panel." width="60%" />
-<p class="caption">(\#fig:aba2)Visual inspection of the data suggests an effective treatment in the top panel but an ineffective treatment in the bottom panel.</p>
-</div>
+\begin{figure}
+
+{\centering \includegraphics[width=0.6\linewidth]{10-single-N_files/figure-latex/aba2-1} \includegraphics[width=0.6\linewidth]{10-single-N_files/figure-latex/aba2-2} 
+
+}
+
+\caption{Visual inspection of the data suggests an effective treatment in the top panel but an ineffective treatment in the bottom panel.}(\#fig:aba2)
+\end{figure}
 
 The results of single-subject research can also be analyzed using statistical procedures—and this is becoming more common. There are many different approaches, and single-subject researchers continue to debate which are the most useful. One approach parallels what is typically done in group research. The mean and standard deviation of each participant’s responses under each condition are computed and compared, and inferential statistical tests such as the t test or analysis of variance are applied [@fisch2001evaluating]. (Note that averaging across participants is less common.) Another approach is to compute the [percentage of nonoverlapping data] (PND) for each participant [@scruggs2021summarize]. This is the percentage of responses in the treatment condition that are more extreme than the most extreme response in a relevant control condition. In the study of Hall and his colleagues, for example, all measures of Robbie’s study time in the first treatment condition were greater than the highest measure in the first baseline, for a PND of 100%. The greater the percentage of nonoverlapping data, the stronger the treatment effect. Still, formal statistical approaches to data analysis in single-subject research are generally considered a supplement to visual inspection, not a replacement for it.
 

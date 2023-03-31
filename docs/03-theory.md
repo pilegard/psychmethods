@@ -6,10 +6,14 @@ In the following paragraph, researchers Sherlock Campbell and James Pennebaker d
 
 In other words, researchers have answered the interesting and important question of whether engaging in what has come to be called “expressive writing” improves people’s health. It does. But there is a second question that is equally interesting and important: Why? What psychological and biological variables, structures, and processes are involved, and how do they connect the act of expressive writing to improved health? Several ideas have been proposed. For example, people who write about traumatic experiences might habituate to them. That is, the more they think about them, the less negatively they react both psychologically and physiologically—leading to improvements in mental and physical health [@lepore2002expressive].
 
-<div class="figure" style="text-align: center">
-<img src="images/theory/writing.jpeg" alt="Scientific research has shown that engaging in expressive writing causes improvements in health. Several theories have been proposed to explain this phenomenon. *Photo by lilartsy on Unsplash.*" width="40%" />
-<p class="caption">(\#fig:writing)Scientific research has shown that engaging in expressive writing causes improvements in health. Several theories have been proposed to explain this phenomenon. *Photo by lilartsy on Unsplash.*</p>
-</div>
+\begin{figure}
+
+{\centering \includegraphics[width=0.4\linewidth]{images/theory/writing} 
+
+}
+
+\caption{Scientific research has shown that engaging in expressive writing causes improvements in health. Several theories have been proposed to explain this phenomenon. *Photo by lilartsy on Unsplash.*}(\#fig:writing)
+\end{figure}
 
 This example illustrates that, like all scientists, researchers in psychology distinguish between two sorts of knowledge: their systematic observations and their explanations or interpretations of those observations. Typically, the former are called phenomena and the latter are called theories. Up to this point in the book, we have focused on phenomena. In this chapter, however, we focus on the equally important role of theories. We begin by exploring the distinction between phenomena and theories in more detail. We then look at the wide variety of theories that researchers in psychology construct. Finally, we consider how researchers use theories, and we present some strategies for incorporating theory into your own research.
 
@@ -59,19 +63,27 @@ In addition to *theory*, researchers in psychology use several related terms to 
 
 Of course, scientific theories are meant to provide accurate explanations or interpretations of phenomena. But there must be more to it than this. Consider that a theory can be accurate without being very useful. To say that expressive writing helps people “deal with their emotions” might be accurate as far as it goes, but it seems too vague to be of much use. Consider also that a theory can be useful without being entirely accurate. Figure \@ref(fig:memory) is a representation of the classic multistore model of human memory, which is still cited by researchers and discussed in textbooks despite the fact that it is now known to be inaccurate in a number of ways [@izawa1999human]. These two examples suggest that theories have purposes other than simply providing accurate explanations or interpretations. Here we look at three additional purposes of theories: the organization of known phenomena, the prediction of outcomes in new situations, and the generation of new research.
 
-<div class="figure" style="text-align: center">
-<img src="images/theory/memory.png" alt="Representation of the multistore model of human memory. In the multistore model of human memory, information from the environment passes through a sensory store on its way to a short-term store, where it can be rehearsed, and then to a long-term store, where it can be stored and retrieved much later. This theory has been extremely successful at organizing old phenomena and predicting new ones." width="75%" />
-<p class="caption">(\#fig:memory)Representation of the multistore model of human memory. In the multistore model of human memory, information from the environment passes through a sensory store on its way to a short-term store, where it can be rehearsed, and then to a long-term store, where it can be stored and retrieved much later. This theory has been extremely successful at organizing old phenomena and predicting new ones.</p>
-</div>
+\begin{figure}
+
+{\centering \includegraphics[width=0.75\linewidth]{images/theory/memory} 
+
+}
+
+\caption{Representation of the multistore model of human memory. In the multistore model of human memory, information from the environment passes through a sensory store on its way to a short-term store, where it can be rehearsed, and then to a long-term store, where it can be stored and retrieved much later. This theory has been extremely successful at organizing old phenomena and predicting new ones.}(\#fig:memory)
+\end{figure}
 
 ##### Organization {-}
 
 One important purpose of scientific theories is to organize phenomena in ways that help people think about them clearly and efficiently. The drive theory of social facilitation and social inhibition, for example, helps to organize and make sense of a large number of seemingly contradictory results. The multistore model of human memory efficiently summarizes many important phenomena: the limited capacity and short retention time of information that is attended to but not rehearsed, the importance of rehearsing information for long-term retention, the serial-position effect, and so on. Or consider a classic theory of intelligence represented by Figure \@ref(fig:g). According to this theory, intelligence consists of a general mental ability, *g*, plus a small number of more specific abilities that are influenced by *g* [@neisser1996intelligence]. Although there are other theories of intelligence, this one does a good job of summarizing a large number of statistical relationships between tests of various mental abilities. This includes the fact that tests of all basic mental abilities tend to be somewhat positively correlated and the fact that certain subsets of mental abilities (e.g., reading comprehension and analogy completion) are more positively correlated than others (e.g., reading comprehension and arithmetic).
 
-<div class="figure" style="text-align: center">
-<img src="images/theory/g.png" alt="Representation of one theory of intelligence. In this theory of intelligence, a general mental ability (*g*) influences each of three more specific mental abilities. Theories of this type help to organize a large number of statistical relationships among tests of various mental abilities." width="45%" />
-<p class="caption">(\#fig:g)Representation of one theory of intelligence. In this theory of intelligence, a general mental ability (*g*) influences each of three more specific mental abilities. Theories of this type help to organize a large number of statistical relationships among tests of various mental abilities.</p>
-</div>
+\begin{figure}
+
+{\centering \includegraphics[width=0.45\linewidth]{images/theory/g} 
+
+}
+
+\caption{Representation of one theory of intelligence. In this theory of intelligence, a general mental ability (*g*) influences each of three more specific mental abilities. Theories of this type help to organize a large number of statistical relationships among tests of various mental abilities.}(\#fig:g)
+\end{figure}
 
 Thus theories are good or useful to the extent that they organize more phenomena with greater clarity and efficiency. Scientists generally follow the principle of [parsimony], which holds that a theory should include only as many concepts as are necessary to explain or interpret the phenomena of interest. Simpler, more parsimonious theories organize phenomena more efficiently than more complex, less parsimonious theories.
 
@@ -164,10 +176,14 @@ In addition to varying in formality and scope, theories in psychology vary widel
 
 [Mechanistic theories](#mechanistic-theory), on the other hand, focus on specific variables, structures, and processes, and how they interact to produce the phenomena. The drive theory of social facilitation and inhibition and the multistore model of human memory are mechanistic theories in this sense. Figure 4.4 "Simplified Representation of One Contemporary Theory of Hypochondriasis" represents another example—a contemporary cognitive theory of hypochondriasis—an extreme form of health anxiety in which people misinterpret ordinary bodily symptoms (e.g., headaches) as signs of a serious illness (e.g., a brain tumor; @williams2004psychopathology). This theory specifies several key variables and the relationships among them. Specifically, people who are high in the personality trait of neuroticism (also called negative emotionality) start to pay excessive attention to negative health information—especially if they have had a significant illness experience as a child (e.g., a seriously ill parent). This attention to negative health information then leads to health anxiety and hypochondriasis, especially among people who are low in effortful control, which is the ability to shift attention away from negative thoughts and feelings.
 
-<div class="figure" style="text-align: center">
-<img src="images/theory/hypo.png" alt="A simplified representation of one contemporary theory of hypochondriasis. This theory focuses on key variables and the relationships among them." width="80%" />
-<p class="caption">(\#fig:hypo)A simplified representation of one contemporary theory of hypochondriasis. This theory focuses on key variables and the relationships among them.</p>
-</div>
+\begin{figure}
+
+{\centering \includegraphics[width=0.8\linewidth]{images/theory/hypo} 
+
+}
+
+\caption{A simplified representation of one contemporary theory of hypochondriasis. This theory focuses on key variables and the relationships among them.}(\#fig:hypo)
+\end{figure}
 
 Mechanistic theories can also be expressed in terms of biological structures and processes. With advances in genetics and neuroscience, such theories are becoming increasingly common in psychology. For example, researchers are currently constructing and testing theories that specify the brain structures associated with the storage and rehearsal of information in the short-term store, the transfer of information to the long-term store, and so on. Theories of psychological disorders are also increasingly likely to focus on biological mechanisms. Schizophrenia, for example, has been explained in terms of several biological theories, including theories that focus on genetics, neurotransmitters, brain structures, and even prenatal exposure to infections.
 
@@ -203,10 +219,14 @@ We have now seen what theories are, what they are for, and the variety of forms 
 
 The primary way that scientific researchers use theories is sometimes called the [hypothetico-deductive method] (although this term is much more likely to be used by philosophers of science than by scientists themselves). A researcher begins with a set of phenomena and either constructs a theory to explain or interpret them or chooses an existing theory to work with. He or she then makes a prediction about some new phenomenon that should be observed if the theory is correct. Again, this prediction is called a hypothesis. The researcher then conducts an empirical study to test the hypothesis. Finally, he or she reevaluates the theory in light of the new results and revises it if necessary. This process is usually conceptualized as a cycle because the researcher can then derive a new hypothesis from the revised theory, conduct a new empirical study to test the hypothesis, and so on. As Figure \@ref(fig:hypothetico) shows, this approach meshes nicely with the model of scientific research in psychology presented earlier in the book—creating a more detailed model of “theoretically motivated” or “theory-driven” research.
 
-<div class="figure" style="text-align: center">
-<img src="images/theory/hypothetico.png" alt="Hypothetico-deductive method combined with the general model of scientific research in psychology. Together they form a model of theoretically motivated research." width="75%" />
-<p class="caption">(\#fig:hypothetico)Hypothetico-deductive method combined with the general model of scientific research in psychology. Together they form a model of theoretically motivated research.</p>
-</div>
+\begin{figure}
+
+{\centering \includegraphics[width=0.75\linewidth]{images/theory/hypothetico} 
+
+}
+
+\caption{Hypothetico-deductive method combined with the general model of scientific research in psychology. Together they form a model of theoretically motivated research.}(\#fig:hypothetico)
+\end{figure}
 
 As an example, let us return to Zajonc’s research on social facilitation and inhibition. He started with a somewhat contradictory pattern of results from the research literature. He then constructed his drive theory, according to which being watched by others while performing a task causes physiological arousal, which increases an organism’s tendency to make the dominant response. This leads to social facilitation for well-learned tasks and social inhibition for poorly learned tasks. He now had a theory that organized previous results in a meaningful way—but he still needed to test it. He hypothesized that if his theory was correct, he should observe that the presence of others improves performance in a simple laboratory task but inhibits performance in a difficult version of the very same laboratory task. To test this hypothesis, one of the studies he conducted used cockroaches as subjects [@zajonc1969social]. The cockroaches ran either down a straight runway (an easy task for a cockroach) or through a cross-shaped maze (a difficult task for a cockroach) to escape into a dark chamber when a light was shined on them. They did this either while alone or in the presence of other cockroaches in clear plastic “audience boxes.” Zajonc found that cockroaches in the straight runway reached their goal more quickly in the presence of other cockroaches, but cockroaches in the cross-shaped maze reached their goal more slowly when they were in the presence of other cockroaches. Thus he confirmed his hypothesis and provided support for his drive theory.
 

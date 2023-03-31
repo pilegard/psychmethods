@@ -7,7 +7,7 @@ bookdown::gitbook:
         <li class="toc-logo"><a href="./"><img src="images/logo.png"></a></li>
       after: |
         <li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
-    download: ["rmd"]
+    download: ["pdf","rmd"]
     edit:
       link: https://github.com/pilegard/psychmethods/edit/master/%s
       text: "Suggest an edit"
@@ -16,3 +16,10 @@ bookdown::gitbook:
       facebook: no
       twitter: no
       all: no
+bookdown::pdf_book:
+  keep_tex: yes
+  latex_engine: xelatex
+  citation_package: default
+  pandoc_args: [ "--top-level-division=chapter", "--csl", "apa.csl" ]
+  template: null
+  toc_unnumbered: no

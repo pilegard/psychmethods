@@ -41,7 +41,7 @@ Freud’s interpretation was that Anna had repressed the memory of this incident
 
 As an illustration of Freud’s theory, the case study of Anna O. is quite effective. As evidence for the theory, however, it is essentially worthless. The description provides no way of knowing whether Anna had really repressed the memory of the dog drinking from the glass, whether this repression had caused her inability to drink, or whether recalling this “trauma” relieved the symptom. It is also unclear from this case study how typical or atypical Anna’s experience was.
 
-```{r annao, echo = FALSE, out.width='30%', fig.align = 'center', fig.cap='“Anna O.” was the subject of a famous case study used by Freud to illustrate the principles of psychoanalysis. *Source: [Wikimedia Commons](http://en.wikipedia.org/wiki/File:Pappenheim_1882.jpg).*'}
+```{r annao, echo = FALSE, out.width='30%', fig.align = 'center', fig.cap='"Anna O." was the subject of a famous case study used by Freud to illustrate the principles of psychoanalysis. Source: Wikimedia Commons'}
 knitr::include_graphics("images/single-N/annao.jpeg")
 ```
 :::

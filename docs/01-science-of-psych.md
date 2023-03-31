@@ -4,10 +4,14 @@
 
 Many people believe that women tend to talk more than men—with some even suggesting that this difference has a biological basis. One widely cited estimate is that women speak 20,000 words per day on average and men speak only 7,000. Is it true? A group of psychologists led by Matias Mehl decided to find out. They checked to see if anyone had actually tried to count the daily number of words spoken by women and men. No one had. So these researchers conducted a study in which female and male college students (369 in all) wore audio recorders while they went about their lives. The result? The women spoke an average of 16,215 words per day and the men spoke an average of 15,669—an extremely small difference that could easily be explained by chance. In an article in the journal Science, these researchers summed up their findings as follows: “We therefore conclude, on the basis of available empirical evidence, that the widespread and highly publicized stereotype about female talkativeness is unfounded” [@mehl2007women].
 
-<div class="figure" style="text-align: center">
-<img src="images/science-of-psych/mehl.jpeg" alt="Photo of five young adults walking down a sidewalk, laughing and talking." width="70%" />
-<p class="caption">(\#fig:mehl)Although many people believe that women are more talkative than men, scientific research on college students suggests that there is no overall difference. *Photo by Eliott Reyna on Unsplash.*</p>
-</div>
+\begin{figure}
+
+{\centering \includegraphics[width=0.7\linewidth]{images/science-of-psych/mehl} 
+
+}
+
+\caption{Although many people believe that women are more talkative than men, scientific research on college students suggests that there is no overall difference. *Photo by Eliott Reyna on Unsplash.*}(\#fig:mehl)
+\end{figure}
 
 Psychology is usually defined as the scientific study of human behavior and mental processes, and this example illustrates the features that make it scientific. In this chapter, we look closely at these features, introduce a model of scientific research in psychology, and address several basic questions that students often have about it. Who conducts scientific research in psychology? Why? Does scientific psychology tell us anything that common sense does not? Why should I bother to learn the scientific approach—especially if I want to be a clinical psychologist and not a researcher? These are extremely good questions, by the way, and answering them now will provide a solid foundation for learning the rest of the material in this book.
 
@@ -87,19 +91,27 @@ An excellent source for information on pseudoscience is The Skeptic’s Dictiona
 
 Figure \@ref(fig:scientificmethod) presents a more specific model of scientific research in psychology. The researcher (who more often than not is really a small group of researchers) formulates a research question, conducts a study designed to answer the question, analyzes the resulting data, draws conclusions about the answer to the question, and publishes the results so that they become part of the research literature. Because the research literature is one of the primary sources of new research questions, this process can be thought of as a cycle. New research leads to new questions, which lead to new research, and so on. Figure \@ref(fig:scientificmethod) also indicates that research questions can originate outside of this cycle either with informal observations or with practical problems that need to be solved. But even in these cases, the researcher would start by checking the research literature to see if the question had already been answered and to refine it based on what previous research had already found.
 
-<div class="figure" style="text-align: center">
-<img src="images/science-of-psych/scientificmethod.png" alt="A circular flow chart with arrows going from Research Literature to Research Questions, then to Empirical Study, then to Data Analysis, then to Conclusions, and then back to Research Literature. An additional arrow points from Research Questions to Research Literature. From outside the circle an arrow points to Research Questions from Informal Observations/ Practical Problems." width="70%" />
-<p class="caption">(\#fig:scientificmethod)A simple model of scientific research in psychology.</p>
-</div>
+\begin{figure}
+
+{\centering \includegraphics[width=0.7\linewidth]{images/science-of-psych/scientificmethod} 
+
+}
+
+\caption{A simple model of scientific research in psychology.}(\#fig:scientificmethod)
+\end{figure}
 
 The research by Mehl and his colleagues is described nicely by this model. Their question—whether women are more talkative than men—was suggested to them both by people’s stereotypes and by published claims about the relative talkativeness of women and men. When they checked the research literature, however, they found that this question had not been adequately addressed in scientific studies. They conducted a careful empirical study, analyzed the results (finding very little difference between women and men), and published their work so that it became part of the research literature. The publication of their article is not the end of the story, however, because their work suggests many new questions (about the reliability of the result, about potential cultural differences, etc.) that will likely be taken up by them and by other researchers inspired by their work.
 
 As another example, consider that as cell phones became more widespread during the 1990s, people began to wonder whether, and to what extent, cell phone use had a negative effect on driving. Many psychologists decided to tackle this question scientifically [@collet2010phoning]. It was clear from previously published research that engaging in a simple verbal task impairs performance on a perceptual or motor task carried out at the same time, but no one had studied the effect specifically of cell phone use on driving. Under carefully controlled conditions, these researchers compared people’s driving performance while using a cell phone with their performance while not using a cell phone, both in the lab and on the road. They found that people’s ability to detect road hazards, reaction time, and control of the vehicle were all impaired by cell phone use. Each new study was published and became part of the growing research literature on this topic.
 
-<div class="figure" style="text-align: center">
-<img src="images/science-of-psych/cell.jpeg" alt="A photograph of a man holding a cell phone to his ear while driving." width="50%" />
-<p class="caption">(\#fig:cell)Scientific research has confirmed that cell phone use impairs a variety of driving behaviors. *Photo by Alexandre Boucher on Unsplash.*</p>
-</div>
+\begin{figure}
+
+{\centering \includegraphics[width=0.5\linewidth]{images/science-of-psych/cell} 
+
+}
+
+\caption{Scientific research has confirmed that cell phone use impairs a variety of driving behaviors. *Photo by Alexandre Boucher on Unsplash.*}(\#fig:cell)
+\end{figure}
 
 ### Who Conducts Scientific Research in Psychology? {-}
 
@@ -190,10 +202,14 @@ Again, psychology is the scientific study of behavior and mental processes. But 
 
 The main point is that psychological disorders and other behavioral problems are part of the natural world. This means that questions about their nature, causes, and consequences are empirically testable and therefore subject to scientific study. As with other questions about human behavior, we cannot rely on our intuition or common sense for detailed and accurate answers. Consider, for example, that dozens of popular books and thousands of websites claim that adult children of alcoholics have a distinct personality profile, including low self-esteem, feelings of powerlessness, and difficulties with intimacy. Although this sounds plausible, scientific research has demonstrated that adult children of alcoholics are no more likely to have these problems than anybody else [@lilienfeld2010five]. Similarly, questions about whether a particular psychotherapy works are empirically testable questions that can be answered by scientific research. If a new psychotherapy is an effective treatment for depression, then systematic observation should reveal that depressed people who receive this psychotherapy improve more than a similar group of depressed people who do not receive this psychotherapy (or who receive some alternative treatment). Treatments that have been shown to work in this way are called [empirically supported treatments](#empirically-supported-treatment).
 
-<div class="figure" style="text-align: center">
-<img src="images/science-of-psych/therapy.jpeg" alt="Photo of two people sitting near each other with their hands folded in their laps. Their faces are not visible." width="50%" />
-<p class="caption">(\#fig:therapy)The effectiveness of various forms of psychotherapy—for example, cognitive behavioral therapy for depression—can be determined by scientific research. *Photo by Priscilla Du Preez on Unsplash.*</p>
-</div>
+\begin{figure}
+
+{\centering \includegraphics[width=0.5\linewidth]{images/science-of-psych/therapy} 
+
+}
+
+\caption{The effectiveness of various forms of psychotherapy—for example, cognitive behavioral therapy for depression—can be determined by scientific research. *Photo by Priscilla Du Preez on Unsplash.*}(\#fig:therapy)
+\end{figure}
 
 :::fyi
 ##### Empirically Supported Treatments {-}
