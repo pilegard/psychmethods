@@ -1,7 +1,7 @@
 --- 
 title: "Research Methods in Psychology"
 author: "Adapted by Celeste Pilegard"
-date: "Current version rendered 2023-04-10"
+date: "Current version rendered 2023-02-09"
 site: bookdown::bookdown_site
 documentclass: krantz
 bibliography: [book.bib, packages.bib]
@@ -13,7 +13,6 @@ description: |
   This is a an OER textbook for introductory research methods in psychology.
 link-citations: yes
 github-repo: pilegard/psychmethods
-google_analytics: G-2XLP869DH6
 ---
 
 # Welcome {-}
