@@ -23,60 +23,98 @@ Every variable has a [distribution], which is the way the scores are distributed
 
 One way to display the distribution of a variable is in a [frequency table]. Table \@ref(tab:frequency), for example, is a frequency table showing a hypothetical distribution of scores on the Rosenberg Self-Esteem Scale for a sample of 40 college students. The first column lists the values of the variable—the possible scores on the Rosenberg scale—and the second column lists the frequency of each score. This table shows that there were three students who had self-esteem scores of 24, five who had self-esteem scores of 23, and so on. From a frequency table like this, one can quickly see several important aspects of a distribution, including the range of scores (from 15 to 24), the most and least common scores (22 and 17, respectively), and any extreme scores that stand out from the rest.
 
+\begin{table}
 
-Table: (\#tab:frequency)Frequency table showing a hypothetical distribution of scores on the Rosenberg Self-Esteem Scale.
-
-| Self-esteem | Frequency |
-|:-----------:|:---------:|
-|     24      |     3     |
-|     23      |     5     |
-|     22      |    10     |
-|     21      |     8     |
-|     20      |     5     |
-|     19      |     3     |
-|     18      |     3     |
-|     17      |     0     |
-|     16      |     2     |
-|     15      |     1     |
+\caption{(\#tab:frequency)Frequency table showing a hypothetical distribution of scores on the Rosenberg Self-Esteem Scale.}
+\centering
+\begin{tabular}[t]{c|c}
+\hline
+Self-esteem & Frequency\\
+\hline
+24 & 3\\
+\hline
+23 & 5\\
+\hline
+22 & 10\\
+\hline
+21 & 8\\
+\hline
+20 & 5\\
+\hline
+19 & 3\\
+\hline
+18 & 3\\
+\hline
+17 & 0\\
+\hline
+16 & 2\\
+\hline
+15 & 1\\
+\hline
+\end{tabular}
+\end{table}
 
 There are a few other points worth noting about frequency tables. First, the levels listed in the first column usually go from the highest at the top to the lowest at the bottom, and they usually do not extend beyond the highest and lowest scores in the data. For example, although scores on the Rosenberg scale can vary from a high of 30 to a low of 0, Table \@ref(tab:frequency) only includes levels from 24 to 15 because that range includes all the scores in this particular data set. Second, when there are many different scores across a wide range of values, it is often better to create a grouped frequency table, in which the first column lists ranges of values and the second column lists the frequency of scores in each range. Table \@ref(tab:frequencybin), for example, is a grouped frequency table showing a hypothetical distribution of simple reaction times for a sample of 20 participants. In a grouped frequency table, the ranges must all be of equal width, and there are usually between five and 15 of them. Finally, frequency tables can also be used for categorical variables, in which case the levels are category labels. The order of the category labels is somewhat arbitrary, but they are often listed from the most frequent at the top to the least frequent at the bottom.
 
+\begin{table}
 
-Table: (\#tab:frequencybin)A grouped frequency table showing a hypothetical distribution of reaction times.
-
-| Reaction time (ms) | Frequency |
-|:------------------:|:---------:|
-|      241–260       |     1     |
-|      221–240       |     2     |
-|      201–220       |     2     |
-|      181–200       |     9     |
-|      161–180       |     4     |
-|      141–160       |     2     |
+\caption{(\#tab:frequencybin)A grouped frequency table showing a hypothetical distribution of reaction times.}
+\centering
+\begin{tabular}[t]{c|c}
+\hline
+Reaction time (ms) & Frequency\\
+\hline
+241–260 & 1\\
+\hline
+221–240 & 2\\
+\hline
+201–220 & 2\\
+\hline
+181–200 & 9\\
+\hline
+161–180 & 4\\
+\hline
+141–160 & 2\\
+\hline
+\end{tabular}
+\end{table}
 
 #### Histograms {-}
 
 A histogram is a graphical display of a distribution. It presents the same information as a frequency table but in a way that is even quicker and easier to grasp. The histogram in Figure \@ref(fig:hist) presents the distribution of self-esteem scores in Table \@ref(tab:frequency). The x-axis of the histogram represents the variable and the y-axis represents frequency. Above each level of the variable on the x-axis is a vertical bar that represents the number of individuals with that score. When the variable is quantitative, as in this example, there is usually no gap between the bars. When the variable is categorical, however, there is usually a small gap between them. (The gap at 17 in this histogram reflects the fact that there were no scores of 17 in this data set.)
 
-<div class="figure" style="text-align: center">
-<img src="13-descriptives_files/figure-html/hist-1.png" alt="Histogram showing the distribution of self-esteem scores presented in the frequency table above." width="70%" />
-<p class="caption">(\#fig:hist)Histogram showing the distribution of self-esteem scores presented in the frequency table above.</p>
-</div>
+\begin{figure}
+
+{\centering \includegraphics[width=0.7\linewidth]{13-descriptives_files/figure-latex/hist-1} 
+
+}
+
+\caption{Histogram showing the distribution of self-esteem scores presented in the frequency table above.}(\#fig:hist)
+\end{figure}
 
 #### Distribution Shapes {-}
 
 When the distribution of a quantitative variable is displayed in a histogram, it has a shape. The shape of the distribution of self-esteem scores in Figure \@ref(fig:hist) is typical. There is a peak somewhere near the middle of the distribution and “tails” that taper in either direction from the peak. The distribution of Figure \@ref(fig:hist) is unimodal, meaning it has one distinct peak, but distributions can also be bimodal, meaning they have two distinct peaks. Figure \@ref(fig:bimodal), for example, shows a hypothetical bimodal distribution of scores on the Beck Depression Inventory. Distributions can also have more than two distinct peaks, but these are relatively rare in psychological research.
 
-<div class="figure" style="text-align: center">
-<img src="13-descriptives_files/figure-html/bimodal-1.png" alt="Histogram showing a hypothetical bimodal distribution of scores on the Beck Depression Inventory." width="70%" />
-<p class="caption">(\#fig:bimodal)Histogram showing a hypothetical bimodal distribution of scores on the Beck Depression Inventory.</p>
-</div>
+\begin{figure}
+
+{\centering \includegraphics[width=0.7\linewidth]{13-descriptives_files/figure-latex/bimodal-1} 
+
+}
+
+\caption{Histogram showing a hypothetical bimodal distribution of scores on the Beck Depression Inventory.}(\#fig:bimodal)
+\end{figure}
 
 Another characteristic of the shape of a distribution is whether it is symmetrical or skewed. The distribution in the center of Figure \@ref(fig:skew) is symmetrical. Its left and right halves are mirror images of each other. The distribution on the left is negatively skewed, with its peak shifted toward the upper end of its range and a relatively long negative tail. The distribution on the right is positively skewed, with its peak toward the lower end of its range and a relatively long positive tail.
 
-<div class="figure" style="text-align: center">
-<img src="13-descriptives_files/figure-html/skew-1.png" alt="Histograms showing negatively skewed, symmetrical, and positively skewed distributions." width="33%" /><img src="13-descriptives_files/figure-html/skew-2.png" alt="Histograms showing negatively skewed, symmetrical, and positively skewed distributions." width="33%" /><img src="13-descriptives_files/figure-html/skew-3.png" alt="Histograms showing negatively skewed, symmetrical, and positively skewed distributions." width="33%" />
-<p class="caption">(\#fig:skew)Histograms showing negatively skewed, symmetrical, and positively skewed distributions.</p>
-</div>
+\begin{figure}
+
+{\centering \includegraphics[width=0.33\linewidth]{13-descriptives_files/figure-latex/skew-1} \includegraphics[width=0.33\linewidth]{13-descriptives_files/figure-latex/skew-2} \includegraphics[width=0.33\linewidth]{13-descriptives_files/figure-latex/skew-3} 
+
+}
+
+\caption{Histograms showing negatively skewed, symmetrical, and positively skewed distributions.}(\#fig:skew)
+\end{figure}
 
 
 An [outlier] is an extreme score that is much higher or lower than the rest of the scores in the distribution. Sometimes outliers represent truly extreme scores on the variable of interest. For example, on the Beck Depression Inventory, a single clinically depressed person might be an outlier in a sample of otherwise happy and high-functioning peers. However, outliers can also represent errors or misunderstandings on the part of the researcher or participant, equipment malfunctions, or similar problems. We will say more about how to interpret outliers and what to do about them later in this chapter.
@@ -115,10 +153,14 @@ Keep in mind, though, that you are not required to choose a single measure of ce
 
 The variability of a distribution is the extent to which the scores vary around their central tendency. Consider the two distributions in Figure \@ref(fig:variability), both of which have the same central tendency. The mean, median, and mode of each distribution are 10. Notice, however, that the two distributions differ in terms of their variability. The top one has relatively low variability, with all the scores relatively close to the center. The bottom one has relatively high variability, with the scores are spread across a greater range.
 
-<div class="figure" style="text-align: center">
-<img src="13-descriptives_files/figure-html/variability-1.png" alt="Histograms showing hypothetical distributions of 1,000 observations with the same mean, median, and mode (10) but with low variability (top) and high variability (bottom)." width="60%" /><img src="13-descriptives_files/figure-html/variability-2.png" alt="Histograms showing hypothetical distributions of 1,000 observations with the same mean, median, and mode (10) but with low variability (top) and high variability (bottom)." width="60%" />
-<p class="caption">(\#fig:variability)Histograms showing hypothetical distributions of 1,000 observations with the same mean, median, and mode (10) but with low variability (top) and high variability (bottom).</p>
-</div>
+\begin{figure}
+
+{\centering \includegraphics[width=0.6\linewidth]{13-descriptives_files/figure-latex/variability-1} \includegraphics[width=0.6\linewidth]{13-descriptives_files/figure-latex/variability-2} 
+
+}
+
+\caption{Histograms showing hypothetical distributions of 1,000 observations with the same mean, median, and mode (10) but with low variability (top) and high variability (bottom).}(\#fig:variability)
+\end{figure}
 
 One simple measure of variability is the [range], which is simply the difference between the highest and lowest scores in the distribution. The range of the self-esteem scores in Table \@ref(tab:frequency), for example, is the difference between the highest score (24) and the lowest score (15). That is, the range is 24 − 15 = 9. Although the range is easy to compute and understand, it can be misleading when there are outliers. Imagine, for example, an exam on which all the students scored between 90 and 100. It has a range of 10. But if there was a single student who scored 20, the range would increase to 80—giving the impression that the scores were quite variable when in fact only one student differed substantially from the rest.
 
@@ -211,10 +253,14 @@ As we have seen throughout this book, most interesting research questions in psy
 
 Differences between groups or conditions are usually described in terms of the mean and standard deviation of each group or condition. For example, Thomas Ollendick and his colleagues conducted a study in which they evaluated two one-session treatments for simple phobias in children [@ollendick2009one]. They randomly assigned children with an intense fear (e.g., to dogs) to one of three conditions. In the exposure condition, the children actually confronted the object of their fear under the guidance of a trained therapist. In the education condition, they learned about phobias and some strategies for coping with them. In the waitlist control condition, they were waiting to receive a treatment after the study was over. The severity of each child’s phobia was then rated on a 1-to-8 scale by a clinician who did not know which treatment the child had received. (This was one of several dependent variables.) The mean fear rating in the education condition was 4.83 with a standard deviation of 1.52, while the mean fear rating in the exposure condition was 3.47 with a standard deviation of 1.77. The mean fear rating in the control condition was 5.56 with a standard deviation of 1.21. In other words, both treatments worked, but the exposure treatment worked better than the education treatment. As we have seen, differences between group or condition means can be presented in a bar graph like that in Figure \@ref(fig:phobia), where the heights of the bars represent the group or condition means. We will look more closely at creating American Psychological Association (APA)-style bar graphs shortly.
 
-<div class="figure" style="text-align: center">
-<img src="13-descriptives_files/figure-html/phobia-1.png" alt="Bar graph showing mean clinician phobia ratings for children in two treatment conditions." width="70%" />
-<p class="caption">(\#fig:phobia)Bar graph showing mean clinician phobia ratings for children in two treatment conditions.</p>
-</div>
+\begin{figure}
+
+{\centering \includegraphics[width=0.7\linewidth]{13-descriptives_files/figure-latex/phobia-1} 
+
+}
+
+\caption{Bar graph showing mean clinician phobia ratings for children in two treatment conditions.}(\#fig:phobia)
+\end{figure}
 
 It is also important to be able to describe the strength of a statistical relationship, which is often referred to as the [effect size]. The most widely used measure of effect size for differences between group or condition means is called [Cohen’s *d*], which is the difference between the two means divided by the standard deviation:
 
@@ -224,14 +270,22 @@ In this formula, it does not really matter which mean is $M_1$ and which is $M_2
 
 Conceptually, Cohen’s *d* is the difference between the two means expressed in standard deviation units. (Notice its similarity to a *z* score, which expresses the difference between an individual score and a mean in standard deviation units.) A Cohen’s *d* of 0.50 means that the two group means differ by 0.50 standard deviations (half a standard deviation). A Cohen’s *d* of 1.20 means that they differ by 1.20 standard deviations. But how should we interpret these values in terms of the strength of the relationship or the size of the difference between the means? Table \@ref(tab:guidelines) presents some guidelines for interpreting Cohen’s *d* values in psychological research [@cohen1992power]. Values near 0.20 are considered small, values near 0.50 are considered medium, and values near 0.80 are considered large. Thus a Cohen’s *d* value of 0.50 represents a medium-sized difference between two means, and a Cohen’s *d* value of 1.20 represents a very large difference in the context of psychological research. In the research by Ollendick and his colleagues, there was a large difference (*d* = 0.82) between the exposure and education conditions.
 
+\begin{table}
 
-Table: (\#tab:guidelines)Guidelines for referring to Cohen’s *d* and Pearson’s *r* values as “strong,” “medium,” or “weak”.
-
-| Relationship strength | Cohen's *d* | Pearson's *r* |
-|:---------------------:|:-----------:|:-------------:|
-|     Strong/large      |   ± 0.80    |    ± 0.50     |
-|        Medium         |   ± 0.50    |    ± 0.30     |
-|      Weak/small       |   ± 0.20    |    ± 0.10     |
+\caption{(\#tab:guidelines)Guidelines for referring to Cohen’s *d* and Pearson’s *r* values as “strong,” “medium,” or “weak”.}
+\centering
+\begin{tabular}[t]{c|c|c}
+\hline
+Relationship strength & Cohen's *d* & Pearson's *r*\\
+\hline
+Strong/large & ± 0.80 & ± 0.50\\
+\hline
+Medium & ± 0.50 & ± 0.30\\
+\hline
+Weak/small & ± 0.20 & ± 0.10\\
+\hline
+\end{tabular}
+\end{table}
 
 Cohen’s *d* is useful because it has the same meaning regardless of the variable being compared or the scale it was measured on. A Cohen’s *d* of 0.20 means that the two group means differ by 0.20 standard deviations whether we are talking about scores on the Rosenberg Self-Esteem scale, reaction time measured in milliseconds, number of siblings, or diastolic blood pressure measured in millimeters of mercury. Not only does this make it easier for researchers to communicate with each other about their results, it also makes it possible to combine and compare results across different studies using different measures.
 
@@ -253,43 +307,63 @@ Researcher Janet Shibley Hyde has looked at the results of numerous studies on p
 
 Hyde points out that although men and women differ by a large amount on some variables (e.g., attitudes toward casual sex), they differ by only a small amount on the vast majority. In many cases, Cohen’s *d* is less than 0.10, which she terms a “trivial” difference. (The difference in talkativeness discussed in the @mehl2007women paper was also trivial: *d* = 0.06.) Although researchers and nonresearchers alike often emphasize sex differences, Hyde has argued that it makes at least as much sense to think of men and women as fundamentally similar. She refers to this as the “gender similarities hypothesis.”
 
-<div class="figure" style="text-align: center">
-<img src="images/ch12/leader.jpeg" alt="Research on psychological sex differences has shown that there is essentially no difference in the leadership effectiveness of women and men. *Photo by Jason Goodman on Unsplash.*" width="60%" />
-<p class="caption">(\#fig:leader)Research on psychological sex differences has shown that there is essentially no difference in the leadership effectiveness of women and men. *Photo by Jason Goodman on Unsplash.*</p>
-</div>
+\begin{figure}
+
+{\centering \includegraphics[width=0.6\linewidth]{images/ch12/leader} 
+
+}
+
+\caption{Research on psychological sex differences has shown that there is essentially no difference in the leadership effectiveness of women and men. *Photo by Jason Goodman on Unsplash.*}(\#fig:leader)
+\end{figure}
 :::
 
 ### Correlations Between Quantitative Variables {-}
 
 As we have seen throughout the book, many interesting statistical relationships take the form of correlations between quantitative variables. For example, researchers Kurt Carlson and Jacqueline Conard conducted a study on the relationship between the alphabetical position of the first letter of people’s last names (from A = 1 to Z = 26) and how quickly those people responded to consumer appeals [@carlson2011last]. In one study, they sent e-mails to a large group of MBA students, offering free basketball tickets from a limited supply. The result was that the further toward the end of the alphabet students’ last names were, the faster they tended to respond. These results are summarized in Figure \@ref(fig:line).
 
-<div class="figure" style="text-align: center">
-<img src="13-descriptives_files/figure-html/line-1.png" alt="Line graph showing the relationship between the alphabetical position of people’s last names and how quickly those people respond to offers of consumer goods." width="70%" />
-<p class="caption">(\#fig:line)Line graph showing the relationship between the alphabetical position of people’s last names and how quickly those people respond to offers of consumer goods.</p>
-</div>
+\begin{figure}
+
+{\centering \includegraphics[width=0.7\linewidth]{13-descriptives_files/figure-latex/line-1} 
+
+}
+
+\caption{Line graph showing the relationship between the alphabetical position of people’s last names and how quickly those people respond to offers of consumer goods.}(\#fig:line)
+\end{figure}
 
 Such relationships are often presented using line graphs or scatterplots, which show how the level of one variable differs across the range of the other. In the line graph in Figure \@ref(fig:line), for example, each point represents the mean response time for participants with last names in the first, second, third, and fourth quartiles (or quarters) of the name distribution. It clearly shows how response time tends to decline as people’s last names get closer to the end of the alphabet. The scatterplot in Figure \@ref(fig:scatter2), which is reproduced from the Measurement chapter, shows the relationship between 25 research methods students’ scores on the Rosenberg Self-Esteem Scale given on two occasions a week apart. Here the points represent individuals, and we can see that the higher students scored on the first occasion, the higher they tended to score on the second occasion. In general, line graphs are used when the variable on the x-axis has (or is organized into) a small number of distinct values, such as the four quartiles of the name distribution. Scatterplots are used when the variable on the x-axis has a large number of values, such as the different possible self-esteem scores.
 
-<div class="figure" style="text-align: center">
-<img src="13-descriptives_files/figure-html/scatter2-1.png" alt="Statistical relationship between several college students’ scores on the Rosenberg Self-Esteem Scale given on two occasions a week apart." width="70%" />
-<p class="caption">(\#fig:scatter2)Statistical relationship between several college students’ scores on the Rosenberg Self-Esteem Scale given on two occasions a week apart.</p>
-</div>
+\begin{figure}
+
+{\centering \includegraphics[width=0.7\linewidth]{13-descriptives_files/figure-latex/scatter2-1} 
+
+}
+
+\caption{Statistical relationship between several college students’ scores on the Rosenberg Self-Esteem Scale given on two occasions a week apart.}(\#fig:scatter2)
+\end{figure}
 
 The data presented in Figure \@ref(fig:scatter2) provide a good example of a positive relationship, in which higher scores on one variable tend to be associated with higher scores on the other (so that the points go from the lower left to the upper right of the graph). The data presented in Figure \@ref(fig:line) provide a good example of a negative relationship, in which higher scores on one variable tend to be associated with lower scores on the other (so that the points go from the upper left to the lower right).
 
 Both of these examples are also linear relationships, in which the points are reasonably well fit by a single straight line. [Nonlinear relationships](#nonlinear-relationship) are those in which the points are better fit by a curved line. Figure \@ref(fig:nonlinear2), for example, shows a hypothetical relationship between the amount of sleep people get per night and their level of depression. In this example, the line that best fits the points is a curve—a kind of upside down “U”—because people who get about eight hours of sleep tend to be the least depressed, while those who get too little sleep and those who get too much sleep tend to be more depressed. Nonlinear relationships are not uncommon in psychology, but a detailed discussion of them is beyond the scope of this book.
 
-<div class="figure" style="text-align: center">
-<img src="13-descriptives_files/figure-html/nonlinear2-1.png" alt="Hypothetical nonlinear relationship between sleep and depression." width="70%" />
-<p class="caption">(\#fig:nonlinear2)Hypothetical nonlinear relationship between sleep and depression.</p>
-</div>
+\begin{figure}
+
+{\centering \includegraphics[width=0.7\linewidth]{13-descriptives_files/figure-latex/nonlinear2-1} 
+
+}
+
+\caption{Hypothetical nonlinear relationship between sleep and depression.}(\#fig:nonlinear2)
+\end{figure}
 
 As we saw earlier in the book, the strength of a correlation between quantitative variables is typically measured using a statistic called Pearson’s *r*. As Figure \@ref(fig:pearson2) shows, its possible values range from −1.00, through zero, to +1.00. A value of 0 means there is no relationship between the two variables. In addition to his guidelines for interpreting Cohen’s *d*, Cohen offered guidelines for interpreting Pearson’s *r* in psychological research (see Table \@ref(tab:guidelines)). Values near ±.10 are considered small, values near ± .30 are considered medium, and values near ±.50 are considered large. Notice that the sign of Pearson’s *r* is unrelated to its strength. Pearson’s *r* values of +.30 and −.30, for example, are equally strong; it is just that one represents a moderate positive relationship and the other a moderate negative relationship. Like Cohen’s *d*, Pearson’s *r* is also referred to as a measure of “effect size” even though the relationship may not be a causal one.
 
-<div class="figure" style="text-align: center">
-<img src="images/ch12/pearson.png" alt="Pearson’s *r* ranges from −1.00 (representing the strongest possible negative relationship), through 0 (representing no relationship), to +1.00 (representing the strongest possible positive relationship)." width="80%" />
-<p class="caption">(\#fig:pearson2)Pearson’s *r* ranges from −1.00 (representing the strongest possible negative relationship), through 0 (representing no relationship), to +1.00 (representing the strongest possible positive relationship).</p>
-</div>
+\begin{figure}
+
+{\centering \includegraphics[width=0.8\linewidth]{images/ch12/pearson} 
+
+}
+
+\caption{Pearson’s *r* ranges from −1.00 (representing the strongest possible negative relationship), through 0 (representing no relationship), to +1.00 (representing the strongest possible positive relationship).}(\#fig:pearson2)
+\end{figure}
 
 The computations for Pearson’s *r* are more complicated than those for Cohen’s *d*. Although you may never have to do them by hand, it is still instructive to see how. Computationally, Pearson’s *r* is the “mean cross-product of *z* scores.” To compute it, one starts by transforming all the scores to *z* scores. For the *X* variable, subtract the mean of *X* from each score and divide each difference by the standard deviation of *X*. For the *Y* variable, subtract the mean of *Y* from each score and divide each difference by the standard deviation of Y. Then, for each individual, multiply the two *z* scores together to form a cross-product. Finally, take the mean of the cross-products. The formula looks like this:
 
@@ -311,10 +385,14 @@ Table: (\#tab:pearsonmath) Sample computations for Pearson's *r*.
 
 There are two common situations in which the value of Pearson’s *r* can be misleading. One is when the relationship under study is nonlinear. Even though Figure \@ref(fig:nonlinear2) shows a fairly strong relationship between depression and sleep, Pearson’s *r* would be close to zero because the points in the scatterplot are not well fit by a single straight line. This means that it is important to make a scatterplot and confirm that a relationship is approximately linear before using Pearson’s *r*. The other is when one or both of the variables have a limited range in the sample relative to the population. This is referred to as [restriction of range]. Assume, for example, that there is a strong negative correlation between people’s age and their enjoyment of hip hop music as shown by the scatterplot in Figure \@ref(fig:range). Pearson’s *r* here is −.77. However, if we were to collect data only from 18- to 24-year-olds—represented by the shaded area of Figure \@ref(fig:range)—then the relationship would seem to be quite weak. In fact, Pearson’s *r* for this restricted range of ages is 0. It is a good idea, therefore, to design studies to avoid restriction of range. For example, if age is one of your primary variables, then you can plan to collect data from people of a wide range of ages. Because restriction of range is not always anticipated or easily avoidable, however, it is good practice to examine your data for possible restriction of range and to interpret Pearson’s *r* in light of it. (There are also statistical methods to correct Pearson’s *r* for restriction of range, but they are beyond the scope of this book).
 
-<div class="figure" style="text-align: center">
-<img src="13-descriptives_files/figure-html/range-1.png" alt="Hypothetical data showing how a strong overall correlation can appear to be weak when one variable has a restricted range. The overall correlation here is −.77, but the correlation for the 18- to 24-year-olds (in the blue box) is 0." width="70%" />
-<p class="caption">(\#fig:range)Hypothetical data showing how a strong overall correlation can appear to be weak when one variable has a restricted range. The overall correlation here is −.77, but the correlation for the 18- to 24-year-olds (in the blue box) is 0.</p>
-</div>
+\begin{figure}
+
+{\centering \includegraphics[width=0.7\linewidth]{13-descriptives_files/figure-latex/range-1} 
+
+}
+
+\caption{Hypothetical data showing how a strong overall correlation can appear to be weak when one variable has a restricted range. The overall correlation here is −.77, but the correlation for the 18- to 24-year-olds (in the blue box) is 0.}(\#fig:range)
+\end{figure}
 
 :::takeaways
 ##### KEY TAKEAWAYS {-}
@@ -417,19 +495,27 @@ There are also several more technical guidelines for graphs that include the fol
 
 As we have seen throughout this book, [bar graphs](#bar-graph) are generally used to present and compare the mean scores for two or more groups or conditions. The bar graph in Figure \@ref(fig:apabar) is an APA-style version of Figure \@ref(fig:phobia). Notice that it conforms to all the guidelines listed. A new element in Figure \@ref(fig:apabar) is the smaller vertical bars that extend both upward and downward from the top of each main bar. These are [error bars], and they represent the variability in each group or condition. Although they sometimes extend one standard deviation in each direction, they are more likely to extend one standard error in each direction (as in Figure \@ref(fig:apabar)). The [standard error] is the standard deviation of the group divided by the square root of the sample size of the group. The standard error is used because, in general, a difference between the means of two group that is greater than two standard errors is statistically significant. Thus one can “see” whether a difference is statistically significant based on a bar graph with standard error bars. It is also common for error bars to represent the 95% confidence interval of the man. These error bars are interpreted differently: if there is any overlap between error bars that represent the 95% confidence interval when comparing a plot of two means, the difference is *not* statistically significant.
 
-<div class="figure" style="text-align: center">
-<img src="images/ch12/apabar.png" alt="Sample APA-style bar graph, with error bars representing the standard errors, based on research by Ollendick and colleagues." width="60%" />
-<p class="caption">(\#fig:apabar)Sample APA-style bar graph, with error bars representing the standard errors, based on research by Ollendick and colleagues.</p>
-</div>
+\begin{figure}
+
+{\centering \includegraphics[width=0.6\linewidth]{images/ch12/apabar} 
+
+}
+
+\caption{Sample APA-style bar graph, with error bars representing the standard errors, based on research by Ollendick and colleagues.}(\#fig:apabar)
+\end{figure}
 
 #### Line Graphs {-}
 
 [Line graphs](#line-graph) are used to present correlations between quantitative variables when the independent variable has, or is organized into, a relatively small number of distinct levels. Each point in a line graph represents the mean score on the dependent variable for participants at one level of the independent variable. Figure \@ref(fig:apaline) is an APA-style version of the results of Carlson and Conard. Notice that it includes error bars representing the standard error and conforms to all the stated guidelines.
 
-<div class="figure" style="text-align: center">
-<img src="images/ch12/apaline.png" alt="Sample APA-style line graph based on research by Carlson and Conard." width="60%" />
-<p class="caption">(\#fig:apaline)Sample APA-style line graph based on research by Carlson and Conard.</p>
-</div>
+\begin{figure}
+
+{\centering \includegraphics[width=0.6\linewidth]{images/ch12/apaline} 
+
+}
+
+\caption{Sample APA-style line graph based on research by Carlson and Conard.}(\#fig:apaline)
+\end{figure}
 
 In most cases, the information in a line graph could just as easily be presented in a bar graph. In Figure \@ref(fig:apabar), for example, one could replace each point with a bar that reaches up to the same level and leave the error bars right where they are. This emphasizes the fundamental similarity of the two types of statistical relationship. Both are differences in the average score on one variable across levels of another. The convention followed by most researchers, however, is to use a bar graph when the variable plotted on the x-axis is categorical and a line graph when it is quantitative.
 
@@ -437,20 +523,28 @@ In most cases, the information in a line graph could just as easily be presented
 
 [Scatterplots](#scatterplot) are used to present relationships between quantitative variables when the variable on the x-axis (typically the independent variable) has a large number of levels. Each point in a scatterplot represents an individual rather than the mean for a group of individuals, and there are no lines connecting the points. The graph in Figure \@ref(fig:apascatter) is an APA-style version of Figure \@ref(fig:scatter2), which illustrates a few additional points. First, when the variables on the x-axis and y-axis are conceptually similar and measured on the same scale—as here, where they are measures of the same variable on two different occasions—this can be emphasized by making the axes the same length. Second, when two or more individuals fall at exactly the same point on the graph, one way this can be indicated is by offsetting the points slightly along the x-axis. Other ways are by displaying the number of individuals in parentheses next to the point or by making the point larger or darker in proportion to the number of individuals. Finally, the straight line that best fits the points in the scatterplot, which is called the regression line, can also be included.
 
-<div class="figure" style="text-align: center">
-<img src="images/ch12/apascatter.png" alt="Sample APA-style scatterplot." width="55%" />
-<p class="caption">(\#fig:apascatter)Sample APA-style scatterplot.</p>
-</div>
+\begin{figure}
+
+{\centering \includegraphics[width=0.55\linewidth]{images/ch12/apascatter} 
+
+}
+
+\caption{Sample APA-style scatterplot.}(\#fig:apascatter)
+\end{figure}
 
 :::fyi
 ##### Jitter plots {-}
 
 Developments in data visualization software have led to new options for displaying results. One data visualization method that has increased in popularity is the **jitter plot**. Like scatterplots, jitter plots show individual data points. The data visualization software that generates the plots allows the points to shift slightly in a random direction in order to reduce data point overlap -- hence the word *jitter* in the name. These plots can display the same data as bar and line graphs (i.e., means and error bars) while helping the viewer grasp the full variability in the data. Figure \@ref(fig:apajitter) shows an example in APA format.
 
-<div class="figure" style="text-align: center">
-<img src="images/ch12/apajitter.png" alt="Sample APA-style jitter plot showing hypothetical data." width="70%" />
-<p class="caption">(\#fig:apajitter)Sample APA-style jitter plot showing hypothetical data.</p>
-</div>
+\begin{figure}
+
+{\centering \includegraphics[width=0.7\linewidth]{images/ch12/apajitter} 
+
+}
+
+\caption{Sample APA-style jitter plot showing hypothetical data.}(\#fig:apajitter)
+\end{figure}
 
 The jitter plot above was generated using the free online application [ShowMyData](https://www.showmydata.org/).
 :::
@@ -461,17 +555,25 @@ Like graphs, tables can be used to present large amounts of information clearly 
 
 The most common use of tables is to present several means and standard deviations—usually for complex research designs with multiple independent and dependent variables. Figure \@ref(fig:apatable), for example, shows the results of a hypothetical study similar to the one by @macdonald2002self. (The means in Figure \@ref(fig:apatable) are the means reported by MacDonald and Martineau, but the standard errors are not). Recall that these researchers categorized participants as having low or high self-esteem, put them into a negative or positive mood, and measured their intentions to have unprotected sex. They also measured participants’ attitudes toward unprotected sex. Notice that the table includes horizontal lines spanning the entire table at the top and bottom, and just beneath the column headings. Furthermore, every column has a heading—including the leftmost column—and there are additional headings that span two or more columns that help to organize the information and present it more efficiently. Finally, notice that APA-style tables are numbered consecutively starting at 1 (Table 1, Table 2, and so on) and given a brief but clear and descriptive title.
 
-<div class="figure" style="text-align: center">
-<img src="images/ch12/apatable.png" alt="Sample APA-style table presenting means and standard deviations." width="65%" />
-<p class="caption">(\#fig:apatable)Sample APA-style table presenting means and standard deviations.</p>
-</div>
+\begin{figure}
+
+{\centering \includegraphics[width=0.65\linewidth]{images/ch12/apatable} 
+
+}
+
+\caption{Sample APA-style table presenting means and standard deviations.}(\#fig:apatable)
+\end{figure}
 
 Another common use of tables is to present correlations—usually measured by Pearson’s *r*—among several variables. This is called a [correlation matrix]. Figure \@ref(fig:apamatrix) is a correlation matrix based on a study by David McCabe and colleagues [@mccabe2010relationship]. They were interested in the relationships between working memory and several other variables. We can see from the table that the correlation between working memory and executive function, for example, was an extremely strong .96, that the correlation between working memory and vocabulary was a medium .27, and that all the measures except vocabulary tend to decline with age. Notice here that only half the table is filled in because the other half would have identical values. For example, the Pearson’s *r* value in the upper right corner (working memory and age) would be the same as the one in the lower left corner (age and working memory). The correlation of a variable with itself is always 1.00, so these values are replaced by dashes to make the table easier to read.
 
-<div class="figure" style="text-align: center">
-<img src="images/ch12/apamatrix.png" alt="Sample APA-style table (correlation matrix) based on research by McCabe and colleagues." width="70%" />
-<p class="caption">(\#fig:apamatrix)Sample APA-style table (correlation matrix) based on research by McCabe and colleagues.</p>
-</div>
+\begin{figure}
+
+{\centering \includegraphics[width=0.7\linewidth]{images/ch12/apamatrix} 
+
+}
+
+\caption{Sample APA-style table (correlation matrix) based on research by McCabe and colleagues.}(\#fig:apamatrix)
+\end{figure}
 
 As with graphs, precise statistical results that appear in a table do not need to be repeated in the text. Instead, the writer can note major trends and alert the reader to details (e.g., specific correlations) that are of particular interest.
 

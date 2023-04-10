@@ -49,10 +49,14 @@ Psychological constructs cannot be observed directly. One reason is that they of
 ##### The Big Five {-}
 The Big Five is a set of five broad dimensions that capture much of the variation in human personality. Each of the Big Five can even be defined in terms of six more specific constructs called “facets” [@costa1992normal].
 
-<div class="figure" style="text-align: center">
-<img src="images/measurement/big5.png" alt="The Big Five Personality Dimensions" width="100%" />
-<p class="caption">(\#fig:big5)The Big Five Personality Dimensions</p>
-</div>
+\begin{figure}
+
+{\centering \includegraphics[width=1\linewidth]{images/measurement/big5} 
+
+}
+
+\caption{The Big Five Personality Dimensions}(\#fig:big5)
+\end{figure}
 :::
 
 The [conceptual definition] of a psychological construct describes the behaviors and internal processes that make up that construct, along with how it relates to other variables. For example, a conceptual definition of neuroticism (another one of the Big Five) would be that it is people’s tendency to experience negative emotions such as anxiety, anger, and sadness across a variety of situations. This definition might also include that it has a strong genetic component, remains fairly stable over time, and is positively correlated with the tendency to experience pain and other physical symptoms.
@@ -63,10 +67,14 @@ Students sometimes wonder why, when researchers want to understand a construct l
 
 An [operational definition] is a definition of a variable in terms of precisely how it is to be measured. These measures generally fall into one of three broad categories. [Self-report measures](#self-report-measure) are those in which participants report on their own thoughts, feelings, and actions, as with the Rosenberg Self-Esteem Scale. [Behavioral measures](#behavioral-measure) are those in which some other aspect of participants’ behavior is observed and recorded. This is an extremely broad category that includes the observation of people’s behavior both in highly structured laboratory tasks and in more natural settings. A good example of the former would be measuring working memory capacity using the backward digit span task. A good example of the latter is a famous operational definition of physical aggression from researcher Albert Bandura and his colleagues [@bandura1961transmission]. They let each of several children play for 20 minutes in a room that contained a clown-shaped punching bag called a Bobo doll. They filmed each child and counted the number of acts of physical aggression he or she committed. These included hitting the doll with a mallet, punching it, and kicking it. Their operational definition, then, was the number of these specifically defined acts that the child committed in the 20-minute period. Finally, [physiological measures](#physiological-measure) are those that involve recording any of a wide variety of physiological processes, including heart rate and blood pressure, galvanic skin response, hormone levels, and electrical activity and blood flow in the brain.
 
-<div class="figure" style="text-align: center">
-<img src="images/measurement/eeg.jpeg" alt="In addition to self-report and behavioral measures, researchers in psychology use physiological measures. An electroencephalograph (EEG) records electrical activity from the brain. *Image by ulrichw from Pixabay.*" width="50%" />
-<p class="caption">(\#fig:eeg)In addition to self-report and behavioral measures, researchers in psychology use physiological measures. An electroencephalograph (EEG) records electrical activity from the brain. *Image by ulrichw from Pixabay.*</p>
-</div>
+\begin{figure}
+
+{\centering \includegraphics[width=0.5\linewidth]{images/measurement/eeg} 
+
+}
+
+\caption{In addition to self-report and behavioral measures, researchers in psychology use physiological measures. An electroencephalograph (EEG) records electrical activity from the brain. *Image by ulrichw from Pixabay.*}(\#fig:eeg)
+\end{figure}
 
 For any given variable or construct, there will be multiple operational definitions. Stress is a good example. A rough conceptual definition is that stress is an adaptive response to a perceived danger or threat that involves physiological, cognitive, affective, and behavioral components. But researchers have operationally defined it in several ways. The Social Readjustment Rating Scale is a self-report questionnaire on which people identify stressful events that they have experienced in the past year and assigns points for each one depending on its severity. For example, a man who has been divorced (73 points), changed jobs (36 points), and had a change in sleeping habits (16 points) in the past year would have a total score of 125. The Daily Hassles and Uplifts Scale is similar but focuses on everyday stressors like misplacing things and being concerned about one’s weight. The Perceived Stress Scale is another self-report measure that focuses on people’s feelings of stress (e.g., “How often have you felt nervous and stressed?”). Researchers have also operationally defined stress in terms of several physiological variables including blood pressure and levels of the stress hormone cortisol.
 
@@ -125,10 +133,14 @@ When researchers measure a construct that they assume to be consistent across ti
 
 Assessing test-retest reliability requires using the measure on a group of people at one time, using it again on the same group of people at a later time, and then looking at [test-retest correlation] between the two sets of scores. This is typically done by graphing the data in a scatterplot and computing Pearson’s r. Figure \@ref(fig:retest) shows the correlation between two sets of scores of several college students on the Rosenberg Self-Esteem Scale, given two times a week apart. Pearson’s r for these data is +.95. In general, a test-retest correlation of +.80 or greater is considered to indicate good reliability.
 
-<div class="figure" style="text-align: center">
-<img src="06-measurement_files/figure-html/retest-1.png" alt="Test-retest correlation between two sets of scores of several college students on the Rosenberg self-esteem scale, given two times a week apart." width="80%" />
-<p class="caption">(\#fig:retest)Test-retest correlation between two sets of scores of several college students on the Rosenberg self-esteem scale, given two times a week apart.</p>
-</div>
+\begin{figure}
+
+{\centering \includegraphics[width=0.8\linewidth]{06-measurement_files/figure-latex/retest-1} 
+
+}
+
+\caption{Test-retest correlation between two sets of scores of several college students on the Rosenberg self-esteem scale, given two times a week apart.}(\#fig:retest)
+\end{figure}
 
 Again, high test-retest correlations make sense when the construct being measured is assumed to be consistent over time, which is the case for intelligence, self-esteem, and the Big Five personality dimensions. But other constructs are not assumed to be stable over time. The very nature of mood, for example, is that it changes. So a measure of mood that produced a low test-retest correlation over a period of a month would not be a cause for concern.
 
@@ -138,10 +150,14 @@ A second kind of reliability is [internal consistency], which is the consistency
 
 Like test-retest reliability, internal consistency can only be assessed by collecting and analyzing data. One approach is to look at a [split-half correlation]. This involves splitting the items into two sets, such as the first and second halves of the items or the even- and odd-numbered items. Then a score is computed for each set of items, and the relationship between the two sets of scores is examined. For example, Figure \@ref(fig:internal) shows the split-half correlation between several college students’ scores on the even-numbered items and their scores on the odd-numbered items of the Rosenberg Self-Esteem Scale. Pearson’s r for these data is +.88. A split-half correlation of +.80 or greater is generally considered good internal consistency.
 
-<div class="figure" style="text-align: center">
-<img src="06-measurement_files/figure-html/internal-1.png" alt="Split-half correlation between several college students’ scores on the even-numbered items and their scores on the odd-numbered items of the Rosenberg self-esteem scale." width="80%" />
-<p class="caption">(\#fig:internal)Split-half correlation between several college students’ scores on the even-numbered items and their scores on the odd-numbered items of the Rosenberg self-esteem scale.</p>
-</div>
+\begin{figure}
+
+{\centering \includegraphics[width=0.8\linewidth]{06-measurement_files/figure-latex/internal-1} 
+
+}
+
+\caption{Split-half correlation between several college students’ scores on the even-numbered items and their scores on the odd-numbered items of the Rosenberg self-esteem scale.}(\#fig:internal)
+\end{figure}
 
 Perhaps the most common measure of internal consistency used by researchers in psychology is a statistic called [Cronbach’s α] (the Greek letter alpha). Conceptually, α is the mean of all possible split-half correlations for a set of items. For example, there are 252 ways to split a set of 10 items into two sets of five. Cronbach’s α would be the mean of the 252 split-half correlations. Note that this is not how α is actually computed, but it is a correct way of interpreting the meaning of this statistic. Again, a value of +.80 or greater is generally taken to indicate good internal consistency.
 

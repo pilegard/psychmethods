@@ -13,6 +13,7 @@ description: |
   This is a an OER textbook for introductory research methods in psychology.
 link-citations: yes
 github-repo: pilegard/psychmethods
+google_analytics: G-2XLP869DH6
 ---
 
 # Welcome {-}

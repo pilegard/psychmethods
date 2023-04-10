@@ -45,50 +45,84 @@ The second theme of high-level APA style is that it is straightforward. This mea
 Robert Madigan and his colleagues have argued that APA style has a purpose that often goes unrecognized [@madigan1995language]. Specifically, it promotes psychologists’ scientific values and assumptions. From this perspective, many features of APA style that at first seem arbitrary actually make good sense. Following are several features of APA-style writing and the scientific values or assumptions they reflect.
 
 
-|APA style feature                                                                 |Scientific value or assumption                                                                                                                |
-|:---------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------|
-|There are very few direct quotations of other researchers.                        |The phenomena and theories of psychology are objective and do not depend on the specific words a particular researcher used to describe them. |
-|Criticisms are directed at other researchers’ work but not at them personally.    |The focus of scientific research is on drawing general conclusions about the world, not on the personalities of particular researchers.       |
-|There are many references and reference citations.                                |Scientific research is a large-scale collaboration among many researchers.                                                                    |
-|Empirical research reports are organized with specific sections in a fixed order. |There is an ideal approach to conducting empirical research in psychology (even if this ideal is not always achieved in actual research).     |
-|Researchers tend to “hedge” their conclusions, e.g., “The results suggest that…”  |Scientific knowledge is tentative and always subject to revision based on new empirical results.                                              |
+\begin{tabular}{l|l}
+\hline
+APA style feature & Scientific value or assumption\\
+\hline
+There are very few direct quotations of other researchers. & The phenomena and theories of psychology are objective and do not depend on the specific words a particular researcher used to describe them.\\
+\hline
+Criticisms are directed at other researchers’ work but not at them personally. & The focus of scientific research is on drawing general conclusions about the world, not on the personalities of particular researchers.\\
+\hline
+There are many references and reference citations. & Scientific research is a large-scale collaboration among many researchers.\\
+\hline
+Empirical research reports are organized with specific sections in a fixed order. & There is an ideal approach to conducting empirical research in psychology (even if this ideal is not always achieved in actual research).\\
+\hline
+Researchers tend to “hedge” their conclusions, e.g., “The results suggest that…” & Scientific knowledge is tentative and always subject to revision based on new empirical results.\\
+\hline
+\end{tabular}
 :::
 
 Another important element of high-level APA style is the avoidance of language that is biased against particular groups. This is not only to avoid offending people—why would you want to offend people who are interested in your work?—but also for the sake of scientific objectivity and accuracy. For example, the term *sexual orientation* should be used instead of *sexual preference* because people do not generally experience their orientation as a “preference,” nor is it as easily changeable as this term suggests [@herek1991avoiding].
 
 The general principles for avoiding biased language are fairly simple. First, be sensitive to labels by avoiding terms that are offensive or have negative connotations. This includes terms that identify people with a disorder or other problem they happen to have. For example, *patients with schizophrenia* is better than *schizophrenics.* Second, use more specific terms rather than more general ones. For example, *Mexican Americans* is better than *Hispanics* if everyone in the group is, in fact, *Mexican American*. Third, avoid objectifying research participants. Instead, acknowledge their active contribution to the research. For example, “The *students completed* the questionnaire” is better than “The *subjects were administered* the questionnaire.” Note that this principle also makes for clearer, more engaging writing. Table \@ref(tab:bias) shows several more examples that follow these general principles.
 
+\begin{table}
 
-Table: (\#tab:bias)Examples of avoiding biased language.
-
-|Instead of...                |Use...                                           |
-|:----------------------------|:------------------------------------------------|
-|man, men                     |men and women, people                            |
-|firemen                      |firefighters                                     |
-|homosexuals, gays, bisexuals |lesbians, gay men, bisexual men, bisexual people |
-|minority                     |specific group label (e.g., African American)    |
-|neurotics                    |people scoring high in neuroticism               |
-|special children             |children with learning disabilities              |
+\caption{(\#tab:bias)Examples of avoiding biased language.}
+\centering
+\begin{tabular}[t]{l|l}
+\hline
+Instead of... & Use...\\
+\hline
+man, men & men and women, people\\
+\hline
+firemen & firefighters\\
+\hline
+homosexuals, gays, bisexuals & lesbians, gay men, bisexual men, bisexual people\\
+\hline
+minority & specific group label (e.g., African American)\\
+\hline
+neurotics & people scoring high in neuroticism\\
+\hline
+special children & children with learning disabilities\\
+\hline
+\end{tabular}
+\end{table}
 
 A previous edition of the *Publication Manual* strongly discouraged the use of the term *subjects* (except for nonhumans) and strongly encouraged the use of *participants* instead. The current edition, however, acknowledges that *subjects* can still be appropriate in referring to human participants in areas in which it has traditionally been used (e.g., basic memory research). But it also encourages the use of more specific terms when possible: *college students*, *children*, *respondents*, and so on.
 
 The third level of APA style can be referred to as [low-level style] (which is covered in Chapter 6 through Chapter 10 of the *Publication Manual*.) Low-level style includes all the specific guidelines pertaining to spelling, grammar, references and reference citations, numbers and statistics, figures and tables, and so on. There are so many low-level guidelines that even experienced professionals need to consult the *Publication Manual* from time to time. Table \@ref(tab:errors) contains some of the most common types of APA style errors based on an analysis of manuscripts submitted to one professional journal over a 6-year period [@onwuegbuzie2010evidence]. These errors were committed by professional researchers but are probably similar to those that students commit the most too. See also Note "[Online APA Style Resources]" in this section and, of course, the *Publication Manual* itself.
 
+\begin{table}
 
-Table: (\#tab:errors)Top 10 APA-Style Errors.
-
-|Error type                 |Example                                                                                                                          |
-|:--------------------------|:--------------------------------------------------------------------------------------------------------------------------------|
-|1. Use of numbers          |Failing to use numerals for 10 and above                                                                                         |
-|2. Hyphenation             |Failing to hyphenate compound adjectives that precede a noun (e.g., “role playing technique” should be “role-playing technique”) |
-|3. Use of et al.           |Failing to use it in a reference                                                                                                 |
-|4. Headings                |Not capitalizing headings correctly                                                                                              |
-|5. Use of since            |Using since to mean because                                                                                                      |
-|6. Tables and figures      |Not formatting them in APA style; repeating information that is already given in the text                                        |
-|7. Use of commas           |Failing to use a comma before and or or in a series of three or more elements                                                    |
-|8. Use of abbreviations    |Failing to spell out a term completely before introducing an abbreviation for it                                                 |
-|9. Spacing                 |Not consistently double-spacing between lines                                                                                    |
-|10. Use of & in references |Using & in the text or *and* in parentheses                                                                                      |
+\caption{(\#tab:errors)Top 10 APA-Style Errors.}
+\centering
+\begin{tabular}[t]{l|l}
+\hline
+Error type & Example\\
+\hline
+1. Use of numbers & Failing to use numerals for 10 and above\\
+\hline
+2. Hyphenation & Failing to hyphenate compound adjectives that precede a noun (e.g., “role playing technique” should be “role-playing technique”)\\
+\hline
+3. Use of et al. & Failing to use it in a reference\\
+\hline
+4. Headings & Not capitalizing headings correctly\\
+\hline
+5. Use of since & Using since to mean because\\
+\hline
+6. Tables and figures & Not formatting them in APA style; repeating information that is already given in the text\\
+\hline
+7. Use of commas & Failing to use a comma before and or or in a series of three or more elements\\
+\hline
+8. Use of abbreviations & Failing to spell out a term completely before introducing an abbreviation for it\\
+\hline
+9. Spacing & Not consistently double-spacing between lines\\
+\hline
+10. Use of \& in references & Using \& in the text or *and* in parentheses\\
+\hline
+\end{tabular}
+\end{table}
 
 :::fyi
 ##### Online APA Style Resources {-}
@@ -291,10 +325,14 @@ The [method section] is where you describe how you conducted your study. An impo
 
 The method section begins immediately after the introduction ends with the heading “Method” (not “Methods”) centered on the page. Immediately after this is the subheading “Participants,” left justified and in italics. The participants subsection indicates how many participants there were, the number of women and men, some indication of their age, other demographics that may be relevant to the study, and how they were recruited, including any incentives given for participation.
 
-<div class="figure" style="text-align: center">
-<img src="images/ch11/method.png" alt="Three ways of organizing an APA-style method." width="70%" />
-<p class="caption">(\#fig:method)Three ways of organizing an APA-style method.</p>
-</div>
+\begin{figure}
+
+{\centering \includegraphics[width=0.7\linewidth]{images/ch11/method} 
+
+}
+
+\caption{Three ways of organizing an APA-style method.}(\#fig:method)
+\end{figure}
 
 After the participants section, the structure can vary a bit. Figure \@ref(fig:method) shows three common approaches. In the first, the participants section is followed by a design and procedure subsection, which describes the rest of the method. This works well for methods that are relatively simple and can be described adequately in a few paragraphs. In the second approach, the participants section is followed by separate design and procedure subsections. This works well when both the design and the procedure are relatively complicated and each requires multiple paragraphs.
 
@@ -365,25 +403,41 @@ Figure \@ref(fig:sample1), Figure \@ref(fig:sample2), Figure \@ref(fig:sample3),
 
 > *Note: The pages below are adapted from the preprint of a manuscript published in* Contemporary Educatianal Psychology *[@pilegard2016improving]. Changes, including deletions and distortions, were made for utility's sake in the pages below. This version should not be treated as an academic source.*
 
-<div class="figure" style="text-align: center">
-<img src="images/ch11/sample1.png" alt="Title Page and Abstract. This paper does not include the author note on the title page. The abstract appears on its own page." width="65%" />
-<p class="caption">(\#fig:sample1)Title Page and Abstract. This paper does not include the author note on the title page. The abstract appears on its own page.</p>
-</div>
+\begin{figure}
 
-<div class="figure" style="text-align: center">
-<img src="images/ch11/sample2.png" alt="Introduction and Method. Note that the introduction is headed with the full title, and the method section begins immediately after the introduction ends." width="65%" />
-<p class="caption">(\#fig:sample2)Introduction and Method. Note that the introduction is headed with the full title, and the method section begins immediately after the introduction ends.</p>
-</div>
+{\centering \includegraphics[width=0.65\linewidth]{images/ch11/sample1} 
 
-<div class="figure" style="text-align: center">
-<img src="images/ch11/sample3.png" alt="Results and Discussion. The discussion begins immediately after the results section ends." width="65%" />
-<p class="caption">(\#fig:sample3)Results and Discussion. The discussion begins immediately after the results section ends.</p>
-</div>
+}
 
-<div class="figure" style="text-align: center">
-<img src="images/ch11/sample4.png" alt="References and Figure. If there were appendixes or tables, they would come before the figure." width="65%" />
-<p class="caption">(\#fig:sample4)References and Figure. If there were appendixes or tables, they would come before the figure.</p>
-</div>
+\caption{Title Page and Abstract. This paper does not include the author note on the title page. The abstract appears on its own page.}(\#fig:sample1)
+\end{figure}
+
+\begin{figure}
+
+{\centering \includegraphics[width=0.65\linewidth]{images/ch11/sample2} 
+
+}
+
+\caption{Introduction and Method. Note that the introduction is headed with the full title, and the method section begins immediately after the introduction ends.}(\#fig:sample2)
+\end{figure}
+
+\begin{figure}
+
+{\centering \includegraphics[width=0.65\linewidth]{images/ch11/sample3} 
+
+}
+
+\caption{Results and Discussion. The discussion begins immediately after the results section ends.}(\#fig:sample3)
+\end{figure}
+
+\begin{figure}
+
+{\centering \includegraphics[width=0.65\linewidth]{images/ch11/sample4} 
+
+}
+
+\caption{References and Figure. If there were appendixes or tables, they would come before the figure.}(\#fig:sample4)
+\end{figure}
 
 :::takeaways
 ##### KEY TAKEAWAYS {-}
@@ -473,17 +527,25 @@ In preparing a talk, presenters should keep several general principles in mind. 
 
 Another way to present research at a conference is in the form of a [poster]. A poster is typically presented during a one- to two-hour [poster session] that takes place in a large room at the conference site. In a traditional poster session, presenters set up their posters on bulletin boards arranged around the room and stand near them. Other researchers then circulate through the room, read the posters, and talk to the presenters. In essence, poster sessions are a grown-up version of the school science fair. But there is nothing childish about them. Posters are used by professional researchers in all scientific disciplines and they are becoming increasingly common. At a recent American Psychological Society Conference, nearly 2,000 posters were presented across 16 separate poster sessions. Among the reasons posters are so popular is that they encourage meaningful interaction among researchers.
 
-<div class="figure" style="text-align: center">
-<img src="images/ch11/poster.jpeg" alt="New research is often presented in the form of posters at professional conferences. *Photo by Peter Macdonald on Flickr.*" width="60%" />
-<p class="caption">(\#fig:poster)New research is often presented in the form of posters at professional conferences. *Photo by Peter Macdonald on Flickr.*</p>
-</div>
+\begin{figure}
+
+{\centering \includegraphics[width=0.6\linewidth]{images/ch11/poster} 
+
+}
+
+\caption{New research is often presented in the form of posters at professional conferences. *Photo by Peter Macdonald on Flickr.*}(\#fig:poster)
+\end{figure}
 
 Although a poster can consist of several sheets of paper that are attached separately to the bulletin board, it is now more common for them to consist of a single large sheet of paper. Either way, the information is organized into distinct sections, including a title, author names and affiliations, an introduction, a method section, a results section, a discussion or conclusions section, references, and acknowledgments. Although posters can include an abstract, this may not be necessary because the poster itself is already a brief summary of the research. Figure \@ref(fig:posterorg) shows two different ways that the information on a poster might be organized.
 
-<div class="figure" style="text-align: center">
-<img src="images/ch11/posterorg.png" alt="Two possible ways to organize the information on a poster." width="60%" />
-<p class="caption">(\#fig:posterorg)Two possible ways to organize the information on a poster.</p>
-</div>
+\begin{figure}
+
+{\centering \includegraphics[width=0.6\linewidth]{images/ch11/posterorg} 
+
+}
+
+\caption{Two possible ways to organize the information on a poster.}(\#fig:posterorg)
+\end{figure}
 
 Given the conditions under which posters are often presented—for example, in crowded ballrooms where people are also eating, drinking, and socializing—they should be constructed so that they present the main ideas behind the research in as simple and clear a way as possible. The font sizes on a poster should be large—perhaps 72 points for the title and authors’ names and 28 points for the main text. The information should be organized into sections with clear headings, and text should be blocked into sentences or bulleted points rather than paragraphs. It is also better for it to be organized in columns and flow from top to bottom rather than to be organized in rows that flow across the poster. This makes it easier for multiple people to read at the same time without bumping into each other. Posters often include elements that add visual interest. Figures can be more colorful than those in an APA-style manuscript. Posters can also include copies of visual stimuli, photographs of the apparatus, or a simulation of participants being tested. They can also include purely decorative elements, although it is best not to overdo these.
 
