@@ -6,14 +6,10 @@ Here is the first paragraph of a 2009 article in the *Journal of Experimental Ps
 
 In this paragraph, the researcher has identified a research question—about the effect of using human figure drawings on the accuracy of children’s memories of being touched—and begun to make an argument for why it is interesting. In terms of the general model of scientific research in psychology presented in Figure \@ref(fig:scientificmethod) "A Simple Model of Scientific Research in Psychology", these are activities at the “top” of the cycle. In this chapter, we begin with some more basic concepts that are necessary to understand how research questions in psychology are conceptualized.
 
-\begin{figure}
-
-{\centering \includegraphics[width=0.25\linewidth]{images/getting-started/bruck} 
-
-}
-
-\caption{Do human figure drawings like this one help children recall information about being touched—for example, in sexual abuse cases? Unfortunately, initial research suggests that they do not. Copyright © 2004 by the American Psychological Association. Reproduced with permission. The official citation that should be used in referencing this material is Aldridge, J., Lamb, M. W., Sternberg, K. J., Orbach, Y., Esplin, P. W., \& Bowler, L. (2004). Journal of Consulting and Clinical Psychology, 72, 304–316. The use of APA information does not imply endorsement by the APA.}(\#fig:bruck)
-\end{figure}
+<div class="figure" style="text-align: center">
+<img src="images/getting-started/bruck.jpeg" alt="Do human figure drawings like this one help children recall information about being touched—for example, in sexual abuse cases? Unfortunately, initial research suggests that they do not. Copyright © 2004 by the American Psychological Association. Reproduced with permission. The official citation that should be used in referencing this material is Aldridge, J., Lamb, M. W., Sternberg, K. J., Orbach, Y., Esplin, P. W., \&amp; Bowler, L. (2004). Journal of Consulting and Clinical Psychology, 72, 304–316. The use of APA information does not imply endorsement by the APA." width="25%" />
+<p class="caption">(\#fig:bruck)Do human figure drawings like this one help children recall information about being touched—for example, in sexual abuse cases? Unfortunately, initial research suggests that they do not. Copyright © 2004 by the American Psychological Association. Reproduced with permission. The official citation that should be used in referencing this material is Aldridge, J., Lamb, M. W., Sternberg, K. J., Orbach, Y., Esplin, P. W., \& Bowler, L. (2004). Journal of Consulting and Clinical Psychology, 72, 304–316. The use of APA information does not imply endorsement by the APA.</p>
+</div>
 
 ## Basic Concepts
 
@@ -52,14 +48,10 @@ One basic form of statistical relationship is a difference between the mean scor
 
 Differences between groups are usually described by giving the mean score and standard deviation for each group. This information can also be presented in a bar graph like that in Figure \@ref(fig:bargraph), where the heights of the bars represent the group means.
 
-\begin{figure}
-
-{\centering \includegraphics[width=0.7\linewidth]{02-getting-started_files/figure-latex/bargraph-1} 
-
-}
-
-\caption{Bar graph showing the very small difference in the mean number of words spoken per day by women and men in a large sample. Based on data from @mehl2007women}(\#fig:bargraph)
-\end{figure}
+<div class="figure" style="text-align: center">
+<img src="02-getting-started_files/figure-html/bargraph-1.png" alt="Bar graph showing the very small difference in the mean number of words spoken per day by women and men in a large sample. Based on data from @mehl2007women" width="70%" />
+<p class="caption">(\#fig:bargraph)Bar graph showing the very small difference in the mean number of words spoken per day by women and men in a large sample. Based on data from @mehl2007women</p>
+</div>
 
 #### Correlations Between Quantitative Variables {-}
 
@@ -67,37 +59,25 @@ A second basic form of statistical relationship is a correlation between two qua
 
 Correlations between quantitative variables are often presented using [scatterplots](#scatterplot). Figure \@ref(fig:scatter) shows some hypothetical data on the relationship between the amount of stress people are under and the number of physical symptoms they have. Each point in the scatterplot represents one person’s score on both variables. For example, the circled point in Figure \@ref(fig:scatter) represents a person whose stress score was 10 and who had three physical symptoms. Taking all the points into account, one can see that people under more stress tend to have more physical symptoms. This is a good example of a positive relationship, in which higher scores on one variable tend to be associated with higher scores on the other. A negative relationship is one in which higher scores on one variable tend to be associated with lower scores on the other. There is a negative relationship between stress and immune system functioning, for example, because higher stress is associated with lower immune system functioning.
 
-\begin{figure}
-
-{\centering \includegraphics[width=0.75\linewidth]{02-getting-started_files/figure-latex/scatter-1} 
-
-}
-
-\caption{Scatterplot showing a hypothetical positive relationship between stress and number of physical symptoms. The point highlighted in the blue box represents a person whose stress score was 10 and who had three physical symptoms. Pearson’s *r* for these data is +.51.}(\#fig:scatter)
-\end{figure}
+<div class="figure" style="text-align: center">
+<img src="02-getting-started_files/figure-html/scatter-1.png" alt="Scatterplot showing a hypothetical positive relationship between stress and number of physical symptoms. The point highlighted in the blue box represents a person whose stress score was 10 and who had three physical symptoms. Pearson’s *r* for these data is +.51." width="75%" />
+<p class="caption">(\#fig:scatter)Scatterplot showing a hypothetical positive relationship between stress and number of physical symptoms. The point highlighted in the blue box represents a person whose stress score was 10 and who had three physical symptoms. Pearson’s *r* for these data is +.51.</p>
+</div>
 
 
 The strength of a correlation between quantitative variables is typically measured using a statistic called [Pearson’s *r*]. As Figure \@ref(fig:pearson) shows, Pearson’s *r* ranges from −1.00 (the strongest possible negative relationship) to +1.00 (the strongest possible positive relationship). A value of 0 means there is no relationship between the two variables. When Pearson’s *r* is 0, the points on a scatterplot form a shapeless “cloud.” As its value moves toward −1.00 or +1.00, the points come closer and closer to falling on a single straight line.
 
-\begin{figure}
-
-{\centering \includegraphics[width=0.9\linewidth]{images/getting-started/pearson} 
-
-}
-
-\caption{Range of Pearson’s *r*, from −1.00 (strongest possible negative relationship), through 0 (no relationship), to +1.00 (strongest possible positive relationship)}(\#fig:pearson)
-\end{figure}
+<div class="figure" style="text-align: center">
+<img src="images/getting-started/pearson.png" alt="Range of Pearson’s *r*, from −1.00 (strongest possible negative relationship), through 0 (no relationship), to +1.00 (strongest possible positive relationship)" width="90%" />
+<p class="caption">(\#fig:pearson)Range of Pearson’s *r*, from −1.00 (strongest possible negative relationship), through 0 (no relationship), to +1.00 (strongest possible positive relationship)</p>
+</div>
 
 Pearson’s *r* is a good measure only for linear relationships, in which the points are best approximated by a straight line. It is not a good measure for nonlinear relationships, in which the points are better approximated by a curved line. Figure \@ref(fig:nonlinear), for example, shows a hypothetical relationship between the amount of sleep people get per night and their level of depression. In this example, the line that best approximates the points is a U-shaped curve, because people who get about eight hours of sleep tend to be the least depressed. Those who get too little sleep and those who get too much sleep tend to be more depressed. Nonlinear relationships are fairly common in psychology, but measuring their strength is beyond the scope of this book.
 
-\begin{figure}
-
-{\centering \includegraphics[width=0.7\linewidth]{02-getting-started_files/figure-latex/nonlinear-1} 
-
-}
-
-\caption{Hypothetical nonlinear relationship between sleep and depression.}(\#fig:nonlinear)
-\end{figure}
+<div class="figure" style="text-align: center">
+<img src="02-getting-started_files/figure-html/nonlinear-1.png" alt="Hypothetical nonlinear relationship between sleep and depression." width="70%" />
+<p class="caption">(\#fig:nonlinear)Hypothetical nonlinear relationship between sleep and depression.</p>
+</div>
 
 #### Correlation Does Not Imply Causation {-}
 
@@ -105,14 +85,10 @@ Researchers are often interested in a statistical relationship between two varia
 
 But not all statistical relationships reflect causal relationships. This is what psychologists mean when they say, “Correlation does not imply causation.” An obvious example comes from a study in Taiwan showing a positive relationship between the number of electrical appliances that people use and the extent to which they use birth control [@stanovich2013think]. It seems clear, however, that this does not mean that owning electrical appliances causes people to use birth control, and it would not make sense to try to increase the use of birth control by giving people toasters and hair dryers.
 
-\begin{figure}
-
-{\centering \includegraphics[width=0.9\linewidth]{images/getting-started/correlationdoesnotimplycausation} 
-
-}
-
-\caption{A Public Service Announcement.}(\#fig:correlationdoesnotimplycausation)
-\end{figure}
+<div class="figure" style="text-align: center">
+<img src="images/getting-started/correlationdoesnotimplycausation.png" alt="A Public Service Announcement." width="90%" />
+<p class="caption">(\#fig:correlationdoesnotimplycausation)A Public Service Announcement.</p>
+</div>
 
 There are two reasons that correlation does not imply causation. The first is called the [directionality problem]. Two variables, *X* and *Y*, can be statistically related because *X* causes *Y* or because *Y* causes *X.* Consider, for example, a study showing that whether or not people exercise is statistically related to how happy they are—such that people who exercise are happier on average than people who do not. This statistical relationship is consistent with the idea that exercising causes happiness, but it is also consistent with the idea that happiness causes exercise. Perhaps being happy gives people more energy or leads them to seek opportunities to socialize with others by going to the gym. The second reason that correlation does not imply causation is called the [third-variable problem]. Two variables, *X* and *Y*, can be statistically related not because *X* causes *Y*, or because *Y* causes *X*, but because some third variable, *Z*, causes both *X* and *Y.* For example, the fact that people with more electrical appliances are more likely to use birth control probably reflects the fact that having more education or income causes people to own more appliances and causes them to use birth control. Similarly, the statistical relationship between exercise and happiness could mean that some third variable, such as physical health, causes both of the others. Being physically healthy could cause people to exercise and cause them to be happier.
 
@@ -184,26 +160,16 @@ As an example, consider a study by researchers Laura Abrams and Laura Curran, wh
 
 Their theoretical narrative focused on the participants’ experience of their symptoms not as an abstract “affective disorder” but as closely tied to the daily struggle of raising children alone under often difficult circumstances.
 
-\begin{table}
 
-\caption{(\#tab:themes)Themes and repeating ideas in a study of postpartum depression among low-income mothers.}
-\centering
-\begin{tabular}[t]{l|l}
-\hline
-Theme & Repeating ideas\\
-\hline
-Ambivalence & “I wasn’t prepared for this baby,” “I didn’t want to have any more children.”\\
-\hline
-Caregiving overload & “Please stop crying,” “I need a break,” “I can’t do this anymore.”\\
-\hline
-Juggling & “No time to breathe,” “Everyone depends on me,” “Navigating the maze.”\\
-\hline
-Mothering alone & “I really don’t have any help,” “My baby has no father.”\\
-\hline
-Real-life worry & “I don’t have any money,” “Will my baby be OK?” “It’s not safe here.”\\
-\hline
-\end{tabular}
-\end{table}
+Table: (\#tab:themes)Themes and repeating ideas in a study of postpartum depression among low-income mothers.
+
+|Theme               |Repeating ideas                                                               |
+|:-------------------|:-----------------------------------------------------------------------------|
+|Ambivalence         |“I wasn’t prepared for this baby,” “I didn’t want to have any more children.” |
+|Caregiving overload |“Please stop crying,” “I need a break,” “I can’t do this anymore.”            |
+|Juggling            |“No time to breathe,” “Everyone depends on me,” “Navigating the maze.”        |
+|Mothering alone     |“I really don’t have any help,” “My baby has no father.”                      |
+|Real-life worry     |“I don’t have any money,” “Will my baby be OK?” “It’s not safe here.”         |
 
 ### The Quantitative-Qualitative “Debate” {-}
 

@@ -113,14 +113,10 @@ The [research literature] in any field is all the published research in that fie
 
 Most articles in professional journals are one of two basic types: empirical research reports and review articles. [Empirical research reports](#empirical-research-report) describe one or more new empirical studies conducted by the authors. They introduce a research question, explain why it is interesting, review previous research, describe their method and results, and draw their conclusions. [Review articles](#review-article) summarize previously published research on a topic and usually present new ways to organize or explain the results. When a review article is devoted primarily to presenting a new theory, it is often referred to as a [theoretical article].
 
-\begin{figure}
-
-{\centering \includegraphics[width=0.4\linewidth]{images/ideas/journals} 
-
-}
-
-\caption{Small sample of the thousands of professional journals that publish research in psychology and related fields.}(\#fig:journals)
-\end{figure}
+<div class="figure" style="text-align: center">
+<img src="images/ideas/journals.jpeg" alt="Small sample of the thousands of professional journals that publish research in psychology and related fields." width="40%" />
+<p class="caption">(\#fig:journals)Small sample of the thousands of professional journals that publish research in psychology and related fields.</p>
+</div>
 
 Most professional journals in psychology undergo a process of [peer review]. Researchers who want to publish their work in the journal submit a manuscript to the editor—who is generally an established researcher too—who in turn sends it to two or three experts on the topic. Each reviewer reads the manuscript, writes a critical review, and sends the review back to the editor along with his or her recommendations. The editor then decides whether to accept the article for publication, ask the authors to make changes and resubmit it for further consideration, or reject it outright. In any case, the editor forwards the reviewers’ written comments to the researchers so that they can revise their manuscript accordingly. Peer review is important because it ensures that the work meets basic standards of the field before it can enter the research literature.
 

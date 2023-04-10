@@ -2,14 +2,10 @@
 
 In 1998 a medical journal called *The Lancet* published an article of interest to many psychologists. The researchers claimed to have shown a statistical relationship between receiving the combined measles, mumps, and rubella (MMR) vaccine and the development of autism—suggesting furthermore that the vaccine might even cause autism. One result of this report was that many parents decided not to have their children vaccinated, which of course put them at higher risk for measles, mumps, and rubella. However, follow-up studies by other researchers consistently failed to find a statistical relationship between the MMR vaccine and autism—and it is generally accepted now that there is no relationship. In addition, several more serious problems with the original research were uncovered. Among them were that the lead researcher stood to gain financially from his conclusions because he had patented a competing measles vaccine. He had also used biased methods to select and test his research participants and had used unapproved and medically unnecessary procedures on them. In 2010 The Lancet retracted the article, and the lead researcher’s right to practice medicine was revoked [@burns2010british].
 
-\begin{figure}
-
-{\centering \includegraphics[width=0.5\linewidth]{images/ethics/vaccine} 
-
-}
-
-\caption{In 1998 a study linking the MMR vaccine to autism caused vaccination rates to drop and put children at higher risk of measles, mumps, and rubella. Subsequent research failed to find a statistical relationship between the vaccine and autism. *Photo by CDC on Unsplash.*}(\#fig:vaccine)
-\end{figure}
+<div class="figure" style="text-align: center">
+<img src="images/ethics/vaccine.jpeg" alt="In 1998 a study linking the MMR vaccine to autism caused vaccination rates to drop and put children at higher risk of measles, mumps, and rubella. Subsequent research failed to find a statistical relationship between the vaccine and autism. *Photo by CDC on Unsplash.*" width="50%" />
+<p class="caption">(\#fig:vaccine)In 1998 a study linking the MMR vaccine to autism caused vaccination rates to drop and put children at higher risk of measles, mumps, and rubella. Subsequent research failed to find a statistical relationship between the vaccine and autism. *Photo by CDC on Unsplash.*</p>
+</div>
 
 In this chapter we explore the ethics of scientific research in psychology. We begin with a general framework for thinking about the ethics of scientific research in psychology. Then we look at some specific ethical codes for biomedical and behavioral researchers—focusing on the Ethics Code of the American Psychological Association. Finally, we consider some practical tips for conducting ethical research in psychology.
 
@@ -276,14 +272,10 @@ Standards 8.10 to 8.15 are about scholarly integrity. These include the obvious 
 
 The remaining standards make some less obvious but equally important points. Researchers should not publish the same data a second time as though it were new, they should share their data with other researchers, and as peer reviewers they should keep the unpublished research they review confidential. Note that the authors’ names on published research—and the order in which those names appear—should reflect the importance of each person’s contribution to the research. It would be unethical, for example, to include as an author someone who had made only minor contributions to the research (e.g., analyzing some of the data) or for a faculty member to make himself or herself the first author on research that was largely conducted by a student.
 
-\begin{figure}
-
-{\centering \includegraphics[width=0.5\linewidth]{images/ethics/authorship} 
-
-}
-
-\caption{According to the APA Ethics Code, faculty advisers should discuss publication credit—who will be an author and the order of authors—with their student collaborators as early as possible in the research process. *Photo by Christina @ wocintechchat.com on Unsplash.*}(\#fig:authorship)
-\end{figure}
+<div class="figure" style="text-align: center">
+<img src="images/ethics/authorship.jpeg" alt="According to the APA Ethics Code, faculty advisers should discuss publication credit—who will be an author and the order of authors—with their student collaborators as early as possible in the research process. *Photo by Christina @ wocintechchat.com on Unsplash.*" width="50%" />
+<p class="caption">(\#fig:authorship)According to the APA Ethics Code, faculty advisers should discuss publication credit—who will be an author and the order of authors—with their student collaborators as early as possible in the research process. *Photo by Christina @ wocintechchat.com on Unsplash.*</p>
+</div>
 
 :::takeaways
 ##### KEY TAKEAWAYS {-}

@@ -47,14 +47,10 @@ The final way in which research can be nonexperimental is that it can be qualita
 
 Recall that internal validity is the extent to which the design of a study supports the conclusion that changes in the independent variable caused any observed differences in the dependent variable. Figure \@ref(fig:validity) shows how experimental, quasi-experimental, and correlational research vary in terms of internal validity. Experimental research tends to be highest because it addresses the directionality and third-variable problems through manipulation and the control of extraneous variables through random assignment. If the average score on the dependent variable in an experiment differs across conditions, it is quite likely that the independent variable is responsible for that difference. Correlational research is lowest because it fails to address either problem. If the average score on the dependent variable differs across levels of the independent variable, it could be that the independent variable is responsible, but there are other interpretations. In some situations, the direction of causality could be reversed. In others, there could be a third variable that is causing differences in both the independent and dependent variables. Quasi-experimental research is in the middle because the manipulation of the independent variable addresses some problems, but the lack of random assignment and experimental control fails to address others. Imagine, for example, that a researcher finds two similar schools, starts an antibullying program in one, and then finds fewer bullying incidents in that “treatment school” than in the “control school.” There is no directionality problem because clearly the number of bullying incidents did not determine which school got the program. However, the lack of random assignment of children to schools could still mean that students in the treatment school differed from students in the control school in some other way that could explain the difference in bullying.
 
-\begin{figure}
-
-{\centering \includegraphics[width=0.9\linewidth]{images/nonexperiments/validity} 
-
-}
-
-\caption{Experiments are generally high in internal validity, quasi-experiments lower, and correlational studies lower still.}(\#fig:validity)
-\end{figure}
+<div class="figure" style="text-align: center">
+<img src="images/nonexperiments/validity.png" alt="Three overlapping rectangles. From left to right, they are labeled Correlational, Quasi-Experimental, and Experimental. The rectangles are over a continuum from lower internal validity on the left to higher internal validity on the right." width="90%" />
+<p class="caption">(\#fig:validity)Experiments are generally high in internal validity, quasi-experiments lower, and correlational studies lower still.</p>
+</div>
 
 Notice also in Figure \@ref(fig:validity) that there is some overlap in the internal validity of experiments, quasi-experiments, and correlational studies. For example, a poorly designed experiment that includes many confounding variables can be lower in internal validity than a well designed quasi-experiment with no obvious confounding variables.
 
@@ -92,14 +88,10 @@ A common misconception among beginning researchers is that correlational researc
 
 Figure \@ref(fig:todo) shows data from a hypothetical study on the relationship between whether people make a daily list of things to do (a “to-do list”) and stress. Notice that it is unclear whether this is an experiment or a correlational study because it is unclear whether the independent variable was manipulated. If the researcher randomly assigned some participants to make daily to-do lists and others not to, then it is an experiment. If the researcher simply asked participants whether they made daily to-do lists, then it is a correlational study. The distinction is important because if the study was an experiment, then it could be concluded that making the daily to-do lists reduced participants’ stress. But if it was a correlational study, it could only be concluded that these variables are statistically related. Perhaps being stressed has a negative effect on people’s ability to plan ahead (the directionality problem). Or perhaps people who are more conscientious are more likely to make to-do lists and less likely to be stressed (the third-variable problem). The crucial point is that what defines a study as experimental or correlational is not the variables being studied, nor whether the variables are quantitative or categorical, nor the type of graph or statistics used to analyze the data. It is how the study is conducted.
 
-\begin{figure}
-
-{\centering \includegraphics[width=0.8\linewidth]{09-nonexperiments_files/figure-latex/todo-1} 
-
-}
-
-\caption{Results of a hypothetical study on whether people who make daily to-do lists experience less stress than people who do not make such lists.}(\#fig:todo)
-\end{figure}
+<div class="figure" style="text-align: center">
+<img src="09-nonexperiments_files/figure-html/todo-1.png" alt="Results of a hypothetical study on whether people who make daily to-do lists experience less stress than people who do not make such lists." width="80%" />
+<p class="caption">(\#fig:todo)Results of a hypothetical study on whether people who make daily to-do lists experience less stress than people who do not make such lists.</p>
+</div>
 
 ### Data Collection in Correlational Research {-}
 
@@ -119,14 +111,10 @@ Precise specification of the sampling process in this way makes data collection 
 
 The second issue is measurement. What specific behaviors will be observed? In Levine and Norenzayan’s study, measurement was relatively straightforward. They simply measured out a 60-foot distance along a city sidewalk and then used a stopwatch to time participants as they walked over that distance. Often, however, the behaviors of interest are not so obvious or objective. For example, researchers Robert Kraut and Robert Johnston wanted to study bowlers’ reactions to their shots, both when they were facing the pins and then when they turned toward their companions [@kraut1979social]. But what “reactions” should they observe? Based on previous research and their own pilot testing, Kraut and Johnston created a list of reactions that included “closed smile,” “open smile,” “laugh,” “neutral face,” “look down,” “look away,” and “face cover” (covering one’s face with one’s hands). The observers committed this list to memory and then practiced by coding the reactions of bowlers who had been videotaped. During the actual study, the observers spoke into an audio recorder, describing the reactions they observed. Among the most interesting results of this study was that bowlers rarely smiled while they still faced the pins. They were much more likely to smile after they turned toward their companions, suggesting that smiling is not purely an expression of happiness but also a form of social communication.
 
-\begin{figure}
-
-{\centering \includegraphics[width=0.5\linewidth]{images/nonexperiments/bowl} 
-
-}
-
-\caption{Naturalistic observation has revealed that bowlers tend to smile when they turn away from the pins and toward their companions, suggesting that smiling is not purely an expression of happiness but also a form of social communication. *Photo by José Juan Rosa on Unsplash.*}(\#fig:bowl)
-\end{figure}
+<div class="figure" style="text-align: center">
+<img src="images/nonexperiments/bowl.jpeg" alt="A person with short hair in a striped yellow shirt looks down the lane of a bowling alley, presumably having just bowled." width="50%" />
+<p class="caption">(\#fig:bowl)Naturalistic observation has revealed that bowlers tend to smile when they turn away from the pins and toward their companions, suggesting that smiling is not purely an expression of happiness but also a form of social communication. *Photo by José Juan Rosa on Unsplash.*</p>
+</div>
 
 When the observations require a judgment on the part of the observers—as in Kraut and Johnston’s study—this process is often described as [coding]. Coding generally requires clearly defining a set of target behaviors. The observers then categorize participants individually in terms of which behavior they have engaged in and the number of times they engaged in each behavior. The observers might even record the duration of each behavior. The target behaviors must be defined in such a way that different observers code them in the same way. This is the issue of interrater reliability. Researchers are expected to demonstrate the interrater reliability of their coding procedure by having multiple raters code the same behaviors independently and then showing that the different observers are in close agreement. Kraut and Johnston, for example, video recorded a subset of their participants’ reactions and had two observers independently code them. The two observers showed that they agreed on the reactions that were exhibited 97% of the time, indicating good interrater reliability.
 
@@ -186,28 +174,17 @@ From market research and election polling, survey research made its way into sev
 
 Survey research continues to be important in psychology today. For example, survey data have been instrumental in estimating the prevalence of various mental disorders and identifying statistical relationships among those disorders and with various other factors. The National Comorbidity Survey is a large-scale mental health survey conducted in the United States (more [here](https://www.hcp.med.harvard.edu/ncs/)). In just one part of this survey, nearly 10,000 adults were given a structured mental health interview in their homes in 2002 and 2003. Table \@ref(tab:comorbidity) presents results on the lifetime prevalence of some anxiety, mood, and substance use disorders. Obviously, this kind of information can be of great use both to basic researchers seeking to understand the causes and correlates of mental disorders and also to clinicians and policymakers who need to understand exactly how common these disorders are.
 
-\begin{table}
 
-\caption{(\#tab:comorbidity)Some lifetime prevalence results from the National Comorbidity Survey. The lifetime prevalence of a disorder is the percentage of people in the population that develop that disorder at any time in their lives.}
-\centering
-\begin{tabular}[t]{l|r|r|r}
-\hline
-Disorder & Total & Female & Male\\
-\hline
-Generalized anxiety disorder & 5.7 & 7.1 & 4.2\\
-\hline
-Obsessive-compulsive disorder & 2.3 & 3.1 & 1.6\\
-\hline
-Major depressive disorder & 16.9 & 20.2 & 13.2\\
-\hline
-Bipolar disorder & 4.4 & 4.5 & 4.3\\
-\hline
-Alcohol abuse & 13.2 & 7.5 & 19.6\\
-\hline
-Drug abuse & 8.0 & 4.8 & 11.6\\
-\hline
-\end{tabular}
-\end{table}
+Table: (\#tab:comorbidity)Some lifetime prevalence results from the National Comorbidity Survey. The lifetime prevalence of a disorder is the percentage of people in the population that develop that disorder at any time in their lives.
+
+|Disorder                      | Total| Female| Male|
+|:-----------------------------|-----:|------:|----:|
+|Generalized anxiety disorder  |   5.7|    7.1|  4.2|
+|Obsessive-compulsive disorder |   2.3|    3.1|  1.6|
+|Major depressive disorder     |  16.9|   20.2| 13.2|
+|Bipolar disorder              |   4.4|    4.5|  4.3|
+|Alcohol abuse                 |  13.2|    7.5| 19.6|
+|Drug abuse                    |   8.0|    4.8| 11.6|
 
 And as the opening example makes clear, survey research can even be used to conduct experiments to test specific hypotheses about causal relationships between variables. Such studies, when conducted on large and diverse samples, can be a useful supplement to laboratory studies conducted on college students. Although this is not a typical use of survey research, it certainly illustrates the flexibility of this approach.
 
@@ -221,14 +198,10 @@ Before looking at specific principles of survey questionnaire construction, it w
 
 Figure \@ref(fig:cogsurvey) presents a model of the cognitive processes that people engage in when responding to a survey item [@sudman1996thinking]. Respondents must interpret the question, retrieve relevant information from memory, form a tentative judgment, convert the tentative judgment into one of the response options provided (e.g., a rating on a 1-to-7 scale), and finally edit their response as necessary.
 
-\begin{figure}
-
-{\centering \includegraphics[width=0.95\linewidth]{images/nonexperiments/cogsurvey} 
-
-}
-
-\caption{Model of the cognitive processes inolved in responding to a survey item.}(\#fig:cogsurvey)
-\end{figure}
+<div class="figure" style="text-align: center">
+<img src="images/nonexperiments/cogsurvey.png" alt="Model of the cognitive processes inolved in responding to a survey item." width="95%" />
+<p class="caption">(\#fig:cogsurvey)Model of the cognitive processes inolved in responding to a survey item.</p>
+</div>
 
 Consider, for example, the following questionnaire item:
 
@@ -282,14 +255,10 @@ Closed-ended items are used when researchers have a good idea of the different r
 
 All closed-ended items include a set of response options from which a participant must choose. For categorical variables like sex, race, or political party preference, the categories are usually listed and participants choose the one (or ones) that they belong to. For quantitative variables, a rating scale is typically provided. A rating scale is an ordered set of responses that participants must choose from. Figure \@ref(fig:scales) shows several examples. The number of response options on a typical rating scale ranges from three to 11—although five and seven are probably most common. They can consist entirely of verbal labels or they can consist of a set of numbers with verbal labels as “anchors.” In some cases, the verbal labels or numbers can be supplemented with (or even replaced by) meaningful graphics. The last rating scale shown in Figure \@ref(fig:scales) is a visual-analog scale, on which participants make a mark somewhere along the horizontal line to indicate the magnitude of their response.
 
-\begin{figure}
-
-{\centering \includegraphics[width=0.75\linewidth]{images/nonexperiments/scales} 
-
-}
-
-\caption{Example rating scales for closed-ended questionnaire items.}(\#fig:scales)
-\end{figure}
+<div class="figure" style="text-align: center">
+<img src="images/nonexperiments/scales.png" alt="Example rating scales for closed-ended questionnaire items." width="75%" />
+<p class="caption">(\#fig:scales)Example rating scales for closed-ended questionnaire items.</p>
+</div>
 
 :::fyi
 ##### What Is a Likert Scale? {-}
@@ -305,26 +274,16 @@ Thus unless you are measuring people’s attitude toward something by assessing 
 
 We can now consider some principles of writing questionnaire items that minimize unintended context effects and maximize the reliability and validity of participants’ responses. A rough guideline for writing questionnaire items is provided by the BRUSO model [@peterson2000constructing]. An acronym, [BRUSO] stands for “brief,” “relevant,” “unambiguous,” “specific,” and “objective.” Effective questionnaire items are *brief* and to the point. They avoid long, overly technical, or unnecessary words. This makes them easier for respondents to understand and faster for them to complete. Effective questionnaire items are also *relevant* to the research question. If a respondent’s sexual orientation, marital status, or income is not relevant, then items on them should probably not be included. Again, this makes the questionnaire faster to complete, but it also avoids annoying respondents with what they will rightly perceive as irrelevant or even “nosy” questions. Effective questionnaire items are also *unambiguous*; they can be interpreted in only one way. Part of the problem with the alcohol item presented earlier in this section is that different respondents might have different ideas about what constitutes “an alcoholic drink” or “a typical day.” Effective questionnaire items are also *specific*, so that it is clear to respondents what their response should be about and clear to researchers what it is about. A common problem here is closed-ended items that are “double barreled.” They ask about two conceptually separate issues but allow only one response. For example, “Please rate the extent to which you have been feeling anxious and depressed.” This item should probably be split into two separate items—one about anxiety and one about depression. Finally, effective questionnaire items are *objective* in the sense that they do not reveal the researcher’s own opinions or lead participants to answer in a particular way. Table 9.2 "BRUSO Model of Writing Effective Questionnaire Items, Plus Examples" shows some examples of poor and effective questionnaire items based on the BRUSO criteria.
 
-\begin{table}
 
-\caption{(\#tab:bruso)BRUSO model of writing effective questionnaire items, plus examples.}
-\centering
-\begin{tabular}[t]{l|l|l}
-\hline
-Criterion & Poor & Effective\\
-\hline
-B—Brief & “Are you now or have you ever been the possessor of a firearm?” & “Have you ever owned a gun?”\\
-\hline
-R—Relevant & “What is your sexual orientation?” & Do not include this item unless it is clearly relevant to the research.\\
-\hline
-U—Unambiguous & “Are you a gun person?” & “Do you currently own a gun?”\\
-\hline
-S—Specific & “How much have you read about the new gun control measure and sales tax?” & “How much have you read about the new gun control measure?”  “How much have you read about the new sales tax?”\\
-\hline
-O—Objective & “How much do you support the new gun control measure?” & “What is your view of the new gun control measure?”\\
-\hline
-\end{tabular}
-\end{table}
+Table: (\#tab:bruso)BRUSO model of writing effective questionnaire items, plus examples.
+
+|Criterion     |Poor                                                                      |Effective                                                                                                      |
+|:-------------|:-------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------|
+|B—Brief       |“Are you now or have you ever been the possessor of a firearm?”           |“Have you ever owned a gun?”                                                                                   |
+|R—Relevant    |“What is your sexual orientation?”                                        |Do not include this item unless it is clearly relevant to the research.                                        |
+|U—Unambiguous |“Are you a gun person?”                                                   |“Do you currently own a gun?”                                                                                  |
+|S—Specific    |“How much have you read about the new gun control measure and sales tax?” |“How much have you read about the new gun control measure?”  “How much have you read about the new sales tax?” |
+|O—Objective   |“How much do you support the new gun control measure?”                    |“What is your view of the new gun control measure?”                                                            |
 
 For closed-ended items, it is also important to create an appropriate response scale. For categorical variables, the categories presented should generally be mutually exclusive and exhaustive. Mutually exclusive categories do not overlap. For a religion item, for example, the categories of *Christian* and *Catholic* are not mutually exclusive but *Protestant* and *Catholic* are. Exhaustive categories cover all possible responses. Although *Protestant* and *Catholic* are mutually exclusive, they are not exhaustive because there are many other religious categories that a respondent might select: *Jewish*, *Hindu*, *Buddhist*, and so on. In many cases, it is not feasible to include every possible category, in which case an *Other* category, with a space for the respondent to fill in a more specific response, is a good solution. If respondents could belong to more than one category (e.g., race), they should be instructed to choose all categories that apply.
 
@@ -430,14 +389,10 @@ Early studies on the effectiveness of psychotherapy tended to use pretest-postte
 
 Fortunately, many other researchers took up Eysenck’s challenge, and by 1980 hundreds of experiments had been conducted in which participants were randomly assigned to treatment and control conditions, and the results were summarized in a classic book by Mary Lee Smith, Gene Glass, and Thomas Miller [@smith1980benefits]. They found that overall psychotherapy was quite effective, with about 80% of treatment participants improving more than the average control participant. Subsequent research has focused more on the conditions under which different types of psychotherapy are more or less effective.
 
-\begin{figure}
-
-{\centering \includegraphics[width=0.35\linewidth]{images/nonexperiments/eysenck} 
-
-}
-
-\caption{In a classic 1952 article, researcher Hans Eysenck pointed out the shortcomings of the simple pretest-posttest design for evaluating the effectiveness of psychotherapy. *Source: Sirswindon on Wikimedia Commons.*}(\#fig:eysenck)
-\end{figure}
+<div class="figure" style="text-align: center">
+<img src="images/nonexperiments/eysenck.jpg" alt="A photograph of Hans Eysenck wearing brown square glasses, a tan blazer, a brown shirt, and a brown tie." width="35%" />
+<p class="caption">(\#fig:eysenck)In a classic 1952 article, researcher Hans Eysenck pointed out the shortcomings of the simple pretest-posttest design for evaluating the effectiveness of psychotherapy. *Source: Sirswindon on Wikimedia Commons.*</p>
+</div>
 :::
 
 ### Interrupted Time Series Design {-}
@@ -446,55 +401,10 @@ A variant of the pretest-posttest design is the [interrupted time-series design]
 
 Figure \@ref(fig:timeseries) shows data from a hypothetical interrupted time-series study. The dependent variable is the number of student absences per week in a research methods course. The treatment is that the instructor begins publicly taking attendance each day so that students know that the instructor is aware of who is present and who is absent. The top panel of Figure \@ref(fig:timeseries) shows how the data might look if this treatment worked. There is a consistently high number of absences before the treatment, and there is an immediate and sustained drop in absences after the treatment. The bottom panel of Figure \@ref(fig:timeseries) shows how the data might look if this treatment did not work. On average, the number of absences after the treatment is about the same as the number before. This figure also illustrates an advantage of the interrupted time-series design over a simpler pretest-posttest design. If there had been only one measurement of absences before the treatment at Week 7 and one afterward at Week 8, then it would have looked as though the treatment were responsible for the reduction. The multiple measurements both before and after the treatment suggest that the reduction between Weeks 7 and 8 is nothing more than normal week-to-week variation.
 
-
-```
-## Warning in text.default(8.8, 7.5, "← treatment"): conversion failure on '←
-## treatment' in 'mbcsToSbcs': dot substituted for <e2>
-```
-
-```
-## Warning in text.default(8.8, 7.5, "← treatment"): conversion failure on '←
-## treatment' in 'mbcsToSbcs': dot substituted for <86>
-```
-
-```
-## Warning in text.default(8.8, 7.5, "← treatment"): conversion failure on '←
-## treatment' in 'mbcsToSbcs': dot substituted for <90>
-```
-
-```
-## Warning in text.default(8.8, 7.5, "← treatment"): font metrics unknown for
-## Unicode character U+2190
-```
-
-```
-## Warning in text.default(8.8, 7.5, "← treatment"): conversion failure on '←
-## treatment' in 'mbcsToSbcs': dot substituted for <e2>
-```
-
-```
-## Warning in text.default(8.8, 7.5, "← treatment"): conversion failure on '←
-## treatment' in 'mbcsToSbcs': dot substituted for <86>
-```
-
-```
-## Warning in text.default(8.8, 7.5, "← treatment"): conversion failure on '←
-## treatment' in 'mbcsToSbcs': dot substituted for <90>
-```
-
-```
-## Warning in text.default(8.8, 7.5, "← treatment"): font metrics unknown for
-## Unicode character U+2190
-```
-
-\begin{figure}
-
-{\centering \includegraphics[width=0.6\linewidth]{09-nonexperiments_files/figure-latex/timeseries-1} \includegraphics[width=0.6\linewidth]{09-nonexperiments_files/figure-latex/timeseries-2} 
-
-}
-
-\caption{Hypothetical interrupted time-series design. The top panel shows data that suggest that the treatment caused a reduction in absences. The bottom panel shows data that suggest that it did not.}(\#fig:timeseries)
-\end{figure}
+<div class="figure" style="text-align: center">
+<img src="09-nonexperiments_files/figure-html/timeseries-1.png" alt="Two line graphs. The x-axes on both are labeled Week and range from 0 to 14. The y-axes on both are labeled Absences and range from 0 to 8. Between weeks 7 and 8 a vertical dotted line indicates when a treatment was introduced. Both graphs show generally high levels of absences from weeks 1 through 7 (before the treatment) and only 2 absences in week 8 (the first observation after the treatment). The top graph shows the absence level staying low from weeks 9 to 14. The bottom graph shows the absence level for weeks 9 to 15 bouncing around at the same high levels as before the treatment." width="60%" /><img src="09-nonexperiments_files/figure-html/timeseries-2.png" alt="Two line graphs. The x-axes on both are labeled Week and range from 0 to 14. The y-axes on both are labeled Absences and range from 0 to 8. Between weeks 7 and 8 a vertical dotted line indicates when a treatment was introduced. Both graphs show generally high levels of absences from weeks 1 through 7 (before the treatment) and only 2 absences in week 8 (the first observation after the treatment). The top graph shows the absence level staying low from weeks 9 to 14. The bottom graph shows the absence level for weeks 9 to 15 bouncing around at the same high levels as before the treatment." width="60%" />
+<p class="caption">(\#fig:timeseries)Hypothetical interrupted time-series design. The top panel shows data that suggest that the treatment caused a reduction in absences. The bottom panel shows data that suggest that it did not.</p>
+</div>
 
 ### Combination Designs {-}
 

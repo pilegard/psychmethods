@@ -67,66 +67,48 @@ An [extraneous variable] is anything that varies in the context of a study other
 
 Extraneous variables make it difficult to detect the effect of the independent variable in two ways. One is by adding variability or “noise” to the data. Imagine a simple experiment on the effect of mood (happy vs. sad) on the number of happy childhood events people are able to recall. Participants are put into a negative or positive mood (by showing them a happy or sad video clip) and then asked to recall as many happy childhood events as they can. The two leftmost columns of Table \@ref(tab:noise) show what the data might look like if there were no extraneous variables and the number of happy childhood events participants recalled was affected only by their moods. Every participant in the happy mood condition recalled exactly four happy childhood events, and every participant in the sad mood condition recalled exactly three. The effect of mood here is quite obvious. In reality, however, the data would probably look more like those in the two rightmost columns of Table \@ref(tab:noise). Even in the happy mood condition, some participants would recall fewer happy memories because they have fewer to draw on, use less effective strategies, or are less motivated. And even in the sad mood condition, some participants would recall more happy childhood memories because they have more happy memories to draw on, they use more effective recall strategies, or they are more motivated. Although the mean difference between the two groups is the same as in the idealized data, this difference is much less obvious in the context of the greater variability in the data. Thus one reason researchers try to control extraneous variables is so their data look more like the idealized data in Table \@ref(tab:noise), which makes the effect of the independent variable is easier to detect (although real data never look quite *that* good).
 
-\begin{table}
-\caption{(\#tab:noise)Left: Hypothetical noiseless data; Right: realistic noisy data}
 
-\centering
-\begin{tabular}[t]{l|l}
-\hline
-Happy & Sad\\
-\hline
-4 & 3\\
-\hline
-4 & 3\\
-\hline
-4 & 3\\
-\hline
-4 & 3\\
-\hline
-4 & 3\\
-\hline
-4 & 3\\
-\hline
-4 & 3\\
-\hline
-4 & 3\\
-\hline
-4 & 3\\
-\hline
-4 & 3\\
-\hline
-*M* = 4 & *M* = 3\\
-\hline
-\end{tabular}
-\centering
-\begin{tabular}[t]{l|l}
-\hline
-Happy & Sad\\
-\hline
-3 & 1\\
-\hline
-6 & 3\\
-\hline
-2 & 4\\
-\hline
-4 & 0\\
-\hline
-5 & 5\\
-\hline
-2 & 7\\
-\hline
-3 & 2\\
-\hline
-1 & 5\\
-\hline
-6 & 1\\
-\hline
-8 & 2\\
-\hline
-*M* = 4 & *M* = 3\\
-\hline
-\end{tabular}
-\end{table}
+<table class="kable_wrapper">
+<caption>(\#tab:noise)Left: Hypothetical noiseless data; Right: realistic noisy data</caption>
+<tbody>
+  <tr>
+   <td> 
+
+|Happy   |Sad     |
+|:-------|:-------|
+|4       |3       |
+|4       |3       |
+|4       |3       |
+|4       |3       |
+|4       |3       |
+|4       |3       |
+|4       |3       |
+|4       |3       |
+|4       |3       |
+|4       |3       |
+|*M* = 4 |*M* = 3 |
+
+ </td>
+   <td> 
+
+|Happy   |Sad     |
+|:-------|:-------|
+|3       |1       |
+|6       |3       |
+|2       |4       |
+|4       |0       |
+|5       |5       |
+|2       |7       |
+|3       |2       |
+|1       |5       |
+|6       |1       |
+|8       |2       |
+|*M* = 4 |*M* = 3 |
+
+ </td>
+  </tr>
+</tbody>
+</table>
 
 One way to control extraneous variables is to hold them constant. This can mean holding situation or task variables constant by testing all participants in the same location, giving them identical instructions, treating them in the same way, and so on. It can also mean holding participant variables constant. For example, many studies of language limit participants to right-handed people, who generally have their language areas isolated in their left cerebral hemispheres. Left-handed people are more likely to have their language areas isolated in their right cerebral hemispheres or distributed across both hemispheres, which can change the way they process language and thereby add noise to the data.
 
@@ -138,14 +120,10 @@ The second way that extraneous variables can make it difficult to detect the eff
 
 To confound means to confuse, and this is exactly what confounding variables do. Because they differ across conditions—just like the independent variable—they provide an alternative explanation for any observed difference in the dependent variable. Figure \@ref(fig:confound) shows the results of a hypothetical study, in which participants in a positive mood condition scored higher on a memory task than participants in a negative mood condition. But if IQ is a confounding variable—with participants in the positive mood condition having higher IQs on average than participants in the negative mood condition—then it is unclear whether it was the positive moods or the higher IQs that caused participants in the first condition to score higher. One way to avoid confounding variables is by holding extraneous variables constant. For example, one could prevent IQ from becoming a confounding variable by limiting participants only to those with IQs of exactly 100. But this approach is not always desirable for reasons we have already discussed. A second and much more general approach—random assignment to conditions—will be discussed in detail shortly.
 
-\begin{figure}
-
-{\centering \includegraphics[width=0.7\linewidth]{05-experiments_files/figure-latex/confound-1} 
-
-}
-
-\caption{Hypothetical results from a study on the effect of mood on memory. Because IQ also differs across conditions, it is a confounding variable.}(\#fig:confound)
-\end{figure}
+<div class="figure" style="text-align: center">
+<img src="05-experiments_files/figure-html/confound-1.png" alt="Hypothetical results from a study on the effect of mood on memory. Because IQ also differs across conditions, it is a confounding variable." width="70%" />
+<p class="caption">(\#fig:confound)Hypothetical results from a study on the effect of mood on memory. Because IQ also differs across conditions, it is a confounding variable.</p>
+</div>
 
 :::takeaways
 ##### KEY TAKEAWAYS {-}
@@ -188,34 +166,20 @@ In its strictest sense, random assignment should meet two criteria. One is that 
 
 One problem with coin flipping and other strict procedures for random assignment is that they are likely to result in unequal sample sizes in the different conditions. Unequal sample sizes are generally not a serious problem, and you should never throw away data you have already collected to achieve equal sample sizes. However, for a fixed number of participants, it is statistically most efficient to divide them into equal-sized groups. It is standard practice, therefore, to use a kind of modified random assignment that keeps the number of participants in each group as similar as possible. One approach is [block randomization]. In block randomization, all the conditions occur once in the sequence before any of them is repeated. Then they all occur again before any of them is repeated again. Within each of these “blocks,” the conditions occur in a random order. Again, the sequence of conditions is usually generated before any participants are tested, and each new participant is assigned to the next condition in the sequence. Table \@ref(tab:block) shows such a sequence for assigning nine participants to three conditions. The Research Randomizer website (http://www.randomizer.org) will generate block randomization sequences for any number of participants and conditions. Again, when the procedure is computerized, the computer program often handles the block randomization.
 
-\begin{table}
 
-\caption{(\#tab:block)Block randomization sequence for assigning nine participants to three conditions.}
-\centering
-\begin{tabular}[t]{l|l}
-\hline
-Participant & Condition\\
-\hline
-**1** & **A**\\
-\hline
-**2** & **C**\\
-\hline
-**3** & **B**\\
-\hline
-4 & B\\
-\hline
-5 & C\\
-\hline
-6 & A\\
-\hline
-**7** & **C**\\
-\hline
-**8** & **B**\\
-\hline
-**9** & **A**\\
-\hline
-\end{tabular}
-\end{table}
+Table: (\#tab:block)Block randomization sequence for assigning nine participants to three conditions.
+
+|Participant |Condition |
+|:-----------|:---------|
+|**1**       |**A**     |
+|**2**       |**C**     |
+|**3**       |**B**     |
+|4           |B         |
+|5           |C         |
+|6           |A         |
+|**7**       |**C**     |
+|**8**       |**B**     |
+|**9**       |**A**     |
 
 Random assignment is not guaranteed to control all extraneous variables across conditions. It is always possible that just by chance, the participants in one condition might turn out to be substantially older, less tired, more motivated, or less depressed on average than the participants in another condition. However, there are some reasons that this is not a major concern. One is that random assignment works better than one might expect, especially for large samples. Another is that the inferential statistics that researchers use to decide whether a difference between groups reflects a difference in the population takes the “fallibility” of random assignment into account. Yet another reason is that even if random assignment does result in a confounding variable and therefore produces misleading results, this is likely to be detected when the experiment is replicated. The upshot is that random assignment to conditions—although not infallible in terms of controlling extraneous variables—is always considered a strength of a research design.
 
@@ -227,14 +191,10 @@ There are different types of control conditions. In a [no-treatment control cond
 
 Placebo effects are interesting in their own right (see box "The Powerful Placebo"), but they also pose a serious problem for researchers who want to determine whether a treatment works. Figure \@ref(fig:placebo) shows some hypothetical results in which participants in a treatment condition improved more on average than participants in a no-treatment control condition. If these conditions (the two leftmost bars in \@ref(fig:placebo)) were the only conditions in this experiment, however, one could not conclude that the treatment worked. It could be instead that participants in the treatment group improved more because they expected to improve, while those in the no-treatment control condition did not.
 
-\begin{figure}
-
-{\centering \includegraphics[width=0.8\linewidth]{05-experiments_files/figure-latex/placebo-1} 
-
-}
-
-\caption{Hypothetical results from a study including treatment, no-treatment, and placebo conditions.}(\#fig:placebo)
-\end{figure}
+<div class="figure" style="text-align: center">
+<img src="05-experiments_files/figure-html/placebo-1.png" alt="Hypothetical results from a study including treatment, no-treatment, and placebo conditions." width="80%" />
+<p class="caption">(\#fig:placebo)Hypothetical results from a study including treatment, no-treatment, and placebo conditions.</p>
+</div>
 
 Fortunately, there are several solutions to this problem. One is to include a [placebo control condition], in which participants receive a placebo that looks much like the treatment but lacks the active ingredient or element thought to be responsible for the treatment’s effectiveness. When participants in a treatment condition take a pill, for example, then those in a placebo control condition would take an identical-looking pill that lacks the active ingredient in the treatment (a “sugar pill”). In research on psychotherapy effectiveness, the placebo might involve going to a psychotherapist and talking in an unstructured way about one’s problems. The idea is that if participants in both the treatment and the placebo control groups expect to improve, then any improvement in the treatment group over and above that in the placebo control group must have been caused by the treatment and not by participants’ expectations. This is what is shown by a comparison of the two outer bars in Figure \@ref(fig:placebo).
 
@@ -246,14 +206,10 @@ Many people are not surprised that placebos can have a positive effect on disord
 
 Medical researcher J. Bruce Moseley and his colleagues conducted a study on the effectiveness of two arthroscopic surgery procedures for osteoarthritis of the knee [@moseley2002controlled]. The control participants in this study were prepped for surgery, received a tranquilizer, and even received three small incisions in their knees. But they did not receive the actual arthroscopic surgical procedure. The surprising result was that all participants improved in terms of both knee pain and function, and the sham surgery group improved just as much as the treatment groups. According to the researchers, “This study provides strong evidence that arthroscopic lavage with or without débridement [the surgical procedures used] is not better than and appears to be equivalent to a placebo procedure in improving knee pain and self-reported function” (p. 85).
 
-\begin{figure}
-
-{\centering \includegraphics[width=0.5\linewidth]{images/experiments/surgery} 
-
-}
-
-\caption{Research has shown that patients with osteoarthritis of the knee who receive a “sham surgery” experience reductions in pain and improvement in knee function similar to those of patients who receive a real surgery. *Photo by Piron Guillaume on Unsplash.*}(\#fig:surgery)
-\end{figure}
+<div class="figure" style="text-align: center">
+<img src="images/experiments/surgery.jpeg" alt="Research has shown that patients with osteoarthritis of the knee who receive a “sham surgery” experience reductions in pain and improvement in knee function similar to those of patients who receive a real surgery. *Photo by Piron Guillaume on Unsplash.*" width="50%" />
+<p class="caption">(\#fig:surgery)Research has shown that patients with osteoarthritis of the knee who receive a “sham surgery” experience reductions in pain and improvement in knee function similar to those of patients who receive a real surgery. *Photo by Piron Guillaume on Unsplash.*</p>
+</div>
 :::
 
 ## Within-Subjects Experiments

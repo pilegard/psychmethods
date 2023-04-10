@@ -8,14 +8,10 @@ Consider the following three research questions:
 
 Each research question refers to a target [population]. In the first question, the target population is all Americans over the age of 18. Oftentimes, it is not feasible to collect data for every case in a population. Collecting data for an entire population is called a [census]. A census is difficult because it is too expensive to collect data for the entire population, but it might also be because it is difficult or impossible to identify the entire population of interest! Instead, a sample is taken. A [sample] is the data you have. Ideally, a sample is a small fraction of the population. For instance, 200 Americans adults in the population might be selected, and this sample data may be used to provide an estimate of the population average and to answer the research question.
 
-\begin{figure}
-
-{\centering \includegraphics[width=0.6\linewidth]{images/sampling/sampling} 
-
-}
-
-\caption{A sample of 10 selected from a population of 100.}(\#fig:sampling)
-\end{figure}
+<div class="figure" style="text-align: center">
+<img src="images/sampling/sampling.png" alt="A circle on the left with 100 human figures. A circle on the right with 10 human figures." width="60%" />
+<p class="caption">(\#fig:sampling)A sample of 10 selected from a population of 100.</p>
+</div>
 
 ## Sampling Procedures
 
@@ -33,21 +29,24 @@ Compared with nonprobability sampling, probability sampling requires a very clea
 
 There are a variety of different probability sampling methods. [Simple random sampling] is done in such a way that each individual in the population has an equal probability of being selected for the sample (Figure \@ref(fig:simple)). This could involve putting the names of all individuals in the sampling frame into a hat, mixing them up, and then drawing out the number needed for the sample. Given that most sampling frames take the form of computer files, random sampling is more likely to involve computerized sorting or selection of respondents. A common approach in telephone surveys is random-digit dialing, in which a computer randomly generates phone numbers from among the possible phone numbers within a given geographic area.
 
-\begin{figure}
-\includegraphics[width=0.95\linewidth]{07-sampling_files/figure-latex/simple-1} \caption{Example of simple random sampling. Simple random sampling was used to randomly select the 18 cases (denoted with filled-in dots).}(\#fig:simple)
-\end{figure}
+<div class="figure">
+<img src="07-sampling_files/figure-html/simple-1.png" alt="Box shows a population of dots (i.e., individuals) where a handful of the dots have been sampled randomly." width="95%" />
+<p class="caption">(\#fig:simple)Example of simple random sampling. Simple random sampling was used to randomly select the 18 cases (denoted with filled-in dots).</p>
+</div>
 
 A common alternative to simple random sampling is [stratified random sampling], in which the population is divided into different subgroups or “strata” (usually based on demographic characteristics) and then a random sample is taken from each “stratum" (Figure \@ref(fig:stratified)). Stratified random sampling can be used to select a sample in which the proportion of respondents in each of various subgroups matches the proportion in the population. For example, because about 12.5% of the US population is Black, stratified random sampling can be used to ensure that a survey of 1,000 American adults includes about 125 Black respondents. Stratified random sampling can also be used to sample extra respondents from particularly small subgroups—allowing valid conclusions to be drawn about those subgroups. For example, because Asian Americans make up a fairly small percentage of the US population (about 4.5%), a simple random sample of 1,000 American adults might include too few Asian Americans to draw any conclusions about them as distinct from any other subgroup. If this is important to the research question, however, then stratified random sampling could be used to ensure that enough Asian American respondents are included in the sample to draw valid conclusions about Asian Americans as a whole.
 
-\begin{figure}
-\includegraphics[width=0.95\linewidth]{07-sampling_files/figure-latex/stratified-1} \caption{Example of stratified random sampling. Cases were first grouped into strata, or subgroups, then simple random sampling was employed to randomly select 20% of cases within each stratum. The resulting sample reflects the proportion of cases in each subgroup.}(\#fig:stratified)
-\end{figure}
+<div class="figure">
+<img src="07-sampling_files/figure-html/stratified-1.png" alt="The box shows the same population of dots but grouped in such a way that there are six strata.  From each stratum 20% of the dots (i.e., individuals) are randomly selected." width="95%" />
+<p class="caption">(\#fig:stratified)Example of stratified random sampling. Cases were first grouped into strata, or subgroups, then simple random sampling was employed to randomly select 20% of cases within each stratum. The resulting sample reflects the proportion of cases in each subgroup.</p>
+</div>
 
 Yet another type of probability sampling is [cluster sampling], in which larger clusters of individuals are randomly sampled and then individuals within each cluster are randomly sampled (Figure \@ref(fig:cluster)). For example, to select a sample of small-town residents in the United States, a researcher might randomly select several small towns and then randomly select several individuals within each town. Cluster sampling is especially useful for surveys that involve face-to-face interviewing because it minimizes the amount of traveling that the interviewers must do. For example, instead of traveling to 200 small towns to interview 200 residents, a research team could travel to 10 small towns and interview 20 residents of each. The National Comorbidity Survey was done using a form of cluster sampling.
 
-\begin{figure}
-\includegraphics[width=1\linewidth]{07-sampling_files/figure-latex/cluster-1} \caption{Example of cluster sampling. Data were binned into nine clusters, three of these clusters were sampled, and all observations within these three clusters were included in the sample.}(\#fig:cluster)
-\end{figure}
+<div class="figure">
+<img src="07-sampling_files/figure-html/cluster-1.png" alt="Dots are grouped into clusters, three clusters are selected, and every dot (i.e., all individuals) from each of the three clusters are sampled." width="100%" />
+<p class="caption">(\#fig:cluster)Example of cluster sampling. Data were binned into nine clusters, three of these clusters were sampled, and all observations within these three clusters were included in the sample.</p>
+</div>
 
 ### Sample Size {-}
 
@@ -103,14 +102,10 @@ Consider the following possible responses to the three research questions at the
 
 Each conclusion is based on data. However, there are two problems. First, the data only represent one or two cases. Second, and more importantly, it is unclear whether these cases are actually representative of the population. Data collected in this haphazard fashion are called [anecdotal evidence]. Be careful of data collected in a haphazard fashion. Such evidence may be true and verifiable, but it may only represent extraordinary cases and therefore not be a good representation of the population.
 
-\begin{figure}
-
-{\centering \includegraphics[width=0.35\linewidth]{images/sampling/snow} 
-
-}
-
-\caption{In February 2010, some media pundits cited one large snowstorm as evidence against global warming. As comedian Jon Stewart pointed out, “It is one storm, in one region of one country.” *Photo by Flow Clark on Unsplash.*}(\#fig:snow)
-\end{figure}
+<div class="figure" style="text-align: center">
+<img src="images/sampling/snow.jpeg" alt="Person walking through a snowy city street." width="35%" />
+<p class="caption">(\#fig:snow)In February 2010, some media pundits cited one large snowstorm as evidence against global warming. As comedian Jon Stewart pointed out, “It is one storm, in one region of one country.” *Photo by Flow Clark on Unsplash.*</p>
+</div>
 
 Anecdotal evidence typically is composed of unusual cases that we recall based on their striking characteristics. For instance, we are more likely to remember the two people we met who took 7 years to graduate than the six others who graduated in four years. Instead, of looking at the most unusual cases, we should examine a sample of many cases that better represent the population.
 
