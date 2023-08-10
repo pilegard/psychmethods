@@ -1,10 +1,11 @@
-# Complex Research Designs
+# Complex Experiments
 
 Researcher Simone Schnall and her colleagues were interested in whether feeling physically disgusted causes people to make harsher moral judgments [@schnall2008disgust]. They conducted an experiment in which they manipulated participants’ feelings of disgust by testing them in either a clean room or a messy room that contained dirty dishes, an overflowing wastebasket, and a chewed-up pen. They also used a self-report questionnaire to measure the amount of attention that people pay to their own bodily sensations. They called this “private body consciousness.” They measured their primary dependent variable, the harshness of people’s moral judgments, by describing different behaviors (e.g., eating one’s dead dog, failing to return a found wallet) and having participants rate the moral acceptability of each one on a scale of 1 to 7. They also measured some other dependent variables, including participants’ willingness to eat at a new restaurant. Finally, the researchers asked participants to rate their current level of disgust and other emotions. The primary results of this study were that participants in the messy room were in fact more disgusted and made harsher moral judgments than participants in the clean room—but only if they scored relatively high in private body consciousness.
 
-```{r garbage, echo = FALSE, out.width='40%', fig.align = 'center', fig.cap='Research suggests that disgusting surroundings can cause people to make harsher moral judgments. *Photo by Markus Spiske on Unsplash.*'}
-knitr::include_graphics("images/complex-designs/garbage.jpeg")
-```
+<div class="figure" style="text-align: center">
+<img src="images/complex-designs/garbage.jpeg" alt="Research suggests that disgusting surroundings can cause people to make harsher moral judgments. *Photo by Markus Spiske on Unsplash.*" width="40%" />
+<p class="caption">(\#fig:garbage)Research suggests that disgusting surroundings can cause people to make harsher moral judgments. *Photo by Markus Spiske on Unsplash.*</p>
+</div>
 
 The research designs we have considered so far have been simple—focusing on a question about one variable or about a statistical relationship between two variables. But in many ways the complex design of the experiment undertaken by Schnall and her colleagues is more typical of research in psychology. Fortunately, we have already covered the basic elements of such designs in previous chapters. In this chapter, we look closely at how and why researchers combine these basic elements into more complex designs. We start with complex experiments—considering first the inclusion of multiple dependent variables and then the inclusion of multiple independent variables. Finally, we look at complex correlational designs.
 
@@ -79,15 +80,17 @@ Just as including multiple dependent variables in the same experiment allows one
 
 By far the most common approach to including multiple independent variables in an experiment is the [factorial design]. In a factorial design, each level of one independent variable (which can also be called a [factor]) is combined with each level of the others to produce all possible combinations. Each combination, then, becomes a condition in the experiment. Imagine, for example, an experiment on the effect of cell phone use (yes vs. no) and time of day (day vs. night) on driving ability. This is shown in the [factorial design table] in Figure \@ref(fig:designtable). The columns of the table represent cell phone use, and the rows represent time of day. The four cells of the table represent the four possible combinations or conditions: using a cell phone during the day, not using a cell phone during the day, using a cell phone at night, and not using a cell phone at night. This particular design is a 2 × 2 (read “two-by-two”) factorial design because it combines two variables, each of which has two levels. If one of the independent variables had a third level (e.g., using a handheld cell phone, using a hands-free cell phone, and not using a cell phone), then it would be a 3 × 2 factorial design, and there would be six distinct conditions. Notice that the number of possible conditions is the product of the numbers of levels. A 2 × 2 factorial design has four conditions, a 3 × 2 factorial design has six conditions, a 4 × 5 factorial design would have 20 conditions, and so on.
 
-```{r designtable, echo = FALSE, out.width='50%', fig.align = 'center', fig.cap='Factorial design table representing a 2 x 2 factorial design.'}
-knitr::include_graphics("images/complex-designs/designtable.png")
-```
+<div class="figure" style="text-align: center">
+<img src="images/complex-designs/designtable.png" alt="Factorial design table representing a 2 x 2 factorial design." width="50%" />
+<p class="caption">(\#fig:designtable)Factorial design table representing a 2 x 2 factorial design.</p>
+</div>
 
 In principle, factorial designs can include any number of independent variables with any number of levels. For example, an experiment could include the type of psychotherapy (cognitive vs. behavioral), the length of the psychotherapy (2 weeks vs. 2 months), and the sex of the psychotherapist (female vs. male). This would be a 2 × 2 × 2 factorial design and would have eight conditions. Figure \@ref(fig:designtable2) shows one way to represent this design. In practice, it is unusual for there to be more than three independent variables with more than two or three levels each because the number of conditions can quickly become unmanageable. For example, adding a fourth independent variable with three levels (e.g., therapist experience: low vs. medium vs. high) to the current example would make it a 2 × 2 × 2 × 3 factorial design with 24 distinct conditions. In the rest of this section, we will focus on designs with two independent variables. The general principles discussed here extend in a straightforward way to more complex factorial designs.
 
-```{r designtable2, echo = FALSE, out.width='50%', fig.align = 'center', fig.cap='Factorial design table representing a 2 x 2 x 2 factorial design.'}
-knitr::include_graphics("images/complex-designs/designtable2.png")
-```
+<div class="figure" style="text-align: center">
+<img src="images/complex-designs/designtable2.png" alt="Factorial design table representing a 2 x 2 x 2 factorial design." width="50%" />
+<p class="caption">(\#fig:designtable2)Factorial design table representing a 2 x 2 x 2 factorial design.</p>
+</div>
 
 #### Assigning Participants to Conditions {-}
 
@@ -107,39 +110,10 @@ Such studies are extremely common, and there are several points worth making abo
 
 The results of factorial experiments with two independent variables can be graphed by representing one independent variable on the x-axis and representing the other by using different kinds of bars or lines. (The y-axis is always reserved for the dependent variable.) Figure \@ref(fig:plots) shows results for two hypothetical factorial experiments. The top panel shows the results of a 2 × 2 design. Time of day (day vs. night) is represented by different locations on the x-axis, and cell phone use (no vs. yes) is represented by different-colored bars. (It would also be possible to represent cell phone use on the x-axis and time of day as different-colored bars. The choice comes down to which way seems to communicate the results most clearly.) The bottom panel of Figure \@ref(fig:plots) shows the results of a 4 × 2 design in which one of the variables is quantitative. This variable, psychotherapy length, is represented along the x-axis, and the other variable (psychotherapy type) is represented by differently formatted lines. This is a line graph rather than a bar graph because the variable on the x-axis is quantitative with a small number of distinct levels.
 
-```{r plots, echo = FALSE, out.width='70%', fig.align = 'center', fig.show = 'hold', fig.cap='Two ways to plot the results of a factorial experiment with two independent variables.'}
-
-# Create barplot data
-bars <- data.frame(x = c(85,70,70,45),
-                   grp = rep(c("Day","Night"),
-                               each = 2),
-                   subgroup = LETTERS[1:2])
-# Modifying barplot data
-bars <- reshape(bars,idvar = "subgroup",
-               timevar = "grp",
-               direction = "wide")
-  
-row.names(bars) <- bars$subgroup
-bars <- bars[ , 2:ncol(bars)]
-colnames(bars) <- c("Day","Night")
-bars <- as.matrix(bars)
-  
-# Create grouped barplot
-barplot(height = bars,beside = TRUE, xlab = "Time of Day", ylab = "Driving Performance",
-        axis.lty=1, ylim = c(0,100),
-        col = c("#FF8021","#5DCEAF"),
-        legend.text = c("No cell phone","Cell phone"))
-
-# Line plot
-x <- c(1,2,3,4)
-y1 <- c(12,10,6,4)
-y2 <- c(10,9,7,8)
-plot(x, y1, type = "b", frame = FALSE, pch = 19, col = "#BC5C15", 
-     xlab = "Psychotherapy Length", ylab = "Number of Symptoms", xaxt='n', ylim = c(0,14))
-lines(x, y2, pch = 15, col = "#429780", type = "b", lty = 2)
-axis(1,at=c(1,2,3,4),labels=c("2 Weeks","4 Weeks","6 Weeks","8 Weeks"))
-legend("topright", legend = c("Type A","Type B"), col = c("#BC5C15", "#429780"), lty = 1:2, cex = 0.8)
-```
+<div class="figure" style="text-align: center">
+<img src="06-complex-experiments_files/figure-html/plots-1.png" alt="Two ways to plot the results of a factorial experiment with two independent variables." width="70%" /><img src="06-complex-experiments_files/figure-html/plots-2.png" alt="Two ways to plot the results of a factorial experiment with two independent variables." width="70%" />
+<p class="caption">(\#fig:plots)Two ways to plot the results of a factorial experiment with two independent variables.</p>
+</div>
 
 #### Main Effects and Interactions {-}
 
@@ -149,105 +123,15 @@ There is an interaction effect (or just “interaction”) when the effect of on
 
 The effect of one independent variable can depend on the level of the other in different ways. This is shown in Figure \@ref(fig:barinteractions). In the top panel, one independent variable has an effect at one level of the second independent variable but no effect at the others. (This is much like the study of Schnall and her colleagues where there was an effect of disgust for those high in private body consciousness but not for those low in private body consciousness.) In the middle panel, one independent variable has a stronger effect at one level of the second independent variable than at the other level. This is like the hypothetical driving example where there was a stronger effect of using a cell phone at night than during the day. In the bottom panel, one independent variable again has an effect at both levels of the second independent variable, but the effects are in opposite directions. Figure \@ref(fig:barinteractions) shows the strongest form of this kind of interaction, called a crossover interaction. One example of a crossover interaction comes from a study by Kathy Gilliland on the effect of caffeine on the verbal test scores of introverts and extroverts [@gilliland1980interactive]. Introverts perform better than extroverts when they have not ingested any caffeine. But extroverts perform better than introverts when they have ingested 4 mg of caffeine per kilogram of body weight. Figure \@ref(fig:lineinteractions) shows examples of these same kinds of interactions when one of the independent variables is quantitative and the results are plotted in a line graph. Note that in a crossover interaction, the two lines literally “cross over” each other.
 
-```{r barinteractions, echo = FALSE, out.width='51%', fig.align = 'center', fig.show = 'hold', fig.cap='Bar graphs showing three types of interactions. In the top panel, one independent variable has an effect at one level of the second independent variable but not at the other. In the middle panel, one independent variable has a stronger effect at one level of the second independent variable than at the other. In the bottom panel, one independent variable has the opposite effect at one level of the second independent variable than at the other.'}
+<div class="figure" style="text-align: center">
+<img src="06-complex-experiments_files/figure-html/barinteractions-1.png" alt="Bar graphs showing three types of interactions. In the top panel, one independent variable has an effect at one level of the second independent variable but not at the other. In the middle panel, one independent variable has a stronger effect at one level of the second independent variable than at the other. In the bottom panel, one independent variable has the opposite effect at one level of the second independent variable than at the other." width="51%" /><img src="06-complex-experiments_files/figure-html/barinteractions-2.png" alt="Bar graphs showing three types of interactions. In the top panel, one independent variable has an effect at one level of the second independent variable but not at the other. In the middle panel, one independent variable has a stronger effect at one level of the second independent variable than at the other. In the bottom panel, one independent variable has the opposite effect at one level of the second independent variable than at the other." width="51%" /><img src="06-complex-experiments_files/figure-html/barinteractions-3.png" alt="Bar graphs showing three types of interactions. In the top panel, one independent variable has an effect at one level of the second independent variable but not at the other. In the middle panel, one independent variable has a stronger effect at one level of the second independent variable than at the other. In the bottom panel, one independent variable has the opposite effect at one level of the second independent variable than at the other." width="51%" />
+<p class="caption">(\#fig:barinteractions)Bar graphs showing three types of interactions. In the top panel, one independent variable has an effect at one level of the second independent variable but not at the other. In the middle panel, one independent variable has a stronger effect at one level of the second independent variable than at the other. In the bottom panel, one independent variable has the opposite effect at one level of the second independent variable than at the other.</p>
+</div>
 
-par(mar = c(4, 4, 0.1, 0.1))  
-
-# Create barplot1 data
-bar1 <- data.frame(x1 = c(25,50,25,25),
-                   grp = rep(c("Day","Night"),
-                               each = 2),
-                   subgroup = LETTERS[1:2])
-# Modifying barplot1 data
-bar1 <- reshape(bar1,idvar = "subgroup",
-               timevar = "grp",
-               direction = "wide")
-  
-row.names(bar1) <- bar1$subgroup
-bar1 <- bar1[ , 2:ncol(bar1)]
-colnames(bar1) <- c("","")
-bar1 <- as.matrix(bar1)
-  
-# Create grouped barplot1
-barplot(height = bar1, beside = TRUE, xlab = NULL, ylab = NULL, axes = FALSE,
-        axis.lty=1, ylim = c(0,60),
-        col = c("#FF8021","#5DCEAF"))
-grid(nx = NULL, ny = NULL, lty = 2, col = "#7F7F7F40", lwd = 1)
-
-# Create barplot2 data
-bar2 <- data.frame(x2 = c(25,50,25,35),
-                   grp = rep(c("Day","Night"),
-                               each = 2),
-                   subgroup = LETTERS[1:2])
-# Modifying barplot2 data
-bar2 <- reshape(bar2,idvar = "subgroup",
-               timevar = "grp",
-               direction = "wide")
-  
-row.names(bar2) <- bar2$subgroup
-bar2 <- bar2[ , 2:ncol(bar2)]
-colnames(bar2) <- c("","")
-bar2 <- as.matrix(bar2)
-  
-# Create grouped barplot2
-barplot(height = bar2, beside = TRUE, xlab = NULL, ylab = NULL, axes = FALSE,
-        axis.lty=1, ylim = c(0,60),
-        col = c("#FF8021","#5DCEAF"))
-grid(nx = NULL, ny = NULL, lty = 2, col = "#7F7F7F40", lwd = 1)
-
-# Create barplot3 data
-bar3 <- data.frame(x3 = c(25,50,50,25),
-                   grp = rep(c("Day","Night"),
-                               each = 2),
-                   subgroup = LETTERS[1:2])
-# Modifying barplot3 data
-bar3 <- reshape(bar3,idvar = "subgroup",
-               timevar = "grp",
-               direction = "wide")
-  
-row.names(bar3) <- bar3$subgroup
-bar3 <- bar3[ , 2:ncol(bar3)]
-colnames(bar3) <- c("","")
-bar3 <- as.matrix(bar3)
-  
-# Create grouped barplot3
-barplot(height = bar3, beside = TRUE, xlab = NULL, ylab = NULL, axes = FALSE,
-        axis.lty=1, ylim = c(0,60),
-        col = c("#FF8021","#5DCEAF"))
-grid(nx = NULL, ny = NULL, lty = 2, col = "#7F7F7F40", lwd = 1)
-```
-
-```{r lineinteractions, echo = FALSE, out.width='51%', fig.align = 'center', fig.show = 'hold', fig.cap='Line graphs showing three types of interactions. In the top panel, one independent variable has an effect at one level of the second independent variable but not at the other. In the middle panel, one independent variable has a stronger effect at one level of the second independent variable than at the other. In the bottom panel, one independent variable has the opposite effect at one level of the second independent variable than at the other.'}
-
-par(mar = c(4, 4, 0.1, 0.1))  
-
-# Line plot 1
-x1 <- c(1,2,3,4,5)
-y11 <- c(15,16,14,16,15)
-y12 <- c(15,18,19,23,25)
-plot(x1, y11, type = "b", frame = FALSE, pch = 19, lwd = 2, col = "#BC5C15", 
-     xlab = NULL, ylab = NULL, xaxt='n', yaxt='n', ann=FALSE, ylim = c(3,30))
-lines(x1, y12, pch = 15, col = "#429780", type = "b", lty = 2, lwd = 2)
-grid(nx = NULL, ny = NULL, lty = 2, col = "#7F7F7F40", lwd = 1)
-
-# Line plot 2
-x2 <- c(1,2,3,4,5)
-y21 <- c(11,13,15,17,18)
-y22 <- c(11,15,18,23,27)
-plot(x2, y21, type = "b", frame = FALSE, pch = 19, lwd = 2, col = "#BC5C15", 
-     xlab = NULL, ylab = NULL, xaxt='n', yaxt='n', ann=FALSE, ylim = c(3,30))
-lines(x2, y22, pch = 15, col = "#429780", type = "b", lty = 2, lwd = 2)
-grid(nx = NULL, ny = NULL, lty = 2, col = "#7F7F7F40", lwd = 1)
-
-# Line plot 3
-x3 <- c(1,2,3,4,5)
-y31 <- c(15,19,20,24,25)
-y32 <- c(25,24,20,19,15)
-plot(x3, y31, type = "b", frame = FALSE, pch = 19, lwd = 2, col = "#BC5C15", 
-     xlab = NULL, ylab = NULL, xaxt='n', yaxt='n', ann=FALSE, ylim = c(3,30))
-lines(x3, y32, pch = 15, col = "#429780", type = "b", lty = 2, lwd = 2)
-grid(nx = NULL, ny = NULL, lty = 2, col = "#7F7F7F40", lwd = 1)
-```
+<div class="figure" style="text-align: center">
+<img src="06-complex-experiments_files/figure-html/lineinteractions-1.png" alt="Line graphs showing three types of interactions. In the top panel, one independent variable has an effect at one level of the second independent variable but not at the other. In the middle panel, one independent variable has a stronger effect at one level of the second independent variable than at the other. In the bottom panel, one independent variable has the opposite effect at one level of the second independent variable than at the other." width="51%" /><img src="06-complex-experiments_files/figure-html/lineinteractions-2.png" alt="Line graphs showing three types of interactions. In the top panel, one independent variable has an effect at one level of the second independent variable but not at the other. In the middle panel, one independent variable has a stronger effect at one level of the second independent variable than at the other. In the bottom panel, one independent variable has the opposite effect at one level of the second independent variable than at the other." width="51%" /><img src="06-complex-experiments_files/figure-html/lineinteractions-3.png" alt="Line graphs showing three types of interactions. In the top panel, one independent variable has an effect at one level of the second independent variable but not at the other. In the middle panel, one independent variable has a stronger effect at one level of the second independent variable than at the other. In the bottom panel, one independent variable has the opposite effect at one level of the second independent variable than at the other." width="51%" />
+<p class="caption">(\#fig:lineinteractions)Line graphs showing three types of interactions. In the top panel, one independent variable has an effect at one level of the second independent variable but not at the other. In the middle panel, one independent variable has a stronger effect at one level of the second independent variable than at the other. In the bottom panel, one independent variable has the opposite effect at one level of the second independent variable than at the other.</p>
+</div>
 
 In many studies, the primary research question is about an interaction. The study by Brown and her colleagues was inspired by the idea that people with hypochondriasis are especially attentive to any negative health-related information. This led to the hypothesis that people high in hypochondriasis would recall negative health-related words more accurately than people low in hypochondriasis but recall non-health-related words about the same as people low in hypochondriasis. And of course this is exactly what happened in this study.
 
@@ -264,75 +148,6 @@ In many studies, the primary research question is about an interaction. The stud
 2. Practice: Create a factorial design table for an experiment on the effects of room temperature and noise level on performance on the SAT. Be sure to indicate whether each independent variable will be manipulated between subjects or within subjects and explain why.
 :::
 
-## Complex Correlational Designs
-
-:::learningobjectives
-##### LEARNING OBJECTIVES {-}
-
-1. Explain some reasons that researchers use complex correlational designs.
-2. Create and interpret a correlation matrix.
-3. Describe how researchers can use correlational research to explore causal relationships among variables—including the limits of this approach.
-:::
-
-As we have already seen, researchers conduct correlational studies rather than experiments when they are interested in noncausal relationships or when they are interested in causal relationships where the independent variable cannot be manipulated for practical or ethical reasons. In this section, we look at some approaches to complex correlational research that involve measuring several variables and assessing the relationships among them.
-
-### Correlational Studies With Factorial Designs {-}
-
-We have already seen that factorial experiments can include manipulated independent variables or a combination of manipulated and nonmanipulated independent variables. But factorial designs can also include *only* nonmanipulated independent variables, in which case they are no longer experiments but correlational studies. Consider a hypothetical study in which a researcher measures both the moods and the self-esteem of several participants—categorizing them as having either a positive or negative mood and as being either high or low in self-esteem—along with their willingness to have unprotected sexual intercourse. This can be conceptualized as a 2 × 2 factorial design with mood (positive vs. negative) and self-esteem (high vs. low) as between-subjects factors. (Willingness to have unprotected sex is the dependent variable.) This design can be represented in a factorial design table and the results in a bar graph of the sort we have already seen. The researcher would consider the main effect of sex, the main effect of self-esteem, and the interaction between these two independent variables.
-
-Again, because neither independent variable in this example was manipulated, it is a correlational study rather than an experiment. (The similar study by MacDonald and Martineau was an experiment because they manipulated their participants’ moods; @macdonald2002self.) This is important because, as always, one must be cautious about inferring causality from correlational studies because of the directionality and third-variable problems. For example, a main effect of participants’ moods on their willingness to have unprotected sex might be caused by any other variable that happens to be correlated with their moods.
-
-### Assessing Relationships Among Multiple Variables {-}
-
-Most complex correlational research, however, does not fit neatly into a factorial design. Instead, it involves measuring several variables—often both categorical and quantitative—and then assessing the statistical relationships among them. For example, researchers Nathan Radcliffe and William Klein studied a sample of middle-aged adults to see how their level of optimism (measured by using a short questionnaire called the Life Orientation Test) relates to several other variables related to having a heart attack [@radcliffe2002dispositional]. These included their health, their knowledge of heart attack risk factors, and their beliefs about their own risk of having a heart attack. They found that more optimistic participants were healthier (e.g., they exercised more and had lower blood pressure), knew about heart attack risk factors, and correctly believed their own risk to be lower than that of their peers.
-
-This approach is often used to assess the validity of new psychological measures. For example, when John Cacioppo and Richard Petty created their Need for Cognition Scale—a measure of the extent to which people like to think and value thinking—they used it to measure the need for cognition for a large sample of college students, along with three other variables: intelligence, socially desirable responding (the tendency to give what one thinks is the “appropriate” response), and dogmatism [@cacioppo1982need]. The results of this study are summarized in Table \@ref(tab:nfc), which is a correlation matrix showing the correlation (Pearson’s r) between every possible pair of variables in the study. For example, the correlation between the need for cognition and intelligence was +.39, the correlation between intelligence and socially desirable responding was −.02, and so on. (Only half the matrix is filled in because the other half would contain exactly the same information. Also, because the correlation between a variable and itself is always +1.00, these values are replaced with dashes throughout the matrix.) In this case, the overall pattern of correlations was consistent with the researchers’ ideas about how scores on the need for cognition should be related to these other constructs.
-
-```{r nfc, echo = FALSE, }
-vars <- c("Need for cognition","Intelligence","Social desirability","Dogmatism")
-need <- c("—","+.39","+.08","-.27")
-intel <- c("","—","+.02","-.23")
-soc <- c("","","—","+.03")
-dog <- c("","","","—")
-nfc <- data.frame(vars,need,intel,soc,dog)
-
-knitr::kable(nfc,
-  col.name=c("","Need for cognition","Intelligence","Social desirability","Dogmatism"), caption = 'Correlation matrix showing correlations among the need for cognition and three other variables based on research by Cacioppo and Petty.')
-```
-
-When researchers study relationships among a large number of conceptually similar variables, they often use a complex statistical technique called [factor analysis]. In essence, factor analysis organizes the variables into a smaller number of clusters, such that they are strongly correlated within each cluster but weakly correlated between clusters. Each cluster is then interpreted as multiple measures of the same underlying construct. These underlying constructs are also called “factors.” For example, when people perform a wide variety of mental tasks, factor analysis typically organizes them into two main factors—one that researchers interpret as mathematical intelligence (arithmetic, quantitative estimation, spatial reasoning, and so on) and another that they interpret as verbal intelligence (grammar, reading comprehension, vocabulary, and so on). The Big Five personality factors have been identified through factor analyses of people’s scores on a large number of more specific traits. For example, measures of warmth, gregariousness, activity level, and positive emotions tend to be highly correlated with each other and are interpreted as representing the construct of extroversion. As a final example, researchers Peter Rentfrow and Samuel Gosling asked more than 1,700 college students to rate how much they liked 14 different popular genres of music [@rentfrow2003re]. They then submitted these 14 variables to a factor analysis, which identified four distinct factors. The researchers called them *Reflective and Complex* (blues, jazz, classical, and folk), *Intense and Rebellious* (rock, alternative, and heavy metal), *Upbeat and Conventional* (country, soundtrack, religious, pop), and *Energetic and Rhythmic* (rap/hip-hop, soul/funk, and electronica).
-
-Two additional points about factor analysis are worth making here. One is that factors are not categories. Factor analysis does not tell us that people are *either* extroverted *or* conscientious or that they like *either* “reflective and complex” music *or* “intense and rebellious” music. Instead, factors are constructs that operate independently of each other. So people who are high in extroversion might be high or low in conscientiousness, and people who like reflective and complex music might or might not also like intense and rebellious music. The second point is that factor analysis reveals only the underlying structure of the variables. It is up to researchers to interpret and label the factors and to explain the origin of that particular factor structure. For example, one reason that extroversion and the other Big Five operate as separate factors is that they appear to be controlled by different genes [@plomin2008behavioral].
-
-### Exploring Causal Relationships {-}
-
-Another important use of complex correlational research is to explore possible causal relationships among variables. This might seem surprising given that “correlation does not imply causation.” It is true that correlational research cannot unambiguously establish that one variable causes another. Complex correlational research, however, can often be used to rule out other plausible interpretations.
-
-The primary way of doing this is through the [statistical control] of potential third variables. Instead of controlling these variables by random assignment or by holding them constant as in an experiment, the researcher measures them and includes them in the statistical analysis. Consider some research by Paul Piff and his colleagues, who hypothesized that being lower in socioeconomic status (SES) causes people to be more generous [@piff2010having]. They measured their participants’ SES and had them play the “dictator game.” They told participants that each would be paired with another participant in a different room. (In reality, there was no other participant.) Then they gave each participant 10 points (which could later be converted to money) to split with the “partner” in whatever way he or she decided. Because the participants were the “dictators,” they could even keep all 10 points for themselves if they wanted to.
-
-As these researchers expected, participants who were lower in SES tended to give away more of their points than participants who were higher in SES. This is consistent with the idea that being lower in SES causes people to be more generous. But there are also plausible third variables that could explain this relationship. It could be, for example, that people who are lower in SES tend to be more religious and that it is their greater religiosity that causes them to be more generous. Or it could be that people who are lower in SES tend to come from ethnic groups that emphasize generosity more than other ethnic groups. The researchers dealt with these potential third variables, however, by measuring them and including them in their statistical analyses. They found that neither religiosity nor ethnicity was correlated with generosity and were therefore able to rule them out as third variables. This does not prove that SES causes greater generosity because there could still be other third variables that the researchers did not measure. But by ruling out some of the most plausible third variables, the researchers made a stronger case for SES as the cause of the greater generosity.
-
-Many studies of this type use a statistical technique called [multiple regression]. This involves measuring several independent variables ($X_1, X_2, X_3,…, X_i$), all of which are possible causes of a single dependent variable ($Y$). The result of a multiple regression analysis is an equation that expresses the dependent variable as an additive combination of the independent variables. This regression equation has the following general form:
-
-$b_1X_1 + b_2X_2 + b_3X_3+ … + b_iX_i= Y$
-
-The quantities $b_1$, $b_2$, and so on are regression weights that indicate how large a contribution an independent variable makes, on average, to the dependent variable. Specifically, they indicate how much the dependent variable changes for each one-unit change in the independent variable.
-
-The advantage of multiple regression is that it can show whether an independent variable makes a contribution to a dependent variable *over and above* the contributions made by other independent variables. As a hypothetical example, imagine that a researcher wants to know how the independent variables of income and health relate to the dependent variable of happiness. This is tricky because income and health are themselves related to each other. Thus if people with greater incomes tend to be happier, then perhaps this is only because they tend to be healthier. Likewise, if people who are healthier tend to be happier, perhaps this is only because they tend to make more money. But a multiple regression analysis including both income and happiness as independent variables would show whether each one makes a contribution to happiness when the other is taken into account. (Research like this, by the way, has shown both income and health make extremely small contributions to happiness except in the case of severe poverty or illness; @diener2000subjective)
-
-The examples discussed in this section only scratch the surface of how researchers use complex correlational research to explore possible causal relationships among variables. It is important to keep in mind, however, that purely correlational approaches cannot unambiguously establish that one variable causes another. The best they can do is show patterns of relationships that are consistent with some causal interpretations and inconsistent with others.
-
-:::takeaways
-##### KEY TAKEAWAYS {-}
-- Researchers often use complex correlational research to explore relationships among several variables in the same study.
-- Complex correlational research can be used to explore possible causal relationships among variables using techniques such as multiple regression. Such designs can show patterns of relationships that are consistent with some causal interpretations and inconsistent with others, but they cannot unambiguously establish that one variable causes another.
-:::
-
-:::exercises
-##### EXERCISES {-}
-1. Practice: Make a correlation matrix for a hypothetical study including the variables of depression, anxiety, self-esteem, and happiness. Include the Pearson’s r values that you would expect.
-2. Discussion: Imagine a correlational study that looks at intelligence, the need for cognition, and high school students’ performance in a critical-thinking course. A multiple regression analysis shows that intelligence is not related to performance in the class but that the need for cognition is. Explain what this study has shown in terms of what causes good performance in the critical-thinking course.
-:::
 
 ## Glossary
 

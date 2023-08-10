@@ -1,7 +1,7 @@
 --- 
 title: "Research Methods in Psychology"
 author: "Adapted by Celeste Pilegard"
-date: "Current version rendered 2023-02-09"
+date: "Current version rendered 2023-08-10"
 site: bookdown::bookdown_site
 documentclass: krantz
 bibliography: [book.bib, packages.bib]
