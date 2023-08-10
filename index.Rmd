@@ -1,6 +1,6 @@
 --- 
-title: "Research Methods in Psychology"
-author: "Adapted by Celeste Pilegard"
+title: "A Modern Guide to Understanding and Conducting Research in Psychology"
+author: "Edited by Celeste Pilegard and Emma Geller"
 date: "Current version rendered `r Sys.Date()`"
 site: bookdown::bookdown_site
 documentclass: krantz
