@@ -147,7 +147,7 @@ In factorial designs, there are two kinds of results that are of interest: main 
 
 There is an interaction effect (or just “interaction”) when the effect of one independent variable depends on the level of another. Although this might seem complicated, you have an intuitive understanding of interactions already. It probably would not surprise you, for example, to hear that the effect of receiving psychotherapy is stronger among people who are highly motivated to change than among people who are not motivated to change. This is an interaction because the effect of one independent variable (whether or not one receives psychotherapy) depends on the level of another (motivation to change). Schnall and her colleagues also demonstrated an interaction because the effect of whether the room was clean or messy on participants’ moral judgments depended on whether the participants were low or high in private body consciousness. If they were high in private body consciousness, then those in the messy room made harsher judgments. If they were low in private body consciousness, then whether the room was clean or messy did not matter.
 
-The effect of one independent variable can depend on the level of the other in different ways. This is shown in Figure \@ref(fig:barinteractions). In the top panel, one independent variable has an effect at one level of the second independent variable but no effect at the others. (This is much like the study of Schnall and her colleagues where there was an effect of disgust for those high in private body consciousness but not for those low in private body consciousness.) In the middle panel, one independent variable has a stronger effect at one level of the second independent variable than at the other level. This is like the hypothetical driving example where there was a stronger effect of using a cell phone at night than during the day. In the bottom panel, one independent variable again has an effect at both levels of the second independent variable, but the effects are in opposite directions. Figure \@ref(fig:barinteractions) shows the strongest form of this kind of interaction, called a crossover interaction. One example of a crossover interaction comes from a study by Kathy Gilliland on the effect of caffeine on the verbal test scores of introverts and extroverts [@gilliland1980interactive]. Introverts perform better than extroverts when they have not ingested any caffeine. But extroverts perform better than introverts when they have ingested 4 mg of caffeine per kilogram of body weight. Figure \@ref(fig:lineinteractions) shows examples of these same kinds of interactions when one of the independent variables is quantitative and the results are plotted in a line graph. Note that in a crossover interaction, the two lines literally “cross over” each other.
+The effect of one independent variable can depend on the level of the other in different ways. This is shown in Figure \@ref(fig:barinteractions). In the top panel, one independent variable has an effect at one level of the second independent variable but no effect at the others. (This is much like the study of Schnall and her colleagues where there was an effect of disgust for those high in private body consciousness but not for those low in private body consciousness.) In the middle panel, one independent variable has a stronger effect at one level of the second independent variable than at the other level. This is like the hypothetical driving example where there was a stronger effect of using a cell phone at night than during the day. In the bottom panel, one independent variable again has an effect at both levels of the second independent variable, but the effects are in opposite directions. Figure \@ref(fig:barinteractions) shows the strongest form of this kind of interaction, called a [crossover interaction]. One example of a crossover interaction comes from a study by Kathy Gilliland on the effect of caffeine on the verbal test scores of introverts and extroverts [@gilliland1980interactive]. Introverts perform better than extroverts when they have not ingested any caffeine. But extroverts perform better than introverts when they have ingested 4 mg of caffeine per kilogram of body weight. Figure \@ref(fig:lineinteractions) shows examples of these same kinds of interactions when one of the independent variables is quantitative and the results are plotted in a line graph. Note that in a crossover interaction, the two lines literally “cross over” each other.
 
 ```{r barinteractions, echo = FALSE, out.width='51%', fig.align = 'center', fig.show = 'hold', fig.cap='Bar graphs showing three types of interactions. In the top panel, one independent variable has an effect at one level of the second independent variable but not at the other. In the middle panel, one independent variable has a stronger effect at one level of the second independent variable than at the other. In the bottom panel, one independent variable has the opposite effect at one level of the second independent variable than at the other.'}
 
@@ -271,10 +271,6 @@ In many studies, the primary research question is about an interaction. The stud
 
 A factorial design in which each independent variable is manipulated between subjects so that each participant is tested in only one condition.
 
-##### correlation matrix {-}
-
-A table that shows the correlations among several variables.
-
 ##### crossover interaction {-}
 
 An interaction in which one independent variable has opposite effects at different levels of another independent variable.
@@ -282,10 +278,6 @@ An interaction in which one independent variable has opposite effects at differe
 ##### factor {-}
 
 An independent variable in a factorial design. Also in factor analysis, one of the underlying constructs that is assumed to account for correlations among multiple variables.
-
-##### factor analysis {-}
-
-A complex statistical technique that organizes several variables into clusters where there are strong correlations among the variables within a cluster but weak correlations among the variables between clusters. Each cluster is interpreted as representing a different underlying variable or factor.
 
 ##### factorial design {-}
 
@@ -303,10 +295,6 @@ In a factorial design, when the effect of one independent variable depends on th
 
 In a factorial design, the effect of one independent variable averaged across levels of all other independent variables.
 
-##### manipulation check {-}
-
-A measure of a manipulated independent variable—usually done at the end of the procedure—to confirm that the independent variable was successfully manipulated.
-
 ##### mixed factorial design {-}
 
 A factorial design in which at least one independent variable is manipulated between subjects and at least one is manipulated within subjects.
@@ -315,17 +303,9 @@ A factorial design in which at least one independent variable is manipulated bet
 
 More than one dependent variable in the same study. They can be measures of different variables, including a manipulation check, or different measures of the same construct.
 
-##### multiple regression {-}
-
-A statistical technique that describes the relationship between multiple independent variables and a single dependent variable in terms of an equation that shows the separate contribution of each independent variable to the dependent variable.
-
 ##### nonmanipulated independent variable {-}
 
 In a factorial design, a variable (usually a participant variable) that is treated as an independent variable but is not actually manipulated by the researcher.
-
-##### statistical control {-}
-
-In complex correlational research, accounting for third variables by measuring them and including them in the analysis.
 
 ##### within-subjects factorial design {-}
 

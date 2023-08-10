@@ -1,7 +1,5 @@
 # Quasi-Experimental Research
 
-## Quasi-Experimental Research
-
 :::learningobjectives
 ##### LEARNING OBJECTIVES {-}
 
@@ -13,7 +11,7 @@ The prefix *quasi* means “resembling.” Thus quasi-experimental research is r
 
 Quasi-experiments are most likely to be conducted in field settings in which random assignment is difficult or impossible. They are often conducted to evaluate the effectiveness of a treatment—perhaps a type of psychotherapy or an educational intervention. There are many different kinds of quasi-experiments, but we will discuss just a few of the most common ones here.
 
-### Nonequivalent Groups Design {-}
+## Nonequivalent Groups Design
 
 Recall that when participants in a between-subjects experiment are randomly assigned to conditions, the resulting groups are likely to be quite similar. In fact, researchers consider them to be equivalent. When participants are not randomly assigned to conditions, however, the resulting groups are likely to be dissimilar in some ways. For this reason, researchers consider them to be nonequivalent. A [nonequivalent groups design], then, is a between-subjects design in which participants have not been randomly assigned to conditions.
 
@@ -21,7 +19,7 @@ Imagine, for example, a researcher who wants to evaluate a new method of teachin
 
 Of course, researchers using a nonequivalent groups design can take steps to ensure that their groups are as similar as possible. In the present example, the researcher could try to select two classes at the same school, where the students in the two classes have similar scores on a standardized math test and the teachers are the same sex, are close in age, and have similar teaching styles. Taking such steps would increase the internal validity of the study because it would eliminate some of the most important confounding variables. But without true random assignment of the students to conditions, there remains the possibility of other important confounding variables that the researcher was not able to control.
 
-### Pretest-Posttest Design {-}
+## Pretest-Posttest Design
 
 In a [pretest-posttest design], the dependent variable is measured once before the treatment is implemented and once after it is implemented. Imagine, for example, a researcher who is interested in the effectiveness of an antidrug education program on elementary school students’ attitudes toward illegal drugs. The researcher could measure the attitudes of students at a particular elementary school during one week, implement the antidrug program during the next week, and finally, measure their attitudes again the following week. The pretest-posttest design is much like a within-subjects experiment in which each participant is tested first under the control condition and then under the treatment condition. It is unlike a within-subjects experiment, however, in that the order of conditions is not counterbalanced because it typically is not possible for a participant to be tested in the treatment condition first and then in an “untreated” control condition.
 
@@ -42,7 +40,7 @@ Fortunately, many other researchers took up Eysenck’s challenge, and by 1980 h
 </div>
 :::
 
-### Interrupted Time Series Design {-}
+## Interrupted Time Series Design
 
 A variant of the pretest-posttest design is the [interrupted time-series design]. A time series is a set of measurements taken at intervals over a period of time. For example, a manufacturing company might measure its workers’ productivity each week for a year. In an interrupted time series-design, a time series like this is “interrupted” by a treatment. In one classic example, the treatment was the reduction of the work shifts in a factory from 10 hours to 8 hours [@cook1979quasi]. Because productivity increased rather quickly after the shortening of the work shifts, and because it remained elevated for many months afterward, the researcher concluded that the shortening of the shifts caused the increase in productivity. Notice that the interrupted time-series design is like a pretest-posttest design in that it includes measurements of the dependent variable both before and after the treatment. It is unlike the pretest-posttest design, however, in that it includes multiple pretest and posttest measurements.
 
@@ -53,7 +51,7 @@ Figure \@ref(fig:timeseries) shows data from a hypothetical interrupted time-ser
 <p class="caption">(\#fig:timeseries)Hypothetical interrupted time-series design. The top panel shows data that suggest that the treatment caused a reduction in absences. The bottom panel shows data that suggest that it did not.</p>
 </div>
 
-### Combination Designs {-}
+## Combination Designs
 
 A type of quasi-experimental design that is generally better than either the nonequivalent groups design or the pretest-posttest design is one that combines elements of both. There is a treatment group that is given a pretest, receives a treatment, and then is given a posttest. But at the same time there is a control group that is given a pretest, does *not* receive the treatment, and then is given a posttest. The question, then, is not simply whether participants who receive the treatment improve but whether they improve *more* than participants who do not receive the treatment.
 
@@ -78,34 +76,6 @@ Finally, if participants in this kind of design are randomly assigned to conditi
 :::
 
 ## Glossary
-
-##### archival data {-}
-
-Existing data that were collected or created for some other purpose. They can include school and hospital records, newspaper and magazine articles, Internet content, television shows, and many other things.
-
-##### BRUSO {-}
-
-A prescriptive model for writing good questionnaire items. They should be brief, relevant, unambiguous, specific, and objective.
-
-##### closed-ended item {-}
-
-A questionnaire item that asks a question and provides a set of response options for respondents to choose from.
-
-##### coding {-}
-
-An approach to measurement in naturalistic observation, in which target behaviors are specified ahead of time and observers watch for and record those specific behaviors.
-
-##### content analysis {-}
-
-A family of techniques for analyzing archival data that generally involves identifying specific words, phrases, ideas, or other content in the data and then counting or summarizing their occurrence in other quantitative ways.
-
-##### correlational research {-}
-
-Research in which two or more variables are measured and the statistical relationships among them are assessed. There is no manipulated independent variable and usually very little attempt to control extraneous variables.
-
-##### history {-}
-
-Refers collectively to extraneous events that can occur between a pretest and posttest or between the first and last measurements in a time series. It can provide alternative explanations for an observed change in the dependent variable.
 
 ##### interrupted time-series design {-}
 
