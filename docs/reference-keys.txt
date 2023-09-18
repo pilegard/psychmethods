@@ -2,7 +2,6 @@ fig:mehl
 fig:scientificmethod
 fig:cell
 fig:therapy
-fig:bruck
 fig:bargraph
 fig:scatter
 fig:pearson
@@ -103,6 +102,7 @@ science-and-clinical-practice
 glossary
 getting-started-in-research
 basic-concepts
+relationships-between-variables
 quantitative-and-qualitative-research
 glossary-1
 experimental-research

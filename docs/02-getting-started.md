@@ -1,15 +1,10 @@
 # Getting Started in Research
 
-Here is the first paragraph of a 2009 article in the *Journal of Experimental Psychology: Applied*.
+Here is the first paragraph of a 2020 article in the *Nature Human Behaviour*.
 
-> Human figure drawings (HFDs) are commonly used by professionals who interview children about suspected sexual abuse. It is assumed that these drawings will decrease children’s linguistic and emotional or motivational limitations, as well as memory problems, and thus will result in the elicitation of more complete and accurate details of abuse. There is, however, little scientific information to support claims of their benefits. This article presents the results of two studies that examined young children’s ability to use HFDs to report body touches. [@bruck2009human p. 361].
+> Forgetting is an inevitable consequence of remembering. We forget many of our everyday experiences over time, remembering only a small proportion of the large volume of information that we process on a daily basis. Psychologists have focused on characterizing the rate at which forgetting occurs epitomized by Ebbinghaus’ forgetting curves, and have asked why it occurs for example, whether via interference or decay. This focus on the when and why of forgetting has perhaps been at the expense of asking what is forgotten. When forgetting occurs, what type of information is lost? This question is critical, given the proposal that forgetting is beneficial to decision-making processes. If we are to understand how forgetting aids decision making, we first need to reveal the form that such forgetting takes. [@Berens2020].
 
-In this paragraph, the researcher has identified a research question—about the effect of using human figure drawings on the accuracy of children’s memories of being touched—and begun to make an argument for why it is interesting. In terms of the general model of scientific research in psychology presented in Figure \@ref(fig:scientificmethod) "A Simple Model of Scientific Research in Psychology", these are activities at the “top” of the cycle. In this chapter, we begin with some more basic concepts that are necessary to understand how research questions in psychology are conceptualized.
-
-<div class="figure" style="text-align: center">
-<img src="images/getting-started/bruck.jpeg" alt="Do human figure drawings like this one help children recall information about being touched—for example, in sexual abuse cases? Unfortunately, initial research suggests that they do not. Copyright © 2004 by the American Psychological Association. Reproduced with permission. The official citation that should be used in referencing this material is Aldridge, J., Lamb, M. W., Sternberg, K. J., Orbach, Y., Esplin, P. W., \&amp; Bowler, L. (2004). Journal of Consulting and Clinical Psychology, 72, 304–316. The use of APA information does not imply endorsement by the APA." width="25%" />
-<p class="caption">(\#fig:bruck)Do human figure drawings like this one help children recall information about being touched—for example, in sexual abuse cases? Unfortunately, initial research suggests that they do not. Copyright © 2004 by the American Psychological Association. Reproduced with permission. The official citation that should be used in referencing this material is Aldridge, J., Lamb, M. W., Sternberg, K. J., Orbach, Y., Esplin, P. W., \& Bowler, L. (2004). Journal of Consulting and Clinical Psychology, 72, 304–316. The use of APA information does not imply endorsement by the APA.</p>
-</div>
+In this paragraph, the researchers opened with the broad topic of forgetting. They characterize past research questions that have focused on forgetting rates and the reasons why it may occur. This frames why their research question is important (what kind of information is forgotten) because little research has been done on it. In terms of the general model of scientific research in psychology presented in Figure \@ref(fig:scientificmethod) "A Simple Model of Scientific Research in Psychology", these are activities at the “top” of the cycle. In this chapter, we begin with some more basic concepts that are necessary to understand how research questions in psychology are conceptualized. 
 
 ## Basic Concepts
 
@@ -24,7 +19,7 @@ In this paragraph, the researcher has identified a research question—about the
 
 ### Variables {-}
 
-Research questions in psychology are about [variables](#variable). A variable is a quantity or quality that varies across people or situations. For example, the height of the students in a psychology class is a variable because it varies from student to student. The sex of the students is also a variable as long as there are both male and female students in the class. A [quantitative variable] is a quantity, such as height, that is typically measured by assigning a number to each individual. Other examples of quantitative variables include people’s level of talkativeness, how depressed they are, and the number of siblings they have. A [categorical variable] is a quality, such as sex, and is typically measured by assigning a category label to each individual. Other examples include people’s nationality, their occupation, and whether they are receiving psychotherapy.
+Research questions in psychology are about [variables](#variable). A variable is a quantity or quality that varies across people or situations. For example, the height of the students in a psychology class is a variable because it varies from student to student. The sex assigned at birth of the students is also a variable as long as there are both male and female students in the class. A [quantitative variable] is a quantity, such as height, that is typically measured by assigning a number to each individual. Other examples of quantitative variables include people’s level of talkativeness, how depressed they are, and the number of siblings they have. A [categorical variable] is a quality, such as sex assigned at birth, and is typically measured by assigning a category label to each individual. Other examples include people’s nationality, their occupation, and whether they are receiving psychotherapy.
 
 ### Sampling and Measurement {-}
 
@@ -34,7 +29,7 @@ One method of obtaining a sample is simple random sampling, in which every membe
 
 Once the sample is selected, researchers need to measure the variables they are interested in. This requires an [operational definition]—a definition of the variable in terms of precisely how it is to be measured. Most variables can be operationally defined in many different ways. For example, depression can be operationally defined as people’s scores on a paper-and-pencil depression scale, the number of depressive symptoms they are experiencing, or whether they have been diagnosed with major depressive disorder. When a variable has been measured for a particular individual, the result is called a score, and a set of scores is called data. Note that data is plural—the singular datum is rarely used—so it is grammatically correct to say, “Those are interesting data” (and incorrect to say, “That is interesting data”).
 
-### Statistical Relationships Between Variables {-}
+## Relationships Between Variables
 
 Some research questions in psychology are about one variable. How accurate are children’s memories for being touched? How talkative are American college students? How common is it for people to be diagnosed with major depressive disorder? Answering such questions requires operationally defining the variable, measuring it for a sample, analyzing the results, and drawing conclusions about the population. For a quantitative variable, this would typically involve computing the mean and standard deviation of the scores. For a categorical variable, it would typically involve computing the percentage of scores at each level of the variable.
 
@@ -42,9 +37,9 @@ However, research questions in psychology are more likely to be about statistica
 
 There are two basic forms of statistical relationship: differences between groups and correlations between quantitative variables. Although both are consistent with the general definition of a statistical relationship—the average score on one variable differs across levels of the other—they are usually described and analyzed somewhat differently. For this reason it is important to distinguish them clearly.
 
-#### Differences Between Groups {-}
+### Differences Between Groups {-}
 
-One basic form of statistical relationship is a difference between the mean scores of two groups on some variable of interest. A wide variety of research questions in psychology take this form. Are women more talkative than men? Do children using human figure drawings recall more touch information than children not using human figure drawings? Do people talking on a cell phone have poorer driving abilities than people not talking on a cell phone? Do people receiving Psychotherapy A tend to have fewer depressive symptoms than people receiving Psychotherapy B? Later we will also see that such relationships can involve more than two groups and that the groups can consist of the very same individuals tested at different times or under different conditions. For now, however, it is easiest to think in terms of two distinct groups.
+One basic form of statistical relationship is a difference between the mean scores of two groups on some variable of interest. A wide variety of research questions in psychology take this form. Can people multitask? Are flashcards more effective for learning than studying notes? Do people talking on a cell phone have poorer driving abilities than people not talking on a cell phone? Do people receiving Psychotherapy A tend to have fewer depressive symptoms than people receiving Psychotherapy B? Later we will also see that such relationships can involve more than two groups and that the groups can consist of the very same individuals tested at different times or under different conditions. For now, however, it is easiest to think in terms of two distinct groups.
 
 Differences between groups are usually described by giving the mean score and standard deviation for each group. This information can also be presented in a bar graph like that in Figure \@ref(fig:bargraph), where the heights of the bars represent the group means.
 
@@ -53,7 +48,13 @@ Differences between groups are usually described by giving the mean score and st
 <p class="caption">(\#fig:bargraph)Bar graph showing the very small difference in the mean number of words spoken per day by women and men in a large sample. Based on data from @mehl2007women</p>
 </div>
 
-#### Correlations Between Quantitative Variables {-}
+
+:::fyi
+##### The Gold Standard of Evidence {-}
+The gold standard of evidence is a randomized controlled trial (RCT). RCTs enable us to infer causality because they control for sample selection bias and confounding factors through randomization. Generally for an RCT, there is a target population which a random sample is taken from. In the simplest form, RCTs have two groups, the control group where no treatment is applied and the treatment group where we manipulate a variable. Random assignment to these two groups is key to ensure that a third variable only in one group is affecting the results. We then compare the outcomes of the two groups and see if the treatment had any effect relative to the control group.    
+:::
+
+### Correlations Between Quantitative Variables {-}
 
 A second basic form of statistical relationship is a correlation between two quantitative variables, where the average score on one variable differs systematically across the levels of the other. Again, a wide variety of research questions in psychology take this form. Is being a happier person associated with being more talkative? Do children’s memories for touch information improve as they get older? Does the effectiveness of psychotherapy depend on how much the patient likes the therapist?
 
@@ -79,7 +80,7 @@ Pearson’s *r* is a good measure only for linear relationships, in which the po
 <p class="caption">(\#fig:nonlinear)Hypothetical nonlinear relationship between sleep and depression.</p>
 </div>
 
-#### Correlation Does Not Imply Causation {-}
+### Correlation Does Not Imply Causation {-}
 
 Researchers are often interested in a statistical relationship between two variables because they think that one of the variables causes the other. That is, the statistical relationship reflects a causal relationship. In these situations, the variable that is thought to be the cause is called the [independent variable] (often referred to as *X* for short), and the variable that is thought to be the effect is called the [dependent variable] (often referred to as *Y*). For example, the statistical relationship between whether or not a depressed person receives psychotherapy and the number of depressive symptoms he or she has reflects the fact that the psychotherapy (the independent variable) *causes* the reduction in symptoms (the dependent variable). Understanding causal relationships is important in part because it allows us to change people’s behavior in predictable ways. If we know that psychotherapy causes a reduction in depressive symptoms—and we want people to have fewer depressive symptoms—then we can use psychotherapy to achieve this goal.
 
