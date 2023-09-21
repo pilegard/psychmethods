@@ -63,6 +63,8 @@ When researchers combine dependent variables in this way, they are treating them
 4. Sketch and interpret bar graphs and line graphs showing the results of studies with simple factorial designs.
 :::
 
+Often, psychological studies are interested in manipulating multiple independent variables. For example, Gupta INSERT CITE were interested in a specific type of fatigue during a motor sequence task.  
+
 Just as it is common for studies in psychology to include multiple dependent variables, it is also common for them to include multiple independent variables. Schnall and her colleagues studied the effect of both disgust and private body consciousness in the same study. Researchers’ inclusion of multiple independent variables in one experiment is further illustrated by the following actual titles from various professional journals:
 
 - The Effects of Temporal Delay and Orientation on Haptic Object Recognition
@@ -83,7 +85,7 @@ By far the most common approach to including multiple independent variables in a
 knitr::include_graphics("images/complex-designs/designtable.png")
 ```
 
-In principle, factorial designs can include any number of independent variables with any number of levels. For example, an experiment could include the type of psychotherapy (cognitive vs. behavioral), the length of the psychotherapy (2 weeks vs. 2 months), and the sex of the psychotherapist (female vs. male). This would be a 2 × 2 × 2 factorial design and would have eight conditions. Figure \@ref(fig:designtable2) shows one way to represent this design. In practice, it is unusual for there to be more than three independent variables with more than two or three levels each because the number of conditions can quickly become unmanageable. For example, adding a fourth independent variable with three levels (e.g., therapist experience: low vs. medium vs. high) to the current example would make it a 2 × 2 × 2 × 3 factorial design with 24 distinct conditions. In the rest of this section, we will focus on designs with two independent variables. The general principles discussed here extend in a straightforward way to more complex factorial designs.
+In principle, factorial designs can include any number of independent variables with any number of levels. For example, an experiment could include the type of psychotherapy (cognitive vs. behavioral), the length of the psychotherapy (2 weeks vs. 2 months), and the sex assigned at birth of the psychotherapist (female vs. male). This would be a 2 × 2 × 2 factorial design and would have eight conditions. Figure \@ref(fig:designtable2) shows one way to represent this design. In practice, these types of designs can have difficult to interpret effects. We will later cover interaction effects in the \@ref(main-interactions) section. As the complexity of the design increases it becomes hard to scale the logic of interaction effects for multiple variables. Even for this "simple" case of 2 x 2 x 2, it becomes hard to describe interactions if they occur. In practice, it is unusual for there to be more than three independent variables with more than two or three levels each because the number of conditions can quickly become unmanageable. For example, adding a fourth independent variable with three levels (e.g., therapist experience: low vs. medium vs. high) to the current example would make it a 2 × 2 × 2 × 3 factorial design with 24 distinct conditions. In the rest of this section, we will focus on designs with two independent variables. The general principles discussed here extend in a straightforward way to more complex factorial designs.
 
 ```{r designtable2, echo = FALSE, out.width='50%', fig.align = 'center', fig.cap='Factorial design table representing a 2 x 2 x 2 factorial design.'}
 knitr::include_graphics("images/complex-designs/designtable2.png")
@@ -99,9 +101,9 @@ Regardless of whether the design is between subjects, within subjects, or mixed,
 
 #### Nonmanipulated Independent Variables {-}
 
-In many factorial designs, one of the independent variables is a [nonmanipulated independent variable]. The researcher measures it but does not manipulate it. The study by Schnall and colleagues is a good example. One independent variable was disgust, which the researchers manipulated by testing participants in a clean room or a messy room. The other was private body consciousness, which the researchers simply measured. Another example is a study by Halle Brown and colleagues in which participants were exposed to several words that they were later asked to recall [@brown1999perceptual]. The manipulated independent variable was the type of word. Some were negative health-related words (e.g., *tumor*, *coronary*), and others were not health related (e.g., *election*, *geometry*). The nonmanipulated independent variable was whether participants were high or low in hypochondriasis (excessive concern with ordinary bodily symptoms). The result of this study was that the participants high in hypochondriasis were better than those low in hypochondriasis at recalling the health-related words, but they were no better at recalling the non-health-related words.
+In some factorial designs, one of the independent variables is a [nonmanipulated independent variable]. An example of this is a study by Halle Brown and colleagues in which participants were exposed to several words that they were later asked to recall [@brown1999perceptual]. The manipulated independent variable was the type of word. Some were negative health-related words (e.g., *tumor*, *coronary*), and others were not health related (e.g., *election*, *geometry*). The nonmanipulated independent variable was whether participants were high or low in hypochondriasis (excessive concern with ordinary bodily symptoms). The result of this study was that the participants high in hypochondriasis were better than those low in hypochondriasis at recalling the health-related words, but they were no better at recalling the non-health-related words.
 
-Such studies are extremely common, and there are several points worth making about them. First, nonmanipulated independent variables are usually participant variables (private body consciousness, hypochondriasis, self-esteem, and so on), and as such they are by definition between-subjects factors. For example, people are either low in hypochondriasis or high in hypochondriasis; they cannot be tested in both of these conditions. Second, such studies are generally considered to be experiments as long as at least one independent variable is manipulated, regardless of how many nonmanipulated independent variables are included. Third, it is important to remember that causal conclusions can only be drawn about the manipulated independent variable. For example, Schnall and her colleagues were justified in concluding that disgust affected the harshness of their participants’ moral judgments because they manipulated that variable and randomly assigned participants to the clean or messy room. But they would not have been justified in concluding that participants’ private body consciousness affected the harshness of their participants’ moral judgments because they did not manipulate that variable. It could be, for example, that having a strict moral code and a heightened awareness of one’s body are both caused by some third variable (e.g., neuroticism). Thus it is important to be aware of which variables in a study are manipulated and which are not.
+These types of designs may be common, but there are a couple drawbacks to using them. While they are still considered experimental as long as at least one independent variable is manipulated, regardless of how many nonmanipulated independent variables are included. However, it is important to remember that causal conclusions can only be drawn about the manipulated independent variable. Thus, in the previous example, we would not be able to infer causal evidence that people with high hypochondriasis causes more greater recall of health-related words. This evidence is the equivalent of correlation evidence. Thus it is important to be aware of which variables in a study are manipulated and which are not.
 
 #### Graphing the Results of Factorial Experiments {-}
 
@@ -141,15 +143,15 @@ axis(1,at=c(1,2,3,4),labels=c("2 Weeks","4 Weeks","6 Weeks","8 Weeks"))
 legend("topright", legend = c("Type A","Type B"), col = c("#BC5C15", "#429780"), lty = 1:2, cex = 0.8)
 ```
 
-#### Main Effects and Interactions {-}
+#### Main Effects and Interactions {- #main-interactions}
 
 In factorial designs, there are two kinds of results that are of interest: main effects and interaction effects (which are also called just “interactions”). A main effect is the statistical relationship between one independent variable and a dependent variable—averaging across the levels of the other independent variable. Thus there is one main effect to consider for each independent variable in the study. The top panel of Figure \@ref(fig:plots) shows a main effect of cell phone use because driving performance was better, on average, when participants were not using cell phones than when they were. The blue bars are, on average, higher than the red bars. It also shows a main effect of time of day because driving performance was better during the day than during the night—both when participants were using cell phones and when they were not. Main effects are independent of each other in the sense that whether or not there is a main effect of one independent variable says nothing about whether or not there is a main effect of the other. The bottom panel of Figure \@ref(fig:plots), for example, shows a clear main effect of psychotherapy length. The longer the psychotherapy, the better it worked. But it also shows no overall advantage of one type of psychotherapy over the other.
 
 There is an interaction effect (or just “interaction”) when the effect of one independent variable depends on the level of another. Although this might seem complicated, you have an intuitive understanding of interactions already. It probably would not surprise you, for example, to hear that the effect of receiving psychotherapy is stronger among people who are highly motivated to change than among people who are not motivated to change. This is an interaction because the effect of one independent variable (whether or not one receives psychotherapy) depends on the level of another (motivation to change). Schnall and her colleagues also demonstrated an interaction because the effect of whether the room was clean or messy on participants’ moral judgments depended on whether the participants were low or high in private body consciousness. If they were high in private body consciousness, then those in the messy room made harsher judgments. If they were low in private body consciousness, then whether the room was clean or messy did not matter.
 
-The effect of one independent variable can depend on the level of the other in different ways. This is shown in Figure \@ref(fig:barinteractions). In the top panel, one independent variable has an effect at one level of the second independent variable but no effect at the others. (This is much like the study of Schnall and her colleagues where there was an effect of disgust for those high in private body consciousness but not for those low in private body consciousness.) In the middle panel, one independent variable has a stronger effect at one level of the second independent variable than at the other level. This is like the hypothetical driving example where there was a stronger effect of using a cell phone at night than during the day. In the bottom panel, one independent variable again has an effect at both levels of the second independent variable, but the effects are in opposite directions. Figure \@ref(fig:barinteractions) shows the strongest form of this kind of interaction, called a [crossover interaction]. One example of a crossover interaction comes from a study by Kathy Gilliland on the effect of caffeine on the verbal test scores of introverts and extroverts [@gilliland1980interactive]. Introverts perform better than extroverts when they have not ingested any caffeine. But extroverts perform better than introverts when they have ingested 4 mg of caffeine per kilogram of body weight. Figure \@ref(fig:lineinteractions) shows examples of these same kinds of interactions when one of the independent variables is quantitative and the results are plotted in a line graph. Note that in a crossover interaction, the two lines literally “cross over” each other.
+The effect of one independent variable can depend on the level of the other in different ways. This is shown in Figures \@ref(fig:barinteractions1), \@ref(fig:barinteractions2), and \@ref(fig:barinteractions3). In \@ref(fig:barinteractions1), one independent variable has an effect at one level of the second independent variable but no effect at the others. (This is much like the study of Schnall and her colleagues where there was an effect of disgust for those high in private body consciousness but not for those low in private body consciousness.) In \@ref(fig:barinteractions2), one independent variable has a stronger effect at one level of the second independent variable than at the other level. This is like the hypothetical driving example where there was a stronger effect of using a cell phone at night than during the day. In \@ref(fig:barinteractions3), one independent variable again has an effect at both levels of the second independent variable, but the effects are in opposite directions. Figure \@ref(fig:barinteractions3) shows the strongest form of this kind of interaction, called a [crossover interaction]. One example of a crossover interaction comes from a study by Kathy Gilliland on the effect of caffeine on the verbal test scores of introverts and extroverts [@gilliland1980interactive]. Introverts perform better than extroverts when they have not ingested any caffeine. But extroverts perform better than introverts when they have ingested 4 mg of caffeine per kilogram of body weight. Figure \@ref(fig:lineinteractions1), \@ref(fig:lineinteractions2), and \@ref(fig:lineinteractions3) shows examples of these same kinds of interactions when one of the independent variables is quantitative and the results are plotted in a line graph. Note that in a crossover interaction, the two lines literally “cross over” each other.
 
-```{r barinteractions, echo = FALSE, out.width='51%', fig.align = 'center', fig.show = 'hold', fig.cap='Bar graphs showing three types of interactions. In the top panel, one independent variable has an effect at one level of the second independent variable but not at the other. In the middle panel, one independent variable has a stronger effect at one level of the second independent variable than at the other. In the bottom panel, one independent variable has the opposite effect at one level of the second independent variable than at the other.'}
+```{r barinteractions1, echo = FALSE, out.width='51%', fig.align = 'center', fig.show = 'hold', fig.cap='This bargraph is showing one of three types of interactions.This one shows that one independent variable has an effect at one level of the second independent variable but not at the other.'}
 
 par(mar = c(4, 4, 0.1, 0.1))  
 
@@ -165,7 +167,7 @@ bar1 <- reshape(bar1,idvar = "subgroup",
   
 row.names(bar1) <- bar1$subgroup
 bar1 <- bar1[ , 2:ncol(bar1)]
-colnames(bar1) <- c("","")
+colnames(bar1) <- c("IV 1 Condition A","IV 1 Condition B")
 bar1 <- as.matrix(bar1)
   
 # Create grouped barplot1
@@ -173,6 +175,12 @@ barplot(height = bar1, beside = TRUE, xlab = NULL, ylab = NULL, axes = FALSE,
         axis.lty=1, ylim = c(0,60),
         col = c("#FF8021","#5DCEAF"))
 grid(nx = NULL, ny = NULL, lty = 2, col = "#7F7F7F40", lwd = 1)
+
+# Add a legend
+legend("topright", legend = c("IV 2 Condition A", "IV 2 Condition B"), fill = c("#FF8021","#5DCEAF"))
+```
+
+```{r barinteractions2, echo = FALSE, out.width='51%', fig.align = 'center', fig.show = 'hold', fig.cap='This bargraph is showing one of three types of interactions.This one shows that one independent variable has a stronger effect at one level of the second independent variable than at the other.'}
 
 # Create barplot2 data
 bar2 <- data.frame(x2 = c(25,50,25,35),
@@ -186,7 +194,7 @@ bar2 <- reshape(bar2,idvar = "subgroup",
   
 row.names(bar2) <- bar2$subgroup
 bar2 <- bar2[ , 2:ncol(bar2)]
-colnames(bar2) <- c("","")
+colnames(bar2) <- c("IV 1 Condition A","IV 1 Condition B")
 bar2 <- as.matrix(bar2)
   
 # Create grouped barplot2
@@ -194,6 +202,13 @@ barplot(height = bar2, beside = TRUE, xlab = NULL, ylab = NULL, axes = FALSE,
         axis.lty=1, ylim = c(0,60),
         col = c("#FF8021","#5DCEAF"))
 grid(nx = NULL, ny = NULL, lty = 2, col = "#7F7F7F40", lwd = 1)
+
+# Add a legend
+legend("topright", legend = c("IV 2 Condition A", "IV 2 Condition B"), fill = c("#FF8021","#5DCEAF"))
+
+```
+
+```{r barinteractions3, echo = FALSE, out.width='51%', fig.align = 'center', fig.show = 'hold', fig.cap='This bargraph is showing one of three types of interactions.This one shows that one independent variable has the opposite effect at one level of the second independent variable than at the other.'}
 
 # Create barplot3 data
 bar3 <- data.frame(x3 = c(25,50,50,25),
@@ -207,7 +222,7 @@ bar3 <- reshape(bar3,idvar = "subgroup",
   
 row.names(bar3) <- bar3$subgroup
 bar3 <- bar3[ , 2:ncol(bar3)]
-colnames(bar3) <- c("","")
+colnames(bar3) <- c("IV 1 Condition A","IV 1 Condition B")
 bar3 <- as.matrix(bar3)
   
 # Create grouped barplot3
@@ -215,9 +230,12 @@ barplot(height = bar3, beside = TRUE, xlab = NULL, ylab = NULL, axes = FALSE,
         axis.lty=1, ylim = c(0,60),
         col = c("#FF8021","#5DCEAF"))
 grid(nx = NULL, ny = NULL, lty = 2, col = "#7F7F7F40", lwd = 1)
+
+# Add a legend
+legend("topright", legend = c("IV 2 Condition A", "IV 2 Condition B"), fill = c("#FF8021","#5DCEAF"))
 ```
 
-```{r lineinteractions, echo = FALSE, out.width='51%', fig.align = 'center', fig.show = 'hold', fig.cap='Line graphs showing three types of interactions. In the top panel, one independent variable has an effect at one level of the second independent variable but not at the other. In the middle panel, one independent variable has a stronger effect at one level of the second independent variable than at the other. In the bottom panel, one independent variable has the opposite effect at one level of the second independent variable than at the other.'}
+```{r lineinteractions1, echo = FALSE, out.width='51%', fig.align = 'center', fig.show = 'hold', fig.cap='This linegraph is showing one of three types of interactions. This one shows that one independent variable has an effect at one level of the second independent variable but not at the other.'}
 
 par(mar = c(4, 4, 0.1, 0.1))  
 
@@ -230,6 +248,12 @@ plot(x1, y11, type = "b", frame = FALSE, pch = 19, lwd = 2, col = "#BC5C15",
 lines(x1, y12, pch = 15, col = "#429780", type = "b", lty = 2, lwd = 2)
 grid(nx = NULL, ny = NULL, lty = 2, col = "#7F7F7F40", lwd = 1)
 
+# Add a legend
+legend("topleft", legend = c("IV 2 Condition A", "IV 2 Condition B"), fill = c("#BC5C15","#429780"))
+```
+
+```{r lineinteractions2, echo = FALSE, out.width='51%', fig.align = 'center', fig.show = 'hold', fig.cap='This linegraph is showing one of three types of interactions. This one shows that one independent variable has a stronger effect at one level of the second independent variable than at the other.'}
+
 # Line plot 2
 x2 <- c(1,2,3,4,5)
 y21 <- c(11,13,15,17,18)
@@ -239,6 +263,11 @@ plot(x2, y21, type = "b", frame = FALSE, pch = 19, lwd = 2, col = "#BC5C15",
 lines(x2, y22, pch = 15, col = "#429780", type = "b", lty = 2, lwd = 2)
 grid(nx = NULL, ny = NULL, lty = 2, col = "#7F7F7F40", lwd = 1)
 
+# Add a legend
+legend("topleft", legend = c("IV 2 Condition A", "IV 2 Condition B"), fill = c("#BC5C15","#429780"))
+```
+
+```{r lineinteractions3, echo = FALSE, out.width='51%', fig.align = 'center', fig.show = 'hold', fig.cap='This linegraph is showing one of three types of interactions. This one shows that one independent variable has the opposite effect at one level of the second independent variable than at the other.'}
 # Line plot 3
 x3 <- c(1,2,3,4,5)
 y31 <- c(15,19,20,24,25)
@@ -247,6 +276,9 @@ plot(x3, y31, type = "b", frame = FALSE, pch = 19, lwd = 2, col = "#BC5C15",
      xlab = NULL, ylab = NULL, xaxt='n', yaxt='n', ann=FALSE, ylim = c(3,30))
 lines(x3, y32, pch = 15, col = "#429780", type = "b", lty = 2, lwd = 2)
 grid(nx = NULL, ny = NULL, lty = 2, col = "#7F7F7F40", lwd = 1)
+
+# Add a legend
+legend("topleft", legend = c("IV 2 Condition A", "IV 2 Condition B"), fill = c("#BC5C15","#429780"))
 ```
 
 In many studies, the primary research question is about an interaction. The study by Brown and her colleagues was inspired by the idea that people with hypochondriasis are especially attentive to any negative health-related information. This led to the hypothesis that people high in hypochondriasis would recall negative health-related words more accurately than people low in hypochondriasis but recall non-health-related words about the same as people low in hypochondriasis. And of course this is exactly what happened in this study.
