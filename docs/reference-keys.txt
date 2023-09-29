@@ -22,7 +22,6 @@ fig:simple
 fig:stratified
 fig:cluster
 fig:snow
-fig:garbage
 fig:designtable
 fig:designtable2
 fig:plots

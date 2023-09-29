@@ -1,7 +1,7 @@
 --- 
 title: "A Modern Guide to Understanding and Conducting Research in Psychology"
 author: "Edited by Celeste Pilegard and Emma Geller"
-date: "Current version rendered 2023-09-25"
+date: "Current version rendered 2023-09-28"
 site: bookdown::bookdown_site
 documentclass: krantz
 bibliography: [book.bib, packages.bib]

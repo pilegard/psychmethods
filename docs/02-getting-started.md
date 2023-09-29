@@ -30,7 +30,15 @@ David Marr's three levels of analysis are a way to break down the study of compl
 
 ### Variables {-}
 
-The second question, what kind of data should I collect, revolves around  [variables](#variable). A variable is a quantity or quality that varies across people or situations. For example, the height of the students in a psychology class is a variable because it varies from student to student. The sex assigned at birth of the students is also a variable as long as there are both male and female students in the class. A [quantitative variable] is a quantity, such as height, that is typically measured by assigning a number to each individual. Other examples of quantitative variables include people’s level of talkativeness, how depressed they are, and the number of siblings they have. A [categorical variable] is a quality, such as sex assigned at birth, and is typically measured by assigning a category label to each individual. Other examples include people’s nationality, their occupation, and whether they are receiving psychotherapy. Note that these variables are supposed to be reflective of psychological constructs or non-directly observable processes that we use to explain psychological phenomena, like attention. We'll cover this concept more in [chapter 4](#psychological-constructs).  
+The second question, what kind of data should I collect, revolves around  [variables](#variable). A variable is a quantity or quality that varies across people or situations. For example, the height of the students in a psychology class is a variable because it varies from student to student. The sex assigned at birth of the students is also a variable as long as there are both male and female students in the class. 
+
+There are two primary types of variables:
+
+[Quantitative Variables] represent quantities and are typically measured by assigning a numerical value to each individual. For example, height, a classic quantitative variable, is measured in inches or centimeters. Other examples include assessing talkativeness levels, measuring the severity of depression, or counting the number of siblings a person has.
+
+[Categorical Variables], in contrast, represent qualities or categories and are typically measured by assigning category labels. The sex assigned at birth is a categorical variable, with categories like "male" and "female." Other instances of categorical variables include nationality, occupation, or whether someone is undergoing psychotherapy.
+
+Note that these variables are supposed to be reflective of psychological constructs or non-directly observable processes that we use to explain psychological phenomena, like attention. We'll cover this concept more in [chapter 4](#psychological-constructs).  
 
 ### Sampling and Measurement {-}
 
@@ -185,7 +193,11 @@ Table: (\#tab:themes)Themes and repeating ideas in a study of postpartum depress
 
 ### Quantitative or Qualitative? {-}
 
-Neither one is inherently better than the other. A useful way to think about them is as tools for solving problems and questions. If you are interested in a specific question, which tool will allow you to sufficiently answer it? In some cases it might be a qualitative method and in other cases it might be a quantitative method. Each has its pros and cons. For example, qualitative methods can lack objectivity, can be unreliable, lack validity, and may not generalize to a population. On the other hand, quantitative methods are very narrow in scope and can overlook the richness of human behavior by focusing on a few variables at a time. Whether you choose to use a qualitative or quantitative method, often researchers will use both in their studies into what has come to be called [mixed-methods research] [@todd2004mixing]. One approach to combining quantitative and qualitative research is to use qualitative research for hypothesis generation and quantitative research for hypothesis testing. Again, while a qualitative study might suggest that families who experience an unexpected suicide have more difficulty resolving the question of why, a well-designed quantitative study could test a hypothesis by measuring these specific variables for a large sample. A second approach to combining quantitative and qualitative research is referred to as [triangulation]. The idea is to use both quantitative and qualitative methods simultaneously to study the same general questions and to compare the results. If the results of the quantitative and qualitative methods converge on the same general conclusion, they reinforce and enrich each other. If the results diverge, then they suggest an interesting new question: Why do the results diverge and how can they be reconciled?
+Neither approach is inherently superior to the other; they should be viewed as problem-solving tools. When tackling a specific question, consider which tool best equips you to provide a satisfactory answer. Qualitative and quantitative methods each offer distinct advantages and drawbacks. For instance, qualitative methods may lack objectivity, reliability, validity, and generalizability to a broader population. Conversely, quantitative methods, while precise, often focus narrowly on a few variables, potentially missing the complexity of human behavior.
+
+Researchers frequently employ both qualitative and quantitative methods in what is known as [mixed-methods research] [@todd2004mixing]. One way to merge these approaches is to use qualitative research for generating hypotheses and quantitative research for hypothesis testing. For instance, while a qualitative study might suggest that families dealing with an unexpected suicide struggle to understand why it occurred, a well-structured quantitative study could test this hypothesis by measuring these specific variables across a large sample.
+
+Another approach is called [triangulation], where both quantitative and qualitative methods are simultaneously applied to investigate the same overarching questions and compare their findings. When the results from both methods align and support a common conclusion, they reinforce and enhance each other. In cases where the results diverge, they prompt a compelling new question: Why do the findings differ, and how can they be reconciled?
 
 :::takeaways
 ##### KEY TAKEAWAYS {-}
@@ -205,7 +217,7 @@ Neither one is inherently better than the other. A useful way to think about the
 
 A graph used to show differences between the mean scores of two or more groups.
 
-##### categorical variable {-}
+##### categorical variables {-}
 
 A quality that varies across individuals and is measured by assigning a category label to each individual.
 
@@ -267,7 +279,7 @@ Research that typically involves formulating broad research questions, collectin
 
 Research that involves formulating focused research questions, collecting small amounts of data from a large number of participants, and summarizing the data using descriptive and inferential statistics.
 
-##### quantitative variable {-}
+##### quantitative variables {-}
 
 A quantity that varies across individuals and is measured by assigning a number to each individual.
 
