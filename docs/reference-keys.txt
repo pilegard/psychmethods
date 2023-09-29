@@ -26,8 +26,12 @@ fig:garbage
 fig:designtable
 fig:designtable2
 fig:plots
-fig:barinteractions
-fig:lineinteractions
+fig:barinteractions1
+fig:barinteractions2
+fig:barinteractions3
+fig:lineinteractions1
+fig:lineinteractions2
+fig:lineinteractions3
 fig:eysenck
 fig:timeseries
 fig:validity
@@ -168,9 +172,3 @@ understanding-null-hypothesis-testing
 some-basic-null-hypothesis-tests
 additional-considerations
 glossary-13
-fig:barinteractions1
-fig:barinteractions2
-fig:barinteractions3
-fig:lineinteractions1
-fig:lineinteractions2
-fig:lineinteractions3
