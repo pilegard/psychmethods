@@ -1,20 +1,14 @@
 # Getting Started in Research
 
-Here is the first paragraph of a 2020 article in the *Nature Human Behaviour*.
+Here is the first paragraph of a 2009 article in the *Journal of Experimental Psychology: Applied*.
 
-> Forgetting is an inevitable consequence of remembering. We forget many of our everyday experiences over time, remembering only a small proportion of the large volume of information that we process on a daily basis. Psychologists have focused on characterizing the rate at which forgetting occurs epitomized by Ebbinghaus’ forgetting curves, and have asked why it occurs for example, whether via interference or decay. This focus on the when and why of forgetting has perhaps been at the expense of asking what is forgotten. When forgetting occurs, what type of information is lost? This question is critical, given the proposal that forgetting is beneficial to decision-making processes. If we are to understand how forgetting aids decision making, we first need to reveal the form that such forgetting takes. [@Berens2020].
+> Human figure drawings (HFDs) are commonly used by professionals who interview children about suspected sexual abuse. It is assumed that these drawings will decrease children’s linguistic and emotional or motivational limitations, as well as memory problems, and thus will result in the elicitation of more complete and accurate details of abuse. There is, however, little scientific information to support claims of their benefits. This article presents the results of two studies that examined young children’s ability to use HFDs to report body touches. [@bruck2009human p. 361].
 
-In this paragraph, the researchers opened with the broad topic of forgetting. They characterize past research questions that have focused on forgetting rates and the reasons why it may occur. This frames why their research question is important (what kind of information is forgotten) because little research has been done on it. In terms of the general model of scientific research in psychology presented in Figure \@ref(fig:scientificmethod) "A Simple Model of Scientific Research in Psychology", these are activities at the “top” of the cycle. In this chapter, we begin with some more basic concepts that are necessary to understand how research questions in psychology are conceptualized. 
-```{r scientificmethod, echo = FALSE, out.width='70%', fig.align = 'center', fig.cap='A simple model of scientific research in psychology.', fig.alt = 'A circular flow chart with arrows going from Research Literature to Research Questions, then to Empirical Study, then to Data Analysis, then to Conclusions, and then back to Research Literature. An additional arrow points from Research Questions to Research Literature. From outside the circle an arrow points to Research Questions from Informal Observations/ Practical Problems.'}
-knitr::include_graphics("images/science-of-psych/scientificmethod.png")
+In this paragraph, the researcher has identified a research question—about the effect of using human figure drawings on the accuracy of children’s memories of being touched—and begun to make an argument for why it is interesting. In terms of the general model of scientific research in psychology presented in Figure \@ref(fig:scientificmethod) "A Simple Model of Scientific Research in Psychology", these are activities at the “top” of the cycle. In this chapter, we begin with some more basic concepts that are necessary to understand how research questions in psychology are conceptualized.
+
+```{r bruck, echo = FALSE, out.width='25%', fig.align = 'center', fig.cap='Do human figure drawings like this one help children recall information about being touched—for example, in sexual abuse cases? Unfortunately, initial research suggests that they do not. Copyright © 2004 by the American Psychological Association. Reproduced with permission. The official citation that should be used in referencing this material is Aldridge, J., Lamb, M. W., Sternberg, K. J., Orbach, Y., Esplin, P. W., \\& Bowler, L. (2004). Journal of Consulting and Clinical Psychology, 72, 304–316. The use of APA information does not imply endorsement by the APA.'}
+knitr::include_graphics("images/getting-started/bruck.jpeg")
 ```
-
-We can further use a frame work of four questions to understand what the outline our research strategy will be: 1) What question am I trying to answer? 2) What kind of data should I collect? 3) Whom should I measure? 4) How will I collect those measurements and what will they be able to tell me? In the first paragraph, they answer question 1.  
-
-:::fyi
-##### Marr's Three Levels {-}
-David Marr's three levels of analysis are a way to break down the study of complex systems like the brain into three simpler parts. Imagine you're trying to understand a computer program. The first level, called the "computational level," is like looking at what the program does and why it does it. It's about understanding its main goals and functions. The second level, called the "algorithmic level," is like looking at the step-by-step instructions the program uses to accomplish those goals. It's about figuring out the specific methods or algorithms it uses. The third level, called the "implementational level," is like looking at how the program is actually built, including the hardware and the nitty-gritty details of how it works. These three levels help researchers approach the study of complex systems like the brain from different angles to get a better overall picture of how they function.     
-:::
 
 ## Basic Concepts
 
@@ -29,51 +23,37 @@ David Marr's three levels of analysis are a way to break down the study of compl
 
 ### Variables {-}
 
-The second question, what kind of data should I collect, revolves around  [variables](#variable). A variable is a quantity or quality that varies across people or situations. For example, the height of the students in a psychology class is a variable because it varies from student to student. The sex assigned at birth of the students is also a variable as long as there are both male and female students in the class. 
-
-There are two primary types of variables:
-
-[Quantitative Variables] represent quantities and are typically measured by assigning a numerical value to each individual. For example, height, a classic quantitative variable, is measured in inches or centimeters. Other examples include assessing talkativeness levels, measuring the severity of depression, or counting the number of siblings a person has.
-
-[Categorical Variables], in contrast, represent qualities or categories and are typically measured by assigning category labels. The sex assigned at birth is a categorical variable, with categories like "male" and "female." Other instances of categorical variables include nationality, occupation, or whether someone is undergoing psychotherapy.
-
-Note that these variables are supposed to be reflective of psychological constructs or non-directly observable processes that we use to explain psychological phenomena, like attention. We'll cover this concept more in [chapter 4](#psychological-constructs).  
+Research questions in psychology are about [variables](#variable). A variable is a quantity or quality that varies across people or situations. For example, the height of the students in a psychology class is a variable because it varies from student to student. The sex of the students is also a variable as long as there are both male and female students in the class. A [quantitative variable] is a quantity, such as height, that is typically measured by assigning a number to each individual. Other examples of quantitative variables include people’s level of talkativeness, how depressed they are, and the number of siblings they have. A [categorical variable] is a quality, such as sex, and is typically measured by assigning a category label to each individual. Other examples include people’s nationality, their occupation, and whether they are receiving psychotherapy.
 
 ### Sampling and Measurement {-}
 
-The third question, whom should I measure, is important because your question may pertain to humans in general or may pertain to a large group of people that you want to draw conclusions about. This is called the [population]. It could be American teenagers, children with autism, professional athletes, or even just human beings—depending on the interests and goals of the researcher. But they usually study only a small subset or [sample] of the population. For example, a researcher might measure the talkativeness of a few hundred college students with the intention of drawing conclusions about the talkativeness of men and women in general. It is important, therefore, for researchers to use a representative sample—one that is similar to the population in important respects.
+Researchers in psychology are usually interested in drawing conclusions about some very large group of people. This is called the [population]. It could be American teenagers, children with autism, professional athletes, or even just human beings—depending on the interests and goals of the researcher. But they usually study only a small subset or [sample] of the population. For example, a researcher might measure the talkativeness of a few hundred college students with the intention of drawing conclusions about the talkativeness of men and women in general. It is important, therefore, for researchers to use a representative sample—one that is similar to the population in important respects.
 
 One method of obtaining a sample is simple random sampling, in which every member of the population has an equal chance of being selected for the sample. For example, a pollster could start with a list of all the registered voters in a city (the population), randomly select 100 of them from the list (the sample), and ask those 100 whom they intended to vote for. Unfortunately, random sampling is difficult or impossible in most psychological research because the populations are less clearly defined than the registered voters in a city. How could a researcher give all American teenagers or all children with autism an equal chance of being selected for a sample? The most common alternative to random sampling is convenience sampling, in which the sample consists of individuals who happen to be nearby and willing to participate (such as introductory psychology students). The obvious problem with convenience sampling is that the sample might not be representative of the population.
 
-Once the sample is selected, researchers need to measure the variables they are interested in. This requires an [operational definition]—a definition of the variable in terms of precisely how it is to be measured. Which leads us to the first part of our final question, how will I collect those measurements. Most variables can be operationally defined in many different ways. For example, depression can be operationally defined as people’s scores on a paper-and-pencil depression scale, the number of depressive symptoms they are experiencing, or whether they have been diagnosed with major depressive disorder. When a variable has been measured for a particular individual, the result is called a score, and a set of scores is called data. Note that data is plural—the singular datum is rarely used—so it is grammatically correct to say, “Those are interesting data” (and incorrect to say, “That is interesting data”).
+Once the sample is selected, researchers need to measure the variables they are interested in. This requires an [operational definition]—a definition of the variable in terms of precisely how it is to be measured. Most variables can be operationally defined in many different ways. For example, depression can be operationally defined as people’s scores on a paper-and-pencil depression scale, the number of depressive symptoms they are experiencing, or whether they have been diagnosed with major depressive disorder. When a variable has been measured for a particular individual, the result is called a score, and a set of scores is called data. Note that data is plural—the singular datum is rarely used—so it is grammatically correct to say, “Those are interesting data” (and incorrect to say, “That is interesting data”).
 
-## Relationships Between Variables
+### Statistical Relationships Between Variables {-}
 
-Some research questions in psychology are about one variable. How much information is remembered? How talkative are American college students? How common is it for people to be diagnosed with major depressive disorder? Answering such questions requires operationally defining the variable, measuring it for a sample, analyzing the results, and drawing conclusions about the population. For a quantitative variable, this would typically involve computing the mean and standard deviation of the scores. For a categorical variable, it would typically involve computing the percentage of scores at each level of the variable.
+Some research questions in psychology are about one variable. How accurate are children’s memories for being touched? How talkative are American college students? How common is it for people to be diagnosed with major depressive disorder? Answering such questions requires operationally defining the variable, measuring it for a sample, analyzing the results, and drawing conclusions about the population. For a quantitative variable, this would typically involve computing the mean and standard deviation of the scores. For a categorical variable, it would typically involve computing the percentage of scores at each level of the variable.
 
-However, research questions in psychology are more likely to be about statistical relationships between variables. This brings us to second part of the final question, what will those measurements be able to tell me. There is a [statistical relationship] between two variables when the average score on one differs systematically across the levels of the other. Studying statistical relationships is important because instead of telling us about behaviors and psychological characteristics in isolation, it tells us about the causes, consequences, development, and organization of those behaviors and characteristics.
+However, research questions in psychology are more likely to be about statistical relationships between variables. There is a [statistical relationship] between two variables when the average score on one differs systematically across the levels of the other. Studying statistical relationships is important because instead of telling us about behaviors and psychological characteristics in isolation, it tells us about the causes, consequences, development, and organization of those behaviors and characteristics.
 
 There are two basic forms of statistical relationship: differences between groups and correlations between quantitative variables. Although both are consistent with the general definition of a statistical relationship—the average score on one variable differs across levels of the other—they are usually described and analyzed somewhat differently. For this reason it is important to distinguish them clearly.
 
-### Differences Between Groups {-}
+#### Differences Between Groups {-}
 
-One basic form of statistical relationship is a difference between the mean scores of two groups on some variable of interest. A wide variety of research questions in psychology take this form. Can people multitask? Are flashcards more effective for learning than studying notes? Do people talking on a cell phone have poorer driving abilities than people not talking on a cell phone? Do people receiving Psychotherapy A tend to have fewer depressive symptoms than people receiving Psychotherapy B? Later we will also see that such relationships can involve more than two groups and that the groups can consist of the very same individuals tested at different times or under different conditions. For now, however, it is easiest to think in terms of two distinct groups.
+One basic form of statistical relationship is a difference between the mean scores of two groups on some variable of interest. A wide variety of research questions in psychology take this form. Are women more talkative than men? Do children using human figure drawings recall more touch information than children not using human figure drawings? Do people talking on a cell phone have poorer driving abilities than people not talking on a cell phone? Do people receiving Psychotherapy A tend to have fewer depressive symptoms than people receiving Psychotherapy B? Later we will also see that such relationships can involve more than two groups and that the groups can consist of the very same individuals tested at different times or under different conditions. For now, however, it is easiest to think in terms of two distinct groups.
 
 Differences between groups are usually described by giving the mean score and standard deviation for each group. This information can also be presented in a bar graph like that in Figure \@ref(fig:bargraph), where the heights of the bars represent the group means.
 
 ```{r bargraph, echo = FALSE, out.width='70%', fig.align = 'center', fig.cap='Bar graph showing the very small difference in the mean number of words spoken per day by women and men in a large sample. Based on data from @mehl2007women'}
 words <- c(16215,15669)
 
-barplot(words, names.arg = c("Women","Men"), col = c("#1BADE3","#4E67C8"), xlab = "Sex Assigned at Birth", axis.lty=1, ylab = "Words Spoken per Day", ylim = c(0,20000))
+barplot(words, names.arg = c("Women","Men"), col = c("#1BADE3","#4E67C8"), xlab = "Sex", axis.lty=1, ylab = "Words Spoken per Day", ylim = c(0,20000))
 ```
 
-
-:::fyi
-##### The Gold Standard of Evidence {-}
-The gold standard of evidence is a randomized controlled trial (RCT). RCTs enable us to infer causality because they control for sample selection bias and confounding factors through randomization. Generally for an RCT, there is a target population which a random sample is taken from. In the simplest form, RCTs have two groups, the control group where no treatment is applied and the treatment group where we manipulate a variable. Random assignment to these two groups is key to ensure that a third variable only in one group is affecting the results. We then compare the outcomes of the two groups and see if the treatment had any effect relative to the control group.    
-:::
-
-### Correlations Between Quantitative Variables {-}
+#### Correlations Between Quantitative Variables {-}
 
 A second basic form of statistical relationship is a correlation between two quantitative variables, where the average score on one variable differs systematically across the levels of the other. Again, a wide variety of research questions in psychology take this form. Is being a happier person associated with being more talkative? Do children’s memories for touch information improve as they get older? Does the effectiveness of psychotherapy depend on how much the patient likes the therapist?
 
@@ -117,7 +97,7 @@ grid(nx = NULL, ny = NULL,
      lwd = 1)      # Grid line width
 ```
 
-### Correlation Does Not Imply Causation {-}
+#### Correlation Does Not Imply Causation {-}
 
 Researchers are often interested in a statistical relationship between two variables because they think that one of the variables causes the other. That is, the statistical relationship reflects a causal relationship. In these situations, the variable that is thought to be the cause is called the [independent variable] (often referred to as *X* for short), and the variable that is thought to be the effect is called the [dependent variable] (often referred to as *Y*). For example, the statistical relationship between whether or not a depressed person receives psychotherapy and the number of depressive symptoms he or she has reflects the fact that the psychotherapy (the independent variable) *causes* the reduction in symptoms (the dependent variable). Understanding causal relationships is important in part because it allows us to change people’s behavior in predictable ways. If we know that psychotherapy causes a reduction in depressive symptoms—and we want people to have fewer depressive symptoms—then we can use psychotherapy to achieve this goal.
 
@@ -206,13 +186,13 @@ knitr::kable(themes,
   col.name=c("Theme","Repeating ideas"), caption = 'Themes and repeating ideas in a study of postpartum depression among low-income mothers.')
 ```
 
-### Quantitative or Qualitative? {-}
+### The Quantitative-Qualitative “Debate” {-}
 
-Neither approach is inherently superior to the other; they should be viewed as problem-solving tools. When tackling a specific question, consider which tool best equips you to provide a satisfactory answer. Qualitative and quantitative methods each offer distinct advantages and drawbacks. For instance, qualitative methods may lack objectivity, reliability, validity, and generalizability to a broader population. Conversely, quantitative methods, while precise, often focus narrowly on a few variables, potentially missing the complexity of human behavior.
+Given their differences, it may come as no surprise that quantitative and qualitative research in psychology and related fields do not coexist in complete harmony. Some quantitative researchers criticize qualitative methods on the grounds that they lack objectivity, are difficult to evaluate in terms of reliability and validity, and do not allow generalization to people or situations other than those actually studied. At the same time, some qualitative researchers criticize quantitative methods on the grounds that they overlook the richness of human behavior and experience and instead answer simple questions about easily quantifiable variables.
 
-Researchers frequently employ both qualitative and quantitative methods in what is known as [mixed-methods research] [@todd2004mixing]. One way to merge these approaches is to use qualitative research for generating hypotheses and quantitative research for hypothesis testing. For instance, while a qualitative study might suggest that families dealing with an unexpected suicide struggle to understand why it occurred, a well-structured quantitative study could test this hypothesis by measuring these specific variables across a large sample.
+In general, however, qualitative researchers are well aware of the issues of objectivity, reliability, validity, and generalizability. In fact, they have developed a number of frameworks for addressing these issues (which are beyond the scope of our discussion). And in general, quantitative researchers are well aware of the issue of oversimplification. They do not believe that all human behavior and experience can be adequately described in terms of a small number of variables and the statistical relationships among them. Instead, they use simplification as a strategy for uncovering general principles of human behavior.
 
-Another approach is called [triangulation], where both quantitative and qualitative methods are simultaneously applied to investigate the same overarching questions and compare their findings. When the results from both methods align and support a common conclusion, they reinforce and enhance each other. In cases where the results diverge, they prompt a compelling new question: Why do the findings differ, and how can they be reconciled?
+Many researchers from both the quantitative and qualitative camps now agree that the two approaches can and should be combined into what has come to be called [mixed-methods research] [@todd2004mixing]. (In fact, the studies by Lindqvist and colleagues and by Abrams and Curran both combined quantitative and qualitative approaches.) One approach to combining quantitative and qualitative research is to use qualitative research for hypothesis generation and quantitative research for hypothesis testing. Again, while a qualitative study might suggest that families who experience an unexpected suicide have more difficulty resolving the question of why, a well-designed quantitative study could test a hypothesis by measuring these specific variables for a large sample. A second approach to combining quantitative and qualitative research is referred to as [triangulation]. The idea is to use both quantitative and qualitative methods simultaneously to study the same general questions and to compare the results. If the results of the quantitative and qualitative methods converge on the same general conclusion, they reinforce and enrich each other. If the results diverge, then they suggest an interesting new question: Why do the results diverge and how can they be reconciled?
 
 :::takeaways
 ##### KEY TAKEAWAYS {-}
@@ -232,7 +212,7 @@ Another approach is called [triangulation], where both quantitative and qualitat
 
 A graph used to show differences between the mean scores of two or more groups.
 
-##### categorical variables {-}
+##### categorical variable {-}
 
 A quality that varies across individuals and is measured by assigning a category label to each individual.
 
@@ -294,7 +274,7 @@ Research that typically involves formulating broad research questions, collectin
 
 Research that involves formulating focused research questions, collecting small amounts of data from a large number of participants, and summarizing the data using descriptive and inferential statistics.
 
-##### quantitative variables {-}
+##### quantitative variable {-}
 
 A quantity that varies across individuals and is measured by assigning a number to each individual.
 
