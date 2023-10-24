@@ -2,7 +2,6 @@ fig:mehl
 fig:scientificmethod
 fig:cell
 fig:therapy
-fig:bruck
 fig:bargraph
 fig:scatter
 fig:pearson
@@ -23,12 +22,15 @@ fig:simple
 fig:stratified
 fig:cluster
 fig:snow
-fig:garbage
 fig:designtable
 fig:designtable2
 fig:plots
-fig:barinteractions
-fig:lineinteractions
+fig:barinteractions1
+fig:barinteractions2
+fig:barinteractions3
+fig:lineinteractions1
+fig:lineinteractions2
+fig:lineinteractions3
 fig:eysenck
 fig:timeseries
 fig:validity
@@ -103,6 +105,7 @@ science-and-clinical-practice
 glossary
 getting-started-in-research
 basic-concepts
+relationships-between-variables
 quantitative-and-qualitative-research
 glossary-1
 experimental-research
