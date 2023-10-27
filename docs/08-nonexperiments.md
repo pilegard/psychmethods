@@ -221,7 +221,7 @@ From this perspective, what at first appears to be a simple matter of asking peo
 
 Again, this complexity can lead to unintended influences on respondents’ answers. These are often referred to as [context effects](#context-effect) because they are not related to the content of the item but to the context in which the item appears [@schwarz1991context]. For example, there is an [item-order effect] when the order in which the items are presented affects people’s responses. One item can change how participants interpret a later item or change the information that they retrieve to respond to later items. For example, researcher Fritz Strack and his colleagues asked college students about both their general life satisfaction and their dating frequency [@strack1988priming]. When the life satisfaction item came first, the correlation between the two was only −.12, suggesting that the two variables are only weakly related. But when the dating frequency item came first, the correlation between the two was +.66, suggesting that those who date more have a strong tendency to be more satisfied with their lives. Reporting the dating frequency first made that information more accessible in memory so that they were more likely to base their life satisfaction rating on it.
 
-The response options provided can also have unintended effects on people’s responses [@schwarz1999self]. For example, when people are asked how often they are “really irritated” and given response options ranging from “less than once a year” to “more than once a month,” they tend to think of major irritations and report being irritated infrequently. But when they are given response options ranging from “less than once a day” to “several times a month,” they tend to think of minor irritations and report being irritated frequently. People also tend to assume that middle response options represent what is normal or typical. So if they think of themselves as normal or typical, they tend to choose middle response options. For example, people are likely to report watching more television when the response options are centered on a middle option of 4 hours than when centered on a middle option of 2 hours.
+The response options provided can also have unintended effects on people’s responses [@schwarz1999self]. For example, when people are asked how often they are “really irritated” and given response options ranging from “less than once a year” to “more than once a month,” they tend to think of major irritations and report being irritated infrequently. But when they are given response options ranging from “less than once a day” to “several times a month,” they tend to think of minor irritations and report being irritated frequently. People also tend to assume that middle response options represent what is normal or typical. So if they think of themselves as normal or typical, they tend to choose middle response options -  something researchers refer to as an [Avoidance of Extremes]. For example, people are likely to report watching more television when the response options are centered on a middle option of 4 hours than when centered on a middle option of 2 hours. Similarly, prior information can also influence people's responses on surveys. For example, a phone app that asks users to rate their satisfaction while simultaneously showing an average rating of 4.5/5 will likely bias people into thinking [response scale anchoring].
 
 ### Writing Survey Questionnaire Items {-}
 
@@ -297,7 +297,7 @@ A balanced version might look like this:
 
 Note, however, that a middle or neutral response option does not have to be included. Researchers sometimes choose to leave it out because they want to encourage respondents to think more deeply about their response and not simply choose the middle option by default.
 
-Numerical rating scales often begin at 1 and go up to 5 or 7. However, they can also begin at 0 if the lowest response option means the complete absence of something (e.g., no pain). They can also have 0 as their midpoint, but it is important to think about how this might change people’s interpretation of the response options. For example, when asked to rate how successful in life they have been on a 0-to-10 scale, many people use numbers in the lower half of the scale because they interpret this to mean that they have been only somewhat successful in life. But when asked to rate how successful they have been in life on a −5 to +5 scale, very few people use numbers in the lower half of the scale because they interpret this to mean they have actually been unsuccessful in life [@schwarz1999self].
+Numerical rating scales often begin at 1 and go up to 5 or 7. However, they can also begin at 0 if the lowest response option means the complete absence of something (e.g., no pain). They can also have 0 as their midpoint, but it is important to think about how this might change people’s interpretation of the response options. For example, when asked to rate how successful in life they have been on a 0-to-10 scale, many people use numbers in the lower half of the scale because they interpret this to mean that they have been only somewhat successful in life. But when asked to rate how successful they have been in life on a −5 to +5 scale, very few people use numbers in the lower half of the scale because they interpret this to mean they have actually been unsuccessful in life [@schwarz1999self]. 
 
 ### Formatting the Questionnaire {-}
 
@@ -589,29 +589,14 @@ Group research, on the other hand, is good for testing the effectiveness of trea
 
 ## Glossary
 
-##### ABA design {-}
-
-The simplest reversal design, in which there is a baseline condition (A), followed by a treatment condition (B), followed by a return to baseline (A).
-
-##### applied behavior analysis {-}
-
-A subfield of psychology that uses single-subject research and applies the principles of behavior analysis to real-world problems in areas that include education, developmental disabilities, organizational behavior, and health behavior.
-
 ##### archival data {-}
 
 Existing data that were collected or created for some other purpose. They can include school and hospital records, newspaper and magazine articles, Internet content, television shows, and many other things.
-
-##### baseline {-}
-
-A condition in a single-subject research design in which the dependent variable is measured repeatedly in the absence of any treatment. Most designs begin with a baseline condition, and many return to the baseline condition at least once.
 
 ##### BRUSO {-}
 
 A prescriptive model for writing good questionnaire items. They should be brief, relevant, unambiguous, specific, and objective.
 
-##### case study {-}
-
-A detailed description of an individual case.
 
 ##### closed-ended item {-}
 
@@ -633,54 +618,22 @@ A table that shows the correlations among several variables.
 
 Research in which two or more variables are measured and the statistical relationships among them are assessed. There is no manipulated independent variable and usually very little attempt to control extraneous variables.
 
-##### experimental analysis of behavior {-}
-
-A subfield of psychology founded by B. F. Skinner that uses single-subject research—often with nonhuman animals—to study relationships primarily between environmental conditions and objectively observable behaviors.
 
 ##### factor analysis {-}
 
 A complex statistical technique that organizes several variables into clusters where there are strong correlations among the variables within a cluster but weak correlations among the variables between clusters. Each cluster is interpreted as representing a different underlying variable or factor.
 
-##### group research {-}
-
-A type of quantitative research that involves studying a large number of participants and examining their behavior in terms of means, standard deviations, and other group-level statistics.
 
 ##### history {-}
 
 Refers collectively to extraneous events that can occur between a pretest and posttest or between the first and last measurements in a time series. It can provide alternative explanations for an observed change in the dependent variable.
 
-##### multiple-baseline design {-}
-
-A single-subject research design in which multiple baselines are established for different participants, different dependent variables, or different contexts and the treatment is introduced at a different time for each baseline.
 
 ##### multiple regression {-}
 
 A statistical technique that describes the relationship between multiple independent variables and a single dependent variable in terms of an equation that shows the separate contribution of each independent variable to the dependent variable.
 
-##### percentage of nonoverlapping data {-}
-
-A statistic sometimes used in single-subject research. The percentage of observations in a treatment condition that are more extreme than the most extreme observation in a relevant baseline condition.
-
-##### reversal design {-}
-
-A single-subject research design that begins with a baseline condition with no treatment, followed by the introduction of a treatment, and after that a return to the baseline condition. It can include additional treatment conditions and returns to baseline.
-
-##### single-subject research {-}
-
-A type of quantitative research that involves examining in detail the behavior of each of a small number of participants.
-
-##### social validity {-}
-
-The extent to which a single-subject study focuses on an intervention that has a substantial effect on an important behavior and can be implemented reliably in the real-world contexts (e.g., by teachers in a classroom) in which that behavior occurs.
 
 ##### statistical control {-}
 
 In complex correlational research, accounting for third variables by measuring them and including them in the analysis.
-
-##### steady state strategy {-}
-
-In single-subject research, allowing behavior to become fairly consistent from one observation to the next before changing conditions. This makes any effect of the treatment easier to detect.
-
-##### visual inspection {-}
-
-The primary approach to data analysis in single-subject research, which involves graphing the data and making a judgment as to whether and to what extent the independent variable affected the dependent variable.
