@@ -447,7 +447,7 @@ div.csl-indent {
 </div>
 <div id="interrupted-time-series-design" class="section level2 hasAnchor" number="7.3">
 <h2><span class="header-section-number">7.3</span> Interrupted Time Series Design<a href="quasi-experimental-research.html#interrupted-time-series-design" class="anchor-section" aria-label="Anchor link to header"></a></h2>
-<p>A variant of the pretest-posttest design is the <a href="quasi-experimental-research.html#interrupted-time-series-design-1">interrupted time-series design</a>. A time series is a set of measurements taken at intervals over a period of time. For example, a manufacturing company might measure its workers’ productivity each week for a year. In an interrupted time series-design, a time series like this is “interrupted” by a treatment. In one classic example, the treatment was the reduction of the work shifts in a factory from 10 hours to 8 hours <span class="citation">(<a href="#ref-cook1979quasi">Cook et al., 1979</a>)</span>. Because productivity increased rather quickly after the shortening of the work shifts, and because it remained elevated for many months afterward, the researcher concluded that the shortening of the shifts caused the increase in productivity. Notice that the interrupted time-series design is like a pretest-posttest design in that it includes measurements of the dependent variable both before and after the treatment. It is unlike the pretest-posttest design, however, in that it includes multiple pretest and posttest measurements.</p>
+<p>A variant of the pretest-posttest design is the <a href="quasi-experimental-research.html#interrupted-time-series-design-1">interrupted time-series design</a>. A time series is a set of measurements taken at intervals over a period of time. For example, a manufacturing company might measure its workers’ productivity each week for a year. In an interrupted time series-design, a time series like this is “interrupted” by a treatment. In a recent COVID-19 study, the intervention involved the implementation of state-issued mask mandates and restrictions on on-premises restaurant dining. The researchers examined the impact of these measures on COVID-19 cases and deaths <span class="citation">(<a href="#ref-guy2021association">Guy Jr et al., 2021</a>)</span>. Since there was a rapid reduction in daily case and death growth rates following the implementation of mask mandates, and this effect persisted for an extended period, the researchers concluded that the implementation of mask mandates was the cause of the decrease in COVID-19 transmission. This study employed an interrupted time series design, similar to a pretest-posttest design, as it involved measuring the outcomes before and after the intervention. However, unlike the pretest-posttest design, it incorporated multiple measurements before and after the intervention, providing a more comprehensive analysis of the policy impacts.</p>
 <p>Figure <a href="quasi-experimental-research.html#fig:timeseries">7.1</a> shows data from a hypothetical interrupted time-series study. The dependent variable is the number of student absences per week in a research methods course. The treatment is that the instructor begins publicly taking attendance each day so that students know that the instructor is aware of who is present and who is absent. The top panel of Figure <a href="quasi-experimental-research.html#fig:timeseries">7.1</a> shows how the data might look if this treatment worked. There is a consistently high number of absences before the treatment, and there is an immediate and sustained drop in absences after the treatment. The bottom panel of Figure <a href="quasi-experimental-research.html#fig:timeseries">7.1</a> shows how the data might look if this treatment did not work. On average, the number of absences after the treatment is about the same as the number before. This figure also illustrates an advantage of the interrupted time-series design over a simpler pretest-posttest design. If there had been only one measurement of absences before the treatment at Week 7 and one afterward at Week 8, then it would have looked as though the treatment were responsible for the reduction. The multiple measurements both before and after the treatment suggest that the reduction between Weeks 7 and 8 is nothing more than normal week-to-week variation.</p>
 <div class="figure" style="text-align: center"><span style="display:block;" id="fig:timeseries"></span>
 <img src="07-quasi-experiments_files/figure-html/timeseries-1.png" alt="Two line graphs. The x-axes on both are labeled Week and range from 0 to 14. The y-axes on both are labeled Absences and range from 0 to 8. Between weeks 7 and 8 a vertical dotted line indicates when a treatment was introduced. Both graphs show generally high levels of absences from weeks 1 through 7 (before the treatment) and only 2 absences in week 8 (the first observation after the treatment). The top graph shows the absence level staying low from weeks 9 to 14. The bottom graph shows the absence level for weeks 9 to 15 bouncing around at the same high levels as before the treatment." width="60%" /><img src="07-quasi-experiments_files/figure-html/timeseries-2.png" alt="Two line graphs. The x-axes on both are labeled Week and range from 0 to 14. The y-axes on both are labeled Absences and range from 0 to 8. Between weeks 7 and 8 a vertical dotted line indicates when a treatment was introduced. Both graphs show generally high levels of absences from weeks 1 through 7 (before the treatment) and only 2 absences in week 8 (the first observation after the treatment). The top graph shows the absence level staying low from weeks 9 to 14. The bottom graph shows the absence level for weeks 9 to 15 bouncing around at the same high levels as before the treatment." width="60%" />
@@ -776,6 +776,9 @@ Fisch, G. S. (2001). Evaluating data from behavioral analysis: Visual inspection
 <div id="ref-freud1957five" class="csl-entry">
 Freud, S. (1957). Five lectures on psycho-analysis. In <em>The standard edition of the complete psychological works of sigmund freud, volume XI (1910): Five lectures on psycho-analysis, leonardo da vinci and other works</em> (pp. 1–56).
 </div>
+<div id="ref-guy2021association" class="csl-entry">
+Guy Jr, G. P., Lee, F. C., Sunshine, G., McCord, R., Howard-Williams, M., Kompaniyets, L., Dunphy, C., Gakh, M., Weber, R., Sauber-Schatz, E., et al. (2021). Association of state-issued mask mandates and allowing on-premises restaurant dining with county-level COVID-19 case and death growth rates—united states, march 1–december 31, 2020. <em>Morbidity and Mortality Weekly Report</em>, <em>70</em>(10), 350.
+</div>
 <div id="ref-hall1968effects" class="csl-entry">
 Hall, R. V., Lund, D., &amp; Jackson, D. (1968). Effects of teacher attention on study behavior 1. <em>Journal of Applied Behavior Analysis</em>, <em>1</em>(1), 1–12.
 </div>
@@ -867,20 +870,6 @@ gitbook.start({
 });
 </script>
 
-<!-- dynamically load mathjax for compatibility with self-contained -->
-<script>
-  (function () {
-    var script = document.createElement("script");
-    script.type = "text/javascript";
-    var src = "true";
-    if (src === "" || src === "true") src = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/latest.js?config=TeX-MML-AM_CHTML";
-    if (location.protocol !== "file:")
-      if (/^https?:/.test(src))
-        src = src.replace(/^https?:/, '');
-    script.src = src;
-    document.getElementsByTagName("head")[0].appendChild(script);
-  })();
-</script>
 </body>
 
 </html>
