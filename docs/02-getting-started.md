@@ -10,7 +10,7 @@ In this paragraph, the researchers opened with the broad topic of forgetting. Th
 <p class="caption">(\#fig:scientificmethod)A simple model of scientific research in psychology.</p>
 </div>
 
-We can further use a frame work of four questions to understand what the outline our research strategy will be: 1) What question am I trying to answer? 2) What kind of data should I collect? 3) Whom should I measure? 4) How will I collect those measurements and what will they be able to tell me? In the first paragraph, they answer question 1.  
+We can further use a framework of four questions to understand what our research strategy will be: 1) What question am I trying to answer? 2) What kind of data should I collect? 3) Whom should I measure? 4) How will I collect those measurements and what will they be able to tell me? In the first paragraph, they answer question 1.  
 
 :::fyi
 ##### Marr's Three Levels {-}
@@ -46,13 +46,13 @@ The third question, whom should I measure, is important because your question ma
 
 One method of obtaining a sample is simple random sampling, in which every member of the population has an equal chance of being selected for the sample. For example, a pollster could start with a list of all the registered voters in a city (the population), randomly select 100 of them from the list (the sample), and ask those 100 whom they intended to vote for. Unfortunately, random sampling is difficult or impossible in most psychological research because the populations are less clearly defined than the registered voters in a city. How could a researcher give all American teenagers or all children with autism an equal chance of being selected for a sample? The most common alternative to random sampling is convenience sampling, in which the sample consists of individuals who happen to be nearby and willing to participate (such as introductory psychology students). The obvious problem with convenience sampling is that the sample might not be representative of the population.
 
-Once the sample is selected, researchers need to measure the variables they are interested in. This requires an [operational definition]—a definition of the variable in terms of precisely how it is to be measured. Which leads us to the first part of our final question, how will I collect those measurements. Most variables can be operationally defined in many different ways. For example, depression can be operationally defined as people’s scores on a paper-and-pencil depression scale, the number of depressive symptoms they are experiencing, or whether they have been diagnosed with major depressive disorder. When a variable has been measured for a particular individual, the result is called a score, and a set of scores is called data. Note that data is plural—the singular datum is rarely used—so it is grammatically correct to say, “Those are interesting data” (and incorrect to say, “That is interesting data”).
+Once the sample is selected, researchers need to measure the variables they are interested in. This requires an [operational definition]—a definition of the variable in terms of precisely how it is to be measured. This leads us to the first part of our final question: how will I collect those measurements? Most variables can be operationally defined in many different ways. For example, depression can be operationally defined as people’s scores on a paper-and-pencil depression scale, the number of depressive symptoms they are experiencing, or whether they have been diagnosed with major depressive disorder. When a variable has been measured for a particular individual, the result is called a score, and a set of scores is called data. Note that data is plural—the singular datum is rarely used—so it is grammatically correct to say, “Those are interesting data” (and incorrect to say, “That is interesting data”).
 
 ## Relationships Between Variables
 
 Some research questions in psychology are about one variable. How much information is remembered? How talkative are American college students? How common is it for people to be diagnosed with major depressive disorder? Answering such questions requires operationally defining the variable, measuring it for a sample, analyzing the results, and drawing conclusions about the population. For a quantitative variable, this would typically involve computing the mean and standard deviation of the scores. For a categorical variable, it would typically involve computing the percentage of scores at each level of the variable.
 
-However, research questions in psychology are more likely to be about statistical relationships between variables. This brings us to second part of the final question, what will those measurements be able to tell me. There is a [statistical relationship] between two variables when the average score on one differs systematically across the levels of the other. Studying statistical relationships is important because instead of telling us about behaviors and psychological characteristics in isolation, it tells us about the causes, consequences, development, and organization of those behaviors and characteristics.
+However, research questions in psychology are more likely to be about statistical relationships between variables. This brings us to the second part of the final question: what will those measurements be able to tell me? There is a [statistical relationship] between two variables when the average score on one differs systematically across the levels of the other. Studying statistical relationships is important because instead of telling us about behaviors and psychological characteristics in isolation, it tells us about the causes, consequences, development, and organization of those behaviors and characteristics.
 
 There are two basic forms of statistical relationship: differences between groups and correlations between quantitative variables. Although both are consistent with the general definition of a statistical relationship—the average score on one variable differs across levels of the other—they are usually described and analyzed somewhat differently. For this reason it is important to distinguish them clearly.
 
@@ -70,7 +70,7 @@ Differences between groups are usually described by giving the mean score and st
 
 :::fyi
 ##### The Gold Standard of Evidence {-}
-The gold standard of evidence is a randomized controlled trial (RCT). RCTs enable us to infer causality because they control for sample selection bias and confounding factors through randomization. Generally for an RCT, there is a target population which a random sample is taken from. In the simplest form, RCTs have two groups, the control group where no treatment is applied and the treatment group where we manipulate a variable. Random assignment to these two groups is key to ensure that a third variable only in one group is affecting the results. We then compare the outcomes of the two groups and see if the treatment had any effect relative to the control group.    
+The gold standard of evidence is a randomized controlled trial (RCT). RCTs enable us to infer causality because they control for sample selection bias and confounding factors through randomization. Generally for an RCT, there is a target population from which a random sample is taken. In the simplest form, RCTs have two groups: the control group where no treatment is applied and the treatment group where we manipulate a variable. Random assignment to these two groups is key to ensure that a third variable present only in one group is not affecting the results. We then compare the outcomes of the two groups and see if the treatment had any effect relative to the control group.    
 :::
 
 ### Correlations Between Quantitative Variables {-}
@@ -88,8 +88,8 @@ Correlations between quantitative variables are often presented using [scatterpl
 The strength of a correlation between quantitative variables is typically measured using a statistic called [Pearson’s *r*]. As Figure \@ref(fig:pearson) shows, Pearson’s *r* ranges from −1.00 (the strongest possible negative relationship) to +1.00 (the strongest possible positive relationship). A value of 0 means there is no relationship between the two variables. When Pearson’s *r* is 0, the points on a scatterplot form a shapeless “cloud.” As its value moves toward −1.00 or +1.00, the points come closer and closer to falling on a single straight line.
 
 <div class="figure" style="text-align: center">
-<img src="images/getting-started/pearson.png" alt="Range of Pearson’s *r*, from -1.00 (strongest possible negative relationship), through 0 (no relationship), to +1.00 (strongest possible positive relationship)" width="90%" />
-<p class="caption">(\#fig:pearson)Range of Pearson’s *r*, from -1.00 (strongest possible negative relationship), through 0 (no relationship), to +1.00 (strongest possible positive relationship)</p>
+<img src="images/getting-started/pearson.png" alt="Range of Pearson’s *r*, from −1.00 (strongest possible negative relationship), through 0 (no relationship), to +1.00 (strongest possible positive relationship)" width="90%" />
+<p class="caption">(\#fig:pearson)Range of Pearson’s *r*, from −1.00 (strongest possible negative relationship), through 0 (no relationship), to +1.00 (strongest possible positive relationship)</p>
 </div>
 
 Pearson’s *r* is a good measure only for linear relationships, in which the points are best approximated by a straight line. It is not a good measure for nonlinear relationships, in which the points are better approximated by a curved line. Figure \@ref(fig:nonlinear), for example, shows a hypothetical relationship between the amount of sleep people get per night and their level of depression. In this example, the line that best approximates the points is a U-shaped curve, because people who get about eight hours of sleep tend to be the least depressed. Those who get too little sleep and those who get too much sleep tend to be more depressed. Nonlinear relationships are fairly common in psychology, but measuring their strength is beyond the scope of this book.
@@ -240,8 +240,6 @@ A small group of people who participate together in an interview focused on a pa
 ##### grounded theory {-}
 
 An approach to analyzing qualitative data in which repeating ideas are identified and grouped into broader themes. The themes are integrated in a theoretical narrative.##### interviews {-}
-
-A data collection method in qualitative research. Interviews can be structured, semistructured, or unstructured—depending on how well specified the sequence of questions or prompts is.
 
 ##### independent variable {-}
 

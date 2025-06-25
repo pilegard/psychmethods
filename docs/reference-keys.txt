@@ -41,11 +41,11 @@ fig:aba2
 fig:validity
 fig:todo
 fig:bowl
+tab:nfc
 tab:comorbidity
 fig:cogsurvey
 fig:scales
 tab:bruso
-tab:nfc
 fig:vaccine
 tab:ethics
 fig:authorship
@@ -137,9 +137,9 @@ glossary-6
 nonexperimental-research-1
 overview-of-nonexperimental-research
 correlational-research
-survey-research-1
 complex-correlational-designs
-single-subject-research-2
+survey-research-1
+other-types-of-nonexperimental-research
 glossary-7
 research-ethics
 moral-foundations-of-ethical-research
