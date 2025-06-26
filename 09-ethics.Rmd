@@ -137,103 +137,67 @@ The APA’s *Ethical Principles of Psychologists and Code of Conduct* (also know
 :::fyi
 ##### APA Ethics Code {-}
 
-Standard 8: Research and Publication
+Standard 8 of the APA Ethics Code covers the rules psychologists must follow when doing and sharing research: things like getting approval, informing participants, handling data honestly, and giving proper credit. You can read the whole thing on the [APA website](https://www.apa.org/ethics/code). Here's a summary:
 
 **8.01 Institutional Approval**
 
-When institutional approval is required, psychologists provide accurate information about their research proposals and obtain approval prior to conducting the research. They conduct the research in accordance with the approved research protocol.
+Researchers must get approval from their institution (like an IRB) before starting a study and follow the approved plan.
 
 **8.02 Informed Consent to Research**
 
-(a) When obtaining informed consent as required in Standard 3.10, Informed Consent, psychologists inform participants about (1) the purpose of the research, expected duration, and procedures; (2) their right to decline to participate and to withdraw from the research once participation has begun; (3) the foreseeable consequences of declining or withdrawing; (4) reasonably foreseeable factors that may be expected to influence their willingness to participate such as potential risks, discomfort, or adverse effects; (5) any prospective research benefits; (6) limits of confidentiality; (7) incentives for participation; and (8) whom to contact for questions about the research and research participants' rights. They provide opportunity for the prospective participants to ask questions and receive answers. (See also Standards 8.03, Informed Consent for Recording Voices and Images in Research ; 8.05, Dispensing with Informed Consent for Research ; and 8.07, Deception in Research .)
-
-(b) Psychologists conducting intervention research involving the use of experimental treatments clarify to participants at the outset of the research (1) the experimental nature of the treatment; (2) the services that will or will not be available to the control group(s) if appropriate; (3) the means by which assignment to treatment and control groups will be made; (4) available treatment alternatives if an individual does not wish to participate in the research or wishes to withdraw once a study has begun; and (5) compensation for or monetary costs of participating including, if appropriate, whether reimbursement from the participant or a third-party payor will be sought. (See also Standard 8.02a, Informed Consent to Research .)
+Participants must be fully informed about the study—its purpose, duration, procedures, risks, benefits, and their rights—before agreeing to take part.
     
 **8.03 Informed Consent for Recording Voices and Images in Research**
 
-Psychologists obtain informed consent from research participants prior to recording their voices or images for data collection unless (1) the research consists solely of naturalistic observations in public places, and it is not anticipated that the recording will be used in a manner that could cause personal identification or harm, or (2) the research design includes deception, and consent for the use of the recording is obtained during debriefing. (See also Standard 8.07, Deception in Research .)
+Researchers must get permission to record participants' voices or images unless it's in a public setting or deception is involved and participants are later debriefed.
 
 **8.04 Client/Patient, Student, and Subordinate Research Participants**
 
-(a) When psychologists conduct research with clients/patients, students, or subordinates as participants, psychologists take steps to protect the prospective participants from adverse consequences of declining or withdrawing from participation.
-
-(b) When research participation is a course requirement or an opportunity for extra credit, the prospective participant is given the choice of equitable alternative activities.
+When using clients, students, or employees as participants, researchers must minimize pressure to participate and offer fair alternatives if participation is required for credit.
 
 **8.05 Dispensing With Informed Consent for Research**
 
-Psychologists may dispense with informed consent only (1) where research would not reasonably be assumed to create distress or harm and involves (a) the study of normal educational practices, curricula, or classroom management methods conducted in educational settings; (b) only anonymous questionnaires, naturalistic observations, or archival research for which disclosure of responses would not place participants at risk of criminal or civil liability or damage their financial standing, employability, or reputation, and confidentiality is protected; or (c) the study of factors related to job or organization effectiveness conducted in organizational settings for which there is no risk to participants' employability, and confidentiality is protected or (2) where otherwise permitted by law or federal or institutional regulations.
+In some low-risk research (e.g., anonymous surveys or educational settings), researchers may not need formal consent if permitted by law and ethics guidelines.
 
 **8.06 Offering Inducements for Research Participation**
 
-(a) Psychologists make reasonable efforts to avoid offering excessive or inappropriate financial or other inducements for research participation when such inducements are likely to coerce participation.
-
-(b) When offering professional services as an inducement for research participation, psychologists clarify the nature of the services, as well as the risks, obligations, and limitations. (See also Standard 6.05, Barter with Clients/Patients .)
+Incentives for participation should not be so large that they pressure people to join. Any professional services offered must be clearly explained.
 
 **8.07 Deception in Research**
 
-(a) Psychologists do not conduct a study involving deception unless they have determined that the use of deceptive techniques is justified by the study's significant prospective scientific, educational, or applied value and that effective nondeceptive alternative procedures are not feasible.
-
-(b) Psychologists do not deceive prospective participants about research that is reasonably expected to cause physical pain or severe emotional distress.
-
-(c) Psychologists explain any deception that is an integral feature of the design and conduct of an experiment to participants as early as is feasible, preferably at the conclusion of their participation, but no later than at the conclusion of the data collection, and permit participants to withdraw their data. (See also Standard 8.08, Debriefing .)
+Deception is only allowed if it’s necessary, justifiable, and not harmful. Participants must be told the truth as soon as possible and given the chance to withdraw their data.
   
 **8.08 Debriefing**
 
-(a) Psychologists provide a prompt opportunity for participants to obtain appropriate information about the nature, results, and conclusions of the research, and they take reasonable steps to correct any misconceptions that participants may have of which the psychologists are aware.
-
-(b) If scientific or humane values justify delaying or withholding this information, psychologists take reasonable measures to reduce the risk of harm.
-
-(c) When psychologists become aware that research procedures have harmed a participant, they take reasonable steps to minimize the harm.
+After participation, researchers must explain the study, correct misunderstandings, and address any harm caused.
 
 **8.09 Humane Care and Use of Animals in Research**
 
-(a) Psychologists acquire, care for, use, and dispose of animals in compliance with current federal, state, and local laws and regulations, and with professional standards.
-
-(b) Psychologists trained in research methods and experienced in the care of laboratory animals supervise all procedures involving animals and are responsible for ensuring appropriate consideration of their comfort, health, and humane treatment.
-
-(c) Psychologists ensure that all individuals under their supervision who are using animals have received instruction in research methods and in the care, maintenance, and handling of the species being used, to the extent appropriate to their role. (See also Standard 2.05, Delegation of Work to Others .)
-
-(d) Psychologists make reasonable efforts to minimize the discomfort, infection, illness, and pain of animal subjects.
-
-(e) Psychologists use a procedure subjecting animals to pain, stress, or privation only when an alternative procedure is unavailable and the goal is justified by its prospective scientific, educational, or applied value.
-
-(f) Psychologists perform surgical procedures under appropriate anesthesia and follow techniques to avoid infection and minimize pain during and after surgery.
-
-(g) When it is appropriate that an animal's life be terminated, psychologists proceed rapidly, with an effort to minimize pain and in accordance with accepted procedures.
+Animal research must comply with legal and ethical standards. Researchers must minimize pain and ensure humane treatment.
   
 **8.10 Reporting Research Results**
 
-(a) Psychologists do not fabricate data. (See also Standard 5.01a, Avoidance of False or Deceptive Statements .)
-
-(b) If psychologists discover significant errors in their published data, they take reasonable steps to correct such errors in a correction, retraction, erratum, or other appropriate publication means.
+Researchers must not make up data and must correct any significant errors in published work.
   
 **8.11 Plagiarism**
 
-Psychologists do not present portions of another's work or data as their own, even if the other work or data source is cited occasionally.
+Researchers must not present others’ work or data as their own, even with citation.
 
 **8.12 Publication Credit**
 
-(a) Psychologists take responsibility and credit, including authorship credit, only for work they have actually performed or to which they have substantially contributed. (See also Standard 8.12b, Publication Credit .)
-
-(b) Principal authorship and other publication credits accurately reflect the relative scientific or professional contributions of the individuals involved, regardless of their relative status. Mere possession of an institutional position, such as department chair, does not justify authorship credit. Minor contributions to the research or to the writing for publications are acknowledged appropriately, such as in footnotes or in an introductory statement.
-
-(c) Except under exceptional circumstances, a student is listed as principal author on any multiple-authored article that is substantially based on the student's doctoral dissertation. Faculty advisors discuss publication credit with students as early as feasible and throughout the research and publication process as appropriate. (See also Standard 8.12b, Publication Credit .)
+Credit should go only to those who contributed meaningfully. Students should be lead authors on papers based on their dissertation work.
   
 **8.13 Duplicate Publication of Data**
 
-Psychologists do not publish, as original data, data that have been previously published. This does not preclude republishing data when they are accompanied by proper acknowledgment.
+Researchers should not publish the same data as if it were new without proper acknowledgment.
 
 **8.14 Sharing Research Data for Verification**
 
-(a) After research results are published, psychologists do not withhold the data on which their conclusions are based from other competent professionals who seek to verify the substantive claims through reanalysis and who intend to use such data only for that purpose, provided that the confidentiality of the participants can be protected and unless legal rights concerning proprietary data preclude their release. This does not preclude psychologists from requiring that such individuals or groups be responsible for costs associated with the provision of such information.
-
-(b) Psychologists who request data from other psychologists to verify the substantive claims through reanalysis may use shared data only for the declared purpose. Requesting psychologists obtain prior written agreement for all other uses of the data.
+After publishing, researchers should share their data (if confidentiality is protected) with other professionals who want to verify the results.
   
 **8.15 Reviewers**
 
-Psychologists who review material submitted for presentation, publication, grant, or research proposal review respect the confidentiality of and the proprietary rights in such information of those who submitted it.
-
-Source: You can read the full APA Ethics Code at http://www.apa.org/ethics/code/index.aspx.
+When reviewing others’ work (e.g., for journals or grants), researchers must keep it confidential and respect intellectual property.
 :::
 
 #### Informed Consent {-}
