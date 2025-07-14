@@ -49,11 +49,19 @@ Psychological constructs cannot be observed directly. One reason is that they of
 ##### The Big Five {-}
 The Big Five is a set of five broad dimensions that capture much of the variation in human personality. Each of the Big Five can even be defined in terms of six more specific constructs called “facets” [@costa1992normal].
 
-<div class="figure" style="text-align: center">
-<img src="images/measurement/big5.png" alt="The Big Five Personality Dimensions" width="100%" />
-<p class="caption">(\#fig:big5)The Big Five Personality Dimensions</p>
-</div>
+Table: (\#tab:big5) The Big Five Personality Dimensions.
+
+| **Big Five Dimension** | **Facets** |
+|:----|:-----------|
+| **Openness to Experience** | Fantasy, Aesthetics, Feelings, Actions, Ideas, Values |
+| **Conscientiousness** | Competence, Order, Dutifulness, Achievement Striving, Self-Discipline, Deliberation |
+| **Extraversion** | Warmth, Gregariousness, Assertiveness, Activity, Excitement Seeking, Positive Emotions |
+| **Agreeableness** | Trust, Straightforwardness, Altruism, Compliance, Modesty, Tender-Mindedness |
+| **Neuroticism** | Worry, Anger, Discouragement, Self-Consciousness, Impulsivity, Vulnerability |
 :::
+
+
+
 
 The [conceptual definition] of a psychological construct describes the behaviors and internal processes that make up that construct, along with how it relates to other variables. For example, a conceptual definition of neuroticism (another one of the Big Five) would be that it is people’s tendency to experience negative emotions such as anxiety, anger, and sadness across a variety of situations. This definition might also include that it has a strong genetic component, remains fairly stable over time, and is positively correlated with the tendency to experience pain and other physical symptoms.
 

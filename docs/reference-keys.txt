@@ -13,7 +13,7 @@ fig:confound
 tab:block
 fig:placebo
 fig:surgery
-fig:big5
+tab:big5
 fig:eeg
 fig:retest
 fig:internal
@@ -33,7 +33,6 @@ fig:lineinteractions2
 fig:lineinteractions3
 fig:timeseries
 fig:teacher
-fig:annao
 fig:aba
 fig:abab
 fig:multiple
