@@ -397,12 +397,14 @@ In this section, we consider a few other issues related to null hypothesis testi
 
 ### Errors in Null Hypothesis Testing {-}
 
-In null hypothesis testing, the researcher tries to draw a reasonable conclusion about the population based on the sample. Unfortunately, this conclusion is not guaranteed to be correct. This is illustrated by Figure \@ref(fig:errors). The rows of this table represent the two possible decisions that we can make in null hypothesis testing: to reject or retain the null hypothesis. The columns represent the two possible states of the world: The null hypothesis is false or it is true. The four cells of the table, then, represent the four distinct outcomes of a null hypothesis test. Two of the outcomes—rejecting the null hypothesis when it is false and retaining it when it is true—are correct decisions. The other two—rejecting the null hypothesis when it is true and retaining it when it is false—are errors.
+In null hypothesis testing, the researcher tries to draw a reasonable conclusion about the population based on the sample. Unfortunately, this conclusion is not guaranteed to be correct. This is illustrated by Table \@ref(tab:error). The rows of this table represent the two possible decisions that we can make in null hypothesis testing: to reject or retain the null hypothesis. The columns represent the two possible states of the world: The null hypothesis is false or it is true. The four cells of the table, then, represent the four distinct outcomes of a null hypothesis test. Two of the outcomes—rejecting the null hypothesis when it is false and retaining it when it is true—are correct decisions. The other two—rejecting the null hypothesis when it is true and retaining it when it is false—are errors.
 
-<div class="figure" style="text-align: center">
-<img src="images/ch13/errors.png" alt="Two types of correct decisions and two types of errors in null hypothesis testing." width="50%" />
-<p class="caption">(\#fig:errors)Two types of correct decisions and two types of errors in null hypothesis testing.</p>
-</div>
+Table: (\#tab:error) Decision outcomes in hypothesis testing. Columns show the true state of the world (whether the null hypothesis is actually false or true), rows show the researcher's decision (reject or retain the null hypothesis).
+
+|                    | **H₀ False**        | **H₀ True**         |
+|:-------------------|:-------------------:|:-------------------:|
+| **Reject H₀**      | Correct decision ✅ | Type I error ❌      |
+| **Retain H₀**      | Type II error ❌    | Correct decision ✅  |
 
 Rejecting the null hypothesis when it is true is called a [Type I error]. This means that we have concluded that there is a relationship in the population when in fact there is not. Type I errors occur because even when there is no relationship in the population, sampling error alone will occasionally produce an extreme result. In fact, when the null hypothesis is true and α is .05, we will mistakenly reject the null hypothesis 5% of the time. (This is why α is sometimes referred to as the “Type I error rate.”) Retaining the null hypothesis when it is false is called a [Type II error]. This means that we have concluded that there is no relationship in the population when in fact there is. In practice, Type II errors occur primarily because the research design lacks adequate statistical power to detect the relationship (e.g., the sample is too small). We will have more to say about statistical power shortly.
 

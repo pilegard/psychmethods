@@ -132,12 +132,12 @@ The federal regulations also distinguish research that poses three levels of ris
 
 ### APA Ethics Code {-}
 
-The APA’s *Ethical Principles of Psychologists and Code of Conduct* (also known as the [APA Ethics Code]) was first published in 1953 and has been revised several times since then, most recently in 2002. It includes about 150 specific ethical standards that psychologists and their students are expected to follow. Much of the APA Ethics Code concerns the clinical practice of psychology—advertising one’s services, setting and collecting fees, having personal relationships with clients, and so on. For our purposes, the most relevant part is *Standard 8: Research and Publication*. Although *Standard 8* is reproduced here in its entirety, we should consider some of its most important aspects—informed consent, deception, debriefing, the use of nonhuman animal subjects, and scholarly integrity—in more detail.
+The APA’s *Ethical Principles of Psychologists and Code of Conduct* (also known as the [APA Ethics Code]) was first published in 1953 and has been revised several times since then, most recently in 2002, with amendments in 2010 and 2016. It includes about 150 specific ethical standards that psychologists and their students are expected to follow. Much of the APA Ethics Code concerns the clinical practice of psychology—advertising one’s services, setting and collecting fees, having personal relationships with clients, and so on. For our purposes, the most relevant part is *Standard 8: Research and Publication*. Although *Standard 8* is summarized below, we should consider some of its most important aspects—informed consent, deception, debriefing, the use of nonhuman animal subjects, and scholarly integrity—in more detail.
 
 :::fyi
 ##### APA Ethics Code {-}
 
-Standard 8 of the APA Ethics Code covers the rules psychologists must follow when doing and sharing research: things like getting approval, informing participants, handling data honestly, and giving proper credit. You can read the whole thing on the [APA website](https://www.apa.org/ethics/code). Here's a summary:
+Standard 8 of the APA Ethics Code covers the rules psychologists must follow when doing and sharing research: things like getting approval, informing participants, handling data honestly, and giving proper credit. You can read the whole thing on the APA website: https://www.apa.org/ethics/code. Here's a summary:
 
 **8.01 Institutional Approval**
 

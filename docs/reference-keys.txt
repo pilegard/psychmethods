@@ -94,7 +94,7 @@ fig:fdist
 tab:fcrit
 tab:anovaoutput
 tab:rcrit
-fig:errors
+tab:error
 tab:power
 the-science-of-psychology
 understanding-science
