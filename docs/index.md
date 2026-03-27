@@ -17,7 +17,7 @@ github-repo: pilegard/psychmethods
 
 # Welcome {-}
 
-![Book cover image with the title: A Modern Guide to Understanding and Conducting Research in Psychology. The background image shows a cluster of baloons with happy and sad faces drawn on them.](images/cover.png)
+![*Book cover image with the title "A Modern Guide to Understanding and Conducting Research in Psychology." The background shows a photograph of a cluster of green and yellow balloons with happy and sad faces drawn on them. **Note to readers:** Every image in this book includes a text description like this one for compatibility with screen readers and other assistive technologies. This is the  only description visible in the book; the rest are embedded in the images and accessible to assistive technology.*](images/cover.png)
 
 ## License {-}
 
@@ -43,6 +43,4 @@ Revisions to portions from Çetinkaya-Rundel & Hardi: Changes in formatting. Str
 
 ### Accessibility {-}
 
-All images in this textbook include alternative text (alt text) for compatibility with screen readers and other assistive technologies.
-
-**Note for screen reader users:** The HTML version of this book is the fully  accessible version. The PDF version does not support alt text or other accessibility features. To access the HTML version, visit  [pilegard.github.io/psychmethods](https://pilegard.github.io/psychmethods/).
+All images in the HTML version of this textbook include alternative text (alt text) for compatibility with screen readers and other assistive technologies. The PDF version does not support alt text or other accessibility features. To access the HTML version, visit [pilegard.github.io/psychmethods](https://pilegard.github.io/psychmethods/).
