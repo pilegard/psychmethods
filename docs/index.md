@@ -1,7 +1,7 @@
 --- 
 title: "A Modern Guide to Understanding and Conducting Research in Psychology"
 author: "Edited by Celeste Pilegard and Emma Geller"
-date: "Current version rendered 2026-03-26"
+date: "Current version rendered 2026-03-27"
 site: bookdown::bookdown_site
 documentclass: krantz
 bibliography: [book.bib, packages.bib]
@@ -17,7 +17,7 @@ github-repo: pilegard/psychmethods
 
 # Welcome {-}
 
-![](images/cover.png)
+![Book cover image with the title: A Modern Guide to Understanding and Conducting Research in Psychology. The background image shows a cluster of baloons with happy and sad faces drawn on them.](images/cover.png)
 
 ## License {-}
 
@@ -40,3 +40,9 @@ Throughout the book: Chapter formatting updated using bookdown package; glossari
 Appendices: Guidelines on presenting research have been updated to align with the 7th edition of the *APA Publication Manual*, including citation rules, figure/table formatting examples, and the student/professional paper distinction. The sample APA-style paper has been replaced with an adapted preprint of Pilegard & Mayer (2016) formatted for APA 7. Jitter plots added to data visualization examples. Advice from Bem (2003) deemphasized or removed.
 
 Revisions to portions from Çetinkaya-Rundel & Hardi: Changes in formatting. Stratified random sampling figure adapted to proportionate stratified random sampling.
+
+### Accessibility {-}
+
+All images in this textbook include alternative text (alt text) for compatibility with screen readers and other assistive technologies.
+
+**Note for screen reader users:** The HTML version of this book is the fully  accessible version. The PDF version does not support alt text or other accessibility features. To access the HTML version, visit  [pilegard.github.io/psychmethods](https://pilegard.github.io/psychmethods/).
