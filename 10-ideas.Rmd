@@ -113,7 +113,7 @@ The [research literature] in any field is all the published research in that fie
 
 Most articles in professional journals are one of two basic types: empirical research reports and review articles. [Empirical research reports](#empirical-research-report) describe one or more new empirical studies conducted by the authors. They introduce a research question, explain why it is interesting, review previous research, describe their method and results, and draw their conclusions. [Review articles](#review-article) summarize previously published research on a topic and usually present new ways to organize or explain the results. When a review article is devoted primarily to presenting a new theory, it is often referred to as a [theoretical article].
 
-```{r journals, echo = FALSE, out.width='40%', fig.align = 'center', fig.cap='Small sample of the thousands of professional journals that publish research in psychology and related fields.'}
+```{r journals, echo = FALSE, out.width='40%', fig.align = 'center', fig.cap='Small sample of the thousands of professional journals that publish research in psychology and related fields.', fig.alt = 'Five academic journals fanned out on a table, including Psychological Science, Child Development, American Psychologist, Behavior Therapy, and Personality and Social Psychology Bulletin.'}
 knitr::include_graphics("images/ideas/journals.jpeg")
 ```
 

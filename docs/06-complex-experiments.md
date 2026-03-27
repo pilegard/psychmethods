@@ -77,17 +77,25 @@ Including multiple independent variables enables researchers to address more res
 
 By far the most common approach to including multiple independent variables in an experiment is the [factorial design]. In a factorial design, each level of one independent variable (which can also be called a [factor]) is combined with each level of the others to produce all possible combinations. Each combination, then, becomes a condition in the experiment. Imagine, for example, an experiment on the effect of cell phone use (yes vs. no) and time of day (day vs. night) on driving ability. This is shown in the [factorial design table] in Figure \@ref(fig:designtable). The columns of the table represent cell phone use, and the rows represent time of day. The four cells of the table represent the four possible combinations or conditions: using a cell phone during the day, not using a cell phone during the day, using a cell phone at night, and not using a cell phone at night. This particular design is a 2 × 2 (read “two-by-two”) factorial design because it combines two variables, each of which has two levels. If one of the independent variables had a third level (e.g., using a handheld cell phone, using a hands-free cell phone, and not using a cell phone), then it would be a 3 × 2 factorial design, and there would be six distinct conditions. Notice that the number of possible conditions is the product of the numbers of levels. A 2 × 2 factorial design has four conditions, a 3 × 2 factorial design has six conditions, a 4 × 5 factorial design would have 20 conditions, and so on.
 
-<div class="figure" style="text-align: center">
-<img src="images/complex-designs/designtable.png" alt="Factorial design table representing a 2 x 2 factorial design." width="50%" />
-<p class="caption">(\#fig:designtable)Factorial design table representing a 2 x 2 factorial design.</p>
-</div>
+\begin{figure}
+
+{\centering \includegraphics[width=0.5\linewidth,alt={A 2x2 contingency table with Cell Phone use (No and Yes) as column headers and Time of Day (Daytime and Nighttime) as row labels, with four empty cells representing the combinations of these two variables.}]{images/complex-designs/designtable} 
+
+}
+
+\caption{Factorial design table representing a 2 x 2 factorial design.}(\#fig:designtable)
+\end{figure}
 
 In principle, factorial designs can include any number of independent variables with any number of levels. For example, an experiment could include the type of psychotherapy (cognitive vs. behavioral), the length of the psychotherapy (2 weeks vs. 2 months), and the sex assigned at birth of the psychotherapist (female vs. male). This would be a 2 × 2 × 2 factorial design and would have eight conditions. Figure \@ref(fig:designtable2) shows one way to represent this design. In practice, these types of designs can have difficult to interpret effects. We will cover interactions later on in this chapter. As the complexity of the design increases it becomes hard to scale the logic of interaction effects for multiple variables. Even for this "simple" case of 2 x 2 x 2, it becomes hard to describe interactions if they occur. In practice, it is unusual for there to be more than three independent variables with more than two or three levels each because the number of conditions can quickly become unmanageable. For example, adding a fourth independent variable with three levels (e.g., therapist experience: low vs. medium vs. high) to the current example would make it a 2 × 2 × 2 × 3 factorial design with 24 distinct conditions. In the rest of this section, we will focus on designs with two independent variables with two levels. The general principles discussed here extend to more complex factorial designs, however, comparisons become very unwieldy when considering many factors, levels and their interactions.
 
-<div class="figure" style="text-align: center">
-<img src="images/complex-designs/designtable2.png" alt="Factorial design table representing a 2 x 2 x 2 factorial design." width="50%" />
-<p class="caption">(\#fig:designtable2)Factorial design table representing a 2 x 2 x 2 factorial design.</p>
-</div>
+\begin{figure}
+
+{\centering \includegraphics[width=0.5\linewidth,alt={A 2x2x2 factorial design table. Psychotherapy type (cognitive and behavioral) is shown as column headers, and length of treatment (two weeks and two months) is shown as row labels. Within each of the four cells, the third factor, therapist sex (female and male), is listed, representing all eight combinations of the three variables.}]{images/complex-designs/designtable2} 
+
+}
+
+\caption{Factorial design table representing a 2 x 2 x 2 factorial design.}(\#fig:designtable2)
+\end{figure}
 
 #### Assigning Participants to Conditions {-}
 
@@ -107,10 +115,14 @@ These types of designs may be common, but there are a couple drawbacks to using 
 
 The results of factorial experiments with two independent variables can be graphed by representing one independent variable on the x-axis and representing the other by using different kinds of bars or lines. (The y-axis is always reserved for the dependent variable.) Figure \@ref(fig:plots) shows results for two hypothetical factorial experiments. The top panel shows the results of a 2 × 2 design. Time of day (day vs. night) is represented by different locations on the x-axis, and cell phone use (no vs. yes) is represented by different-colored bars. (It would also be possible to represent cell phone use on the x-axis and time of day as different-colored bars. The choice comes down to which way seems to communicate the results most clearly.) The bottom panel of Figure \@ref(fig:plots) shows the results of a 4 × 2 design in which one of the variables is quantitative. This variable, psychotherapy length, is represented along the x-axis, and the other variable (psychotherapy type) is represented by differently formatted lines. This is a line graph rather than a bar graph because the variable on the x-axis is quantitative with a small number of distinct levels.
 
-<div class="figure" style="text-align: center">
-<img src="06-complex-experiments_files/figure-html/plots-1.png" alt="Two ways to plot the results of a factorial experiment with two independent variables." width="70%" /><img src="06-complex-experiments_files/figure-html/plots-2.png" alt="Two ways to plot the results of a factorial experiment with two independent variables." width="70%" />
-<p class="caption">(\#fig:plots)Two ways to plot the results of a factorial experiment with two independent variables.</p>
-</div>
+\begin{figure}
+
+{\centering \includegraphics[width=0.7\linewidth,alt={Two plots illustrating factorial experiment results. First, a grouped bar chart with Time of Day (Day and Night) on the x-axis and Driving Performance (0 to 100) on the y-axis. For both times of day, the no cell phone group (orange) outperforms the cell phone group (green), with performance higher overall during the day than at night. Second, a line graph with Psychotherapy Length (2, 4, 6, and 8 weeks) on the x-axis and Number of Symptoms (0 to 14) on the y-axis. Type A (orange) starts higher and decreases steeply over time. Type B (green) starts slightly lower than Type A but decreases more gradually, with the two lines converging and Type B ending slightly higher than Type A at 8 weeks.}]{06-complex-experiments_files/figure-latex/plots-1} \includegraphics[width=0.7\linewidth,alt={Two plots illustrating factorial experiment results. First, a grouped bar chart with Time of Day (Day and Night) on the x-axis and Driving Performance (0 to 100) on the y-axis. For both times of day, the no cell phone group (orange) outperforms the cell phone group (green), with performance higher overall during the day than at night. Second, a line graph with Psychotherapy Length (2, 4, 6, and 8 weeks) on the x-axis and Number of Symptoms (0 to 14) on the y-axis. Type A (orange) starts higher and decreases steeply over time. Type B (green) starts slightly lower than Type A but decreases more gradually, with the two lines converging and Type B ending slightly higher than Type A at 8 weeks.}]{06-complex-experiments_files/figure-latex/plots-2} 
+
+}
+
+\caption{Two ways to plot the results of a factorial experiment with two independent variables.}(\#fig:plots)
+\end{figure}
 
 #### Main Effects and Interactions {- #main-interactions}
 
@@ -120,35 +132,59 @@ There is an interaction effect (or just “interaction”) when the effect of on
 
 The effect of one independent variable can depend on the level of the other in different ways. This is shown in Figures \@ref(fig:barinteractions1), \@ref(fig:barinteractions2), and \@ref(fig:barinteractions3). In \@ref(fig:barinteractions1), one independent variable has an effect at one level of the second independent variable but no effect at the others. (This is much like the study of Schnall and her colleagues where there was an effect of disgust for those high in private body consciousness but not for those low in private body consciousness.) In \@ref(fig:barinteractions2), one independent variable has a stronger effect at one level of the second independent variable than at the other level. This is like the hypothetical driving example where there was a stronger effect of using a cell phone at night than during the day. In \@ref(fig:barinteractions3), one independent variable again has an effect at both levels of the second independent variable, but the effects are in opposite directions. Figure \@ref(fig:barinteractions3) shows the strongest form of this kind of interaction, called a [crossover interaction]. One example of a crossover interaction comes from a study by Kathy Gilliland on the effect of caffeine on the verbal test scores of introverts and extroverts [@gilliland1980interactive]. Introverts perform better than extroverts when they have not ingested any caffeine. But extroverts perform better than introverts when they have ingested 4 mg of caffeine per kilogram of body weight. Figure \@ref(fig:lineinteractions1), \@ref(fig:lineinteractions2), and \@ref(fig:lineinteractions3) shows examples of these same kinds of interactions when one of the independent variables is quantitative and the results are plotted in a line graph. Note that in a crossover interaction, the two lines literally “cross over” each other.
 
-<div class="figure" style="text-align: center">
-<img src="06-complex-experiments_files/figure-html/barinteractions1-1.png" alt="This bargraph is showing one of three types of interactions.This one shows that one independent variable has an effect at one level of the second independent variable but not at the other." width="51%" />
-<p class="caption">(\#fig:barinteractions1)This bargraph is showing one of three types of interactions.This one shows that one independent variable has an effect at one level of the second independent variable but not at the other.</p>
-</div>
+\begin{figure}
 
-<div class="figure" style="text-align: center">
-<img src="06-complex-experiments_files/figure-html/barinteractions2-1.png" alt="This bargraph is showing one of three types of interactions.This one shows that one independent variable has a stronger effect at one level of the second independent variable than at the other." width="51%" />
-<p class="caption">(\#fig:barinteractions2)This bargraph is showing one of three types of interactions.This one shows that one independent variable has a stronger effect at one level of the second independent variable than at the other.</p>
-</div>
+{\centering \includegraphics[width=0.51\linewidth,alt={Grouped bar chart illustrating a factorial interaction. IV 1 has two conditions (A and B) on the x-axis, and bar height represents the dependent variable. Under IV 1 Condition A, IV 2 Condition A (orange) is lower than IV 2 Condition B (green), showing an effect of IV 2. Under IV 1 Condition B, both IV 2 conditions have equal bar heights, showing no effect of IV 2. This illustrates an interaction where one independent variable has an effect at one level of the second independent variable but not the other.}]{06-complex-experiments_files/figure-latex/barinteractions1-1} 
 
-<div class="figure" style="text-align: center">
-<img src="06-complex-experiments_files/figure-html/barinteractions3-1.png" alt="This bargraph is showing one of three types of interactions.This one shows that one independent variable has the opposite effect at one level of the second independent variable than at the other." width="51%" />
-<p class="caption">(\#fig:barinteractions3)This bargraph is showing one of three types of interactions.This one shows that one independent variable has the opposite effect at one level of the second independent variable than at the other.</p>
-</div>
+}
 
-<div class="figure" style="text-align: center">
-<img src="06-complex-experiments_files/figure-html/lineinteractions1-1.png" alt="This linegraph is showing one of three types of interactions. This one shows that one independent variable has an effect at one level of the second independent variable but not at the other." width="51%" />
-<p class="caption">(\#fig:lineinteractions1)This linegraph is showing one of three types of interactions. This one shows that one independent variable has an effect at one level of the second independent variable but not at the other.</p>
-</div>
+\caption{This bargraph is showing one of three types of interactions.This one shows that one independent variable has an effect at one level of the second independent variable but not at the other.}(\#fig:barinteractions1)
+\end{figure}
 
-<div class="figure" style="text-align: center">
-<img src="06-complex-experiments_files/figure-html/lineinteractions2-1.png" alt="This linegraph is showing one of three types of interactions. This one shows that one independent variable has a stronger effect at one level of the second independent variable than at the other." width="51%" />
-<p class="caption">(\#fig:lineinteractions2)This linegraph is showing one of three types of interactions. This one shows that one independent variable has a stronger effect at one level of the second independent variable than at the other.</p>
-</div>
+\begin{figure}
 
-<div class="figure" style="text-align: center">
-<img src="06-complex-experiments_files/figure-html/lineinteractions3-1.png" alt="This linegraph is showing one of three types of interactions. This one shows that one independent variable has the opposite effect at one level of the second independent variable than at the other." width="51%" />
-<p class="caption">(\#fig:lineinteractions3)This linegraph is showing one of three types of interactions. This one shows that one independent variable has the opposite effect at one level of the second independent variable than at the other.</p>
-</div>
+{\centering \includegraphics[width=0.51\linewidth,alt={Grouped bar chart illustrating a factorial interaction. IV 1 has two conditions (A and B) on the x-axis, and bar height represents the dependent variable. Under IV 1 Condition A, IV 2 Condition A (orange) is noticeably lower than IV 2 Condition B (green), showing a large effect of IV 2. Under IV 1 Condition B, IV 2 Condition A is slightly lower than IV 2 Condition B, showing a smaller effect of IV 2 in the same direction. This illustrates an interaction where one independent variable has a stronger effect at one level of the second independent variable than at the other.}]{06-complex-experiments_files/figure-latex/barinteractions2-1} 
+
+}
+
+\caption{This bargraph is showing one of three types of interactions.This one shows that one independent variable has a stronger effect at one level of the second independent variable than at the other.}(\#fig:barinteractions2)
+\end{figure}
+
+\begin{figure}
+
+{\centering \includegraphics[width=0.51\linewidth,alt={Grouped bar chart illustrating a crossover factorial interaction. IV 1 has two conditions (A and B) on the x-axis, and bar height represents the dependent variable. Under IV 1 Condition A, IV 2 Condition A (orange) is lower than IV 2 Condition B (green). Under IV 1 Condition B, the pattern reverses: IV 2 Condition A is higher than IV 2 Condition B. This illustrates a crossover interaction where one independent variable has the opposite effect depending on the level of the second independent variable.}]{06-complex-experiments_files/figure-latex/barinteractions3-1} 
+
+}
+
+\caption{This bargraph is showing one of three types of interactions.This one shows that one independent variable has the opposite effect at one level of the second independent variable than at the other.}(\#fig:barinteractions3)
+\end{figure}
+
+\begin{figure}
+
+{\centering \includegraphics[width=0.51\linewidth,alt={Line graph illustrating a factorial interaction. IV 1 is shown across five points on the x-axis, and line height represents the dependent variable. IV 2 Condition A (orange) remains flat across all five levels of IV 1, showing no effect. IV 2 Condition B (green) increases steadily across the five levels, showing a clear positive effect. This illustrates an interaction where one independent variable has an effect at one level of the second independent variable but not the other.}]{06-complex-experiments_files/figure-latex/lineinteractions1-1} 
+
+}
+
+\caption{This linegraph is showing one of three types of interactions. This one shows that one independent variable has an effect at one level of the second independent variable but not at the other.}(\#fig:lineinteractions1)
+\end{figure}
+
+\begin{figure}
+
+{\centering \includegraphics[width=0.51\linewidth,alt={Line graph illustrating a factorial interaction. IV 1 is shown across five points on the x-axis, and line height represents the dependent variable. Both IV 2 Condition A (orange) and IV 2 Condition B (green) increase across the five levels of IV 1, but Condition B rises much more steeply than Condition A. The two lines start at the same point and diverge progressively. This illustrates an interaction where one independent variable has a stronger effect at one level of the second independent variable than at the other.}]{06-complex-experiments_files/figure-latex/lineinteractions2-1} 
+
+}
+
+\caption{This linegraph is showing one of three types of interactions. This one shows that one independent variable has a stronger effect at one level of the second independent variable than at the other.}(\#fig:lineinteractions2)
+\end{figure}
+
+\begin{figure}
+
+{\centering \includegraphics[width=0.51\linewidth,alt={Line graph illustrating a crossover factorial interaction. IV 1 is shown across five points on the x-axis, and line height represents the dependent variable. IV 2 Condition A (orange) increases steadily from low to high across the five levels of IV 1, while IV 2 Condition B (green) decreases steadily from high to low. The two lines cross in the middle, forming an X shape. This illustrates a crossover interaction where one independent variable has the opposite effect depending on the level of the second independent variable.}]{06-complex-experiments_files/figure-latex/lineinteractions3-1} 
+
+}
+
+\caption{This linegraph is showing one of three types of interactions. This one shows that one independent variable has the opposite effect at one level of the second independent variable than at the other.}(\#fig:lineinteractions3)
+\end{figure}
 
 In many studies, the primary research question is about an interaction. The study by Brown and her colleagues was inspired by the idea that people with hypochondriasis are especially attentive to any negative health-related information. This led to the hypothesis that people high in hypochondriasis would recall negative health-related words more accurately than people low in hypochondriasis but recall non-health-related words about the same as people low in hypochondriasis. And of course this is exactly what happened in this study.
 

@@ -76,7 +76,7 @@ A common misconception among beginning researchers is that correlational researc
 
 Figure \@ref(fig:todo) shows data from a hypothetical study on the relationship between whether people make a daily list of things to do (a “to-do list”) and stress. Notice that it is unclear whether this is an experiment or a correlational study because it is unclear whether the independent variable was manipulated. If the researcher randomly assigned some participants to make daily to-do lists and others not to, then it is an experiment. If the researcher simply asked participants whether they made daily to-do lists, then it is a correlational study. The distinction is important because if the study was an experiment, then it could be concluded that making the daily to-do lists reduced participants’ stress. But if it was a correlational study, it could only be concluded that these variables are statistically related. Perhaps being stressed has a negative effect on people’s ability to plan ahead (the directionality problem). Or perhaps people who are more conscientious are more likely to make to-do lists and less likely to be stressed (the third-variable problem). The crucial point is that what defines a study as experimental or correlational is not the variables being studied, nor whether the variables are quantitative or categorical, nor the type of graph or statistics used to analyze the data. It is how the study is conducted.
 
-```{r todo, echo = FALSE, out.width='80%', fig.align = 'center', fig.cap='Results of a hypothetical study on whether people who make daily to-do lists experience less stress than people who do not make such lists.'}
+```{r todo, echo = FALSE, out.width='80%', fig.align = 'center', fig.cap='Results of a hypothetical study on whether people who make daily to-do lists experience less stress than people who do not make such lists.', fig.alt = 'Bar chart with Daily To-Do List (Yes or No) on the x-axis and Stress on the y-axis (0 to 30). The Yes group (blue) shows a stress level of approximately 18, and the No group (red) shows a stress level of approximately 25, suggesting that people who make daily to-do lists report lower stress.'}
 stress <- c(18,25)
 
 barplot(stress, names.arg = c("Yes","No"), col = c("#1BADE3","#F14124"), xlab = "Daily To-Do List?", axis.lty=1, ylab = "Stress", ylim = c(0,30))
@@ -255,7 +255,7 @@ Before looking at specific principles of survey questionnaire construction, it w
 
 Figure \@ref(fig:cogsurvey) presents a model of the cognitive processes that people engage in when responding to a survey item [@sudman1996thinking]. Respondents must interpret the question, retrieve relevant information from memory, form a tentative judgment, convert the tentative judgment into one of the response options provided (e.g., a rating on a 1-to-7 scale), and finally edit their response as necessary.
 
-```{r cogsurvey, echo = FALSE, out.width='95%', fig.align = 'center', fig.cap='Model of the cognitive processes inolved in responding to a survey item.'}
+```{r cogsurvey, echo = FALSE, out.width='95%', fig.align = 'center', fig.cap='Model of the cognitive processes inolved in responding to a survey item.', fig.alt = 'Flowchart showing five stages, connected left to right by arrows: question interpretation, information retrieval, judgment formation, response formation, and response editing.'}
 knitr::include_graphics("images/nonexperiments/cogsurvey.png")
 ```
 
@@ -311,7 +311,7 @@ Closed-ended items are used when researchers have a good idea of the different r
 
 All closed-ended items include a set of response options from which a participant must choose. For categorical variables like sex, race, or political party preference, the categories are usually listed and participants choose the one (or ones) that they belong to. For quantitative variables, a rating scale is typically provided. A rating scale is an ordered set of responses that participants must choose from. Figure \@ref(fig:scales) shows several examples. The number of response options on a typical rating scale ranges from three to 11—although five and seven are probably most common. They can consist entirely of verbal labels or they can consist of a set of numbers with verbal labels as “anchors.” In some cases, the verbal labels or numbers can be supplemented with (or even replaced by) meaningful graphics. The last rating scale shown in Figure \@ref(fig:scales) is a visual-analog scale, on which participants make a mark somewhere along the horizontal line to indicate the magnitude of their response.
 
-```{r scales, echo = FALSE, out.width='75%', fig.align = 'center', fig.cap='Example rating scales for closed-ended questionnaire items.'}
+```{r scales, echo = FALSE, out.width='75%', fig.align = 'center', fig.cap='Example rating scales for closed-ended questionnaire items.', fig.alt = 'Three examples of survey response formats. The first shows a vertical 5-point Likert scale with options ranging from strongly agree to strongly disagree. The second shows a horizontal 7-point scale ranging from extremely unlikely to extremely likely. The third shows a slider scale ranging from extremely unfriendly on the left to extremely friendly on the right.'}
 knitr::include_graphics("images/nonexperiments/scales.png")
 ```
 

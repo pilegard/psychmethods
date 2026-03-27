@@ -36,10 +36,14 @@ A variant of the pretest-posttest design is the [interrupted time-series design]
 
 Figure \@ref(fig:timeseries) shows data from a hypothetical interrupted time-series study. The dependent variable is the number of student absences per week in a research methods course. The treatment is that the instructor begins publicly taking attendance each day so that students know that the instructor is aware of who is present and who is absent. The top panel of Figure \@ref(fig:timeseries) shows how the data might look if this treatment worked. There is a consistently high number of absences before the treatment, and there is an immediate and sustained drop in absences after the treatment. The bottom panel of Figure \@ref(fig:timeseries) shows how the data might look if this treatment did not work. On average, the number of absences after the treatment is about the same as the number before. This figure also illustrates an advantage of the interrupted time-series design over a simpler pretest-posttest design. If there had been only one measurement of absences before the treatment at Week 7 and one afterward at Week 8, then it would have looked as though the treatment were responsible for the reduction. The multiple measurements both before and after the treatment suggest that the reduction between Weeks 7 and 8 is nothing more than normal week-to-week variation.
 
-<div class="figure" style="text-align: center">
-<img src="07-quasi-experiments_files/figure-html/timeseries-1.png" alt="Two line graphs. The x-axes on both are labeled Week and range from 0 to 14. The y-axes on both are labeled Absences and range from 0 to 8. Between weeks 7 and 8 a vertical dotted line indicates when a treatment was introduced. Both graphs show generally high levels of absences from weeks 1 through 7 (before the treatment) and only 2 absences in week 8 (the first observation after the treatment). The top graph shows the absence level staying low from weeks 9 to 14. The bottom graph shows the absence level for weeks 9 to 15 bouncing around at the same high levels as before the treatment." width="60%" /><img src="07-quasi-experiments_files/figure-html/timeseries-2.png" alt="Two line graphs. The x-axes on both are labeled Week and range from 0 to 14. The y-axes on both are labeled Absences and range from 0 to 8. Between weeks 7 and 8 a vertical dotted line indicates when a treatment was introduced. Both graphs show generally high levels of absences from weeks 1 through 7 (before the treatment) and only 2 absences in week 8 (the first observation after the treatment). The top graph shows the absence level staying low from weeks 9 to 14. The bottom graph shows the absence level for weeks 9 to 15 bouncing around at the same high levels as before the treatment." width="60%" />
-<p class="caption">(\#fig:timeseries)Hypothetical interrupted time-series design. The top panel shows data that suggest that the treatment caused a reduction in absences. The bottom panel shows data that suggest that it did not.</p>
-</div>
+\begin{figure}
+
+{\centering \includegraphics[width=0.6\linewidth,alt={Two line graphs. The x-axes on both are labeled Week and range from 0 to 14. The y-axes on both are labeled Absences and range from 0 to 8. Between weeks 7 and 8 a vertical dotted line indicates when a treatment was introduced. Both graphs show generally high levels of absences from weeks 1 through 7 (before the treatment) and only 2 absences in week 8 (the first observation after the treatment). The top graph shows the absence level staying low from weeks 9 to 14. The bottom graph shows the absence level for weeks 9 to 15 bouncing around at the same high levels as before the treatment.}]{07-quasi-experiments_files/figure-latex/timeseries-1} \includegraphics[width=0.6\linewidth,alt={Two line graphs. The x-axes on both are labeled Week and range from 0 to 14. The y-axes on both are labeled Absences and range from 0 to 8. Between weeks 7 and 8 a vertical dotted line indicates when a treatment was introduced. Both graphs show generally high levels of absences from weeks 1 through 7 (before the treatment) and only 2 absences in week 8 (the first observation after the treatment). The top graph shows the absence level staying low from weeks 9 to 14. The bottom graph shows the absence level for weeks 9 to 15 bouncing around at the same high levels as before the treatment.}]{07-quasi-experiments_files/figure-latex/timeseries-2} 
+
+}
+
+\caption{Hypothetical interrupted time-series design. The top panel shows data that suggest that the treatment caused a reduction in absences. The bottom panel shows data that suggest that it did not.}(\#fig:timeseries)
+\end{figure}
 
 ## Combination Designs
 
@@ -79,10 +83,14 @@ Finally, if participants in this kind of design are randomly assigned to conditi
 
 Researcher Vance Hall and his colleagues were faced with the challenge of increasing the extent to which six disruptive elementary school students stayed focused on their schoolwork [@hall1968effects]. For each of several days, the researchers carefully recorded whether or not each student was doing schoolwork every 10 seconds during a 30-minute period. Once they had established this baseline, they introduced a treatment. The treatment was that when the student was doing schoolwork, the teacher gave him or her positive attention in the form of a comment like “good work” or a pat on the shoulder. The result was that all of the students dramatically increased their time spent on schoolwork and decreased their disruptive behavior during this treatment phase. For example, a student named Robbie originally spent 25% of his time on schoolwork and the other 75% “snapping rubber bands, playing with toys from his pocket, and talking and laughing with peers” (p. 3). During the treatment phase, however, he spent 71% of his time on schoolwork and only 29% on other activities. Finally, when the researchers had the teacher stop giving positive attention, the students all decreased their studying and increased their disruptive behavior. This was consistent with the claim that it was, in fact, the positive attention that was responsible for the increase in studying. This was one of the first studies to show that attending to positive behavior -- and ignoring negative behavior -- could be a quick and effective way to deal with problem behavior in an applied setting.
 
-<div class="figure" style="text-align: center">
-<img src="images/single-N/teacher.jpeg" alt="Single-subject research has shown that positive attention from a teacher for studying can increase studying and decrease disruptive behavior. *Photo by Jerry Wang on Unsplash.*" width="50%" />
-<p class="caption">(\#fig:teacher)Single-subject research has shown that positive attention from a teacher for studying can increase studying and decrease disruptive behavior. *Photo by Jerry Wang on Unsplash.*</p>
-</div>
+\begin{figure}
+
+{\centering \includegraphics[width=0.5\linewidth,alt={Photograph of a teacher crouching beside a young student, both looking attentively at a sheet of paper on the desk.}]{images/single-N/teacher} 
+
+}
+
+\caption{Single-subject research has shown that positive attention from a teacher for studying can increase studying and decrease disruptive behavior. *Photo by Jerry Wang on Unsplash.*}(\#fig:teacher)
+\end{figure}
 
 ### Overview of Single-Subject Research {-}
 
@@ -102,19 +110,27 @@ Single-subject research has been around as long as the field of psychology itsel
 
 Before looking at any specific single-subject research designs, it will be helpful to consider some features that are common to most of them. Many of these features are illustrated in Figure \@ref(fig:aba), which shows the results of a generic single-subject study. First, the dependent variable is measured repeatedly over time at regular intervals. Second, the study is divided into distinct phases, and the participant is tested under one condition per phase. The conditions are often designated by capital letters: A, B, C, and so on. Another important aspect is that the change from one condition to the next does not usually occur after a fixed amount of time. Instead, it depends on the participant's behavior using the [steady state strategy] [@sidman1960tactics] -- the researcher waits until the participant's behavior becomes fairly consistent before changing conditions.
 
-<div class="figure" style="text-align: center">
-<img src="07-quasi-experiments_files/figure-html/aba-1.png" alt="Results of a generic single-subject study illustrating several principles of single-subject research." width="70%" />
-<p class="caption">(\#fig:aba)Results of a generic single-subject study illustrating several principles of single-subject research.</p>
-</div>
+\begin{figure}
+
+{\centering \includegraphics[width=0.7\linewidth,alt={Line graph illustrating a single-subject ABA design. Time is on the x-axis and the dependent variable on the y-axis. Two vertical lines divide the graph into three phases. In the first baseline phase (A), data points fluctuate at a consistently low level. In the treatment phase (B), data points rise to a consistently higher level. In the second baseline phase (A), data points return to the original low level, demonstrating that the treatment was responsible for the change.}]{07-quasi-experiments_files/figure-latex/aba-1} 
+
+}
+
+\caption{Results of a generic single-subject study illustrating several principles of single-subject research.}(\#fig:aba)
+\end{figure}
 
 #### Reversal Designs {-}
 
 The most basic single-subject research design is the [reversal design], also called the [ABA design]. During the first phase, A, a [baseline] is established for the dependent variable. When steady state responding is reached, phase B begins as the researcher introduces the treatment. Finally, the researcher removes the treatment and again waits until the dependent variable reaches a steady state. This basic reversal design can also be extended with the reintroduction of the treatment (ABAB), another return to baseline (ABABA), and so on. The study by Hall and his colleagues was an ABAB reversal design (Figure \@ref(fig:abab)).
 
-<div class="figure" style="text-align: center">
-<img src="07-quasi-experiments_files/figure-html/abab-1.png" alt="An approximation of the results for Hall and colleagues’ participant Robbie in their ABAB reversal design. The percentage of time he spent studying (the dependent variable) was low during the first baseline phase, increased during the first treatment phase until it leveled off, decreased during the second baseline phase, and again increased during the second treatment phase." width="70%" />
-<p class="caption">(\#fig:abab)An approximation of the results for Hall and colleagues’ participant Robbie in their ABAB reversal design. The percentage of time he spent studying (the dependent variable) was low during the first baseline phase, increased during the first treatment phase until it leveled off, decreased during the second baseline phase, and again increased during the second treatment phase.</p>
-</div>
+\begin{figure}
+
+{\centering \includegraphics[width=0.7\linewidth,alt={Line graph illustrating an ABAB reversal design. Sessions are on the x-axis and percentage of time studying on the y-axis (0 to 100). Three vertical lines divide the graph into four phases. In the first baseline phase, studying time fluctuates at a low level around 25 to 35 percent. In the first positive attention phase, studying time rises steadily and levels off around 70 to 80 percent. In the second baseline phase, studying time drops back down to around 40 to 55 percent. In the second positive attention phase, studying time rises again to around 60 to 80 percent, replicating the effect of the treatment.}]{07-quasi-experiments_files/figure-latex/abab-1} 
+
+}
+
+\caption{An approximation of the results for Hall and colleagues’ participant Robbie in their ABAB reversal design. The percentage of time he spent studying (the dependent variable) was low during the first baseline phase, increased during the first treatment phase until it leveled off, decreased during the second baseline phase, and again increased during the second treatment phase.}(\#fig:abab)
+\end{figure}
 
 The reversal -- the removal of the treatment -- is necessary because if the dependent variable changes after the treatment is introduced, it is not always clear that the treatment was responsible. But if the dependent variable changes with the introduction of the treatment and then changes back with the removal of the treatment, it is much clearer that the treatment is the cause.
 
@@ -124,10 +140,14 @@ There are two potential problems with the reversal design. One is that if a trea
 
 One solution is to use a [multiple-baseline design], which is represented in Figure \@ref(fig:multiple). In one version of the design, a baseline is established for each of several participants, and the treatment is then introduced for each one. The key to this design is that the treatment is introduced at a different time for each participant. The idea is that if the dependent variable changes when the treatment is introduced for multiple participants -- especially when the treatment is introduced at different times -- then it is less likely to be a coincidence.
 
-<div class="figure" style="text-align: center">
-<img src="07-quasi-experiments_files/figure-html/multiple-1.png" alt="Results of a generic multiple-baseline study. The multiple baselines can be for different participants, dependent variables, or settings. The treatment is introduced at a different time on each baseline." width="70%" /><img src="07-quasi-experiments_files/figure-html/multiple-2.png" alt="Results of a generic multiple-baseline study. The multiple baselines can be for different participants, dependent variables, or settings. The treatment is introduced at a different time on each baseline." width="70%" /><img src="07-quasi-experiments_files/figure-html/multiple-3.png" alt="Results of a generic multiple-baseline study. The multiple baselines can be for different participants, dependent variables, or settings. The treatment is introduced at a different time on each baseline." width="70%" />
-<p class="caption">(\#fig:multiple)Results of a generic multiple-baseline study. The multiple baselines can be for different participants, dependent variables, or settings. The treatment is introduced at a different time on each baseline.</p>
-</div>
+\begin{figure}
+
+{\centering \includegraphics[width=0.7\linewidth,alt={Three stacked line graphs illustrating a multiple-baseline design. Each graph shares the same x-axis (time, 1 to 24) and shows a different baseline, with a vertical line marking when the treatment was introduced at a different point in each. In Baseline 1, the treatment is introduced early (after time point 6), with the dependent variable dropping from a stable high level to a lower level following treatment. In Baseline 2, the treatment is introduced in the middle (after time point 12), showing the same pattern of stable baseline followed by a drop. In Baseline 3, the treatment is introduced late (after time point 18), again showing a stable baseline followed by a drop. The staggered introduction of treatment across the three baselines demonstrates that changes in the dependent variable are due to the treatment rather than the passage of time.}]{07-quasi-experiments_files/figure-latex/multiple-1} \includegraphics[width=0.7\linewidth,alt={Three stacked line graphs illustrating a multiple-baseline design. Each graph shares the same x-axis (time, 1 to 24) and shows a different baseline, with a vertical line marking when the treatment was introduced at a different point in each. In Baseline 1, the treatment is introduced early (after time point 6), with the dependent variable dropping from a stable high level to a lower level following treatment. In Baseline 2, the treatment is introduced in the middle (after time point 12), showing the same pattern of stable baseline followed by a drop. In Baseline 3, the treatment is introduced late (after time point 18), again showing a stable baseline followed by a drop. The staggered introduction of treatment across the three baselines demonstrates that changes in the dependent variable are due to the treatment rather than the passage of time.}]{07-quasi-experiments_files/figure-latex/multiple-2} \includegraphics[width=0.7\linewidth,alt={Three stacked line graphs illustrating a multiple-baseline design. Each graph shares the same x-axis (time, 1 to 24) and shows a different baseline, with a vertical line marking when the treatment was introduced at a different point in each. In Baseline 1, the treatment is introduced early (after time point 6), with the dependent variable dropping from a stable high level to a lower level following treatment. In Baseline 2, the treatment is introduced in the middle (after time point 12), showing the same pattern of stable baseline followed by a drop. In Baseline 3, the treatment is introduced late (after time point 18), again showing a stable baseline followed by a drop. The staggered introduction of treatment across the three baselines demonstrates that changes in the dependent variable are due to the treatment rather than the passage of time.}]{07-quasi-experiments_files/figure-latex/multiple-3} 
+
+}
+
+\caption{Results of a generic multiple-baseline study. The multiple baselines can be for different participants, dependent variables, or settings. The treatment is introduced at a different time on each baseline.}(\#fig:multiple)
+\end{figure}
 
 #### Data Analysis in Single-Subject Research {-}
 
@@ -135,10 +155,14 @@ Single-subject research relies heavily on [visual inspection]. This means plotti
 
 Figure \@ref(fig:aba2) shows examples of effective and ineffective treatments based on visual inspection.
 
-<div class="figure" style="text-align: center">
-<img src="07-quasi-experiments_files/figure-html/aba2-1.png" alt="Visual inspection of the data suggests an effective treatment in the top panel but an ineffective treatment in the bottom panel." width="60%" /><img src="07-quasi-experiments_files/figure-html/aba2-2.png" alt="Visual inspection of the data suggests an effective treatment in the top panel but an ineffective treatment in the bottom panel." width="60%" />
-<p class="caption">(\#fig:aba2)Visual inspection of the data suggests an effective treatment in the top panel but an ineffective treatment in the bottom panel.</p>
-</div>
+\begin{figure}
+
+{\centering \includegraphics[width=0.6\linewidth,alt={Two line graphs illustrating ABA single-subject designs, one showing an effective treatment and one showing an ineffective treatment. Both graphs have Observations on the x-axis and the dependent variable on the y-axis, divided into three phases (A, B, A) by two vertical lines. In the top graph, the dependent variable is high and stable during the first baseline phase (A), drops clearly to a lower level during the treatment phase (B), and returns to the higher level in the second baseline phase (A), suggesting the treatment was effective. In the bottom graph, the dependent variable fluctuates at a similar level across all three phases with no clear change between baseline and treatment, suggesting the treatment was ineffective.}]{07-quasi-experiments_files/figure-latex/aba2-1} \includegraphics[width=0.6\linewidth,alt={Two line graphs illustrating ABA single-subject designs, one showing an effective treatment and one showing an ineffective treatment. Both graphs have Observations on the x-axis and the dependent variable on the y-axis, divided into three phases (A, B, A) by two vertical lines. In the top graph, the dependent variable is high and stable during the first baseline phase (A), drops clearly to a lower level during the treatment phase (B), and returns to the higher level in the second baseline phase (A), suggesting the treatment was effective. In the bottom graph, the dependent variable fluctuates at a similar level across all three phases with no clear change between baseline and treatment, suggesting the treatment was ineffective.}]{07-quasi-experiments_files/figure-latex/aba2-2} 
+
+}
+
+\caption{Visual inspection of the data suggests an effective treatment in the top panel but an ineffective treatment in the bottom panel.}(\#fig:aba2)
+\end{figure}
 
 The results of single-subject research can also be analyzed using statistical procedures. One approach is to compute the [percentage of nonoverlapping data] (PND) for each participant [@scruggs2021summarize]. However, formal statistical approaches are generally considered a supplement to visual inspection, not a replacement for it.
 

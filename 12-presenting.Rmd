@@ -281,7 +281,7 @@ The [method section] is where you describe how you conducted your study. An impo
 
 The method section begins immediately after the introduction ends with the heading “Method” (not “Methods”) centered on the page. Immediately after this is the subheading “Participants,” left justified and in italics. The participants subsection indicates how many participants there were, the number of women and men, some indication of their age, other demographics that may be relevant to the study, and how they were recruited, including any incentives given for participation.
 
-```{r method, echo = FALSE, out.width='70%', fig.align = 'center', fig.cap='Three ways of organizing an APA-style method.'}
+```{r method, echo = FALSE, out.width='70%', fig.align = 'center', fig.cap='Three ways of organizing an APA-style method.', fig.alt = 'A table comparing three levels of method section organization in a research report. The simple method column includes Participants and Design and Procedure as combined subsections. The typical method column separates these into Participants, Design, and Procedure. The complex method column adds a fourth subsection, Materials, between Design and Procedure. Each cell contains example opening sentences illustrating the content of that subsection.'}
 knitr::include_graphics("images/ch11/method.png")
 ```
 
@@ -354,19 +354,19 @@ Figure \@ref(fig:sample1), Figure \@ref(fig:sample2), Figure \@ref(fig:sample3),
 
 > *Note: The pages below are adapted from the preprint of a manuscript published in* Contemporary Educatianal Psychology *[@pilegard2016improving]. Changes, including deletions and distortions, were made for utility's sake in the pages below. This version should not be treated as an academic source.*
 
-```{r sample1, echo = FALSE, out.width='65%', fig.align = 'center', fig.cap='Title Page and Abstract. This paper does not include the author note on the title page. The abstract appears on its own page.'}
+```{r sample1, echo = FALSE, out.width='65%', fig.align = 'center', fig.cap='Title Page and Abstract. This paper does not include the author note on the title page. The abstract appears on its own page.', fig.alt = 'Screenshot of an APA-style research paper showing the title page and abstract. The title page includes the paper title, author name, and institutional affiliation but no author note. The abstract appears on a separate page.'}
 knitr::include_graphics("images/ch11/sample1.png")
 ```
 
-```{r sample2, echo = FALSE, out.width='65%', fig.align = 'center', fig.cap='Introduction and Method. Note that the introduction is headed with the full title, and the method section begins immediately after the introduction ends.'}
+```{r sample2, echo = FALSE, out.width='65%', fig.align = 'center', fig.cap='Introduction and Method. Note that the introduction is headed with the full title, and the method section begins immediately after the introduction ends.', fig.alt = 'Screenshot of an APA-style research paper showing the introduction and method sections. The introduction is headed with the full title of the paper rather than the word Introduction, and the method section begins immediately after the introduction ends on the same page.'}
 knitr::include_graphics("images/ch11/sample2.png")
 ```
 
-```{r sample3, echo = FALSE, out.width='65%', fig.align = 'center', fig.cap='Results and Discussion. The discussion begins immediately after the results section ends.'}
+```{r sample3, echo = FALSE, out.width='65%', fig.align = 'center', fig.cap='Results and Discussion. The discussion begins immediately after the results section ends.', fig.alt = 'Screenshot of an APA-style research paper showing the results and discussion sections. The discussion section begins immediately after the results section ends on the same page.'}
 knitr::include_graphics("images/ch11/sample3.png")
 ```
 
-```{r sample4, echo = FALSE, out.width='65%', fig.align = 'center', fig.cap='References and Figure. If there were appendixes or tables, they would come before the figure.'}
+```{r sample4, echo = FALSE, out.width='65%', fig.align = 'center', fig.cap='References and Figure. If there were appendixes or tables, they would come before the figure.', fig.alt = 'Screenshot of an APA-style research paper showing the references page followed by a figure. The references are formatted in APA style, and the figure appears on its own page after the references.'}
 knitr::include_graphics("images/ch11/sample4.png")
 ```
 
@@ -458,13 +458,13 @@ In preparing a talk, presenters should keep several general principles in mind. 
 
 Another way to present research at a conference is in the form of a [poster]. A poster is typically presented during a one- to two-hour [poster session] that takes place in a large room at the conference site. In a traditional poster session, presenters set up their posters on bulletin boards arranged around the room and stand near them. Other researchers then circulate through the room, read the posters, and talk to the presenters. In essence, poster sessions are a grown-up version of the school science fair. But there is nothing childish about them. Posters are used by professional researchers in all scientific disciplines and they are becoming increasingly common. At a recent American Psychological Society Conference, nearly 2,000 posters were presented across 16 separate poster sessions. Among the reasons posters are so popular is that they encourage meaningful interaction among researchers.
 
-```{r poster, echo = FALSE, out.width='60%', fig.align = 'center', fig.cap='New research is often presented in the form of posters at professional conferences. *Photo by Peter Macdonald on Flickr.*'}
+```{r poster, echo = FALSE, out.width='60%', fig.align = 'center', fig.cap='New research is often presented in the form of posters at professional conferences. *Photo by Peter Macdonald on Flickr.*', fig.alt = 'Photograph of a student presenting a research poster mounted on a wall at an academic conference poster session, gesturing toward the poster while a professor listens attentively. Both wear name tags and the room is crowded with other attendees in the background.'}
 knitr::include_graphics("images/ch11/poster.jpeg")
 ```
 
 Although a poster can consist of several sheets of paper that are attached separately to the bulletin board, it is now more common for them to consist of a single large sheet of paper. Either way, the information is organized into distinct sections, including a title, author names and affiliations, an introduction, a method section, a results section, a discussion or conclusions section, references, and acknowledgments. Although posters can include an abstract, this may not be necessary because the poster itself is already a brief summary of the research. Figure \@ref(fig:posterorg) shows two different ways that the information on a poster might be organized.
 
-```{r posterorg, echo = FALSE, out.width='60%', fig.align = 'center', fig.cap='Two possible ways to organize the information on a poster.'}
+```{r posterorg, echo = FALSE, out.width='60%', fig.align = 'center', fig.cap='Two possible ways to organize the information on a poster.', fig.alt = 'Two example research poster layouts. The first layout has the abstract in the top left and the title and authors in the top right, with three columns below: the left column contains the introduction and method, the center column is divided into two narrower columns displaying tables, figures, and results, and the right column contains conclusions and references. The second layout has the title and authors spanning the full width at the top, with three columns below: the left column contains the introduction and method, the center column features a large figure prominently in the middle with a small acknowledgements section at the bottom, and the right column contains conclusions and references.'}
 knitr::include_graphics("images/ch11/posterorg.png")
 ```
 

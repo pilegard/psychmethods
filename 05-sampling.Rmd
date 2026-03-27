@@ -10,7 +10,7 @@ Each research question refers to a target [population]. In the first question, t
 
 Sometimes people collect data from an entire population, which is called a [census]. However, oftentimes it is not feasible to conduct a census. This might be because it is too expensive to collect data from every member of a population, or because it is difficult or even impossible to identify the entire population of interest! Most psychology research involves collecting data from a [sample]. Ideally, a sample is a small fraction of the population. For example, to address the first research question above, a researcher might sample 200 Americans adults to estimate the average number of close friends that all American adults have.
 
-```{r sampling, echo = FALSE, out.width='60%', fig.align = 'center', fig.cap='A sample of 10 selected from a population of 100.', fig.alt = 'A circle on the left with 100 human figures. A circle on the right with 10 human figures.'}
+```{r sampling, echo = FALSE, out.width='60%', fig.align = 'center', fig.cap='A sample of 10 selected from a population of 100.', fig.alt = 'A  circle on the left contains 100 human figures representing a population. A  circle on the right contains 10 human figures representing a sample. Arrows pointing from left to right indicate that the sample was selected from the population.'}
 knitr::include_graphics("images/sampling/sampling.png")
 ```
 
