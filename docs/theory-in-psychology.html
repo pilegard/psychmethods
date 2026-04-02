@@ -425,6 +425,44 @@ div.csl-indent {
           <div class="page-inner">
 
             <section class="normal" id="section-">
+<a href="#book-body-start" class="skip-link">Skip to main content</a>
+
+<style>
+.skip-link {
+  position: absolute;
+  top: -100%;
+  left: 0;
+  background: #000;
+  color: #fff;
+  padding: 8px 16px;
+  z-index: 9999;
+  text-decoration: none;
+  font-size: 14px;
+}
+.skip-link:focus {
+  top: 0;
+}
+</style>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  var main = document.querySelector(".page-inner");
+  if (main) {
+    main.id = "book-body-start";
+    main.setAttribute("tabindex", "-1");
+  }
+
+  var skip = document.querySelector('.skip-link');
+  if (skip) {
+    skip.addEventListener('click', function () {
+      setTimeout(function () {
+        var target = document.getElementById('book-body-start');
+        if (target) target.focus();
+      }, 0);
+    });
+  }
+});
+</script>
 <div id="theory-in-psychology" class="section level1 hasAnchor" number="11">
 <h1><span class="header-section-number">Chapter 11</span> Theory in Psychology<a href="theory-in-psychology.html#theory-in-psychology" class="anchor-section" aria-label="Anchor link to header"></a></h1>
 <p>In the following paragraph, researchers Sherlock Campbell and James Pennebaker describe a remarkable statistical relationship.</p>

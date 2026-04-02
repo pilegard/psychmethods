@@ -1,7 +1,7 @@
 --- 
 title: "A Modern Guide to Understanding and Conducting Research in Psychology"
 author: "Edited by Celeste Pilegard and Emma Geller"
-date: "Current version rendered 2026-03-27"
+date: "Current version rendered 2026-04-02"
 site: bookdown::bookdown_site
 documentclass: krantz
 bibliography: [book.bib, packages.bib]
@@ -43,4 +43,7 @@ Revisions to portions from Çetinkaya-Rundel & Hardi: Changes in formatting. Str
 
 ### Accessibility {-}
 
-All images in the HTML version of this textbook include alternative text (alt text) for compatibility with screen readers and other assistive technologies. The PDF version does not support alt text or other accessibility features. To access the HTML version, visit [pilegard.github.io/psychmethods](https://pilegard.github.io/psychmethods/).
+The HTML version of this book is built to conform with the [Web Content Accessibility Guidelines (WCAG) 2.1](https://www.w3.org/TR/2025/REC-WCAG21-20250506/) at Level AA, including alt text, keyboard navigability, and heading structure. If you encounter a barrier or have a suggestion for improvement, please open an issue on [GitHub](https://github.com/pilegard/psychmethods).
+
+
+The PDF version does not support alt text or other accessibility features. To access the HTML version, visit [pilegard.github.io/psychmethods](https://pilegard.github.io/psychmethods/).

@@ -425,6 +425,44 @@ div.csl-indent {
           <div class="page-inner">
 
             <section class="normal" id="section-">
+<a href="#book-body-start" class="skip-link">Skip to main content</a>
+
+<style>
+.skip-link {
+  position: absolute;
+  top: -100%;
+  left: 0;
+  background: #000;
+  color: #fff;
+  padding: 8px 16px;
+  z-index: 9999;
+  text-decoration: none;
+  font-size: 14px;
+}
+.skip-link:focus {
+  top: 0;
+}
+</style>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  var main = document.querySelector(".page-inner");
+  if (main) {
+    main.id = "book-body-start";
+    main.setAttribute("tabindex", "-1");
+  }
+
+  var skip = document.querySelector('.skip-link');
+  if (skip) {
+    skip.addEventListener('click', function () {
+      setTimeout(function () {
+        var target = document.getElementById('book-body-start');
+        if (target) target.focus();
+      }, 0);
+    });
+  }
+});
+</script>
 <div id="descriptive-statistics" class="section level1 hasAnchor" number="13">
 <h1><span class="header-section-number">Chapter 13</span> Descriptive Statistics<a href="descriptive-statistics.html#descriptive-statistics" class="anchor-section" aria-label="Anchor link to header"></a></h1>
 <p>At this point, we need to consider the basics of data analysis in psychological research in more detail. In this chapter, we focus on descriptive statistics—a set of techniques for summarizing and displaying the data from your sample. We look first at some of the most common techniques for describing single variables, followed by some of the most common techniques for describing statistical relationships between variables. We then look at how to present descriptive statistics in writing and also in the form of tables and graphs that would be appropriate for an American Psychological Association (APA)-style research report. We end with some practical advice for organizing and carrying out your analyses.</p>

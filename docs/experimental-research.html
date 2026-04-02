@@ -425,6 +425,44 @@ div.csl-indent {
           <div class="page-inner">
 
             <section class="normal" id="section-">
+<a href="#book-body-start" class="skip-link">Skip to main content</a>
+
+<style>
+.skip-link {
+  position: absolute;
+  top: -100%;
+  left: 0;
+  background: #000;
+  color: #fff;
+  padding: 8px 16px;
+  z-index: 9999;
+  text-decoration: none;
+  font-size: 14px;
+}
+.skip-link:focus {
+  top: 0;
+}
+</style>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  var main = document.querySelector(".page-inner");
+  if (main) {
+    main.id = "book-body-start";
+    main.setAttribute("tabindex", "-1");
+  }
+
+  var skip = document.querySelector('.skip-link');
+  if (skip) {
+    skip.addEventListener('click', function () {
+      setTimeout(function () {
+        var target = document.getElementById('book-body-start');
+        if (target) target.focus();
+      }, 0);
+    });
+  }
+});
+</script>
 <div id="experimental-research" class="section level1 hasAnchor" number="3">
 <h1><span class="header-section-number">Chapter 3</span> Experimental Research<a href="experimental-research.html#experimental-research" class="anchor-section" aria-label="Anchor link to header"></a></h1>
 <p>In the late 1960s social psychologists John Darley and Bibb Latané proposed a counterintuitive hypothesis. The more witnesses there are to an accident or a crime, the less likely any of them is to help the victim <span class="citation">(<a href="#ref-darley1968bystander">Darley &amp; Latané, 1968</a>)</span>. They also suggested the theory that this happens because each witness feels less responsible for helping—a process referred to as the “diffusion of responsibility.” Darley and Latané noted that their ideas were consistent with many real-world cases. For example, a New York woman named Kitty Genovese was assaulted and murdered while several witnesses failed to help. But Darley and Latané also understood that such isolated cases did not provide convincing evidence for their hypothesized “bystander effect.” There was no way to know, for example, whether any of the witnesses to Kitty Genovese’s murder would have helped had there been fewer of them.</p>

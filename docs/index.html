@@ -425,10 +425,48 @@ div.csl-indent {
           <div class="page-inner">
 
             <section class="normal" id="section-">
+<a href="#book-body-start" class="skip-link">Skip to main content</a>
+
+<style>
+.skip-link {
+  position: absolute;
+  top: -100%;
+  left: 0;
+  background: #000;
+  color: #fff;
+  padding: 8px 16px;
+  z-index: 9999;
+  text-decoration: none;
+  font-size: 14px;
+}
+.skip-link:focus {
+  top: 0;
+}
+</style>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  var main = document.querySelector(".page-inner");
+  if (main) {
+    main.id = "book-body-start";
+    main.setAttribute("tabindex", "-1");
+  }
+
+  var skip = document.querySelector('.skip-link');
+  if (skip) {
+    skip.addEventListener('click', function () {
+      setTimeout(function () {
+        var target = document.getElementById('book-body-start');
+        if (target) target.focus();
+      }, 0);
+    });
+  }
+});
+</script>
 <div id="header">
 <h1 class="title">A Modern Guide to Understanding and Conducting Research in Psychology</h1>
 <p class="author"><em>Edited by Celeste Pilegard and Emma Geller</em></p>
-<p class="date"><em>Current version rendered 2026-03-27</em></p>
+<p class="date"><em>Current version rendered 2026-04-02</em></p>
 </div>
 <div id="welcome" class="section level1 unnumbered hasAnchor">
 <h1>Welcome<a href="index.html#welcome" class="anchor-section" aria-label="Anchor link to header"></a></h1>
@@ -455,7 +493,8 @@ div.csl-indent {
 <p>Revisions to portions from Çetinkaya-Rundel &amp; Hardi: Changes in formatting. Stratified random sampling figure adapted to proportionate stratified random sampling.</p>
 <div id="accessibility" class="section level3 unnumbered hasAnchor">
 <h3>Accessibility<a href="index.html#accessibility" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<p>All images in the HTML version of this textbook include alternative text (alt text) for compatibility with screen readers and other assistive technologies. The PDF version does not support alt text or other accessibility features. To access the HTML version, visit <a href="https://pilegard.github.io/psychmethods/">pilegard.github.io/psychmethods</a>.</p>
+<p>The HTML version of this book is built to conform with the <a href="https://www.w3.org/TR/2025/REC-WCAG21-20250506/">Web Content Accessibility Guidelines (WCAG) 2.1</a> at Level AA, including alt text, keyboard navigability, and heading structure. If you encounter a barrier or have a suggestion for improvement, please open an issue on <a href="https://github.com/pilegard/psychmethods">GitHub</a>.</p>
+<p>The PDF version does not support alt text or other accessibility features. To access the HTML version, visit <a href="https://pilegard.github.io/psychmethods/">pilegard.github.io/psychmethods</a>.</p>
 
 </div>
 </div>

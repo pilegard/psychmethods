@@ -425,6 +425,44 @@ div.csl-indent {
           <div class="page-inner">
 
             <section class="normal" id="section-">
+<a href="#book-body-start" class="skip-link">Skip to main content</a>
+
+<style>
+.skip-link {
+  position: absolute;
+  top: -100%;
+  left: 0;
+  background: #000;
+  color: #fff;
+  padding: 8px 16px;
+  z-index: 9999;
+  text-decoration: none;
+  font-size: 14px;
+}
+.skip-link:focus {
+  top: 0;
+}
+</style>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  var main = document.querySelector(".page-inner");
+  if (main) {
+    main.id = "book-body-start";
+    main.setAttribute("tabindex", "-1");
+  }
+
+  var skip = document.querySelector('.skip-link');
+  if (skip) {
+    skip.addEventListener('click', function () {
+      setTimeout(function () {
+        var target = document.getElementById('book-body-start');
+        if (target) target.focus();
+      }, 0);
+    });
+  }
+});
+</script>
 <div id="research-ethics" class="section level1 hasAnchor" number="9">
 <h1><span class="header-section-number">Chapter 9</span> Research Ethics<a href="research-ethics.html#research-ethics" class="anchor-section" aria-label="Anchor link to header"></a></h1>
 <p>In 1998 a medical journal called <em>The Lancet</em> published an article of interest to many psychologists. The researchers claimed to have shown a statistical relationship between receiving the combined measles, mumps, and rubella (MMR) vaccine and the development of autism—suggesting furthermore that the vaccine might even cause autism. One result of this report was that many parents decided not to have their children vaccinated, which of course put them at higher risk for measles, mumps, and rubella. However, follow-up studies by other researchers consistently failed to find a statistical relationship between the MMR vaccine and autism—and it is generally accepted now that there is no relationship. In addition, several more serious problems with the original research were uncovered. Among them were that the lead researcher stood to gain financially from his conclusions because he had patented a competing measles vaccine. He had also used biased methods to select and test his research participants and had used unapproved and medically unnecessary procedures on them. In 2010 The Lancet retracted the article, and the lead researcher’s right to practice medicine was revoked <span class="citation">(<a href="#ref-burns2010british">Burns, 2010</a>)</span>.</p>
